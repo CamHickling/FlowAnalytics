@@ -1,0 +1,97 @@
+[
+  {
+    "type": "resume",
+    "wall_time": 1772833137.704721,
+    "video_position_sec": 0.0
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772833168.044607,
+    "video_position_sec": 29.466666666666665
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772833188.0306597,
+    "video_position_sec": 29.466666666666665
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772833201.468306,
+    "video_position_sec": 42.53333333333333
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772833201.9653997,
+    "video_position_sec": 42.53333333333333
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772833202.3658743,
+    "video_position_sec": 42.93333333333333
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772833218.3666549,
+    "video_position_sec": 42.93333333333333
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772833223.3091118,
+    "video_position_sec": 47.733333333333334
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772833251.2622843,
+    "video_position_sec": 47.766666666666666
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772833253.6615644,
+    "video_position_sec": 50.1
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772833260.5584106,
+    "video_position_sec": 50.1
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772833261.645939,
+    "video_position_sec": 51.166666666666664
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772833267.9662628,
+    "video_position_sec": 51.166666666666664
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772833269.261858,
+    "video_position_sec": 52.43333333333333
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772833273.5971622,
+    "video_position_sec": 52.43333333333333
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772833274.5415506,
+    "video_position_sec": 53.36666666666667
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772833283.9186182,
+    "video_position_sec": 53.36666666666667
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772833292.8306973,
+    "video_position_sec": 62.03333333333333
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772833669.3312595,
+    "video_position_sec": 62.03333333333333
+  }
+]
