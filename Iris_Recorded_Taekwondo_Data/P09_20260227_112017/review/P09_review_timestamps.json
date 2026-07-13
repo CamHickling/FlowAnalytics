@@ -1,0 +1,37 @@
+[
+  {
+    "type": "resume",
+    "wall_time": 1772220776.8985777,
+    "video_position_sec": 0.0
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772220809.8132358,
+    "video_position_sec": 31.9
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772220858.3420787,
+    "video_position_sec": 31.9
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772220863.3177297,
+    "video_position_sec": 36.733333333333334
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772220891.0955412,
+    "video_position_sec": 36.733333333333334
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772220904.7056713,
+    "video_position_sec": 49.93333333333333
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772220924.2147713,
+    "video_position_sec": 49.93333333333333
+  }
+]

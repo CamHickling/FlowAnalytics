@@ -1,0 +1,207 @@
+[
+  {
+    "type": "resume",
+    "wall_time": 1772479499.6799927,
+    "video_position_sec": 0.0
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479522.4372199,
+    "video_position_sec": 22.1
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479528.7092755,
+    "video_position_sec": 22.1
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479529.8652365,
+    "video_position_sec": 23.233333333333334
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479537.5257068,
+    "video_position_sec": 23.233333333333334
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479539.1895072,
+    "video_position_sec": 24.866666666666667
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479541.254644,
+    "video_position_sec": 24.866666666666667
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479548.9498577,
+    "video_position_sec": 32.333333333333336
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479549.4305642,
+    "video_position_sec": 32.36666666666667
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479553.3496838,
+    "video_position_sec": 36.2
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479557.686299,
+    "video_position_sec": 36.2
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479564.0708277,
+    "video_position_sec": 42.4
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479568.9501104,
+    "video_position_sec": 42.4
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479569.6711104,
+    "video_position_sec": 43.13333333333333
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479573.4300973,
+    "video_position_sec": 43.13333333333333
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479574.110282,
+    "video_position_sec": 43.8
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479577.8943498,
+    "video_position_sec": 43.8
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479579.0457857,
+    "video_position_sec": 44.93333333333333
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479579.720093,
+    "video_position_sec": 44.93333333333333
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479583.6254995,
+    "video_position_sec": 48.733333333333334
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479586.6951287,
+    "video_position_sec": 48.733333333333334
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479589.2378235,
+    "video_position_sec": 51.233333333333334
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479603.030664,
+    "video_position_sec": 51.233333333333334
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479605.3187976,
+    "video_position_sec": 53.46666666666667
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479612.0552597,
+    "video_position_sec": 53.46666666666667
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479614.470576,
+    "video_position_sec": 55.833333333333336
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479615.70308,
+    "video_position_sec": 55.833333333333336
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479616.2469943,
+    "video_position_sec": 56.36666666666667
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479616.6943393,
+    "video_position_sec": 56.36666666666667
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479623.698539,
+    "video_position_sec": 63.166666666666664
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479629.7519526,
+    "video_position_sec": 63.166666666666664
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479637.3186545,
+    "video_position_sec": 70.53333333333333
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479639.544693,
+    "video_position_sec": 70.53333333333333
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479643.5185509,
+    "video_position_sec": 74.4
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479646.9187765,
+    "video_position_sec": 74.4
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479647.5912921,
+    "video_position_sec": 75.06666666666666
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479650.3112779,
+    "video_position_sec": 75.06666666666666
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479656.8396447,
+    "video_position_sec": 81.4
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772479671.960161,
+    "video_position_sec": 81.4
+  },
+  {
+    "type": "pause",
+    "wall_time": 1772479680.7441049,
+    "video_position_sec": 89.96666666666667
+  },
+  {
+    "type": "resume",
+    "wall_time": 1772480279.752484,
+    "video_position_sec": 89.96666666666667
+  }
+]

@@ -1,0 +1,204 @@
+{
+  "session": "Taekwondo_Experiment_-_P48_20260331_101809",
+  "experiment_name": "Taekwondo Experiment - P48",
+  "gopro_mode": "manual",
+  "hr_enabled": true,
+  "mic_enabled": true,
+  "events": [
+    {
+      "event": "session_created",
+      "wall_time": 1774977489.327766,
+      "session_dir": "C:\\Users\\BarlabPRIME\\desktop\\Iris_Recorded_Taekwondo_Data\\Taekwondo_Experiment_-_P48_20260331_101809"
+    },
+    {
+      "event": "experiment_start",
+      "wall_time": 1774977489.327766,
+      "total_phases": 7
+    },
+    {
+      "event": "phase_start",
+      "wall_time": 1774977489.327766,
+      "phase_id": "setup",
+      "phase_name": "Setup",
+      "phase_index": 0
+    },
+    {
+      "event": "phase_start",
+      "wall_time": 1774977489.3287673,
+      "phase_id": "heart_rate_start",
+      "phase_name": "Heart Rate Start",
+      "phase_index": 1
+    },
+    {
+      "event": "hr_connect_attempt",
+      "wall_time": 1774977489.3287673,
+      "attempt": 1
+    },
+    {
+      "event": "hr_connect_success",
+      "wall_time": 1774977499.4328785
+    },
+    {
+      "event": "hr_recording_start",
+      "wall_time": 1774977499.4328785,
+      "phase": "heart_rate_start"
+    },
+    {
+      "event": "phase_start",
+      "wall_time": 1774977499.4328785,
+      "phase_id": "warmup_calibration",
+      "phase_name": "Warmup & Calibration",
+      "phase_index": 2
+    },
+    {
+      "event": "clap_sync_requested",
+      "wall_time": 1774978238.3583941
+    },
+    {
+      "event": "clap_sync_done",
+      "wall_time": 1774978239.1023614
+    },
+    {
+      "event": "gopro_manual_stop_prompted",
+      "wall_time": 1774978239.1023614,
+      "purpose": "calibration"
+    },
+    {
+      "event": "phase_start",
+      "wall_time": 1774978239.103637,
+      "phase_id": "performance",
+      "phase_name": "Performance",
+      "phase_index": 3
+    },
+    {
+      "event": "overhead_recorder_start",
+      "wall_time": 1774978239.1086373,
+      "file": "performance/overhead_camera.mp4",
+      "fps": 30
+    },
+    {
+      "event": "gopro_manual_start_prompted",
+      "wall_time": 1774978239.1086373,
+      "purpose": "performance"
+    },
+    {
+      "event": "overhead_recorder_stop",
+      "wall_time": 1774978306.7910552,
+      "file": "performance/overhead_camera.mp4"
+    },
+    {
+      "event": "gopro_manual_stop_prompted",
+      "wall_time": 1774978306.8262413,
+      "purpose": "performance"
+    },
+    {
+      "event": "phase_start",
+      "wall_time": 1774978306.8262413,
+      "phase_id": "review",
+      "phase_name": "Review",
+      "phase_index": 4
+    },
+    {
+      "event": "face_recorder_start",
+      "wall_time": 1774978306.8352416,
+      "file": "review/face_cam.mp4",
+      "fps": 30,
+      "phase": "review"
+    },
+    {
+      "event": "audio_recorder_start",
+      "wall_time": 1774978306.8762417,
+      "file": "review/audio_commentary.wav",
+      "sample_rate": 44100,
+      "phase": "review"
+    },
+    {
+      "event": "review_video_player_shown",
+      "wall_time": 1774978306.8762417,
+      "overhead_video": "performance/overhead_camera.mp4",
+      "duration_sec": 67.66666666666667
+    },
+    {
+      "event": "review_playback_stop",
+      "wall_time": 1774978575.5498514
+    },
+    {
+      "event": "face_recorder_stop",
+      "wall_time": 1774978575.5962496,
+      "file": "review/face_cam.mp4",
+      "phase": "review"
+    },
+    {
+      "event": "audio_recorder_stop",
+      "wall_time": 1774978575.6311793,
+      "file": "review/audio_commentary.wav",
+      "phase": "review"
+    },
+    {
+      "event": "phase_start",
+      "wall_time": 1774978575.6311793,
+      "phase_id": "scoring",
+      "phase_name": "Scoring",
+      "phase_index": 5
+    },
+    {
+      "event": "face_recorder_start",
+      "wall_time": 1774978575.635182,
+      "file": "scoring/face_cam.mp4",
+      "fps": 30,
+      "phase": "scoring"
+    },
+    {
+      "event": "audio_recorder_start",
+      "wall_time": 1774978575.6556904,
+      "file": "scoring/audio_scoring.wav",
+      "sample_rate": 44100,
+      "phase": "scoring"
+    },
+    {
+      "event": "scoring_video_player_shown",
+      "wall_time": 1774978575.6556904,
+      "overhead_video": "performance/overhead_camera.mp4",
+      "duration_sec": 67.66666666666667
+    },
+    {
+      "event": "scoring_playback_start",
+      "wall_time": 1774978896.7561588
+    },
+    {
+      "event": "scoring_playback_stop",
+      "wall_time": 1774978966.8364353
+    },
+    {
+      "event": "face_recorder_stop",
+      "wall_time": 1774978966.88027,
+      "file": "scoring/face_cam.mp4",
+      "phase": "scoring"
+    },
+    {
+      "event": "audio_recorder_stop",
+      "wall_time": 1774978966.9351356,
+      "file": "scoring/audio_scoring.wav",
+      "phase": "scoring"
+    },
+    {
+      "event": "phase_start",
+      "wall_time": 1774978966.9351356,
+      "phase_id": "finish",
+      "phase_name": "Finish",
+      "phase_index": 6
+    },
+    {
+      "event": "hr_stop_in_finish",
+      "wall_time": 1774979584.6655254
+    },
+    {
+      "event": "teardown_start",
+      "wall_time": 1774979616.5546057
+    },
+    {
+      "event": "teardown_complete",
+      "wall_time": 1774979617.6761763
+    }
+  ]
+}

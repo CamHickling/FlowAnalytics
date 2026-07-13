@@ -1,0 +1,167 @@
+[
+  {
+    "type": "resume",
+    "wall_time": 1773433137.8512666,
+    "video_position_sec": 0.0
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433154.542113,
+    "video_position_sec": 16.2
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433163.712801,
+    "video_position_sec": 16.2
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433168.7645195,
+    "video_position_sec": 21.133333333333333
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433178.6261928,
+    "video_position_sec": 21.133333333333333
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433179.8103232,
+    "video_position_sec": 22.3
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433185.379854,
+    "video_position_sec": 22.3
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433189.0277956,
+    "video_position_sec": 25.866666666666667
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433195.4455125,
+    "video_position_sec": 25.866666666666667
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433196.9490924,
+    "video_position_sec": 27.333333333333332
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433217.8337145,
+    "video_position_sec": 27.333333333333332
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433219.1449952,
+    "video_position_sec": 28.633333333333333
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433220.7615955,
+    "video_position_sec": 28.633333333333333
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433221.992611,
+    "video_position_sec": 29.833333333333332
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433242.1735933,
+    "video_position_sec": 29.833333333333332
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433243.996098,
+    "video_position_sec": 31.6
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433253.630194,
+    "video_position_sec": 31.6
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433256.5605922,
+    "video_position_sec": 34.46666666666667
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433258.25455,
+    "video_position_sec": 34.46666666666667
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433262.1016395,
+    "video_position_sec": 38.2
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433274.2098975,
+    "video_position_sec": 38.2
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433275.6424823,
+    "video_position_sec": 39.6
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433292.357486,
+    "video_position_sec": 39.6
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433294.0720727,
+    "video_position_sec": 41.266666666666666
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433304.6945846,
+    "video_position_sec": 41.266666666666666
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433317.9765706,
+    "video_position_sec": 54.166666666666664
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433326.1211748,
+    "video_position_sec": 54.166666666666664
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433328.1854095,
+    "video_position_sec": 56.2
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433348.5891109,
+    "video_position_sec": 56.2
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433353.513285,
+    "video_position_sec": 61.0
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433363.0706825,
+    "video_position_sec": 61.0
+  },
+  {
+    "type": "pause",
+    "wall_time": 1773433364.1574397,
+    "video_position_sec": 62.06666666666667
+  },
+  {
+    "type": "resume",
+    "wall_time": 1773433369.6316767,
+    "video_position_sec": 62.06666666666667
+  }
+]

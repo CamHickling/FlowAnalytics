@@ -1,0 +1,148 @@
+GoPro mode: MANUAL - experimenter controls GoPros
+Setting up experiment: Taekwondo Experiment - P44
+WARNING: ffmpeg not found on PATH. Compositing will be unavailable.
+
+Starting experiment with 7 phases
+
+--- Phase: Setup ---
+Instructions: Creating output directories and preparing experiment.
+Polar H10 phase updated to: setup
+
+Experiment: Taekwondo Experiment - P44
+Session directory: C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313
+Phase 'Setup' completed. Frames: 0
+
+--- Phase: Heart Rate Start ---
+Instructions: Connect Polar H10 heart rate monitor and begin recording.
+Polar H10 phase updated to: heart_rate_start
+
+--- Connecting Polar H10 (attempt 1) ---
+Scanning for Polar H10...
+Found Polar H10: Polar H10 02F5E83F [24:AC:AC:02:F5:E8]
+Polar H10 connected - Battery: 100%
+Subscribed to heart rate notifications
+ECG streaming started (130 Hz, 14-bit)
+Polar H10 connection stable
+Polar H10 recording started (phase: heart_rate_start)
+Polar H10 connected and streaming.
+Phase 'Heart Rate Start' completed. Frames: 0
+
+--- Phase: Warmup & Calibration ---
+Instructions: Begin recording with the GoPros, ensure all other devices are connected.
+Polar H10 phase updated to: warmup_calibration
+
+--- Opening USB Cameras ---
+Opening camera: Overhead Camera (device 1)
+Opened camera: Overhead Camera (requested 1920x1080, actual 1920x1080, fps=30, zoom=1.0)
+Opening camera: Face Cam (device 0)
+Opened camera: Face Cam (requested 1920x1080, actual 1920x1080, fps=30, zoom=-1.0)
+
+--- Camera Role Selection ---
+Waiting for user to assign camera roles...
+Assigned role 'face' to camera 'Overhead Camera' (device 1)
+Assigned role 'overhead' to camera 'Face Cam' (device 0)
+Camera roles assigned by user.
+
+--- Testing Microphone ---
+Microphone found: device index 4
+
+--- GoPro Mode: MANUAL ---
+Please start GoPro recording manually now.
+Stand in T-pose facing the front camera for calibration.
+Waiting for T-pose to complete...
+
+Angela, please perform a single clap to align the cameras.
+Waiting for clap sync to complete...
+
+Please stop GoPro recording manually now.
+Phase 'Warmup & Calibration' completed. Frames: 0
+
+--- Phase: Performance ---
+Instructions: All cameras are recording, participant may begin performing the target movements.
+Polar H10 phase updated to: performance
+Polar H10 phase updated to: performance
+OVERHEAD CAM selected: 'Face Cam' (device_index=0, role=overhead)
+Video recording started: C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\performance\overhead_camera.mp4 (1920x1080 @ 30fps)
+Overhead recording started
+MANUAL MODE: Ensure GoPros are recording.
+Performance recording started. Waiting for user to continue...
+Video recording stopped: 3329 frames written to C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\performance\overhead_camera.mp4
+MANUAL MODE: Please stop GoPro recording now.
+Phase 'Performance' completed. Frames: 0
+
+--- Phase: Review ---
+Instructions: Review overhead video. Use pause/play to add commentary. Face camera and microphone are recording.
+Polar H10 phase updated to: review
+Polar H10 phase updated to: review
+Video opened: C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\performance\overhead_camera.mp4 (1920x1080, 30.0 fps, 111.0s)
+REVIEW FACE CAM: 'Overhead Camera' (device_index=1, role=face)
+Video recording started: C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\review\face_cam.mp4 (1920x1080 @ 30fps)
+Auto-detected audio device: index 4
+Audio device opened: index 4
+Audio recording started
+Review phase started. Waiting for user actions...
+Video recording stopped: 5377 frames written to C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\review\face_cam.mp4
+Audio recording stopped
+Audio device closed
+Review timestamps saved to C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\review\review_timestamps.json
+Phase 'Review' completed. Frames: 0
+
+--- Phase: Scoring ---
+Instructions: Watch overhead video (no pausing). Face camera and microphone are recording.
+Polar H10 phase updated to: scoring
+Polar H10 phase updated to: scoring
+Video opened: C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\performance\overhead_camera.mp4 (1920x1080, 30.0 fps, 111.0s)
+SCORING FACE CAM: 'Overhead Camera' (device_index=1, role=face)
+Video recording started: C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\scoring\face_cam.mp4 (1920x1080 @ 30fps)
+Auto-detected audio device: index 4
+Audio device opened: index 4
+Audio recording started
+Scoring phase: Waiting for user to start...
+Scoring video playing...
+Video recording stopped: 19632 frames written to C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\scoring\face_cam.mp4
+Audio recording stopped
+Audio device closed
+Phase 'Scoring' completed. Frames: 0
+
+--- Phase: Finish ---
+Instructions: Stopping heart rate. Running post-processing compositing.
+Polar H10 phase updated to: finish
+Polar H10 phase updated to: finish
+Waiting for user to confirm HR stop...
+Polar H10 recording stopped
+Heart rate data saved to C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\heart_rate\hr_full_session.csv (2443 samples)
+ECG data saved to C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\heart_rate\ecg_full_session.csv (317404 samples across 4348 packets)
+
+Polar H10 Summary by Phase:
+  scoring: avg=88.6 bpm, min=80, max=103, samples=655, avg_rr=678.7ms (965 beats)
+  performance: avg=137.2 bpm, min=94, max=158, samples=111, avg_rr=465.6ms (238 beats)
+  finish: avg=83.8 bpm, min=75, max=108, samples=482, avg_rr=717.6ms (672 beats)
+  review: avg=98.1 bpm, min=81, max=134, samples=179, avg_rr=619.6ms (288 beats)
+  warmup_calibration: avg=109.2 bpm, min=84, max=144, samples=1016, avg_rr=555.7ms (1829 beats)
+
+--- Post-Processing ---
+Creating review composite -> C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\composited\overhead_with_commentary.mp4
+Console log saved to: C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\console_log.txt
+Muxing audio onto video -> C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\composited\overhead_with_commentary.mp4
+WARNING: Review composite failed: [WinError 2] The system cannot find the file specified
+Creating HR overlay video -> C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\composited\review_face_with_hr.mp4
+WARNING: HR overlay for review failed: [WinError 2] The system cannot find the file specified
+Creating HR overlay video -> C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\composited\scoring_face_with_hr.mp4
+WARNING: HR overlay for scoring failed: [WinError 2] The system cannot find the file specified
+Post-processing complete.
+Phase 'Finish' completed. Frames: 0
+
+Experiment complete!
+
+--- Tearing Down Experiment ---
+Polar H10 disconnected
+MANUAL MODE: Please stop GoPro recording and power off cameras.
+Closing camera: Overhead Camera
+Closing camera: Face Cam
+Sync manifest saved to C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313\sync_manifest.json
+
+--- Backing Up to F: Drive ---
+Source:      C:\Users\BarlabPRIME\desktop\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313
+Destination: F:\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313
+Backup complete: F:\Iris_Recorded_Taekwondo_Data\Taekwondo_Experiment_-_P44_20260327_131313
+Teardown complete

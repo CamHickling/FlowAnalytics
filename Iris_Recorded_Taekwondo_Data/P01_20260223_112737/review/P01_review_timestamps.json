@@ -1,0 +1,27 @@
+[
+  {
+    "type": "resume",
+    "wall_time": 1771875401.1574113,
+    "video_position_sec": 0.0
+  },
+  {
+    "type": "pause",
+    "wall_time": 1771875822.8576872,
+    "video_position_sec": 409.1
+  },
+  {
+    "type": "resume",
+    "wall_time": 1771875832.8301556,
+    "video_position_sec": 409.1
+  },
+  {
+    "type": "pause",
+    "wall_time": 1771875846.5173135,
+    "video_position_sec": 422.43333333333334
+  },
+  {
+    "type": "resume",
+    "wall_time": 1771876018.5184188,
+    "video_position_sec": 422.43333333333334
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "type": "resume",
+    "wall_time": 1774556739.0787373,
+    "video_position_sec": 0.0
+  },
+  {
+    "type": "pause",
+    "wall_time": 1774556748.1212134,
+    "video_position_sec": 8.766666666666667
+  },
+  {
+    "type": "resume",
+    "wall_time": 1774556760.120211,
+    "video_position_sec": 8.766666666666667
+  }
+]
