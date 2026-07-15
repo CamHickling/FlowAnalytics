@@ -1,6 +1,9 @@
 """
 Full-session heart-rate analysis for the poomsae flow study.
 
+Version: 1.1
+Authors: Angela Czarina Mejia, Cam Hickling
+
 What changed:
 ----------------------------------------
 1. The previous 'baseline' was the warm-up MEAN... an already-
