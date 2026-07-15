@@ -1,10 +1,6 @@
 """
 Full-session heart-rate analysis for the poomsae flow study.
 
-Version 1.2
-Date: 15-July-2026
-Authors: Angela Czarina Mejia and Cam Hickling
-
 WHAT CHANGED:
 ----------------------------------------
 1. The previous 'baseline' was the warm-up MEAN... an already-
@@ -14,21 +10,21 @@ WHAT CHANGED:
        * warm-up entry level (pre-performance mean)
              -> delta_reactivity = peak - warm-up entry (reactivity conditioned on the warm-up)
 
-2. I added vertical lines + labels to demarcate SELF-NARRATION (review) and
+2. I added Vertical lines + labels which demarcate SELF-NARRATION (review) and
    OBJECTIVE-SCORING (scoring), not just performance start/end.
 
-3. PERFORMANCE ROI... RAW and NORMALISED (as per Baruch).  Two panels side by side:
+3. PERFORMANCE ROI... raw and normalized (as per Baruch).  Two panels side by side:
        (a) RAW BPM on a seconds axis (absolute values preserved), and
        (b) % CHANGE from the WARM-UP ENDPOINT (mean of the last ENTRY_ONSET_SEC of
            warm-up) so every athlete starts at ~0% and the SHAPES are comparable
            across participants with different baselines.
    A third panel shows the early-recovery ROI (HRR60 + optional tau).
 
-4. The crawl also emits a single figure overlaying every
-   participant's warm-up-endpoint-normalised performance curve on one axis — the
+4. The crawl for group overlay also emits a single figure overlaying every
+   participant's warm-up-endpoint-normalised performance curve on one axis... the
    direct cross-participant pattern comparison the normalisation unlocks.
 
-5. The crawl writes an analysis-ready master CSV of per-session
+5. The crawl for metric export writes an analysis-ready master CSV of per-session
    scalar features (both deltas, peak, time-to-peak, HRR60, tau, AUCg/AUCi,
    artifact/QC counts, resting/recovery RMSSD & SDNN).
 
@@ -42,6 +38,7 @@ Notes
 """
 
 import os
+import re
 import fnmatch
 import shutil
 import numpy as np
@@ -70,10 +67,12 @@ RECOVERY_FIT_MIN   = 5.0       # window (min) after peak for the mono-exponentia
 MALIK_PCT          = 0.20      # NN artifact rule: drop beats differing >20% from the prior
 HR_MIN, HR_MAX     = 30, 220   # physiological gate on the BPM series (0-bpm dropouts etc.)
 MAX_INTERP_RUN     = 4         # repair runs of <=N bad samples; longer runs stay NaN (not invented)
+MAX_SEAM_GAP_S     = 30        # multi-part files are only ONE session if they join contiguously;
+                               # a bigger gap means separate recordings -> do not silently merge
 GATE_ON_CONTACT    = False     # sensor_contact=False is REPORTED but not auto-rejected.
                                # Some sessions (e.g. P27B: 4093 flags) would lose most of their
                                # data while still reporting plausible BPM - i.e. the flag's
-                               # reliability is unestablished. Inspect those sessions, then decide.
+                               # reliability is unestablished. We'll inspect these sessions, then decide.
 PEAK_POST_LOOK_S   = 45.0      # ALSO report the max up to N s AFTER performance end (HR peaks late)
 PEAK_BOUNDARY_TOL_S = 5.0      # flag when the in-window peak sits this close to the window end
 PERF_ZOOM_PRE_S    = 5         # pre-onset context (s) shown in the performance panels
@@ -82,11 +81,19 @@ REC_ZOOM_S         = 180       # length (s) of the recovery zoom panel
 
 # Sessions to exclude from the analysis set (still on disk, just not analysed).
 # P02B/P10B = retries; P18B/P27B = freestyle. Not part of the pre-registered protocol.
-EXCLUDE_PARTICIPANTS = ['P02B', 'P10B', 'P18B', 'P27B']
+# P02B/P10B = retries; P18B/P27B = freestyle.
+# P26_retry = second performance after an RA camera error (the first performance was fine, but
+# the athlete could not watch it back). Naming is inconsistent across the dataset... some retries
+# got their own folder (…B), P26's is a filename suffix - so BOTH forms are listed here.
+EXCLUDE_PARTICIPANTS = ['P02B', 'P10B', 'P18B', 'P27B', 'P26_retry']
 
 # A poomsae is typically ~40-90 s. A much longer labelled window usually means the
 # recording button was pressed late, not that the form took that long -> flag for video review.
 PLAUSIBLE_PERF_MAX_S = 120.0
+
+# Guards the float round-trip on window boundaries (~0.06 ms). Without it the last sample of a
+# window can be dropped by a `<=` comparison.
+_EPS_MIN = 1e-6
 
 C_WARM, C_PERF, C_REVIEW, C_SCORE, C_FINISH = '#1f77b4', '#d62728', '#7d5ba6', '#dd8a1f', '#2ca02c'
 
@@ -157,6 +164,32 @@ def _hrv_timedomain(df, phase_name):
             'pct_flagged': float(100.0 * (~keep).mean())}
 
 
+_PART_RE = re.compile(r'_(\d+)of(\d+)$', re.I)
+
+
+def _group_session_files(filenames):
+    """Group a folder's HR files into sessions.
+
+    ONLY '_NofM' suffixes mean 'parts of one recording' (P20_hr_full_session_1of2 +
+    _2of2 -> one session). Anything else is a SEPARATE session: P26_hr_full_session and
+    P26_hr_full_session_retry are two performances, and merging them would invent a
+    416 s 'poomsae' out of two takes.
+
+    Returns {session_key: (sorted_filenames, variant_tag_or_None)}.
+    """
+    groups = {}
+    for f in filenames:
+        stem = os.path.splitext(f)[0]
+        key = _PART_RE.sub('', stem)
+        groups.setdefault(key, []).append(f)
+    out = {}
+    for key, files in groups.items():
+        m = re.search(r'hr_full_session[_\-]+(.+)$', key, re.I)
+        variant = m.group(1).lower() if m else None      # e.g. 'retry'
+        out[key] = (sorted(files), variant)
+    return out
+
+
 def _load_session_parts(paths):
     """Load one session, concatenating multi-part files (e.g. *_1of2.csv, *_2of2.csv).
     Sorted by filename so 1of2 precedes 2of2, then re-sorted by timestamp and de-duplicated
@@ -171,6 +204,13 @@ def _load_session_parts(paths):
     if len(paths) > 1:
         gaps = np.diff(df['timestamp'].values)
         qc['max_seam_gap_s'] = round(float(gaps.max()), 1) if len(gaps) else 0.0
+        qc['parts_contiguous'] = bool(qc['max_seam_gap_s'] <= MAX_SEAM_GAP_S)
+        qc['part_files'] = '|'.join(os.path.basename(x) for x in sorted(paths))
+        # WHERE the gap falls is what matters: a hole in warm-up is cosmetic, a hole in the
+        # performance or the recovery tail is not.
+        if len(gaps) and 'phase' in df.columns:
+            i = int(np.argmax(gaps))
+            qc['seam_gap_phase'] = f"{df['phase'].iloc[i]}->{df['phase'].iloc[i + 1]}"
     return df, qc
 
 
@@ -236,7 +276,7 @@ def _perf_norm_curves(df, m, pre_pad_s=0.0, post_pad_s=0.0):
     perf_dur_min = m['perf_duration_s'] / 60.0
     lo = -pre_pad_s / 60.0
     hi = perf_dur_min + post_pad_s / 60.0
-    seg = df[(df['rel_time_mins'] >= lo) & (df['rel_time_mins'] <= hi)].copy()
+    seg = df[(df['rel_time_mins'] >= lo - _EPS_MIN) & (df['rel_time_mins'] <= hi + _EPS_MIN)].copy()
     sec = seg['rel_time_mins'].values * 60.0
     delta = seg['bpm_smoothed'].values - ref
     pct = delta / ref * 100.0
@@ -256,7 +296,15 @@ def compute_session_metrics(df, perf_duration_min):
     onset_win = pre[pre['rel_time_mins'] >= -(ENTRY_ONSET_SEC / 60.0)]
     entry_onset = float(onset_win['bpm'].mean()) if not onset_win.empty else entry_warmup
 
-    perf_win = df[(df['rel_time_mins'] >= 0) & (df['rel_time_mins'] <= perf_duration_min)]
+    # Use the PHASE LABEL, not a float comparison. rel_time_mins is derived via
+    # timestamp -> datetime64[ns] -> total_seconds()/60, and that round-trip means the final
+    # sample can land a hair above perf_duration_min (e.g. 1.4000000000166 <= 1.4 is False),
+    # silently dropping the last second of the window. Harmless mid-window, but for sessions
+    # whose peak sits AT the edge (P41/P42/P48/P26) it discarded the peak itself.
+    perf_win = _phase(df, 'performance')
+    if perf_win.empty:
+        perf_win = df[(df['rel_time_mins'] >= 0) &
+                      (df['rel_time_mins'] <= perf_duration_min + _EPS_MIN)]
     if perf_win.empty:
         perf_win = df
     peak_hr = float(perf_win['bpm_smoothed'].max())
@@ -271,7 +319,7 @@ def compute_session_metrics(df, perf_duration_min):
     peak_ext = float(look['bpm_smoothed'].max()) if len(look) else peak_hr
     t_peak_ext_s = float(look.loc[look['bpm_smoothed'].idxmax(), 'rel_time_mins']) * 60.0 if len(look) else time_to_peak_s
     peak_at_boundary = (perf_dur_s - time_to_peak_s) <= PEAK_BOUNDARY_TOL_S
-    peak_outside = t_peak_ext_s > perf_dur_s
+    peak_outside = t_peak_ext_s > perf_dur_s + 0.5   # tolerance: samples land on ~1 s grid
 
     delta_fitness = peak_hr - baseline_rest
     delta_reactivity = peak_hr - entry_warmup
@@ -572,13 +620,16 @@ def _parse_ids(file_path, root_directory):
 
 
 def process_single_session(file_paths, desktop_folder, root_directory=None, curve_accumulator=None,
-                           output_image_name='session_hr_analysis.png'):
+                           output_image_name='session_hr_analysis.png', variant=None):
     if isinstance(file_paths, str):
         file_paths = [file_paths]
     file_path = sorted(file_paths)[0]
     if root_directory is None:
         root_directory = os.path.dirname(os.path.dirname(os.path.dirname(file_path)))
     experiment_id, participant_id = _parse_ids(file_path, root_directory)
+    if variant:                       # e.g. 'retry' -> P26_retry, kept separate from P26
+        experiment_id = f"{experiment_id}_{variant}"
+        participant_id = f"{participant_id}_{variant}"
 
     if participant_id in EXCLUDE_PARTICIPANTS:
         print(f"  [SKIP] {experiment_id} - {participant_id} is excluded "
@@ -632,16 +683,32 @@ def process_single_session(file_paths, desktop_folder, root_directory=None, curv
     fig.suptitle(f'Session ID: {experiment_id}', fontsize=13, fontweight='bold', y=0.995)
     fig.subplots_adjust(top=0.93, bottom=0.07, left=0.05, right=0.99, hspace=0.34, wspace=0.22)
 
+    if variant:
+        stem, ext = os.path.splitext(output_image_name)
+        output_image_name = f"{stem}_{variant}{ext}"
     local_output_path = os.path.join(os.path.dirname(file_path), output_image_name)
     plt.savefig(local_output_path, dpi=300)
     plt.close(fig)
     shutil.copy2(local_output_path, os.path.join(desktop_folder, f"{experiment_id}_responsive_analysis.png"))
     # NOTE: console output is deliberately plain ASCII (Windows consoles are often cp1252
     # and raise UnicodeEncodeError on characters like the delta sign when redirected).
+    if part_qc.get('parts_contiguous') is False:
+        # '_NofM' naming DECLARES these to be one recording, so a gap is a dropout WITHIN the
+        # session (e.g. Bluetooth drop -> recorder opened a new file), not two separate takes.
+        print(f"    [WARN] {part_qc['n_file_parts']}-part recording has a "
+              f"{part_qc['max_seam_gap_s']:.0f}s hole at the join "
+              f"[{part_qc.get('seam_gap_phase', '?')}] -> no data for that stretch; check the "
+              f"phase it lands in before trusting any metric that spans it.")
+        print(f"           files: {part_qc.get('part_files')}")
+    if m.get('true_peak_outside_window'):
+        print(f"    [WARN] peak sits at the window edge; true max is {m['peak_bpm_lost_by_clipping']:.1f} bpm "
+              f"higher at {m['t_peak_extended_s']:.0f}s (window ends {m['perf_duration_s']:.0f}s) "
+              f"-> delta_fitness is built on a truncated peak")
     if m.get('baseline_suspect'):
         print(f"    [WARN] recovery tail only {m.get('pct_finish_valid_orig')}% valid "
-              f"({m.get('n_finish_valid_orig')}s of {m.get('n_finish_original')}s) -> strap likely "
-              f"removed before recorder stopped; resting baseline and delta_fitness NOT trustworthy")
+              f"({m.get('n_finish_valid_orig')}s of {m.get('n_finish_original')}s) -> strap likely removed "
+              f"before recorder stopped. CHECK: {m.get('n_finish_valid_orig')}s of surviving recovery may "
+              f"still be plenty for a resting baseline - inspect the figure before excluding.")
     if m.get('perf_duration_implausible'):
         print(f"    [WARN] performance window {m['perf_duration_s']:.0f}s > {PLAUSIBLE_PERF_MAX_S:.0f}s "
               f"-> recorder likely stopped late; verify true poomsae duration on video")
@@ -677,20 +744,24 @@ def crawl_and_render_all(root_directory, target_pattern,
         # pattern match so renamed ('P05_hr_full_session.csv') AND split
         # ('P20_hr_full_session_1of2.csv') files are found
         matched = sorted(fnmatch.filter(filenames, target_pattern))
-        # exclude the ECG stream if the pattern is broad
-        matched = [f for f in matched if 'ecg' not in f.lower()]
+        matched = [f for f in matched if 'ecg' not in f.lower()]   # never pick up the ECG stream
         if not matched:
             continue
-        paths = [os.path.join(dirpath, f) for f in matched]
-        try:
-            # all parts in one directory belong to the same session
-            m = process_single_session(paths, desktop_path,
-                                       root_directory=root_directory, curve_accumulator=curves)
-            if m is not None:
-                rows.append(m)
-                processed += 1
-        except Exception as e:
-            print(f"    [ERROR] {dirpath}: {e}")
+        sessions = _group_session_files(matched)
+        if len(sessions) > 1:
+            print(f"  [NOTE] {os.path.basename(dirpath)}: {len(sessions)} separate recordings here "
+                  f"-> {', '.join(sorted(sessions))}. Treated as DISTINCT sessions, not merged.")
+        for key in sorted(sessions):
+            files, variant = sessions[key]
+            paths = [os.path.join(dirpath, f) for f in files]
+            try:
+                m = process_single_session(paths, desktop_path, root_directory=root_directory,
+                                           curve_accumulator=curves, variant=variant)
+                if m is not None:
+                    rows.append(m)
+                    processed += 1
+            except Exception as e:
+                print(f"    [ERROR] {key}: {e}")
 
     if rows:
         metrics_df = pd.DataFrame(rows).sort_values('participant_id').reset_index(drop=True)
