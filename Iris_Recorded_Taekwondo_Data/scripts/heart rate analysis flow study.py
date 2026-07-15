@@ -3,7 +3,7 @@ Full-session heart-rate analysis for the poomsae flow study.
 
 What changed:
 ----------------------------------------
-1. The previous 'baseline' was the warm-up MEAN — an already-
+1. The previous 'baseline' was the warm-up MEAN... an already-
    activated ENTRY state, not rest.  We compute TWO anchors and TWO deltas:
        * resting baseline (recovered 'finish' state)
              -> delta_fitness = peak - rest            [PRIMARY cardiac DV]  (HR reserve / fitness)
@@ -13,26 +13,24 @@ What changed:
 2. I've added vertical lines + labels demarcate SELF-NARRATION (review) and
    OBJECTIVE-SCORING (scoring), in addition to performance start/end.
 
-3. PERFORMANCE ROI — RAW *and* NORMALISED (Baruch).  Two panels side by side:
+3. The PERFORMANCE ROI now shows RAW and NORMALISED (as per Baruch).  Two panels side by side:
        (a) RAW BPM on a seconds axis (absolute values preserved), and
        (b) % CHANGE from the WARM-UP ENDPOINT (mean of the last ENTRY_ONSET_SEC of
            warm-up) so every athlete starts at ~0% and the SHAPES are comparable
            across participants with different baselines.
    A third panel shows the early-recovery ROI (HRR60 + optional tau).
 
-4. GROUP OVERLAY.  The crawl also emits a single figure overlaying every
-   participant's warm-up-endpoint-normalised performance curve on one axis — the
+4. The crawl also emits a single figure overlaying every
+   participant's warm-up-endpoint-normalised performance curve on one axis... the
    direct cross-participant pattern comparison the normalisation unlocks.
 
-5. METRICS EXPORT.  The crawl writes an analysis-ready master CSV of per-session
+5. The crawl writes an analysis-ready master CSV of per-session
    scalar features (both deltas, peak, time-to-peak, HRR60, tau, AUCg/AUCi,
    artifact/QC counts, resting/recovery RMSSD & SDNN).
 
-The recursive crawl, local save, and Desktop copy behaviour are unchanged.
-
 Notes
 -----
-* HR envelope smoothed with a 5 s CENTRED rolling mean for MACRO dynamics only.
+* HR envelope smoothed with a 5s CENTRED rolling mean for MACRO dynamics only.
   The RR series is NEVER smoothed before HRV.
 * Peak / HRR / recovery use the smoothed series (robust to single-sample spikes);
   raw peak is also stored.
