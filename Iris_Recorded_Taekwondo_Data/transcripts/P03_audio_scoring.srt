@@ -1,0 +1,579 @@
+1
+00:00:00,000 --> 00:00:28,000
+You can see your pattern is scored based on the number of points you have scored.
+
+2
+00:00:28,000 --> 00:00:39,600
+As you can see it's split up into two parts, we have our accuracy and our presentation
+
+3
+00:00:39,600 --> 00:00:40,600
+on this side.
+
+4
+00:00:40,600 --> 00:00:42,500
+So we'll start off with the accuracy first.
+
+5
+00:00:42,500 --> 00:00:47,440
+So your accuracy is actually scored from a 4.
+
+6
+00:00:47,440 --> 00:00:54,340
+So from the number 4 you're actually marked during your presentation of your pattern and
+
+7
+00:00:54,340 --> 00:00:57,000
+then with that one any mistakes that you make.
+
+8
+00:00:57,000 --> 00:01:04,380
+If it's a minor mistake you get a minus of 0.1, if it's a major mistake you get minus
+
+9
+00:01:04,380 --> 00:01:05,380
+0.3.
+
+10
+00:01:05,380 --> 00:01:09,500
+So I'll just let you guys know about the difference between the two.
+
+11
+00:01:09,500 --> 00:01:13,840
+So with a minor mistake, it's a very very small thing.
+
+12
+00:01:13,840 --> 00:01:19,320
+So say we're doing an outer block, if it's not your shoulder height, maybe it's a little
+
+13
+00:01:19,320 --> 00:01:24,880
+bit lower or maybe it's a tiny bit higher, that's a minor mistake, so that's a 0.1.
+
+14
+00:01:24,880 --> 00:01:26,880
+A major mistake would be you're supposed to be doing an outer block and you're supposed
+
+15
+00:01:26,880 --> 00:01:31,260
+to do an outer block in the pattern but you forget and you say you do a reach hand strike
+
+16
+00:01:31,260 --> 00:01:32,260
+instead.
+
+17
+00:01:32,260 --> 00:01:34,100
+So that would be a major mistake.
+
+18
+00:01:34,100 --> 00:01:41,480
+So with a minor mistake, let's say pattern 1 for example, there's 20 steps, it's not
+
+19
+00:01:41,480 --> 00:01:48,420
+uncommon to have up to maybe 14, 15 mistakes in the 20 patterns, sorry in the 20 steps.
+
+20
+00:01:48,420 --> 00:01:56,260
+So the reason for that one being it needs to be absolutely perfect to get, to not get
+
+21
+00:01:56,260 --> 00:01:58,560
+a deduction of 0.1.
+
+22
+00:01:58,560 --> 00:02:05,380
+So it's not uncommon to let's say there's 20 steps and you made let's say 15 mistakes.
+
+23
+00:02:05,380 --> 00:02:06,380
+So what would that be?
+
+24
+00:02:06,380 --> 00:02:10,980
+So we'll leave that there on this side and we'll come back and we'll just calculate the
+
+25
+00:02:10,980 --> 00:02:12,880
+score at the end.
+
+26
+00:02:12,880 --> 00:02:18,440
+So a major mistake, say you're supposed to turn to the left but you turn to the right,
+
+27
+00:02:18,440 --> 00:02:19,880
+that would be a major mistake.
+
+28
+00:02:19,880 --> 00:02:23,640
+So obviously we do want to try and avoid any of these major mistakes.
+
+29
+00:02:23,640 --> 00:02:25,640
+So after we've done that, let's move on to the next one.
+
+30
+00:02:25,640 --> 00:02:29,540
+After we've done our pattern, that's when we move on to the presentation side.
+
+31
+00:02:29,540 --> 00:02:33,440
+So the presentation as you can see, it's from a score of 6.
+
+32
+00:02:33,440 --> 00:02:36,760
+This 6 is actually split up into 3 parts.
+
+33
+00:02:36,760 --> 00:02:38,860
+So we have 1, 2, 3 here.
+
+34
+00:02:38,860 --> 00:02:44,360
+So with this one, for a score of 2 is your power and speed.
+
+35
+00:02:44,360 --> 00:02:49,940
+Your rhythm is also a score of 2 and your expression of energy is also scored out of
+
+36
+00:02:49,940 --> 00:02:50,940
+2 as well.
+
+37
+00:02:50,940 --> 00:02:53,600
+So we'll start off with the power and speed.
+
+38
+00:02:53,600 --> 00:02:54,940
+So with this one, whether it's your blocks.
+
+39
+00:02:54,940 --> 00:02:55,940
+Your kicks.
+
+40
+00:02:55,940 --> 00:02:56,940
+Your strikes.
+
+41
+00:02:56,940 --> 00:02:57,940
+Your punches.
+
+42
+00:02:57,940 --> 00:03:03,600
+Anything that you do, you need to be nice and strong and it has to be fast as well.
+
+43
+00:03:03,600 --> 00:03:09,040
+So it's one thing to have a very strong punch or a very fast punch, but it has to be both
+
+44
+00:03:09,040 --> 00:03:14,660
+strong and fast to get high in that category.
+
+45
+00:03:14,660 --> 00:03:16,280
+The next part is your rhythm.
+
+46
+00:03:16,280 --> 00:03:20,360
+So the rhythm, when you do start your pattern, there is a rhythm to the pattern.
+
+47
+00:03:20,360 --> 00:03:22,740
+It's not just really fast all the way through.
+
+48
+00:03:22,740 --> 00:03:24,740
+It's not slow all the way through.
+
+49
+00:03:24,940 --> 00:03:28,940
+It's a slow, fast, slow, fast kind of aspect to it as well.
+
+50
+00:03:28,940 --> 00:03:33,940
+So you do need to kind of work on your rhythm and that's also scored out of 2.
+
+51
+00:03:33,940 --> 00:03:36,480
+The last bit is your expression of energy.
+
+52
+00:03:36,480 --> 00:03:39,180
+So what is expression of energy?
+
+53
+00:03:39,180 --> 00:03:41,660
+That's basically how loud you shout.
+
+54
+00:03:41,660 --> 00:03:44,500
+So how much intensity you have during your pattern as well.
+
+55
+00:03:44,500 --> 00:03:47,940
+So say you're doing your pattern really well.
+
+56
+00:03:47,940 --> 00:03:49,940
+It's really fast and it's strong.
+
+57
+00:03:49,940 --> 00:03:52,940
+Your rhythm is really great, but you're not shouting very loud.
+
+58
+00:03:52,940 --> 00:03:53,940
+Or you can kind of tell.
+
+59
+00:03:53,940 --> 00:03:58,940
+The judges can kind of tell that you're not really confident or you're a little bit nervous.
+
+60
+00:03:58,940 --> 00:04:02,940
+So that's what we need to kind of get a grip on as well.
+
+61
+00:04:02,940 --> 00:04:05,940
+So I'll just come around to this side.
+
+62
+00:04:05,940 --> 00:04:10,940
+So with this one, for color belts and black belts, it's actually scored a little bit differently.
+
+63
+00:04:10,940 --> 00:04:17,940
+So if you're a color belt, your average, so where the judges actually mark you from,
+
+64
+00:04:17,940 --> 00:04:21,940
+it's actually from a 1.1.
+
+65
+00:04:21,940 --> 00:04:22,940
+So this is your average.
+
+66
+00:04:22,940 --> 00:04:27,940
+So say you did alright, you did average compared to everyone else.
+
+67
+00:04:27,940 --> 00:04:32,940
+Your score for 1, 2, and 3, it'll start from a 1.1.
+
+68
+00:04:32,940 --> 00:04:38,940
+So if you're less than average in the judges' eyes, you might go down to, say for your power and speed,
+
+69
+00:04:38,940 --> 00:04:41,940
+you might get a 1 or even a 0.9.
+
+70
+00:04:41,940 --> 00:04:45,940
+If you did really great, you might even get a 1.3 or a 1.4.
+
+71
+00:04:45,940 --> 00:04:51,940
+So each individual category, you need to obviously get as high as you can.
+
+72
+00:04:52,940 --> 00:04:58,940
+If you're a black belt, generally, depending on the competition, you will be scored from a 1.3.
+
+73
+00:04:58,940 --> 00:05:01,940
+So 1.3 would be your average that you start from.
+
+74
+00:05:01,940 --> 00:05:11,940
+So say your power and speed was above average, you might get scored a 1.4 for now.
+
+75
+00:05:11,940 --> 00:05:19,940
+Say your rhythm was only about average, it wasn't amazing, it might be just a 1.3.
+
+76
+00:05:19,940 --> 00:05:21,940
+But let's say you didn't shout very loud.
+
+77
+00:05:22,940 --> 00:05:29,940
+So your expression of energy, your average was 1.3, it might drop to, say, a 1.0.
+
+78
+00:05:29,940 --> 00:05:34,940
+So with this one, we'll come over down to this side.
+
+79
+00:05:34,940 --> 00:05:41,940
+So with this one, as I was saying, it's a total of 10.
+
+80
+00:05:41,940 --> 00:05:42,940
+So let's see.
+
+81
+00:05:42,940 --> 00:05:49,940
+For presentation, we had 0.7, 1, 2, 3.
+
+82
+00:05:49,940 --> 00:05:51,940
+So you had a 3.7.
+
+83
+00:05:52,940 --> 00:05:53,940
+15 mistakes.
+
+84
+00:05:53,940 --> 00:06:00,940
+So with this one, obviously, don't be too discouraged if you do get pretty high in your mistakes.
+
+85
+00:06:00,940 --> 00:06:02,940
+This is with the judges.
+
+86
+00:06:02,940 --> 00:06:05,940
+We have three judges usually at the panel.
+
+87
+00:06:05,940 --> 00:06:07,940
+And each judge, obviously, is very subjective.
+
+88
+00:06:07,940 --> 00:06:15,940
+So from their point of view, you might have made a lot of mistakes or you may have made not a lot of mistakes as well.
+
+89
+00:06:15,940 --> 00:06:19,940
+So that's why we have the three judges and we average it out as well.
+
+90
+00:06:19,940 --> 00:06:20,940
+Okay.
+
+91
+00:06:20,940 --> 00:06:21,940
+So same question.
+
+92
+00:06:22,940 --> 00:06:26,940
+We did our 15 mistakes, very small mistakes.
+
+93
+00:06:26,940 --> 00:06:32,940
+So if they're all minus 0.1, it'd be 1.5.
+
+94
+00:06:32,940 --> 00:06:39,940
+So you go 4.0 minus 1.5, which equals 2.5.
+
+95
+00:06:39,940 --> 00:06:42,940
+So this would be your accuracy score.
+
+96
+00:06:42,940 --> 00:06:47,940
+So with our presentation like before, we're saying we got a 3.7 here.
+
+97
+00:06:47,940 --> 00:06:52,940
+So we add these numbers after the judges are finished scoring.
+
+98
+00:06:52,940 --> 00:06:58,940
+And you would get for this pattern a 6.2, which is actually very good.
+
+99
+00:06:58,940 --> 00:07:02,940
+So I'll just talk about a little bit more now about this number here.
+
+100
+00:07:02,940 --> 00:07:13,940
+So if you're a color belt, if you're a yellow or above and you do your patterns, it's not uncommon generally for a color belt.
+
+101
+00:07:13,940 --> 00:07:18,940
+The average is about a 4 to 5.
+
+102
+00:07:18,940 --> 00:07:20,940
+So if you get a number between 4 and 5.
+
+103
+00:07:20,940 --> 00:07:27,940
+So if you're doing 4 and 5 out of 10 for your pattern, that's actually generally considered pretty good.
+
+104
+00:07:27,940 --> 00:07:30,940
+So anything above that, you can consider yourself pretty good.
+
+105
+00:07:30,940 --> 00:07:48,940
+If you're a black belt, the average would say, because we're talking here about the higher presentation as an average, anything from 5 to 6 is actually considered pretty good.
+
+106
+00:07:48,940 --> 00:07:53,940
+And anything over a 7 is actually considered almost world class.
+
+107
+00:07:53,940 --> 00:08:00,940
+So if you get a 7 for any of your patterns, you generally need to pat yourself on the back because you did an amazing job.
+
+108
+00:08:00,940 --> 00:08:03,940
+So we just went through our Punze scoring.
+
+109
+00:08:03,940 --> 00:08:06,940
+So just remember accuracy is a 4.0.
+
+110
+00:08:06,940 --> 00:08:09,940
+Presentation is a 6.0.
+
+111
+00:08:09,940 --> 00:08:12,940
+Accuracy is judged during your pattern.
+
+112
+00:08:12,940 --> 00:08:14,940
+Presentation is after.
+
+113
+00:08:14,940 --> 00:08:17,940
+And then we get the two scores that we add up.
+
+114
+00:08:18,940 --> 00:08:20,940
+And we get that number.
+
+115
+00:08:20,940 --> 00:08:24,940
+So with this one obviously, say I was judge number 1.
+
+116
+00:08:24,940 --> 00:08:26,940
+I would give you a 6.2.
+
+117
+00:08:26,940 --> 00:08:29,940
+There was another judge on the other side.
+
+118
+00:08:29,940 --> 00:08:32,940
+Maybe he saw a couple more mistakes than I did.
+
+119
+00:08:32,940 --> 00:08:34,940
+So maybe this one would be a little bit lower.
+
+120
+00:08:34,940 --> 00:08:36,940
+It might be a 5 point something.
+
+121
+00:08:36,940 --> 00:08:39,940
+Another judge on the other side, they scored a little bit higher.
+
+122
+00:08:39,940 --> 00:08:43,940
+So we get three numbers and then we average that as well.
+
+123
+00:08:43,940 --> 00:08:46,940
+So I hope this helped you guys.
+
+124
+00:08:46,940 --> 00:08:48,940
+So make sure you enjoy your Punze competition.
+
+125
+00:08:48,940 --> 00:08:53,940
+And make sure obviously you record down your numbers as well.
+
+126
+00:08:53,940 --> 00:08:56,940
+So it's very important to keep track of your numbers.
+
+127
+00:08:56,940 --> 00:08:59,940
+And to see if you're improving overall as well.
+
+128
+00:09:04,940 --> 00:09:05,940
+Okay.
+
+129
+00:09:05,940 --> 00:09:07,940
+We're going to practice reading it exactly the same.
+
+130
+00:09:07,940 --> 00:09:09,940
+So minor errors, major errors.
+
+131
+00:09:09,940 --> 00:09:14,940
+Plus while you're watching, just click on major, minor.
+
+132
+00:09:14,940 --> 00:09:17,940
+And then after the performance, there's power and speed.
+
+133
+00:09:17,940 --> 00:09:21,940
+Coordination and expression of interest.
+
+134
+00:09:21,940 --> 00:09:22,940
+So you can...
+
+135
+00:09:22,940 --> 00:09:23,940
+Go ahead.
+
+136
+00:09:23,940 --> 00:09:24,940
+Okay.
+
+137
+00:09:24,940 --> 00:09:26,940
+So you will watch your own performance now.
+
+138
+00:09:26,940 --> 00:09:28,940
+Okay.
+
+139
+00:09:47,940 --> 00:10:00,940
+Okay.
+
+140
+00:10:00,940 --> 00:10:10,940
+Okay.
+
+141
+00:10:10,940 --> 00:10:11,940
+Okay.
+
+142
+00:10:11,940 --> 00:10:13,940
+Okay.
+
+143
+00:10:13,940 --> 00:10:15,940
+Okay.
+
+144
+00:10:15,940 --> 00:10:41,840
+I can watch it again or just one one time okay
+
+145
+00:10:41,840 --> 00:10:49,940
+okay

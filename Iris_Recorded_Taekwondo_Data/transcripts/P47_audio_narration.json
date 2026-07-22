@@ -1,0 +1,164 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P47_20260330_130419\\review\\P47_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P47_20260330_130419\\review\\P47_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 60.0,
+      "end": 62.96,
+      "text": "Ok, I can drift you over this."
+    },
+    {
+      "start": 63.12,
+      "end": 63.72,
+      "text": "Let's go push this."
+    },
+    {
+      "start": 81.03999999999999,
+      "end": 82.32,
+      "text": "Ok, uh..."
+    },
+    {
+      "start": 82.32,
+      "end": 85.3,
+      "text": "Ok, we can start here."
+    },
+    {
+      "start": 90.0,
+      "end": 112.03999999999999,
+      "text": "So starting off, I think I went a little bit too fast"
+    },
+    {
+      "start": 112.03999999999999,
+      "end": 114.06,
+      "text": "and probably could have kicked a little bit higher"
+    },
+    {
+      "start": 114.06,
+      "end": 115.36,
+      "text": "a little bit more flexibility."
+    },
+    {
+      "start": 120.0,
+      "end": 121.44,
+      "text": "This point felt pretty smooth."
+    },
+    {
+      "start": 121.7,
+      "end": 122.92,
+      "text": "I think I was relaxed."
+    },
+    {
+      "start": 124.96,
+      "end": 126.24,
+      "text": "Went a bit too quick there."
+    },
+    {
+      "start": 126.32,
+      "end": 128.24,
+      "text": "Should have done a little bit of a pause."
+    },
+    {
+      "start": 129.54,
+      "end": 132.12,
+      "text": "This point, I felt pretty smooth here with this."
+    },
+    {
+      "start": 132.4,
+      "end": 133.84,
+      "text": "Kick, I could have done a little better,"
+    },
+    {
+      "start": 134.16,
+      "end": 136.94,
+      "text": "but again, form is what I'm thinking about."
+    },
+    {
+      "start": 138.38,
+      "end": 140.86,
+      "text": "And each time I think about how I could have done better"
+    },
+    {
+      "start": 140.86,
+      "end": 142.5,
+      "text": "with that form, I just move on."
+    },
+    {
+      "start": 143.32,
+      "end": 145.04,
+      "text": "But my mind has been completely clear."
+    },
+    {
+      "start": 146.56,
+      "end": 148.62,
+      "text": "Keeping sure I make a good count"
+    },
+    {
+      "start": 148.62,
+      "end": 149.96,
+      "text": "with every..."
+    },
+    {
+      "start": 150.0,
+      "end": 151.42,
+      "text": "form or technique here."
+    },
+    {
+      "start": 151.86,
+      "end": 153.68,
+      "text": "So, I think too bad."
+    },
+    {
+      "start": 154.34,
+      "end": 155.76,
+      "text": "I feel like most of this was..."
+    },
+    {
+      "start": 155.76,
+      "end": 157.04,
+      "text": "I was going a bit too fast,"
+    },
+    {
+      "start": 157.04,
+      "end": 159.64,
+      "text": "but overall, I kept my pace"
+    },
+    {
+      "start": 159.64,
+      "end": 161.8,
+      "text": "and good count."
+    },
+    {
+      "start": 162.22,
+      "end": 164.12,
+      "text": "And yeah, I think..."
+    },
+    {
+      "start": 164.12,
+      "end": 166.5,
+      "text": "Overall, I think the experience was"
+    },
+    {
+      "start": 166.5,
+      "end": 168.0,
+      "text": "around in the middle."
+    },
+    {
+      "start": 168.34,
+      "end": 169.06,
+      "text": "Very mediocre."
+    },
+    {
+      "start": 169.3,
+      "end": 170.02,
+      "text": "Not too great."
+    },
+    {
+      "start": 170.08,
+      "end": 170.82,
+      "text": "Not too bad."
+    }
+  ],
+  "word_segments": []
+}

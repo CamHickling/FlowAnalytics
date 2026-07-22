@@ -1,0 +1,539 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P37_20260324_100703\\review\\P37_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P37_20260324_100703\\review\\P37_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 27.32,
+      "text": "Thank you."
+    },
+    {
+      "start": 27.32,
+      "end": 30.7,
+      "text": "You can sit here, Fernando."
+    },
+    {
+      "start": 31.18,
+      "end": 31.46,
+      "text": "Yes."
+    },
+    {
+      "start": 32.08,
+      "end": 34.32,
+      "text": "And then you can sit here."
+    },
+    {
+      "start": 35.1,
+      "end": 35.620000000000005,
+      "text": "Nice."
+    },
+    {
+      "start": 57.32,
+      "end": 65.2,
+      "text": "Cool."
+    },
+    {
+      "start": 65.78,
+      "end": 67.66,
+      "text": "Okay, you can press space if you want to play"
+    },
+    {
+      "start": 67.66,
+      "end": 69.12,
+      "text": "and then pause if you want to pause,"
+    },
+    {
+      "start": 69.2,
+      "end": 72.04,
+      "text": "but you can start talking whenever you want to space."
+    },
+    {
+      "start": 72.18,
+      "end": 72.74,
+      "text": "Sounds good."
+    },
+    {
+      "start": 80.0,
+      "end": 81.78,
+      "text": "So, yeah, getting ready."
+    },
+    {
+      "start": 82.7,
+      "end": 85.16,
+      "text": "Always drink a sip of water or a Gatorade"
+    },
+    {
+      "start": 85.16,
+      "end": 86.16,
+      "text": "before getting started"
+    },
+    {
+      "start": 86.16,
+      "end": 87.03999999999999,
+      "text": "because,"
+    },
+    {
+      "start": 87.32000000000001,
+      "end": 89.50000000000001,
+      "text": "it's like pre-ritual."
+    },
+    {
+      "start": 93.24000000000001,
+      "end": 94.2,
+      "text": "This time,"
+    },
+    {
+      "start": 94.62,
+      "end": 96.42,
+      "text": "I imagined myself in a tournament"
+    },
+    {
+      "start": 96.42,
+      "end": 100.04,
+      "text": "really focusing on what I've ever seen"
+    },
+    {
+      "start": 100.04,
+      "end": 101.06,
+      "text": "when people do punze."
+    },
+    {
+      "start": 101.2,
+      "end": 103.68,
+      "text": "They lock their faces to get ready."
+    },
+    {
+      "start": 104.94000000000001,
+      "end": 105.44000000000001,
+      "text": "The beginning,"
+    },
+    {
+      "start": 105.9,
+      "end": 106.62,
+      "text": "very straightforward,"
+    },
+    {
+      "start": 107.04,
+      "end": 108.42000000000002,
+      "text": "but my side could have been"
+    },
+    {
+      "start": 108.42000000000002,
+      "end": 111.0,
+      "text": "more distinguished."
+    },
+    {
+      "start": 111.32000000000001,
+      "end": 113.34,
+      "text": "My left side seems a little better than my right side."
+    },
+    {
+      "start": 114.18,
+      "end": 115.0,
+      "text": "Attacking forward,"
+    },
+    {
+      "start": 115.78,
+      "end": 116.52000000000001,
+      "text": "I was very"
+    },
+    {
+      "start": 116.52000000000001,
+      "end": 117.30000000000001,
+      "text": "focused."
+    },
+    {
+      "start": 117.72000000000001,
+      "end": 118.82000000000001,
+      "text": "One thing I see a lot,"
+    },
+    {
+      "start": 118.9,
+      "end": 119.96000000000001,
+      "text": "I didn't chamber my hand"
+    },
+    {
+      "start": 119.96000000000001,
+      "end": 121.44000000000001,
+      "text": "and make a fist"
+    },
+    {
+      "start": 121.44000000000001,
+      "end": 122.68,
+      "text": "when I chambered back to my belt,"
+    },
+    {
+      "start": 123.28,
+      "end": 126.48,
+      "text": "but the timing and the motions were prepared"
+    },
+    {
+      "start": 126.48,
+      "end": 129.04000000000002,
+      "text": "and I extended the motion fully,"
+    },
+    {
+      "start": 129.16,
+      "end": 129.92000000000002,
+      "text": "tried to snap."
+    },
+    {
+      "start": 132.8,
+      "end": 134.08,
+      "text": "I remember my key-up was"
+    },
+    {
+      "start": 134.08,
+      "end": 137.52,
+      "text": "coming from my belly,"
+    },
+    {
+      "start": 137.82,
+      "end": 139.06,
+      "text": "so I really exhaled"
+    },
+    {
+      "start": 139.06,
+      "end": 140.58,
+      "text": "with a lot of effort."
+    },
+    {
+      "start": 145.44,
+      "end": 146.28,
+      "text": "In this moment,"
+    },
+    {
+      "start": 146.28,
+      "end": 147.20000000000002,
+      "text": "I wanted to really focus"
+    },
+    {
+      "start": 147.20000000000002,
+      "end": 148.64000000000001,
+      "text": "on the sitting stance,"
+    },
+    {
+      "start": 148.64000000000001,
+      "end": 149.84,
+      "text": "which comes after this move,"
+    },
+    {
+      "start": 149.84,
+      "end": 152.32000000000002,
+      "text": "so I might have delayed the move a little bit,"
+    },
+    {
+      "start": 152.32000000000002,
+      "end": 154.8,
+      "text": "so I was really trying to focus on the stance"
+    },
+    {
+      "start": 154.8,
+      "end": 156.8,
+      "text": "because this punze has many different stances"
+    },
+    {
+      "start": 156.8,
+      "end": 158.76000000000002,
+      "text": "and different preparations,"
+    },
+    {
+      "start": 159.00000000000003,
+      "end": 159.64000000000001,
+      "text": "so for this moment,"
+    },
+    {
+      "start": 159.86,
+      "end": 161.36,
+      "text": "I took an extra second"
+    },
+    {
+      "start": 161.36,
+      "end": 162.96,
+      "text": "that I should have to go to the back stance."
+    },
+    {
+      "start": 168.38000000000002,
+      "end": 170.8,
+      "text": "I tried to extend the side kick as much as possible,"
+    },
+    {
+      "start": 171.22000000000003,
+      "end": 172.74,
+      "text": "trying to, once again,"
+    },
+    {
+      "start": 173.56,
+      "end": 177.02,
+      "text": "once I noticed that I didn't chamber my hand as much,"
+    },
+    {
+      "start": 177.12,
+      "end": 177.18,
+      "text": "I tried to extend the side kick as much as possible,"
+    },
+    {
+      "start": 177.18,
+      "end": 177.76000000000002,
+      "text": "but going forward,"
+    },
+    {
+      "start": 178.14000000000001,
+      "end": 180.16,
+      "text": "I tried to chamber as much as possible now"
+    },
+    {
+      "start": 180.16,
+      "end": 181.58,
+      "text": "that I was in the front motion"
+    },
+    {
+      "start": 181.58,
+      "end": 184.14000000000001,
+      "text": "because trying to fix those little things."
+    },
+    {
+      "start": 190.26000000000002,
+      "end": 191.66,
+      "text": "Trying to extend the side kick,"
+    },
+    {
+      "start": 191.96,
+      "end": 194.22,
+      "text": "really trying to frame in the front stance"
+    },
+    {
+      "start": 194.22,
+      "end": 195.66,
+      "text": "with the preparation."
+    },
+    {
+      "start": 199.18,
+      "end": 201.02,
+      "text": "Now, I was thinking about"
+    },
+    {
+      "start": 201.02,
+      "end": 202.86,
+      "text": "whether my feet were pointing forward,"
+    },
+    {
+      "start": 202.98000000000002,
+      "end": 204.54000000000002,
+      "text": "but once again, I can't check that."
+    },
+    {
+      "start": 204.54000000000002,
+      "end": 206.54000000000002,
+      "text": "It has to be very natural"
+    },
+    {
+      "start": 207.18,
+      "end": 210.18,
+      "text": "and I was wondering the timing"
+    },
+    {
+      "start": 210.18,
+      "end": 211.72,
+      "text": "because once you're competing,"
+    },
+    {
+      "start": 211.92000000000002,
+      "end": 213.66,
+      "text": "the time passes a little bit differently,"
+    },
+    {
+      "start": 213.94,
+      "end": 216.68,
+      "text": "so I have to count in my head those eight seconds"
+    },
+    {
+      "start": 216.68,
+      "end": 218.88,
+      "text": "in the proper eight-second time"
+    },
+    {
+      "start": 218.88,
+      "end": 221.56,
+      "text": "and maybe should I close my fist at the right time"
+    },
+    {
+      "start": 221.56,
+      "end": 222.62,
+      "text": "while keeping eyes forward."
+    },
+    {
+      "start": 223.0,
+      "end": 224.96,
+      "text": "I was really worried about which way I was looking"
+    },
+    {
+      "start": 224.96,
+      "end": 227.98000000000002,
+      "text": "because in korea, you go so many different directions"
+    },
+    {
+      "start": 227.98000000000002,
+      "end": 230.28,
+      "text": "and just like any other punze,"
+    },
+    {
+      "start": 230.38,
+      "end": 231.68,
+      "text": "so your eyes have to be locked in"
+    },
+    {
+      "start": 231.68,
+      "end": 232.48000000000002,
+      "text": "on which way you're going,"
+    },
+    {
+      "start": 233.32,
+      "end": 235.92000000000002,
+      "text": "so this time, I was trying to keep my eyes forward"
+    },
+    {
+      "start": 235.92000000000002,
+      "end": 237.10000000000002,
+      "text": "knowing that I was going to go to the back stance,"
+    },
+    {
+      "start": 237.1,
+      "end": 239.1,
+      "text": "so I'm going to turn back and prepare right away."
+    },
+    {
+      "start": 240.1,
+      "end": 242.1,
+      "text": "Counting the seconds in my head."
+    },
+    {
+      "start": 242.1,
+      "end": 244.1,
+      "text": "I think I did a good job counting here,"
+    },
+    {
+      "start": 244.1,
+      "end": 246.1,
+      "text": "putting my fist right on my palm."
+    },
+    {
+      "start": 246.1,
+      "end": 248.1,
+      "text": "Now, going back."
+    },
+    {
+      "start": 248.1,
+      "end": 250.1,
+      "text": "One, two."
+    },
+    {
+      "start": 250.1,
+      "end": 251.1,
+      "text": "I think I prepared this one."
+    },
+    {
+      "start": 251.1,
+      "end": 253.1,
+      "text": "I didn't prepare as much as the first one,"
+    },
+    {
+      "start": 253.1,
+      "end": 255.1,
+      "text": "but I snapped,"
+    },
+    {
+      "start": 255.1,
+      "end": 257.1,
+      "text": "and then once I step forward and I key up,"
+    },
+    {
+      "start": 257.1,
+      "end": 260.1,
+      "text": "my front stance could have been a little bit longer"
+    },
+    {
+      "start": 260.1,
+      "end": 263.1,
+      "text": "because I see that my back leg was a little bent there,"
+    },
+    {
+      "start": 263.1,
+      "end": 265.1,
+      "text": "but my chamber hand is there."
+    },
+    {
+      "start": 265.1,
+      "end": 267.1,
+      "text": "My extension was towards the..."
+    },
+    {
+      "start": 267.1,
+      "end": 270.1,
+      "text": "My choking motion was towards the neck,"
+    },
+    {
+      "start": 270.1,
+      "end": 273.1,
+      "text": "and then I reset around the same area"
+    },
+    {
+      "start": 273.1,
+      "end": 275.1,
+      "text": "which I started from."
+    },
+    {
+      "start": 275.1,
+      "end": 278.1,
+      "text": "So, regarding the same size stances,"
+    },
+    {
+      "start": 278.1,
+      "end": 281.1,
+      "text": "I was similar,"
+    },
+    {
+      "start": 281.1,
+      "end": 284.1,
+      "text": "but I went a little bit bigger stance,"
+    },
+    {
+      "start": 284.1,
+      "end": 285.1,
+      "text": "going backward motion,"
+    },
+    {
+      "start": 285.1,
+      "end": 287.1,
+      "text": "rather than when I was going forward,"
+    },
+    {
+      "start": 287.1,
+      "end": 291.1,
+      "text": "which is why I ended on a further portion of the mat"
+    },
+    {
+      "start": 291.1,
+      "end": 292.1,
+      "text": "which I started from."
+    },
+    {
+      "start": 292.1,
+      "end": 296.1,
+      "text": "But yeah, it was longer stance,"
+    },
+    {
+      "start": 296.1,
+      "end": 298.1,
+      "text": "going backwards and forwards,"
+    },
+    {
+      "start": 298.1,
+      "end": 301.1,
+      "text": "which is why I ended a little bit further back."
+    }
+  ],
+  "word_segments": []
+}

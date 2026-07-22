@@ -1,0 +1,89 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P42_20260326_130815\\review\\P42_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P42_20260326_130815\\review\\P42_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 33.0,
+      "text": "We can bring you through the instructions."
+    },
+    {
+      "start": 49.0,
+      "end": 55.0,
+      "text": "We can start now. I'm going to press play, space here to play, and then you can pause anytime."
+    },
+    {
+      "start": 55.0,
+      "end": 57.0,
+      "text": "You can read your own performance."
+    },
+    {
+      "start": 60.0,
+      "end": 73.0,
+      "text": "Wait, I just want to confirm here. Do I narrate what I'm thinking?"
+    },
+    {
+      "start": 73.0,
+      "end": 78.0,
+      "text": "What you're thinking, what you're feeling, during that same exact moment."
+    },
+    {
+      "start": 78.0,
+      "end": 80.0,
+      "text": "Okay, thank you."
+    },
+    {
+      "start": 80.0,
+      "end": 96.0,
+      "text": "So, this moment, I felt like my beginning move wasn't as strong as usual."
+    },
+    {
+      "start": 96.0,
+      "end": 100.0,
+      "text": "And so I tried to make more power towards the front."
+    },
+    {
+      "start": 100.0,
+      "end": 105.0,
+      "text": "For this section, I was trying to pay attention to the sidekick."
+    },
+    {
+      "start": 105.0,
+      "end": 108.0,
+      "text": "Just making sure I wouldn't lose my balance and such."
+    },
+    {
+      "start": 110.0,
+      "end": 117.0,
+      "text": "That part there, I saw my foot somewhat tilt as I was losing balance."
+    },
+    {
+      "start": 120.0,
+      "end": 124.0,
+      "text": "And then this part, just make sure to stay strong throughout the end."
+    },
+    {
+      "start": 124.0,
+      "end": 126.0,
+      "text": "Stay consistent, yeah."
+    },
+    {
+      "start": 140.0,
+      "end": 142.0,
+      "text": "Okay."
+    },
+    {
+      "start": 142.0,
+      "end": 144.0,
+      "text": "Okay."
+    },
+    {
+      "start": 144.0,
+      "end": 146.0,
+      "text": "Yeah."
+    }
+  ],
+  "word_segments": []
+}

@@ -1,0 +1,49 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P11_20260302_111053\\scoring\\P11_audio_scoring.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P11_20260302_111053\\scoring\\P11_audio_scoring.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 27.26,
+      "text": "Oh, okay, here we go, so now we will score, okay, perfect, minor errors, major errors, okay, okay, minor errors, major errors, oh, okay, there we go, there's no loss there, yeah, okay, so boom,"
+    },
+    {
+      "start": 30.0,
+      "end": 42.86,
+      "text": "okay, I feel like, oh, wow, this is actually really hard, that was definitely, okay,"
+    },
+    {
+      "start": 60.0,
+      "end": 89.98,
+      "text": "there we go,"
+    },
+    {
+      "start": 90.0,
+      "end": 97.72,
+      "text": "oh, okay, let me see, I'll just add an extra one there, I feel like, okay,"
+    },
+    {
+      "start": 98.16,
+      "end": 103.86,
+      "text": "so that's, that's done there, okay, now I have to do this,"
+    },
+    {
+      "start": 105.44,
+      "end": 109.42,
+      "text": "okay, power and speed appropriate, force and intensity of technique, speed appropriate,"
+    },
+    {
+      "start": 109.42,
+      "end": 112.82,
+      "text": "so we're talking an average of 1.3 here,"
+    },
+    {
+      "start": 112.82,
+      "end": 114.66,
+      "text": "okay,"
+    }
+  ],
+  "word_segments": []
+}

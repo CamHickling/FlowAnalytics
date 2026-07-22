@@ -1,0 +1,219 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P19_20260306_101207\\review\\P19_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P19_20260306_101207\\review\\P19_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 37.14,
+      "text": "Mom, you can sit here."
+    },
+    {
+      "start": 38.04,
+      "end": 40.24,
+      "text": "He's going to watch his own performance in a minute."
+    },
+    {
+      "start": 41.120000000000005,
+      "end": 44.74,
+      "text": "In a minute, so I just like, and I like scoring it."
+    },
+    {
+      "start": 44.84,
+      "end": 46.3,
+      "text": "So you can, you can, yeah, you can."
+    },
+    {
+      "start": 46.3,
+      "end": 52.96,
+      "text": "I'll be here to comment, so just, we'll watch him tell us what he's thinking."
+    },
+    {
+      "start": 53.900000000000006,
+      "end": 57.66,
+      "text": "What I remember thinking."
+    },
+    {
+      "start": 57.660000000000004,
+      "end": 59.36000000000001,
+      "text": "So, okay."
+    },
+    {
+      "start": 66.60000000000001,
+      "end": 67.28,
+      "text": "Okay."
+    },
+    {
+      "start": 68.64,
+      "end": 72.80000000000001,
+      "text": "You can press pause here, and you can talk as much as you want."
+    },
+    {
+      "start": 73.44,
+      "end": 73.96000000000001,
+      "text": "Press play."
+    },
+    {
+      "start": 73.96000000000001,
+      "end": 74.78,
+      "text": "Yeah."
+    },
+    {
+      "start": 87.66,
+      "end": 95.88,
+      "text": "Okay."
+    },
+    {
+      "start": 95.88,
+      "end": 95.96,
+      "text": "Okay."
+    },
+    {
+      "start": 98.97999999999999,
+      "end": 101.78,
+      "text": "So, like, I just say what I'm thinking about, right?"
+    },
+    {
+      "start": 102.52,
+      "end": 104.17999999999999,
+      "text": "So my mind's clear right now."
+    },
+    {
+      "start": 106.12,
+      "end": 110.0,
+      "text": "I'm just thinking about the sidekicks."
+    },
+    {
+      "start": 116.75999999999999,
+      "end": 117.32,
+      "text": "Okay."
+    },
+    {
+      "start": 117.32,
+      "end": 117.47999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 117.66,
+      "end": 121.2,
+      "text": "Now my mind's still clear."
+    },
+    {
+      "start": 122.06,
+      "end": 123.94,
+      "text": "Still thinking about the sidekick here."
+    },
+    {
+      "start": 124.39999999999999,
+      "end": 125.32,
+      "text": "Wasn't too great."
+    },
+    {
+      "start": 126.7,
+      "end": 130.56,
+      "text": "Now, I'm just thinking about the last little part."
+    },
+    {
+      "start": 133.78,
+      "end": 135.46,
+      "text": "Pulling hand, staying strong."
+    },
+    {
+      "start": 137.6,
+      "end": 139.35999999999999,
+      "text": "Eight second count in my head."
+    },
+    {
+      "start": 140.24,
+      "end": 141.1,
+      "text": "Just looking straight."
+    },
+    {
+      "start": 143.28,
+      "end": 146.01999999999998,
+      "text": "Now I'm just thinking about pulling hand and key up."
+    },
+    {
+      "start": 147.0,
+      "end": 147.48,
+      "text": "Okay."
+    },
+    {
+      "start": 147.48,
+      "end": 149.42,
+      "text": "And, yeah, that's pretty much it."
+    },
+    {
+      "start": 149.42,
+      "end": 151.26,
+      "text": "I didn't really think about much else."
+    },
+    {
+      "start": 157.95999999999998,
+      "end": 158.45999999999998,
+      "text": "Oh, shoot."
+    },
+    {
+      "start": 160.29999999999998,
+      "end": 160.6,
+      "text": "Yeah."
+    },
+    {
+      "start": 160.6,
+      "end": 161.29999999999998,
+      "text": "Okay."
+    },
+    {
+      "start": 161.29999999999998,
+      "end": 161.45999999999998,
+      "text": "Okay."
+    },
+    {
+      "start": 161.45999999999998,
+      "end": 161.48,
+      "text": "Okay."
+    },
+    {
+      "start": 161.48,
+      "end": 161.5,
+      "text": "Okay."
+    },
+    {
+      "start": 161.5,
+      "end": 161.51999999999998,
+      "text": "Okay."
+    },
+    {
+      "start": 161.51999999999998,
+      "end": 161.54,
+      "text": "Okay."
+    },
+    {
+      "start": 161.54,
+      "end": 161.56,
+      "text": "Okay."
+    },
+    {
+      "start": 161.56,
+      "end": 161.57999999999998,
+      "text": "Okay."
+    },
+    {
+      "start": 161.57999999999998,
+      "end": 161.6,
+      "text": "Okay."
+    },
+    {
+      "start": 161.6,
+      "end": 161.66,
+      "text": "Okay."
+    },
+    {
+      "start": 161.66,
+      "end": 161.67999999999998,
+      "text": "Okay."
+    }
+  ],
+  "word_segments": []
+}

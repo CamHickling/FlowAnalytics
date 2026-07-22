@@ -1,0 +1,24 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P10B_20260302_103731\\scoring\\P10B_audio_scoring.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P10B_20260302_103731\\scoring\\P10B_audio_scoring.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.64,
+      "text": "It's really groovy."
+    },
+    {
+      "start": 30.0,
+      "end": 59.980000000000004,
+      "text": "Let's go."
+    },
+    {
+      "start": 60.0,
+      "end": 89.98,
+      "text": "Let's go."
+    }
+  ],
+  "word_segments": []
+}
