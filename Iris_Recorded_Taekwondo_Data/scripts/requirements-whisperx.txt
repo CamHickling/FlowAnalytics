@@ -2,3 +2,4 @@ whisperx
 ffmpeg-python
 torch
 pyannote.audio
+faster-whisper
