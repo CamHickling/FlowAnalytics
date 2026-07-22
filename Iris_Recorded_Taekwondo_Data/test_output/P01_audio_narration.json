@@ -1,0 +1,809 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P01_20260223_112737\\review\\P01_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P01_20260223_112737\\review\\P01_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 29.98,
+      "text": "You can sit here."
+    },
+    {
+      "start": 29.98,
+      "end": 36.1,
+      "text": "I'm going to do my own performance."
+    },
+    {
+      "start": 37.44,
+      "end": 40.980000000000004,
+      "text": "So I should speak while I'm like..."
+    },
+    {
+      "start": 42.980000000000004,
+      "end": 46.0,
+      "text": "Where it felt in the zone or otherwise just rub it."
+    },
+    {
+      "start": 56.3,
+      "end": 56.94,
+      "text": "Okay."
+    },
+    {
+      "start": 59.980000000000004,
+      "end": 62.82000000000001,
+      "text": "So we're going to use this piece of art to play in pause."
+    },
+    {
+      "start": 63.040000000000006,
+      "end": 65.46000000000001,
+      "text": "So we'll go backwards when we proceed forwards,"
+    },
+    {
+      "start": 65.60000000000001,
+      "end": 69.5,
+      "text": "but if you want to, we'll continue commentating."
+    },
+    {
+      "start": 69.94,
+      "end": 70.4,
+      "text": "That's pause."
+    },
+    {
+      "start": 70.58,
+      "end": 71.14,
+      "text": "Okay."
+    },
+    {
+      "start": 89.98,
+      "end": 94.72,
+      "text": "It looks like we're just stretching here."
+    },
+    {
+      "start": 94.82000000000001,
+      "end": 95.7,
+      "text": "Should I skip ahead?"
+    },
+    {
+      "start": 97.7,
+      "end": 98.60000000000001,
+      "text": "Should I start again?"
+    },
+    {
+      "start": 98.92,
+      "end": 99.58,
+      "text": "We're just going to wait."
+    },
+    {
+      "start": 99.58,
+      "end": 100.42,
+      "text": "You may just have to wait."
+    },
+    {
+      "start": 105.44,
+      "end": 105.88000000000001,
+      "text": "Okay."
+    },
+    {
+      "start": 107.5,
+      "end": 110.14,
+      "text": "I'm just doing 90-90s here to stretch,"
+    },
+    {
+      "start": 111.12,
+      "end": 112.58000000000001,
+      "text": "warm up my hips."
+    },
+    {
+      "start": 117.94,
+      "end": 118.58000000000001,
+      "text": "Wow."
+    },
+    {
+      "start": 119.98,
+      "end": 121.98,
+      "text": "Okay."
+    },
+    {
+      "start": 149.98,
+      "end": 158.73999999999998,
+      "text": "You can relax a little bit, Victor."
+    },
+    {
+      "start": 159.38,
+      "end": 161.14,
+      "text": "Just maybe close your eyes."
+    },
+    {
+      "start": 161.54,
+      "end": 162.06,
+      "text": "Yeah."
+    },
+    {
+      "start": 162.82,
+      "end": 163.82,
+      "text": "Wait for the video."
+    },
+    {
+      "start": 179.98,
+      "end": 180.98,
+      "text": "Okay."
+    },
+    {
+      "start": 180.98,
+      "end": 181.98,
+      "text": "Okay."
+    },
+    {
+      "start": 181.98,
+      "end": 182.98,
+      "text": "Okay."
+    },
+    {
+      "start": 182.98,
+      "end": 183.98,
+      "text": "Okay."
+    },
+    {
+      "start": 183.98,
+      "end": 184.98,
+      "text": "Okay."
+    },
+    {
+      "start": 184.98,
+      "end": 185.98,
+      "text": "Okay."
+    },
+    {
+      "start": 185.98,
+      "end": 186.98,
+      "text": "Okay."
+    },
+    {
+      "start": 186.98,
+      "end": 187.98,
+      "text": "Okay."
+    },
+    {
+      "start": 187.98,
+      "end": 188.98,
+      "text": "Okay."
+    },
+    {
+      "start": 188.98,
+      "end": 189.98,
+      "text": "Okay."
+    },
+    {
+      "start": 189.98,
+      "end": 190.98,
+      "text": "Okay."
+    },
+    {
+      "start": 190.98,
+      "end": 191.98,
+      "text": "Okay."
+    },
+    {
+      "start": 191.98,
+      "end": 192.98,
+      "text": "Okay."
+    },
+    {
+      "start": 192.98,
+      "end": 193.98,
+      "text": "Okay."
+    },
+    {
+      "start": 193.98,
+      "end": 194.98,
+      "text": "Okay."
+    },
+    {
+      "start": 194.98,
+      "end": 195.98,
+      "text": "Okay."
+    },
+    {
+      "start": 195.98,
+      "end": 196.98,
+      "text": "Okay."
+    },
+    {
+      "start": 196.98,
+      "end": 197.98,
+      "text": "Okay."
+    },
+    {
+      "start": 197.98,
+      "end": 198.98,
+      "text": "Okay."
+    },
+    {
+      "start": 198.98,
+      "end": 199.98,
+      "text": "Okay."
+    },
+    {
+      "start": 199.98,
+      "end": 200.98,
+      "text": "Okay."
+    },
+    {
+      "start": 200.98,
+      "end": 201.98,
+      "text": "Okay."
+    },
+    {
+      "start": 201.98,
+      "end": 202.98,
+      "text": "Okay."
+    },
+    {
+      "start": 202.98,
+      "end": 203.98,
+      "text": "Okay."
+    },
+    {
+      "start": 203.98,
+      "end": 204.98,
+      "text": "Okay."
+    },
+    {
+      "start": 204.98,
+      "end": 205.98,
+      "text": "Okay."
+    },
+    {
+      "start": 205.98,
+      "end": 206.98,
+      "text": "Okay."
+    },
+    {
+      "start": 206.98,
+      "end": 207.98,
+      "text": "Okay."
+    },
+    {
+      "start": 207.98,
+      "end": 208.98,
+      "text": "Okay."
+    },
+    {
+      "start": 208.98,
+      "end": 209.98,
+      "text": "Okay."
+    },
+    {
+      "start": 209.98000000000002,
+      "end": 239.96,
+      "text": "Thank you."
+    },
+    {
+      "start": 239.98000000000002,
+      "end": 269.96000000000004,
+      "text": "Thank you."
+    },
+    {
+      "start": 269.98,
+      "end": 299.96000000000004,
+      "text": "Thank you."
+    },
+    {
+      "start": 299.98,
+      "end": 329.96000000000004,
+      "text": "Thank you."
+    },
+    {
+      "start": 329.98,
+      "end": 359.96000000000004,
+      "text": "Thank you."
+    },
+    {
+      "start": 359.98,
+      "end": 389.96000000000004,
+      "text": "Thank you."
+    },
+    {
+      "start": 389.98,
+      "end": 419.96000000000004,
+      "text": "Thank you."
+    },
+    {
+      "start": 419.98,
+      "end": 436.12,
+      "text": "All right, I'm stirring the poonsae now."
+    },
+    {
+      "start": 437.0,
+      "end": 442.26,
+      "text": "This was the first time practicing it since at least the summer."
+    },
+    {
+      "start": 444.56,
+      "end": 448.12,
+      "text": "On the way to UBC on the bus ride,"
+    },
+    {
+      "start": 448.20000000000005,
+      "end": 449.88,
+      "text": "I was watching the video,"
+    },
+    {
+      "start": 449.98,
+      "end": 452.04,
+      "text": "on YouTube, just making sure I wouldn't mess up"
+    },
+    {
+      "start": 452.04,
+      "end": 452.84000000000003,
+      "text": "any of the steps."
+    },
+    {
+      "start": 454.14000000000004,
+      "end": 456.68,
+      "text": "And here I'm supposed to bow in."
+    },
+    {
+      "start": 456.76,
+      "end": 458.0,
+      "text": "I think I forget to do that."
+    },
+    {
+      "start": 478.0,
+      "end": 478.40000000000003,
+      "text": "Okay."
+    },
+    {
+      "start": 478.40000000000003,
+      "end": 479.96000000000004,
+      "text": "I do all the steps pretty smoothly."
+    },
+    {
+      "start": 479.98,
+      "end": 485.68,
+      "text": "But I'm a lot less rigid than I need to be at the end."
+    },
+    {
+      "start": 492.94,
+      "end": 495.96000000000004,
+      "text": "I kind of sway a little bit after each movement."
+    },
+    {
+      "start": 499.8,
+      "end": 502.40000000000003,
+      "text": "Here I kind of..."
+    },
+    {
+      "start": 502.40000000000003,
+      "end": 503.78000000000003,
+      "text": "My foot position is wrong."
+    },
+    {
+      "start": 504.44,
+      "end": 507.44,
+      "text": "The front foot is supposed to be facing forwards"
+    },
+    {
+      "start": 507.44,
+      "end": 509.96000000000004,
+      "text": "and the other one is more to the back."
+    },
+    {
+      "start": 509.98,
+      "end": 515.84,
+      "text": "But I didn't make any major mistakes."
+    },
+    {
+      "start": 515.94,
+      "end": 516.98,
+      "text": "Like, I was afraid I would."
+    },
+    {
+      "start": 518.98,
+      "end": 519.98,
+      "text": "That's not a very good..."
+    },
+    {
+      "start": 520.8000000000001,
+      "end": 521.34,
+      "text": "Shouldn't be."
+    },
+    {
+      "start": 521.34,
+      "end": 521.8000000000001,
+      "text": "Oh."
+    },
+    {
+      "start": 521.8000000000001,
+      "end": 521.84,
+      "text": "Oh."
+    },
+    {
+      "start": 521.84,
+      "end": 522.84,
+      "text": ", oh."
+    },
+    {
+      "start": 522.84,
+      "end": 523.84,
+      "text": "Oh."
+    },
+    {
+      "start": 523.84,
+      "end": 524.84,
+      "text": "Oh."
+    },
+    {
+      "start": 524.84,
+      "end": 525.84,
+      "text": "Wait."
+    },
+    {
+      "start": 525.84,
+      "end": 530.0600000000001,
+      "text": "I'll tell you later."
+    },
+    {
+      "start": 530.0600000000001,
+      "end": 534.9200000000001,
+      "text": "So now it's easier to Be careful."
+    },
+    {
+      "start": 534.9200000000001,
+      "end": 536.58,
+      "text": "Not..."
+    },
+    {
+      "start": 536.58,
+      "end": 547.48,
+      "text": "I mean, you're just looking for more information on how you're scoring."
+    },
+    {
+      "start": 547.48,
+      "end": 550.8000000000001,
+      "text": "So as you can see, your pattern is scored better."
+    },
+    {
+      "start": 550.8000000000001,
+      "end": 551.8000000000001,
+      "text": "Yeah."
+    },
+    {
+      "start": 551.84,
+      "end": 553.34,
+      "text": "based on the number 10."
+    },
+    {
+      "start": 553.34,
+      "end": 556.52,
+      "text": "So out of 10 is your mark."
+    },
+    {
+      "start": 556.52,
+      "end": 559.3000000000001,
+      "text": "As you can see, it's split up into two parts."
+    },
+    {
+      "start": 559.3000000000001,
+      "end": 562.44,
+      "text": "We have our accuracy and our presentation on this side."
+    },
+    {
+      "start": 562.44,
+      "end": 564.74,
+      "text": "So we'll start off with the accuracy first."
+    },
+    {
+      "start": 564.74,
+      "end": 569.62,
+      "text": "So your accuracy, it's actually scored from a four."
+    },
+    {
+      "start": 569.62,
+      "end": 572.0,
+      "text": "So from the number four,"
+    },
+    {
+      "start": 572.0,
+      "end": 575.08,
+      "text": "you're actually marked during your presentation"
+    },
+    {
+      "start": 575.08,
+      "end": 576.5,
+      "text": "of your pattern."
+    },
+    {
+      "start": 576.5,
+      "end": 579.58,
+      "text": "And then with that one, any mistakes that you make,"
+    },
+    {
+      "start": 579.58,
+      "end": 584.44,
+      "text": "whether if it's a minor mistake, you get a minus of a 0.1."
+    },
+    {
+      "start": 584.44,
+      "end": 587.96,
+      "text": "If it's a major mistake, you get minus 0.3."
+    },
+    {
+      "start": 587.96,
+      "end": 590.1800000000001,
+      "text": "So I'll just let you guys know"
+    },
+    {
+      "start": 590.1800000000001,
+      "end": 592.0,
+      "text": "about the difference between the two."
+    },
+    {
+      "start": 592.0,
+      "end": 596.0400000000001,
+      "text": "So with a minor mistake, it's a very, very small thing."
+    },
+    {
+      "start": 596.0400000000001,
+      "end": 599.2800000000001,
+      "text": "So say we're doing a outer block."
+    },
+    {
+      "start": 599.2800000000001,
+      "end": 600.96,
+      "text": "If it's not your shoulder height,"
+    },
+    {
+      "start": 600.96,
+      "end": 602.58,
+      "text": "maybe it's a little bit lower,"
+    },
+    {
+      "start": 602.58,
+      "end": 605.5,
+      "text": "or maybe it's a tiny bit higher, that's a minor mistake."
+    },
+    {
+      "start": 605.5,
+      "end": 607.24,
+      "text": "So that's a 0.1."
+    },
+    {
+      "start": 607.24,
+      "end": 608.8000000000001,
+      "text": "A major mistake would be,"
+    },
+    {
+      "start": 608.8000000000001,
+      "end": 609.5600000000001,
+      "text": "you're supposed to do it"
+    },
+    {
+      "start": 609.5600000000001,
+      "end": 611.1600000000001,
+      "text": "out of block in the pattern,"
+    },
+    {
+      "start": 611.1600000000001,
+      "end": 614.34,
+      "text": "but you forget and you say you do a rich hand strike instead."
+    },
+    {
+      "start": 614.34,
+      "end": 616.32,
+      "text": "So that would be a major mistake."
+    },
+    {
+      "start": 616.32,
+      "end": 619.12,
+      "text": "So with a minor mistake,"
+    },
+    {
+      "start": 619.12,
+      "end": 621.2,
+      "text": "let's say pattern one, for example,"
+    },
+    {
+      "start": 621.2,
+      "end": 623.1800000000001,
+      "text": "there's 20 steps."
+    },
+    {
+      "start": 623.1800000000001,
+      "end": 627.8000000000001,
+      "text": "It's not uncommon to have up to maybe 14, 15 mistakes"
+    },
+    {
+      "start": 627.8000000000001,
+      "end": 630.62,
+      "text": "in the 20 patterns, sorry, the 20 steps."
+    },
+    {
+      "start": 630.62,
+      "end": 633.32,
+      "text": "So the reason for that one being,"
+    },
+    {
+      "start": 633.32,
+      "end": 635.8000000000001,
+      "text": "it needs to be absolutely perfect"
+    },
+    {
+      "start": 635.8000000000001,
+      "end": 639.5000000000001,
+      "text": "to get, to not get a deduction"
+    },
+    {
+      "start": 639.5,
+      "end": 640.78,
+      "text": "on 0.1."
+    },
+    {
+      "start": 640.78,
+      "end": 644.62,
+      "text": "So it's not uncommon to let's say there's 20 steps"
+    },
+    {
+      "start": 644.62,
+      "end": 647.62,
+      "text": "and you made, let's say, 15 mistakes."
+    },
+    {
+      "start": 647.62,
+      "end": 648.84,
+      "text": "So what would that be?"
+    },
+    {
+      "start": 648.84,
+      "end": 651.78,
+      "text": "So we'll leave that there on this side"
+    },
+    {
+      "start": 651.78,
+      "end": 653.64,
+      "text": "and we'll come back and we'll just calculate"
+    },
+    {
+      "start": 653.64,
+      "end": 655.14,
+      "text": "what you got at the end."
+    },
+    {
+      "start": 655.14,
+      "end": 659.78,
+      "text": "So a major mistake, say you're supposed to turn to the left,"
+    },
+    {
+      "start": 659.78,
+      "end": 662.1,
+      "text": "but you turn to the right, that would be a major mistake."
+    },
+    {
+      "start": 662.1,
+      "end": 663.78,
+      "text": "So obviously we do wanna try"
+    },
+    {
+      "start": 663.78,
+      "end": 666.64,
+      "text": "and avoid any of these major mistakes."
+    },
+    {
+      "start": 666.64,
+      "end": 669.34,
+      "text": "So after we've done our pattern, that's why."
+    },
+    {
+      "start": 669.34,
+      "end": 671.8000000000001,
+      "text": "That's when we move on to the presentation side."
+    },
+    {
+      "start": 671.8000000000001,
+      "end": 673.72,
+      "text": "So the presentation, as you can see,"
+    },
+    {
+      "start": 673.72,
+      "end": 675.62,
+      "text": "it's from a score of six."
+    },
+    {
+      "start": 675.62,
+      "end": 679.02,
+      "text": "This six is actually split up into three parts."
+    },
+    {
+      "start": 679.02,
+      "end": 681.1,
+      "text": "So we have one, two, three here."
+    },
+    {
+      "start": 681.1,
+      "end": 684.84,
+      "text": "So with this one, for a score of two,"
+    },
+    {
+      "start": 684.84,
+      "end": 686.5,
+      "text": "is your power and speed."
+    },
+    {
+      "start": 686.5,
+      "end": 689.12,
+      "text": "Your rhythm is also a score of two."
+    },
+    {
+      "start": 689.12,
+      "end": 691.02,
+      "text": "And your expression, sorry,"
+    },
+    {
+      "start": 691.02,
+      "end": 693.08,
+      "text": "I'm just gonna get you to begin the video"
+    },
+    {
+      "start": 693.08,
+      "end": 695.36,
+      "text": "because there is that warmup section that we want."
+    },
+    {
+      "start": 695.36,
+      "end": 697.5400000000001,
+      "text": "You don't need to narrate or score that."
+    },
+    {
+      "start": 697.5400000000001,
+      "end": 699.34,
+      "text": "So when it looks like you're about to start,"
+    },
+    {
+      "start": 699.34,
+      "end": 700.9,
+      "text": "you do wanna also watch."
+    },
+    {
+      "start": 700.9,
+      "end": 702.58,
+      "text": "You can just pause it there."
+    },
+    {
+      "start": 702.58,
+      "end": 703.4200000000001,
+      "text": "Don't worry about anything."
+    },
+    {
+      "start": 703.4200000000001,
+      "end": 705.0,
+      "text": "You can watch it later."
+    },
+    {
+      "start": 705.0,
+      "end": 705.84,
+      "text": "Okay, thanks."
+    },
+    {
+      "start": 709.02,
+      "end": 711.76,
+      "text": "Energy is also scored out at two as well."
+    },
+    {
+      "start": 711.76,
+      "end": 714.58,
+      "text": "So we'll start off with the power and speed."
+    },
+    {
+      "start": 714.58,
+      "end": 716.7800000000001,
+      "text": "So with this one, whether it's your blocks,"
+    },
+    {
+      "start": 716.7800000000001,
+      "end": 718.58,
+      "text": "your kicks, your strikes."
+    }
+  ],
+  "word_segments": []
+}
