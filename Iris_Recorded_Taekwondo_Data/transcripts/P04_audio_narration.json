@@ -1,0 +1,109 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P04__20260224_130709\\review\\P04_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P04__20260224_130709\\review\\P04_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "I"
+    },
+    {
+      "start": 22.64,
+      "end": 24.64,
+      "text": "Need to do yes"
+    },
+    {
+      "start": 30.0,
+      "end": 36.08,
+      "text": "You're gonna need to read your own performance, but you can once you're ready, okay, do it"
+    },
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "Oh"
+    },
+    {
+      "start": 82.72,
+      "end": 84.72,
+      "text": "Like I love"
+    },
+    {
+      "start": 90.0,
+      "end": 94.72,
+      "text": "Okay, you're gonna read what you're feeling and thinking each moment"
+    },
+    {
+      "start": 96.48,
+      "end": 100.56,
+      "text": "Okay, can I can I go back go back no we cannot"
+    },
+    {
+      "start": 104.64,
+      "end": 107.52,
+      "text": "I don't think so. Okay. Yeah, let's just just continue"
+    },
+    {
+      "start": 108.48,
+      "end": 114.4,
+      "text": "Okay, well when I was doing this my mind was probably the most clear. Okay. It was kind of like a reset"
+    },
+    {
+      "start": 115.28,
+      "end": 117.28,
+      "text": "Okay"
+    },
+    {
+      "start": 120.0,
+      "end": 123.84,
+      "text": "That part I was like trying to focus"
+    },
+    {
+      "start": 126.4,
+      "end": 128.88,
+      "text": "I paused there a little bit because I wasn't sure what to do next"
+    },
+    {
+      "start": 134.96,
+      "end": 137.76,
+      "text": "I couldn't remember if I had to keep a fist open"
+    },
+    {
+      "start": 141.6,
+      "end": 145.14,
+      "text": "I think I finished just somewhat in the same spot"
+    },
+    {
+      "start": 150.0,
+      "end": 152.0,
+      "text": "So"
+    },
+    {
+      "start": 169.76,
+      "end": 172.4,
+      "text": "Let me get that number so with this one, obviously"
+    },
+    {
+      "start": 176.88,
+      "end": 179.6,
+      "text": "Oh score so as you can see"
+    },
+    {
+      "start": 180.24,
+      "end": 182.24,
+      "text": "Your pattern is scored"
+    },
+    {
+      "start": 182.48,
+      "end": 186.32,
+      "text": "Based on the number 10. So out of 10 is your is your mark"
+    },
+    {
+      "start": 187.2,
+      "end": 189.2,
+      "text": "As you can see it's split"
+    }
+  ],
+  "word_segments": []
+}

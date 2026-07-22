@@ -1,0 +1,189 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P06_20260226_111009\\review\\P06_audio_commentary.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P06_20260226_111009\\review\\P06_audio_commentary.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "Skål, Andrum."
+    },
+    {
+      "start": 2.0,
+      "end": 28.42,
+      "text": "Na"
+    },
+    {
+      "start": 58.42,
+      "end": 66.64,
+      "text": "Ok, so I can pause and then talk more?"
+    },
+    {
+      "start": 66.74000000000001,
+      "end": 67.38,
+      "text": "Yes, you can pause, yeah."
+    },
+    {
+      "start": 68.32000000000001,
+      "end": 70.18,
+      "text": "Use either the..."
+    },
+    {
+      "start": 70.18,
+      "end": 70.9,
+      "text": "This one?"
+    },
+    {
+      "start": 70.92,
+      "end": 71.96000000000001,
+      "text": "The space bar over there."
+    },
+    {
+      "start": 72.18,
+      "end": 72.4,
+      "text": "Ok."
+    },
+    {
+      "start": 72.54,
+      "end": 74.42,
+      "text": "And it will still work more as you're..."
+    },
+    {
+      "start": 88.42,
+      "end": 97.8,
+      "text": "So here I was trying to hit that double sidekick and make sure that my stance lengths were right."
+    },
+    {
+      "start": 98.4,
+      "end": 101.24000000000001,
+      "text": "I think on this one I was a little bit iffy and then I was, like, noting that."
+    },
+    {
+      "start": 103.4,
+      "end": 104.94,
+      "text": "I knew I was going too fast here."
+    },
+    {
+      "start": 106.64,
+      "end": 109.16,
+      "text": "And I forgot the key up here and I was like, oh shoot, I forgot."
+    },
+    {
+      "start": 110.7,
+      "end": 112.38,
+      "text": "Yeah, I'm definitely going too fast."
+    },
+    {
+      "start": 115.24000000000001,
+      "end": 118.4,
+      "text": "And here I think was where I was the most, like, locked in."
+    },
+    {
+      "start": 118.42,
+      "end": 121.94,
+      "text": "Just remembering the sequences since I've done this so many times before."
+    },
+    {
+      "start": 122.04,
+      "end": 123.36,
+      "text": "I was trying to hit that sidekick height."
+    },
+    {
+      "start": 124.66,
+      "end": 124.88,
+      "text": "Yep."
+    },
+    {
+      "start": 125.74000000000001,
+      "end": 129.74,
+      "text": "And then getting the five second count on this move."
+    },
+    {
+      "start": 130.52,
+      "end": 134.82,
+      "text": "And then going to the back, making sure I got the stance lengths."
+    },
+    {
+      "start": 134.86,
+      "end": 138.76,
+      "text": "I was thinking about, like, how much my feet were sliding on the mat."
+    },
+    {
+      "start": 138.88,
+      "end": 141.34,
+      "text": "And I was like, that should not be happening."
+    },
+    {
+      "start": 142.14,
+      "end": 146.56,
+      "text": "But I was going, like, too fast to really fix it."
+    },
+    {
+      "start": 148.1,
+      "end": 148.38,
+      "text": "Yeah."
+    },
+    {
+      "start": 148.42000000000002,
+      "end": 148.66000000000003,
+      "text": "Yeah."
+    },
+    {
+      "start": 148.66000000000003,
+      "end": 148.74,
+      "text": "Yeah."
+    },
+    {
+      "start": 164.74,
+      "end": 170.88000000000002,
+      "text": "Question on how you scored."
+    },
+    {
+      "start": 171.48000000000002,
+      "end": 176.96,
+      "text": "So as you can see, your pattern is scored based on the number 10."
+    },
+    {
+      "start": 176.96,
+      "end": 178.28000000000003,
+      "text": "So out of 10."
+    },
+    {
+      "start": 178.94000000000003,
+      "end": 180.76000000000002,
+      "text": "Okay, so we're going to do this a second time"
+    },
+    {
+      "start": 180.8,
+      "end": 183.62,
+      "text": "and I'm going to show you what we see here."
+    },
+    {
+      "start": 183.8,
+      "end": 192.92000000000002,
+      "text": "Now, we can't talk about"
+    },
+    {
+      "start": 192.94000000000003,
+      "end": 199.66000000000003,
+      "text": "what happens when you want to score to a certain number,"
+    },
+    {
+      "start": 207.4,
+      "end": 208.28000000000003,
+      "text": "which is very important, because if you're not calm then you're not going to make it"
+    },
+    {
+      "start": 208.32000000000002,
+      "end": 208.34000000000003,
+      "text": "as easy as you might want to be."
+    },
+    {
+      "start": 208.34000000000003,
+      "end": 208.4,
+      "text": "if you're not calm then you probably won't make it as easy as you might even want to you thought yourself."
+    }
+  ],
+  "word_segments": []
+}

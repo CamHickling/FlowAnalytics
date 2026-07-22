@@ -1,0 +1,34 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P30_20260318_130947\\scoring\\P30_audio_scoring.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P30_20260318_130947\\scoring\\P30_audio_scoring.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.08,
+      "text": "Whom's a power and speed coordination of rhythm and expression of energy and it will automatically calculate at the end"
+    },
+    {
+      "start": 11.24,
+      "end": 13.32,
+      "text": "No pausing this time it's like a real judge"
+    },
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "text": "You"
+    },
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "You"
+    },
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "text": "You"
+    }
+  ],
+  "word_segments": []
+}

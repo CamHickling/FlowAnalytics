@@ -1,0 +1,209 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P34_20260323_101229\\scoring\\P34_audio_scoring.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P34_20260323_101229\\scoring\\P34_audio_scoring.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 13.02,
+      "text": "you probably know this already but you can fast forward if you want to"
+    },
+    {
+      "start": 13.02,
+      "end": 23.02,
+      "text": "so as you can see your pattern is scored based on the number 10 so out of 10 is your mark"
+    },
+    {
+      "start": 23.02,
+      "end": 29.7,
+      "text": "as you can see it's split up into two parts we have our accuracy and our presentation on this"
+    },
+    {
+      "start": 29.7,
+      "end": 35.519999999999996,
+      "text": "side so we'll start off with the accuracy first so i'll look at the pattern and then with that one"
+    },
+    {
+      "start": 35.519999999999996,
+      "end": 44.4,
+      "text": "any mistakes that you make whether it's a minor mistake yes minus a zero it's a very very small"
+    },
+    {
+      "start": 44.4,
+      "end": 50.44,
+      "text": "thing so say we're doing a outer block if it's not your shoulder height maybe it's a little bit"
+    },
+    {
+      "start": 50.44,
+      "end": 57.16,
+      "text": "lower or maybe it's a tiny bit higher that's so that would be a major mistake so with the minor"
+    },
+    {
+      "start": 57.16,
+      "end": 59.68,
+      "text": "mistake uh let's say pattern one for example"
+    },
+    {
+      "start": 59.7,
+      "end": 68.08,
+      "text": "there's uh 20 steps it's not uncommon to have up to maybe 14 15 mistakes in the 20 patterns"
+    },
+    {
+      "start": 68.08,
+      "end": 75.46000000000001,
+      "text": "uh sorry the 20 steps so the reason for that one being uh it needs to be absolutely perfect to get"
+    },
+    {
+      "start": 75.46000000000001,
+      "end": 82.60000000000001,
+      "text": "to not get a deduction of 0.1 leave that there on this side and we'll come back and we'll just"
+    },
+    {
+      "start": 82.60000000000001,
+      "end": 89.68,
+      "text": "calculate the score at the end so maybe a mistake say you're supposed to turn to the left but you"
+    },
+    {
+      "start": 89.7,
+      "end": 98.60000000000001,
+      "text": "turn to be here so with this one uh for a score of two is your power and speed your rhythm is also"
+    },
+    {
+      "start": 98.60000000000001,
+      "end": 104.48,
+      "text": "a score of two and your expression of energy which is anything you are that you both so you do need"
+    },
+    {
+      "start": 104.48,
+      "end": 110.12,
+      "text": "to kind of um work on your rhythm and that's also scored out for two uh the last bit is your"
+    },
+    {
+      "start": 110.12,
+      "end": 116.60000000000001,
+      "text": "expression of energy so what is expression of energy and black belts it's actually scored a"
+    },
+    {
+      "start": 116.60000000000001,
+      "end": 119.68,
+      "text": "little bit differently so if you're a color belt you'll actually score a little bit more than a"
+    },
+    {
+      "start": 119.7,
+      "end": 127.48,
+      "text": "black belt if you are a black belt it's actually uh your average so where where the judges actually"
+    },
+    {
+      "start": 127.48,
+      "end": 135.84,
+      "text": "mark you from uh okay let's say one of our ten so let's see and for presentation we have 0.7"
+    },
+    {
+      "start": 138.0,
+      "end": 145.2,
+      "text": "one two three so you added 3.7 let's say you made 15 mistakes so with this one obviously"
+    },
+    {
+      "start": 145.2,
+      "end": 149.44,
+      "text": "don't be too discouraged if you do get uh pretty high your mistakes"
+    },
+    {
+      "start": 149.70000000000002,
+      "end": 158.52,
+      "text": "this is with the judges we have three judges usually at the panel if you're in"
+    },
+    {
+      "start": 158.52,
+      "end": 166.64000000000001,
+      "text": "yellow or above and you do your patterns it's not uncommon it's actually"
+    },
+    {
+      "start": 166.64000000000001,
+      "end": 171.32000000000002,
+      "text": "considered almost world-class so if you get a seven for any of your patterns you"
+    },
+    {
+      "start": 171.32000000000002,
+      "end": 176.62,
+      "text": "generally need to pat yourself on the back you did an amazing job so with this"
+    },
+    {
+      "start": 176.62,
+      "end": 183.4,
+      "text": "one takes out and then we average that as well so you hope this helped you guys"
+    },
+    {
+      "start": 183.4,
+      "end": 191.24,
+      "text": "so make sure you enjoy your pool deck competition and anytime make sure obviously you"
+    },
+    {
+      "start": 191.24,
+      "end": 203.12,
+      "text": "practice reading so I'm doing it on yeah here so minor errors major errors while"
+    },
+    {
+      "start": 203.12,
+      "end": 206.04000000000002,
+      "text": "you're watching your video there's no pausing because I'm like a real judge"
+    },
+    {
+      "start": 206.62,
+      "end": 213.56,
+      "text": "you can undo like yeah okay this is for the major and then right after the"
+    },
+    {
+      "start": 213.56,
+      "end": 217.18,
+      "text": "performance you can read your power and speed coordination for them and"
+    },
+    {
+      "start": 217.18,
+      "end": 222.18,
+      "text": "expression of energy when you're ready"
+    },
+    {
+      "start": 236.62,
+      "end": 238.68,
+      "text": "you"
+    },
+    {
+      "start": 243.68,
+      "end": 245.74,
+      "text": "you"
+    },
+    {
+      "start": 253.18,
+      "end": 255.24,
+      "text": "you"
+    },
+    {
+      "start": 256.7,
+      "end": 258.76,
+      "text": "you"
+    },
+    {
+      "start": 260.78000000000003,
+      "end": 262.8,
+      "text": "you"
+    },
+    {
+      "start": 263.62,
+      "end": 265.68,
+      "text": "you"
+    },
+    {
+      "start": 266.62,
+      "end": 296.6,
+      "text": "Thank you."
+    },
+    {
+      "start": 296.62,
+      "end": 326.6,
+      "text": "Thank you."
+    }
+  ],
+  "word_segments": []
+}

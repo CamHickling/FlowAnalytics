@@ -1,0 +1,74 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P39_20260325_115952\\review\\P39_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P39_20260325_115952\\review\\P39_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "text": "Skål!"
+    },
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "Skål!"
+    },
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "text": "Skål!"
+    },
+    {
+      "start": 104.36,
+      "end": 110.36,
+      "text": "Skål!"
+    },
+    {
+      "start": 120.0,
+      "end": 142.32,
+      "text": "here i was still feeling a bit unsure about the timing of what i was doing i was thinking about"
+    },
+    {
+      "start": 142.32,
+      "end": 149.36,
+      "text": "how you guys were leaving the room and then here i felt that my foot was slipping"
+    },
+    {
+      "start": 150.0,
+      "end": 155.74,
+      "text": "when i first kicked i that made me a little nervous here i was mostly in the zone because"
+    },
+    {
+      "start": 155.74,
+      "end": 166.2,
+      "text": "i like front kicks and here i was thinking about how i don't want to step off the mat"
+    },
+    {
+      "start": 166.2,
+      "end": 173.36,
+      "text": "and during this moment um i didn't punch my hand hard enough and i was thinking about"
+    },
+    {
+      "start": 173.36,
+      "end": 178.96,
+      "text": "how that wasn't very good and here i was thinking about my positioning and how i would get back"
+    },
+    {
+      "start": 178.96,
+      "end": 179.96,
+      "text": "to my original spot"
+    },
+    {
+      "start": 180.0,
+      "end": 187.96,
+      "text": "and here i knew my hand knives were a little rough so i was nervous about doing them and"
+    },
+    {
+      "start": 187.96,
+      "end": 195.0,
+      "text": "when i ended i i was thinking about how uh if i need to finish my whole um bow"
+    }
+  ],
+  "word_segments": []
+}

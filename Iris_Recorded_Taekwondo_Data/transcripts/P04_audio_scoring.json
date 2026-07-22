@@ -1,0 +1,849 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P04__20260224_130709\\scoring\\P04_audio_scoring.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P04__20260224_130709\\scoring\\P04_audio_scoring.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.18,
+      "text": "The two parts, we have our accuracy and our presentation of the site."
+    },
+    {
+      "start": 4.26,
+      "end": 6.08,
+      "text": "So we'll start off with the accuracy first."
+    },
+    {
+      "start": 6.62,
+      "end": 11.040000000000001,
+      "text": "So your accuracy is actually scored from a 4."
+    },
+    {
+      "start": 11.46,
+      "end": 17.78,
+      "text": "So from the number 4, you're actually marked during your presentation of your pattern."
+    },
+    {
+      "start": 18.48,
+      "end": 20.84,
+      "text": "And with that one, any mistakes that you make,"
+    },
+    {
+      "start": 21.44,
+      "end": 25.92,
+      "text": "whether it's a minor mistake, get a minus of 0.1."
+    },
+    {
+      "start": 26.12,
+      "end": 29.42,
+      "text": "If it's a major mistake, get minus 0.3."
+    },
+    {
+      "start": 29.42,
+      "end": 33.480000000000004,
+      "text": "So I'll just let you guys know about the difference between the two."
+    },
+    {
+      "start": 33.84,
+      "end": 37.86,
+      "text": "So with a minor mistake, it's a very, very small thing."
+    },
+    {
+      "start": 37.86,
+      "end": 40.480000000000004,
+      "text": "So say we're doing an outer block."
+    },
+    {
+      "start": 41.1,
+      "end": 44.02,
+      "text": "If it's not your shoulder height, maybe it's a little bit lower,"
+    },
+    {
+      "start": 44.44,
+      "end": 47.24,
+      "text": "or maybe it's a tiny bit higher, that's a minor mistake."
+    },
+    {
+      "start": 47.36,
+      "end": 48.5,
+      "text": "So that's a 0.1."
+    },
+    {
+      "start": 48.980000000000004,
+      "end": 52.660000000000004,
+      "text": "A major mistake would be you're supposed to do an outer block in the pattern,"
+    },
+    {
+      "start": 52.92,
+      "end": 55.82000000000001,
+      "text": "but you forget and you say you do a rich hand strike instead."
+    },
+    {
+      "start": 56.14,
+      "end": 57.78,
+      "text": "So that would be a major mistake."
+    },
+    {
+      "start": 57.78,
+      "end": 62.620000000000005,
+      "text": "So with a minor mistake, let's say pattern 1, for example,"
+    },
+    {
+      "start": 63.06,
+      "end": 64.44,
+      "text": "there's 20 steps."
+    },
+    {
+      "start": 64.84,
+      "end": 72.02,
+      "text": "It's not uncommon to have up to maybe 14, 15 mistakes in the 20 steps."
+    },
+    {
+      "start": 72.5,
+      "end": 77.54,
+      "text": "So the reason for that one being it needs to be absolutely perfect"
+    },
+    {
+      "start": 77.54,
+      "end": 82.22,
+      "text": "to not get a deduction of 0.1."
+    },
+    {
+      "start": 82.6,
+      "end": 86.28,
+      "text": "So it's not uncommon, let's say, that it's 20 steps"
+    },
+    {
+      "start": 86.28,
+      "end": 87.76,
+      "text": "and you made, let's say, 15."
+    },
+    {
+      "start": 87.78,
+      "end": 88.78,
+      "text": "So what would that be?"
+    },
+    {
+      "start": 88.78,
+      "end": 94.28,
+      "text": "So we'll leave that there on this side, and we'll come back"
+    },
+    {
+      "start": 94.28,
+      "end": 96.54,
+      "text": "and we'll just calculate the score at the end."
+    },
+    {
+      "start": 96.98,
+      "end": 101.54,
+      "text": "So a major mistake, say you're supposed to turn to the left,"
+    },
+    {
+      "start": 101.62,
+      "end": 103.86,
+      "text": "but you turn to the right, that would be a major mistake."
+    },
+    {
+      "start": 104.0,
+      "end": 107.92,
+      "text": "So obviously, we do want to try and avoid any of these major mistakes."
+    },
+    {
+      "start": 108.58,
+      "end": 113.54,
+      "text": "So after we've done our pattern, that's when we move on to the presentation side."
+    },
+    {
+      "start": 113.62,
+      "end": 116.7,
+      "text": "So the presentation, as you can see, it's from a score of 6."
+    },
+    {
+      "start": 117.18,
+      "end": 117.76,
+      "text": "This is a major mistake."
+    },
+    {
+      "start": 118.06,
+      "end": 120.48,
+      "text": "6 is actually split up into 3 parts."
+    },
+    {
+      "start": 120.86,
+      "end": 122.5,
+      "text": "So we have 1, 2, 3 here."
+    },
+    {
+      "start": 122.94,
+      "end": 127.86,
+      "text": "So with this one, for a score of 2 is your power and speed."
+    },
+    {
+      "start": 128.28,
+      "end": 130.54,
+      "text": "Your rhythm is also a score of 2,"
+    },
+    {
+      "start": 130.84,
+      "end": 134.56,
+      "text": "and your expression of energy is also scored out of 2 as well."
+    },
+    {
+      "start": 134.88,
+      "end": 137.38,
+      "text": "So we'll start off with the power and speed."
+    },
+    {
+      "start": 137.68,
+      "end": 141.56,
+      "text": "So with this one, whether it's your blocks, your kicks, your strikes,"
+    },
+    {
+      "start": 141.7,
+      "end": 143.66,
+      "text": "your punches, anything that you do,"
+    },
+    {
+      "start": 143.66,
+      "end": 147.38,
+      "text": "you need to be nice and strong, and it has to be fast as well."
+    },
+    {
+      "start": 147.38,
+      "end": 151.98,
+      "text": "So it's one thing to have a very strong punch, or a very fast punch,"
+    },
+    {
+      "start": 151.98,
+      "end": 158.38,
+      "text": "but it has to be both strong and fast to get high in that category."
+    },
+    {
+      "start": 158.38,
+      "end": 160.38,
+      "text": "So the next part is your rhythm."
+    },
+    {
+      "start": 160.38,
+      "end": 164.38,
+      "text": "So the rhythm, when you do start your pattern, there is a rhythm to the pattern."
+    },
+    {
+      "start": 164.38,
+      "end": 168.38,
+      "text": "It's not just really fast all the way through, it's not slow all the way through."
+    },
+    {
+      "start": 168.38,
+      "end": 172.88,
+      "text": "There's a slow, fast, slow, fast kind of aspect to it as well."
+    },
+    {
+      "start": 172.88,
+      "end": 176.98,
+      "text": "So you do need to kind of work on your rhythm, and that's also scored out of 2."
+    },
+    {
+      "start": 177.38,
+      "end": 180.38,
+      "text": "The last bit is your expression of energy."
+    },
+    {
+      "start": 180.38,
+      "end": 182.38,
+      "text": "So what is expression of energy?"
+    },
+    {
+      "start": 182.38,
+      "end": 188.38,
+      "text": "So that's basically how loud you shout, so how much intensity you have during your pattern as well."
+    },
+    {
+      "start": 188.38,
+      "end": 193.38,
+      "text": "So say you're doing your pattern really well, it's really fast and it's strong,"
+    },
+    {
+      "start": 193.38,
+      "end": 196.38,
+      "text": "your rhythm is really great, but you're not shouting very loud,"
+    },
+    {
+      "start": 196.38,
+      "end": 201.38,
+      "text": "or you can kind of tell, the judges can kind of tell that you're not really confident,"
+    },
+    {
+      "start": 201.38,
+      "end": 206.38,
+      "text": "you're a little bit nervous, so that's what we need to kind of improve on as well."
+    },
+    {
+      "start": 207.38,
+      "end": 210.38,
+      "text": "So I'll just come around to this side."
+    },
+    {
+      "start": 210.38,
+      "end": 215.38,
+      "text": "So with this one, for colour belts and black belts, it's actually scored a little bit differently."
+    },
+    {
+      "start": 215.38,
+      "end": 222.38,
+      "text": "So if you're a colour belt, your average, so where the judges actually mark you from,"
+    },
+    {
+      "start": 222.38,
+      "end": 226.38,
+      "text": "it's actually from a 1.1."
+    },
+    {
+      "start": 226.38,
+      "end": 228.38,
+      "text": "So this is your average."
+    },
+    {
+      "start": 228.38,
+      "end": 233.38,
+      "text": "So say you did alright, you did average compared to everyone else,"
+    },
+    {
+      "start": 233.38,
+      "end": 236.38,
+      "text": "your score for 1, 2 and 3, it'll start from a 1.1."
+    },
+    {
+      "start": 236.38,
+      "end": 241.38,
+      "text": "So if you're less than average in the judges' eyes, you might go down to,"
+    },
+    {
+      "start": 241.38,
+      "end": 246.38,
+      "text": "say for your power and speed, you might get a 1 or even a 0.9."
+    },
+    {
+      "start": 246.38,
+      "end": 250.38,
+      "text": "If you did really great, you might even get a 1.3 or a 1.4."
+    },
+    {
+      "start": 250.38,
+      "end": 256.38,
+      "text": "So each individual category, you need to obviously get as high as you can."
+    },
+    {
+      "start": 256.38,
+      "end": 260.38,
+      "text": "If you're a black belt, generally depending on the competition,"
+    },
+    {
+      "start": 260.38,
+      "end": 262.38,
+      "text": "it will be scored from a 1.3."
+    },
+    {
+      "start": 262.38,
+      "end": 266.38,
+      "text": "So 1.3 would be your average that you start from."
+    },
+    {
+      "start": 266.38,
+      "end": 270.38,
+      "text": "So say your power and speed was above average,"
+    },
+    {
+      "start": 270.38,
+      "end": 276.38,
+      "text": "you might get scored a 1.4 for now."
+    },
+    {
+      "start": 276.38,
+      "end": 282.38,
+      "text": "Say your rhythm was only about average, it wasn't amazing,"
+    },
+    {
+      "start": 282.38,
+      "end": 284.38,
+      "text": "it might be just a 1.3."
+    },
+    {
+      "start": 284.38,
+      "end": 288.38,
+      "text": "But let's say you didn't shout very loud, so your expression of energy,"
+    },
+    {
+      "start": 288.38,
+      "end": 293.38,
+      "text": "your average was 1.3, it might drop to, say, a 1.0."
+    },
+    {
+      "start": 293.38,
+      "end": 295.38,
+      "text": "So..."
+    },
+    {
+      "start": 296.38,
+      "end": 299.38,
+      "text": "This one will come over down to this side."
+    },
+    {
+      "start": 299.38,
+      "end": 305.38,
+      "text": "So with this one, as I was saying, it's a total of 10."
+    },
+    {
+      "start": 305.38,
+      "end": 307.38,
+      "text": "So that's it."
+    },
+    {
+      "start": 307.38,
+      "end": 313.38,
+      "text": "For presentation, we had 1.7, 1, 2, 3."
+    },
+    {
+      "start": 313.38,
+      "end": 315.38,
+      "text": "So you had a 3.7."
+    },
+    {
+      "start": 315.38,
+      "end": 318.38,
+      "text": "Let's say you made 15 mistakes."
+    },
+    {
+      "start": 318.38,
+      "end": 321.38,
+      "text": "So with this one, obviously, don't be too discouraged"
+    },
+    {
+      "start": 321.38,
+      "end": 325.38,
+      "text": "if you do get pretty high in your mistakes."
+    },
+    {
+      "start": 325.38,
+      "end": 326.38,
+      "text": "This is..."
+    },
+    {
+      "start": 326.38,
+      "end": 327.38,
+      "text": "Three judges."
+    },
+    {
+      "start": 327.38,
+      "end": 330.38,
+      "text": "We have three judges usually at the panel."
+    },
+    {
+      "start": 330.38,
+      "end": 332.38,
+      "text": "And each judge, obviously, is very subjective."
+    },
+    {
+      "start": 332.38,
+      "end": 337.38,
+      "text": "So from their point of view, you might have made a lot of mistakes"
+    },
+    {
+      "start": 337.38,
+      "end": 340.38,
+      "text": "or you may have made not a lot of mistakes as well."
+    },
+    {
+      "start": 340.38,
+      "end": 344.38,
+      "text": "So that's why we have the three judges and we average it out as well."
+    },
+    {
+      "start": 344.38,
+      "end": 346.38,
+      "text": "Okay, so..."
+    },
+    {
+      "start": 346.38,
+      "end": 351.38,
+      "text": "Say we did our 15 mistakes, very small mistakes."
+    },
+    {
+      "start": 351.38,
+      "end": 356.38,
+      "text": "So if they're all minus 0.1, it'd be 1.5."
+    },
+    {
+      "start": 356.38,
+      "end": 364.38,
+      "text": "So you go 4.0 minus 1.5, which equals 2.5."
+    },
+    {
+      "start": 364.38,
+      "end": 366.38,
+      "text": "So this would be your accuracy score."
+    },
+    {
+      "start": 366.38,
+      "end": 371.38,
+      "text": "So with our presentation like before, we're saying we got a 3.7 here."
+    },
+    {
+      "start": 371.38,
+      "end": 376.38,
+      "text": "So we add these numbers after the judges are finished scoring."
+    },
+    {
+      "start": 376.38,
+      "end": 383.38,
+      "text": "So you would get, for this pattern, a 6.2, which is actually very good."
+    },
+    {
+      "start": 383.38,
+      "end": 385.38,
+      "text": "So I'll just talk a little bit more now about this number."
+    },
+    {
+      "start": 385.38,
+      "end": 394.38,
+      "text": "So if you're a color belt, if you're a yellow or above and you do your patterns,"
+    },
+    {
+      "start": 394.38,
+      "end": 403.38,
+      "text": "it's not uncommon, generally for a color belt, the average is about a 4 to 5."
+    },
+    {
+      "start": 403.38,
+      "end": 408.38,
+      "text": "So if you get a number between 4 and 5 out of 10 for your pattern,"
+    },
+    {
+      "start": 408.38,
+      "end": 411.38,
+      "text": "that's actually generally considered pretty good."
+    },
+    {
+      "start": 411.38,
+      "end": 415.38,
+      "text": "So anything above that, you can consider yourself pretty good."
+    },
+    {
+      "start": 415.38,
+      "end": 418.38,
+      "text": "If you're a black belt, the average would say,"
+    },
+    {
+      "start": 418.38,
+      "end": 423.38,
+      "text": "because we're talking here about the higher presentation as an average,"
+    },
+    {
+      "start": 423.38,
+      "end": 432.38,
+      "text": "anything from 5 to 6 is actually considered pretty good."
+    },
+    {
+      "start": 432.38,
+      "end": 437.38,
+      "text": "And anything over a 7 is actually considered almost world class."
+    },
+    {
+      "start": 437.38,
+      "end": 440.38,
+      "text": "So if you get a 7 for any of your patterns,"
+    },
+    {
+      "start": 440.38,
+      "end": 444.38,
+      "text": "you generally need to pat yourself on the back that you did an amazing job."
+    },
+    {
+      "start": 445.38,
+      "end": 448.38,
+      "text": "We just went through our Poomsae scoring."
+    },
+    {
+      "start": 448.38,
+      "end": 451.38,
+      "text": "So just remember, accuracy is a 4.0."
+    },
+    {
+      "start": 451.38,
+      "end": 453.38,
+      "text": "Presentation is a 6.0."
+    },
+    {
+      "start": 453.38,
+      "end": 457.38,
+      "text": "Accuracy is judged during your pattern."
+    },
+    {
+      "start": 457.38,
+      "end": 459.38,
+      "text": "Presentation is after."
+    },
+    {
+      "start": 459.38,
+      "end": 462.38,
+      "text": "And then we get two scores that we add up."
+    },
+    {
+      "start": 462.38,
+      "end": 464.38,
+      "text": "And we get that number."
+    },
+    {
+      "start": 464.38,
+      "end": 469.38,
+      "text": "So with this one, obviously, say I was judge number 1."
+    },
+    {
+      "start": 469.38,
+      "end": 471.38,
+      "text": "I would give you a 6.2."
+    },
+    {
+      "start": 471.38,
+      "end": 473.38,
+      "text": "There was another judge on the other side."
+    },
+    {
+      "start": 473.38,
+      "end": 476.38,
+      "text": "Maybe he saw a couple more mistakes than I did."
+    },
+    {
+      "start": 476.38,
+      "end": 478.38,
+      "text": "So maybe this one would be a little bit lower."
+    },
+    {
+      "start": 478.38,
+      "end": 480.38,
+      "text": "It might be a 5 point something."
+    },
+    {
+      "start": 480.38,
+      "end": 484.38,
+      "text": "Another judge on the other side, they scored a little bit higher."
+    },
+    {
+      "start": 484.38,
+      "end": 487.38,
+      "text": "So we'd get three numbers, and then we'd average that as well."
+    },
+    {
+      "start": 487.38,
+      "end": 490.38,
+      "text": "So I hope this helped you guys."
+    },
+    {
+      "start": 490.38,
+      "end": 493.38,
+      "text": "So make sure you enjoy your Poomsae competitions."
+    },
+    {
+      "start": 493.38,
+      "end": 498.38,
+      "text": "And make sure, obviously, you record down your numbers as well."
+    },
+    {
+      "start": 498.38,
+      "end": 500.38,
+      "text": "So it's great."
+    },
+    {
+      "start": 500.38,
+      "end": 502.38,
+      "text": "We're going to practice reading."
+    },
+    {
+      "start": 503.38,
+      "end": 504.38,
+      "text": "Yourself."
+    },
+    {
+      "start": 504.38,
+      "end": 507.38,
+      "text": "So this is the minor and then major errors."
+    },
+    {
+      "start": 507.38,
+      "end": 509.38,
+      "text": "You can just press."
+    },
+    {
+      "start": 509.38,
+      "end": 514.38,
+      "text": "If you see yourself having a minor error and then major one."
+    },
+    {
+      "start": 514.38,
+      "end": 517.38,
+      "text": "During the performance, we cannot pause this time."
+    },
+    {
+      "start": 517.38,
+      "end": 521.38,
+      "text": "You're going to be acting like a judge to your own self."
+    },
+    {
+      "start": 521.38,
+      "end": 525.38,
+      "text": "And then right after, there's this power and speed,"
+    },
+    {
+      "start": 525.38,
+      "end": 529.38,
+      "text": "the coordination and rhythm, and the expression of energy."
+    },
+    {
+      "start": 529.38,
+      "end": 532.38,
+      "text": "So let's start."
+    },
+    {
+      "start": 532.38,
+      "end": 534.38,
+      "text": "Let's start."
+    },
+    {
+      "start": 534.38,
+      "end": 536.38,
+      "text": "."
+    },
+    {
+      "start": 536.38,
+      "end": 538.38,
+      "text": "."
+    },
+    {
+      "start": 538.38,
+      "end": 540.38,
+      "text": "."
+    },
+    {
+      "start": 540.38,
+      "end": 542.38,
+      "text": "."
+    },
+    {
+      "start": 542.38,
+      "end": 544.38,
+      "text": "."
+    },
+    {
+      "start": 544.38,
+      "end": 546.38,
+      "text": "."
+    },
+    {
+      "start": 546.38,
+      "end": 548.38,
+      "text": "."
+    },
+    {
+      "start": 548.38,
+      "end": 550.38,
+      "text": "."
+    },
+    {
+      "start": 550.38,
+      "end": 552.38,
+      "text": "."
+    },
+    {
+      "start": 552.38,
+      "end": 554.38,
+      "text": "."
+    },
+    {
+      "start": 554.38,
+      "end": 556.38,
+      "text": "."
+    },
+    {
+      "start": 556.38,
+      "end": 558.38,
+      "text": "."
+    },
+    {
+      "start": 558.38,
+      "end": 560.38,
+      "text": "."
+    },
+    {
+      "start": 560.38,
+      "end": 561.38,
+      "text": "."
+    },
+    {
+      "start": 561.38,
+      "end": 562.38,
+      "text": "."
+    },
+    {
+      "start": 562.38,
+      "end": 563.38,
+      "text": "."
+    },
+    {
+      "start": 563.38,
+      "end": 571.38,
+      "text": "."
+    },
+    {
+      "start": 571.38,
+      "end": 573.38,
+      "text": "."
+    },
+    {
+      "start": 573.38,
+      "end": 574.38,
+      "text": "."
+    },
+    {
+      "start": 574.38,
+      "end": 576.38,
+      "text": "."
+    },
+    {
+      "start": 576.38,
+      "end": 577.38,
+      "text": "."
+    },
+    {
+      "start": 577.38,
+      "end": 582.38,
+      "text": "."
+    },
+    {
+      "start": 582.38,
+      "end": 588.38,
+      "text": "."
+    },
+    {
+      "start": 588.38,
+      "end": 591.38,
+      "text": "."
+    },
+    {
+      "start": 591.38,
+      "end": 621.36,
+      "text": "Thank you."
+    },
+    {
+      "start": 621.38,
+      "end": 651.36,
+      "text": "Thank you."
+    },
+    {
+      "start": 651.38,
+      "end": 681.36,
+      "text": "Thank you."
+    }
+  ],
+  "word_segments": []
+}

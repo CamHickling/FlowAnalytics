@@ -1,0 +1,134 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P22_20260309_121330\\review\\P22_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P22_20260309_121330\\review\\P22_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 60.0,
+      "end": 81.5,
+      "text": "So basically I'm just like going through it, and then like talking about it."
+    },
+    {
+      "start": 90.0,
+      "end": 109.22,
+      "text": "Once I did the bow, I felt like that's when my mind cleared, and then, that's good."
+    },
+    {
+      "start": 109.22,
+      "end": 111.38,
+      "text": "Pretty good, I think."
+    },
+    {
+      "start": 111.38,
+      "end": 115.88,
+      "text": "After all my kicks, I felt a little bit off balance, but when I was doing those motions,"
+    },
+    {
+      "start": 115.88,
+      "end": 118.78,
+      "text": "I felt pretty in control."
+    },
+    {
+      "start": 118.78,
+      "end": 119.78,
+      "text": "And then going forward."
+    },
+    {
+      "start": 119.78,
+      "end": 126.78,
+      "text": "I think this was like, I felt smooth, like in control, like in the zone."
+    },
+    {
+      "start": 126.78,
+      "end": 132.54,
+      "text": "Yeah, most of my hand motions felt like pretty like in control."
+    },
+    {
+      "start": 132.54,
+      "end": 137.44,
+      "text": "I think whenever I was getting to the kicks, I kind of felt like a little bit off balance"
+    },
+    {
+      "start": 137.44,
+      "end": 143.82,
+      "text": "when I was getting there, but stance seemed pretty good."
+    },
+    {
+      "start": 143.82,
+      "end": 149.76,
+      "text": "I could have probably extended a little bit more on my side kicks, but going through it,"
+    },
+    {
+      "start": 149.76,
+      "end": 154.07999999999998,
+      "text": "here was kind of like, again, just gathering everything."
+    },
+    {
+      "start": 154.07999999999998,
+      "end": 160.12,
+      "text": "I think I might have gone a second too long on that motion, but, and going back, felt"
+    },
+    {
+      "start": 160.12,
+      "end": 161.12,
+      "text": "pretty good."
+    },
+    {
+      "start": 161.12,
+      "end": 165.48,
+      "text": "And then, yeah, just whenever I was going through the hands, I felt good."
+    },
+    {
+      "start": 165.48,
+      "end": 170.76,
+      "text": "The kicks kind of like threw me off a little, but, yeah, I felt pretty in the zone."
+    },
+    {
+      "start": 170.76,
+      "end": 171.76,
+      "text": "Pretty good."
+    },
+    {
+      "start": 171.76,
+      "end": 172.76,
+      "text": "Yeah."
+    },
+    {
+      "start": 172.76,
+      "end": 173.76,
+      "text": "Yeah."
+    },
+    {
+      "start": 173.76,
+      "end": 174.76,
+      "text": "Yeah."
+    },
+    {
+      "start": 174.76,
+      "end": 175.76,
+      "text": "Yeah."
+    },
+    {
+      "start": 175.76,
+      "end": 176.76,
+      "text": "Yeah."
+    },
+    {
+      "start": 176.76,
+      "end": 177.76,
+      "text": "Yeah."
+    },
+    {
+      "start": 177.76,
+      "end": 178.76,
+      "text": "Yeah."
+    },
+    {
+      "start": 178.76,
+      "end": 179.76,
+      "text": "Yeah."
+    }
+  ],
+  "word_segments": []
+}

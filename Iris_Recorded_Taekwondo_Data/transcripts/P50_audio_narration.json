@@ -1,0 +1,164 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P50_20260331_131459\\review\\P50_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P50_20260331_131459\\review\\P50_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 29.98,
+      "text": "Thank you very much."
+    },
+    {
+      "start": 30.0,
+      "end": 59.980000000000004,
+      "text": "Thank you very much."
+    },
+    {
+      "start": 60.0,
+      "end": 89.98,
+      "text": "Thank you."
+    },
+    {
+      "start": 90.0,
+      "end": 91.18,
+      "text": "Oh, here. Oh, sorry."
+    },
+    {
+      "start": 91.5,
+      "end": 94.16,
+      "text": "And then we're going to"
+    },
+    {
+      "start": 94.16,
+      "end": 95.92,
+      "text": "just read you the instructions here."
+    },
+    {
+      "start": 96.42,
+      "end": 98.0,
+      "text": "I wish there had been another book."
+    },
+    {
+      "start": 120.0,
+      "end": 121.64,
+      "text": "Okay, cool."
+    },
+    {
+      "start": 122.44,
+      "end": 123.82,
+      "text": "When you're ready, you can press pace."
+    },
+    {
+      "start": 124.28,
+      "end": 124.62,
+      "text": "Okay."
+    },
+    {
+      "start": 124.86,
+      "end": 126.68,
+      "text": "You can pause and play."
+    },
+    {
+      "start": 127.98,
+      "end": 129.36,
+      "text": "Is there anywhere I should just talk?"
+    },
+    {
+      "start": 129.48,
+      "end": 130.7,
+      "text": "Yeah, just the screen."
+    },
+    {
+      "start": 131.56,
+      "end": 131.76,
+      "text": "Okay."
+    },
+    {
+      "start": 150.0,
+      "end": 151.18,
+      "text": "Good, strong movements."
+    },
+    {
+      "start": 152.64,
+      "end": 154.5,
+      "text": "Could be a little bit longer stances,"
+    },
+    {
+      "start": 154.82,
+      "end": 156.58,
+      "text": "but if we're not doing Poomsae in a while,"
+    },
+    {
+      "start": 156.74,
+      "end": 157.44,
+      "text": "it's pretty good."
+    },
+    {
+      "start": 158.52,
+      "end": 159.3,
+      "text": "Strong punches."
+    },
+    {
+      "start": 159.92,
+      "end": 161.22,
+      "text": "Again, stance could be longer,"
+    },
+    {
+      "start": 161.56,
+      "end": 162.78,
+      "text": "but still pretty good."
+    },
+    {
+      "start": 164.18,
+      "end": 165.84,
+      "text": "Oh, I felt good here at the key-up."
+    },
+    {
+      "start": 166.04,
+      "end": 166.9,
+      "text": "Thought that was powerful."
+    },
+    {
+      "start": 170.76,
+      "end": 172.9,
+      "text": "Overall, execution, I think, was good."
+    },
+    {
+      "start": 173.28,
+      "end": 175.46,
+      "text": "Did the movements, even though it's low blocks and punches,"
+    },
+    {
+      "start": 175.46,
+      "end": 176.66,
+      "text": "pretty basic, so"
+    },
+    {
+      "start": 176.66,
+      "end": 179.24,
+      "text": "I didn't feel too nervous about"
+    },
+    {
+      "start": 179.24,
+      "end": 181.08,
+      "text": "a kick or a jump, but overall,"
+    },
+    {
+      "start": 181.44,
+      "end": 182.86,
+      "text": "I think it was strong."
+    },
+    {
+      "start": 183.0,
+      "end": 185.38,
+      "text": "With some minor changes, that could be done with technique,"
+    },
+    {
+      "start": 185.48000000000002,
+      "end": 187.3,
+      "text": "but overall, pretty decent."
+    }
+  ],
+  "word_segments": []
+}

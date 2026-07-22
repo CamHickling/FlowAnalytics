@@ -1,0 +1,124 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P29_20260318_121454\\review\\P29_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P29_20260318_121454\\review\\P29_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 59.980000000000004,
+      "text": "Nå får vi se hva som sker."
+    },
+    {
+      "start": 60.0,
+      "end": 88.46000000000001,
+      "text": "Ok, perfect, so we can press play here"
+    },
+    {
+      "start": 88.46000000000001,
+      "end": 91.52000000000001,
+      "text": "And if you want to pause, you can also pause and press the spacebar"
+    },
+    {
+      "start": 91.52000000000001,
+      "end": 91.84,
+      "text": "Ok"
+    },
+    {
+      "start": 118.46000000000001,
+      "end": 133.82,
+      "text": "So this first high kick, I felt like I kind of swung it"
+    },
+    {
+      "start": 133.82,
+      "end": 137.4,
+      "text": "I landed in a little bit too short of a stance"
+    },
+    {
+      "start": 137.4,
+      "end": 141.44,
+      "text": "This front part was ok"
+    },
+    {
+      "start": 141.44,
+      "end": 145.96,
+      "text": "I thought my movements could have been more sharp"
+    },
+    {
+      "start": 148.46,
+      "end": 153.42000000000002,
+      "text": "Here I felt I had to prepare for the side kick"
+    },
+    {
+      "start": 153.42000000000002,
+      "end": 156.32000000000002,
+      "text": "And again, it felt a little bit swingy"
+    },
+    {
+      "start": 156.32000000000002,
+      "end": 159.0,
+      "text": "But I didn't lose balance"
+    },
+    {
+      "start": 159.0,
+      "end": 163.38,
+      "text": "So here I felt a little bit relieved since all the side kicks were over"
+    },
+    {
+      "start": 163.38,
+      "end": 166.86,
+      "text": "And now I got a chance to breathe"
+    },
+    {
+      "start": 166.86,
+      "end": 171.26000000000002,
+      "text": "And I wasn't worried about this last part"
+    },
+    {
+      "start": 171.26000000000002,
+      "end": 175.16,
+      "text": "So I felt more confident from now on"
+    },
+    {
+      "start": 178.46,
+      "end": 182.36,
+      "text": "So I pushed it and came back to the starting position"
+    },
+    {
+      "start": 182.36,
+      "end": 186.24,
+      "text": "And then I went over to the side kick"
+    },
+    {
+      "start": 186.24,
+      "end": 189.24,
+      "text": "And sat back down"
+    },
+    {
+      "start": 189.24,
+      "end": 192.42000000000002,
+      "text": "And I'm back to the beginning"
+    },
+    {
+      "start": 192.42000000000002,
+      "end": 197.26000000000002,
+      "text": "And the knee rest"
+    },
+    {
+      "start": 197.26000000000002,
+      "end": 203.78,
+      "text": "And I'm back on the ground"
+    },
+    {
+      "start": 203.78,
+      "end": 206.46,
+      "text": "And I'm back on the ground"
+    },
+    {
+      "start": 206.46,
+      "end": 207.92000000000002,
+      "text": "And I'm back on the ground"
+    }
+  ],
+  "word_segments": []
+}

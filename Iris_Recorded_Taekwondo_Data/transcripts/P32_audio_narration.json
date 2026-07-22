@@ -1,0 +1,79 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P32_20260319_130734\\review\\P32_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P32_20260319_130734\\review\\P32_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "Hubsan X4 H502E Desire 2-3-18"
+    },
+    {
+      "start": 30.0,
+      "end": 59.980000000000004,
+      "text": "Hubsan X4 H502E Desire 2-3-18"
+    },
+    {
+      "start": 60.0,
+      "end": 89.98,
+      "text": "Hubsan X4 H502E Desire 2-3-18"
+    },
+    {
+      "start": 90.0,
+      "end": 119.98,
+      "text": "Hubsan X4 H502E Desire 2-3-18"
+    },
+    {
+      "start": 120.0,
+      "end": 149.98,
+      "text": "Hubsan X4 H502E Desire 2-3-18"
+    },
+    {
+      "start": 150.0,
+      "end": 155.0,
+      "text": "Hubsan X4 H502E Desire 2-3-18"
+    },
+    {
+      "start": 155.04,
+      "end": 158.0,
+      "text": "Here in that stance my foot adjusted a little bit."
+    },
+    {
+      "start": 158.0,
+      "end": 160.0,
+      "text": "I felt myself lose a little balance."
+    },
+    {
+      "start": 160.0,
+      "end": 162.0,
+      "text": "Um, yeah."
+    },
+    {
+      "start": 162.0,
+      "end": 167.0,
+      "text": "And then here I was thinking if I should key up or not,"
+    },
+    {
+      "start": 167.0,
+      "end": 169.0,
+      "text": "and I ended up doing it."
+    },
+    {
+      "start": 169.0,
+      "end": 171.0,
+      "text": "And it felt very natural when I came out."
+    },
+    {
+      "start": 171.0,
+      "end": 175.0,
+      "text": "Hubsan X4 H502E Desire 2-3-18"
+    },
+    {
+      "start": 175.0,
+      "end": 179.0,
+      "text": "Hubsan X4 H502E Desire 2-3-18"
+    }
+  ],
+  "word_segments": []
+}

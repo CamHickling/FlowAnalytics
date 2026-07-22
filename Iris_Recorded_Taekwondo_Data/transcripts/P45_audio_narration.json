@@ -1,0 +1,344 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P45_20260330_101202\\review\\P45_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P45_20260330_101202\\review\\P45_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 11.68,
+      "text": "Can I sit down?"
+    },
+    {
+      "start": 12.24,
+      "end": 13.26,
+      "text": "Oh, no, don't sit down."
+    },
+    {
+      "start": 13.26,
+      "end": 15.0,
+      "text": "All right."
+    },
+    {
+      "start": 30.0,
+      "end": 59.980000000000004,
+      "text": "All right."
+    },
+    {
+      "start": 60.0,
+      "end": 89.98,
+      "text": "All right."
+    },
+    {
+      "start": 90.0,
+      "end": 90.24,
+      "text": "Okay."
+    },
+    {
+      "start": 90.44,
+      "end": 91.86,
+      "text": "Oh, my God, it was horrible."
+    },
+    {
+      "start": 92.92,
+      "end": 93.46,
+      "text": "But it was good."
+    },
+    {
+      "start": 94.36,
+      "end": 94.78,
+      "text": "Okay."
+    },
+    {
+      "start": 95.36,
+      "end": 97.78,
+      "text": "For this part, we'll ask you to narrate your own performance."
+    },
+    {
+      "start": 98.52,
+      "end": 100.52,
+      "text": "Watch the video that you just completed."
+    },
+    {
+      "start": 100.9,
+      "end": 103.42,
+      "text": "Verbally describe what you were thinking and feeling at each moment."
+    },
+    {
+      "start": 104.06,
+      "end": 104.38,
+      "text": "Okay?"
+    },
+    {
+      "start": 105.68,
+      "end": 108.53999999999999,
+      "text": "Speak naturally as if you're explaining it to a friend."
+    },
+    {
+      "start": 108.98,
+      "end": 111.86,
+      "text": "Describe what you remember thinking or feeling at each moment."
+    },
+    {
+      "start": 113.32,
+      "end": 118.0,
+      "text": "Note any moments where you're in particular and those that are otherwise distracted."
+    },
+    {
+      "start": 120.0,
+      "end": 121.0,
+      "text": "Okay."
+    },
+    {
+      "start": 121.36,
+      "end": 122.38,
+      "text": "Describe your experience."
+    },
+    {
+      "start": 122.52,
+      "end": 125.84,
+      "text": "What stood out to you when you were in the zone in particular?"
+    },
+    {
+      "start": 125.84,
+      "end": 132.7,
+      "text": "Were there any specific movements or sections that particularly were challenging today?"
+    },
+    {
+      "start": 132.98,
+      "end": 136.94,
+      "text": "What was going through your mind during your performance?"
+    },
+    {
+      "start": 137.22,
+      "end": 139.16,
+      "text": "What were you thinking about at the end?"
+    },
+    {
+      "start": 139.96,
+      "end": 140.32,
+      "text": "Okay."
+    },
+    {
+      "start": 142.3,
+      "end": 143.02,
+      "text": "Okay."
+    },
+    {
+      "start": 143.32,
+      "end": 143.52,
+      "text": "Start."
+    },
+    {
+      "start": 143.52,
+      "end": 145.52,
+      "text": "Okay."
+    },
+    {
+      "start": 150.0,
+      "end": 155.3,
+      "text": "So, like, this part leading up when you're, like,"
+    },
+    {
+      "start": 155.36,
+      "end": 159.48,
+      "text": "Just keeping my eyes in the front."
+    },
+    {
+      "start": 159.64,
+      "end": 163.56,
+      "text": "This felt pretty normal, like, competition moment."
+    },
+    {
+      "start": 166.18,
+      "end": 170.18,
+      "text": "And then from the first turn, I just had to remind myself it's slippery, so don't go too quickly."
+    },
+    {
+      "start": 171.4,
+      "end": 177.36,
+      "text": "And then after the kick and the double punching, even the blocking motion, I realized that my movements were really small."
+    },
+    {
+      "start": 177.36,
+      "end": 179.36,
+      "text": "And this was completely..."
+    },
+    {
+      "start": 180.0,
+      "end": 182.0,
+      "text": "Slower than what I usually do."
+    },
+    {
+      "start": 183.2,
+      "end": 184.2,
+      "text": "Can I pause?"
+    },
+    {
+      "start": 186.0,
+      "end": 187.4,
+      "text": "Can I rewind a little bit?"
+    },
+    {
+      "start": 187.4,
+      "end": 187.8,
+      "text": "Ah, no."
+    },
+    {
+      "start": 187.8,
+      "end": 188.7,
+      "text": "No? Okay."
+    },
+    {
+      "start": 188.7,
+      "end": 197.0,
+      "text": "So, the moments leading up to, like, the step forward, the punching, and then the block step forward punch, there was a..."
+    },
+    {
+      "start": 197.0,
+      "end": 200.0,
+      "text": "I realized my stance was wide."
+    },
+    {
+      "start": 201.3,
+      "end": 202.3,
+      "text": "Stance was wide."
+    },
+    {
+      "start": 202.7,
+      "end": 209.6,
+      "text": "My movements were slower than normal, like, what I normally do because, to be honest, I think I was still..."
+    },
+    {
+      "start": 210.0,
+      "end": 212.0,
+      "text": "The body's still waking up."
+    },
+    {
+      "start": 212.0,
+      "end": 216.0,
+      "text": "So, in that sense, like, I knew..."
+    },
+    {
+      "start": 216.0,
+      "end": 218.0,
+      "text": "I knew the timing was off."
+    },
+    {
+      "start": 218.0,
+      "end": 226.0,
+      "text": "But there's nothing I can do about it, so I was just trying to think about creating power to offset the timing and to offset the presentation."
+    },
+    {
+      "start": 226.0,
+      "end": 234.0,
+      "text": "After the key up towards the spin, again, I remember that the mats are slippery, so don't overdo it."
+    },
+    {
+      "start": 234.0,
+      "end": 236.0,
+      "text": "Don't go too high to..."
+    },
+    {
+      "start": 236.0,
+      "end": 238.0,
+      "text": "To slip or lose the balance for the side kick."
+    },
+    {
+      "start": 238.0,
+      "end": 239.0,
+      "text": "Okay."
+    },
+    {
+      "start": 239.0,
+      "end": 241.0,
+      "text": "Balance for the side kick."
+    },
+    {
+      "start": 241.0,
+      "end": 246.0,
+      "text": "Also trying to remind myself to open the hip by..."
+    },
+    {
+      "start": 246.0,
+      "end": 250.0,
+      "text": "By opening the angle of my knee for that side kick."
+    },
+    {
+      "start": 251.0,
+      "end": 252.0,
+      "text": "Elbow..."
+    },
+    {
+      "start": 252.0,
+      "end": 254.0,
+      "text": "I wobbled a little bit there."
+    },
+    {
+      "start": 254.0,
+      "end": 256.0,
+      "text": "Wobbled here."
+    },
+    {
+      "start": 256.0,
+      "end": 258.0,
+      "text": "Slipped on the side kick."
+    },
+    {
+      "start": 258.0,
+      "end": 261.0,
+      "text": "So, as you can see, my landing is short and completely off."
+    },
+    {
+      "start": 261.0,
+      "end": 263.0,
+      "text": "Long stance, major deduction there."
+    },
+    {
+      "start": 264.0,
+      "end": 266.0,
+      "text": "This part was okay, but..."
+    },
+    {
+      "start": 266.0,
+      "end": 267.0,
+      "text": "In general..."
+    },
+    {
+      "start": 267.0,
+      "end": 269.0,
+      "text": "I would say my hand movement..."
+    },
+    {
+      "start": 269.0,
+      "end": 272.0,
+      "text": "For the scissor blocks was also very small."
+    },
+    {
+      "start": 272.0,
+      "end": 275.0,
+      "text": "I was pretty tight in movement."
+    },
+    {
+      "start": 275.0,
+      "end": 277.0,
+      "text": "And just..."
+    },
+    {
+      "start": 279.0,
+      "end": 282.0,
+      "text": "Slower than usual pace."
+    },
+    {
+      "start": 282.0,
+      "end": 284.0,
+      "text": "Partly, I think, because..."
+    },
+    {
+      "start": 284.0,
+      "end": 286.0,
+      "text": "Body isn't at full ideal perf..."
+    }
+  ],
+  "word_segments": []
+}

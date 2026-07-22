@@ -1,0 +1,434 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P18_20260305_131835\\review\\P18_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P18_20260305_131835\\review\\P18_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "Okay, can you click play here?"
+    },
+    {
+      "start": 4.0,
+      "end": 6.0,
+      "text": "Okay."
+    },
+    {
+      "start": 6.0,
+      "end": 8.0,
+      "text": "You can pause."
+    },
+    {
+      "start": 8.0,
+      "end": 10.0,
+      "text": "I can pause my performance?"
+    },
+    {
+      "start": 10.0,
+      "end": 12.0,
+      "text": "Yeah, you can pause and you can talk."
+    },
+    {
+      "start": 12.0,
+      "end": 14.0,
+      "text": "Play and then pause the spacebar."
+    },
+    {
+      "start": 14.0,
+      "end": 16.0,
+      "text": "Okay."
+    },
+    {
+      "start": 30.0,
+      "end": 36.0,
+      "text": "Alright, this is where I locked in."
+    },
+    {
+      "start": 36.0,
+      "end": 38.0,
+      "text": "Every time someone says,"
+    },
+    {
+      "start": 38.0,
+      "end": 40.0,
+      "text": "I need to lock in."
+    },
+    {
+      "start": 48.0,
+      "end": 50.0,
+      "text": "Before I start,"
+    },
+    {
+      "start": 50.0,
+      "end": 52.0,
+      "text": "I already reviewed some of the stuff"
+    },
+    {
+      "start": 52.0,
+      "end": 54.0,
+      "text": "that I need to fix,"
+    },
+    {
+      "start": 54.0,
+      "end": 56.0,
+      "text": "such as my setups."
+    },
+    {
+      "start": 56.0,
+      "end": 58.0,
+      "text": "Especially inward block,"
+    },
+    {
+      "start": 58.0,
+      "end": 60.0,
+      "text": "I focus on my"
+    },
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "90 degree angle for my setups"
+    },
+    {
+      "start": 62.0,
+      "end": 64.0,
+      "text": "before I even start."
+    },
+    {
+      "start": 72.0,
+      "end": 74.0,
+      "text": "Nice."
+    },
+    {
+      "start": 76.0,
+      "end": 78.0,
+      "text": "Right here I was a little bit shaky."
+    },
+    {
+      "start": 78.0,
+      "end": 80.0,
+      "text": "I was pretty nervous."
+    },
+    {
+      "start": 90.0,
+      "end": 94.0,
+      "text": "Oh, that was my,"
+    },
+    {
+      "start": 94.0,
+      "end": 96.0,
+      "text": "that was the best part of my pattern."
+    },
+    {
+      "start": 96.0,
+      "end": 98.0,
+      "text": "I think my front snap kick"
+    },
+    {
+      "start": 98.0,
+      "end": 100.0,
+      "text": "was pretty good."
+    },
+    {
+      "start": 102.0,
+      "end": 104.0,
+      "text": "Nice."
+    },
+    {
+      "start": 108.0,
+      "end": 110.0,
+      "text": "Nice."
+    },
+    {
+      "start": 112.0,
+      "end": 114.0,
+      "text": "Setup good."
+    },
+    {
+      "start": 120.0,
+      "end": 122.0,
+      "text": "Okay,"
+    },
+    {
+      "start": 122.0,
+      "end": 124.0,
+      "text": "not that bad."
+    },
+    {
+      "start": 136.0,
+      "end": 138.0,
+      "text": "I just want"
+    },
+    {
+      "start": 138.0,
+      "end": 140.0,
+      "text": "some key moments."
+    },
+    {
+      "start": 146.0,
+      "end": 148.0,
+      "text": "Do you want to watch a video"
+    },
+    {
+      "start": 148.0,
+      "end": 150.0,
+      "text": "explaining how you're being scored?"
+    },
+    {
+      "start": 150.0,
+      "end": 152.0,
+      "text": "You know this already."
+    },
+    {
+      "start": 152.0,
+      "end": 154.0,
+      "text": "I think I should know."
+    },
+    {
+      "start": 160.0,
+      "end": 162.0,
+      "text": "Can I just watch some of it?"
+    },
+    {
+      "start": 162.0,
+      "end": 164.0,
+      "text": "Yeah."
+    },
+    {
+      "start": 164.0,
+      "end": 166.0,
+      "text": "I just want to watch one part."
+    },
+    {
+      "start": 166.0,
+      "end": 168.0,
+      "text": "With this one,"
+    },
+    {
+      "start": 168.0,
+      "end": 170.0,
+      "text": "if you're a color belt,"
+    },
+    {
+      "start": 170.0,
+      "end": 172.0,
+      "text": "your average,"
+    },
+    {
+      "start": 172.0,
+      "end": 174.0,
+      "text": "where the judges actually mark you from,"
+    },
+    {
+      "start": 174.0,
+      "end": 176.0,
+      "text": "it's actually from a"
+    },
+    {
+      "start": 176.0,
+      "end": 178.0,
+      "text": "1.1."
+    },
+    {
+      "start": 178.0,
+      "end": 180.0,
+      "text": "So,"
+    },
+    {
+      "start": 180.0,
+      "end": 182.0,
+      "text": "with this one,"
+    },
+    {
+      "start": 182.0,
+      "end": 184.0,
+      "text": "as I was saying, it's a total of"
+    },
+    {
+      "start": 184.0,
+      "end": 186.0,
+      "text": "10."
+    },
+    {
+      "start": 186.0,
+      "end": 188.0,
+      "text": "So, let's see."
+    },
+    {
+      "start": 188.0,
+      "end": 190.0,
+      "text": "Are you scoring?"
+    },
+    {
+      "start": 190.0,
+      "end": 192.0,
+      "text": "Yeah, I think I got it."
+    },
+    {
+      "start": 196.0,
+      "end": 198.0,
+      "text": "Okay, so we're going to practice reading."
+    },
+    {
+      "start": 206.0,
+      "end": 208.0,
+      "text": "Okay."
+    },
+    {
+      "start": 208.0,
+      "end": 210.0,
+      "text": "So, minor errors."
+    },
+    {
+      "start": 210.0,
+      "end": 212.0,
+      "text": "Real time, we cannot pause this time."
+    },
+    {
+      "start": 212.0,
+      "end": 214.0,
+      "text": "So I'm going to watch?"
+    },
+    {
+      "start": 214.0,
+      "end": 216.0,
+      "text": "Yes, you're going to watch, and then you're going to be"
+    },
+    {
+      "start": 216.0,
+      "end": 218.0,
+      "text": "a judge."
+    },
+    {
+      "start": 218.0,
+      "end": 220.0,
+      "text": "We cannot pause, because that's how the real thing works."
+    },
+    {
+      "start": 220.0,
+      "end": 222.0,
+      "text": "And then major errors."
+    },
+    {
+      "start": 224.0,
+      "end": 226.0,
+      "text": "And then right after the performance,"
+    },
+    {
+      "start": 226.0,
+      "end": 228.0,
+      "text": "into the power"
+    },
+    {
+      "start": 228.0,
+      "end": 230.0,
+      "text": "and speed, coordination of rhythm,"
+    },
+    {
+      "start": 230.0,
+      "end": 232.0,
+      "text": "expression of energy."
+    },
+    {
+      "start": 232.0,
+      "end": 234.0,
+      "text": "Good."
+    },
+    {
+      "start": 234.0,
+      "end": 236.0,
+      "text": "We're just waiting for it."
+    },
+    {
+      "start": 236.0,
+      "end": 238.0,
+      "text": "Okay."
+    },
+    {
+      "start": 240.0,
+      "end": 242.0,
+      "text": "It's still pausing, so you can relax."
+    },
+    {
+      "start": 256.0,
+      "end": 258.0,
+      "text": "It takes a little bit of time to talk."
+    },
+    {
+      "start": 258.0,
+      "end": 260.0,
+      "text": "I'm going to wait for it to stop."
+    },
+    {
+      "start": 266.0,
+      "end": 270.0,
+      "text": "All right, guys."
+    },
+    {
+      "start": 270.0,
+      "end": 272.0,
+      "text": "So,"
+    },
+    {
+      "start": 272.0,
+      "end": 274.0,
+      "text": "I'm going to shoot okay?"
+    },
+    {
+      "start": 274.0,
+      "end": 276.0,
+      "text": "One, two, three."
+    },
+    {
+      "start": 276.0,
+      "end": 278.0,
+      "text": "And I'll stop recording."
+    },
+    {
+      "start": 278.0,
+      "end": 280.0,
+      "text": "Okay."
+    },
+    {
+      "start": 280.0,
+      "end": 282.0,
+      "text": "Okay."
+    },
+    {
+      "start": 282.0,
+      "end": 284.0,
+      "text": "So,"
+    },
+    {
+      "start": 284.0,
+      "end": 286.0,
+      "text": "I'm going to look at the"
+    },
+    {
+      "start": 286.0,
+      "end": 288.0,
+      "text": "devices"
+    },
+    {
+      "start": 290.0,
+      "end": 292.0,
+      "text": "for you."
+    },
+    {
+      "start": 292.0,
+      "end": 294.0,
+      "text": "Okay."
+    },
+    {
+      "start": 294.0,
+      "end": 296.0,
+      "text": "Well,"
+    },
+    {
+      "start": 296.0,
+      "end": 325.98,
+      "text": "Thank you."
+    }
+  ],
+  "word_segments": []
+}

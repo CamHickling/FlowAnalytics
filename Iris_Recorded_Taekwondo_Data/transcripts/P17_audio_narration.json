@@ -1,0 +1,299 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P17_20260305_112555\\review\\P17_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P17_20260305_112555\\review\\P17_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 48.28,
+      "text": "I'm going to watch it first and then I'll verbally describe."
+    },
+    {
+      "start": 60.0,
+      "end": 87.0,
+      "text": "I'm thinking of feeling particularly in the sound of it."
+    },
+    {
+      "start": 87.0,
+      "end": 88.0,
+      "text": "Okay."
+    },
+    {
+      "start": 88.0,
+      "end": 89.0,
+      "text": "Okay."
+    },
+    {
+      "start": 89.0,
+      "end": 90.0,
+      "text": "Okay."
+    },
+    {
+      "start": 90.0,
+      "end": 91.0,
+      "text": "Okay."
+    },
+    {
+      "start": 91.0,
+      "end": 92.0,
+      "text": "What do you need to pause?"
+    },
+    {
+      "start": 92.0,
+      "end": 93.0,
+      "text": "Sounds great."
+    },
+    {
+      "start": 93.0,
+      "end": 94.0,
+      "text": "Sounds great."
+    },
+    {
+      "start": 94.0,
+      "end": 95.0,
+      "text": "Okay."
+    },
+    {
+      "start": 95.0,
+      "end": 96.0,
+      "text": "Okay."
+    },
+    {
+      "start": 96.0,
+      "end": 97.0,
+      "text": "Okay."
+    },
+    {
+      "start": 97.0,
+      "end": 98.0,
+      "text": "Okay."
+    },
+    {
+      "start": 98.0,
+      "end": 103.0,
+      "text": "Okay."
+    },
+    {
+      "start": 103.0,
+      "end": 108.0,
+      "text": "Okay."
+    },
+    {
+      "start": 108.0,
+      "end": 113.0,
+      "text": "Okay."
+    },
+    {
+      "start": 113.0,
+      "end": 118.0,
+      "text": "Okay."
+    },
+    {
+      "start": 118.0,
+      "end": 119.0,
+      "text": "Okay."
+    },
+    {
+      "start": 119.0,
+      "end": 120.0,
+      "text": "Okay ."
+    },
+    {
+      "start": 120.0,
+      "end": 130.0,
+      "text": "I think my tomiki was a little slow there."
+    },
+    {
+      "start": 131.12,
+      "end": 132.04,
+      "text": "That backdance was good."
+    },
+    {
+      "start": 133.86,
+      "end": 135.68,
+      "text": "That backdance was too forwards."
+    },
+    {
+      "start": 136.58,
+      "end": 136.84,
+      "text": "Yes."
+    },
+    {
+      "start": 140.32,
+      "end": 141.58,
+      "text": "This part felt nice."
+    },
+    {
+      "start": 142.56,
+      "end": 147.08,
+      "text": "But then the kicks, I was very aware that my kicks are a little awkward."
+    },
+    {
+      "start": 147.42000000000002,
+      "end": 148.22,
+      "text": "I bend my back knee."
+    },
+    {
+      "start": 148.22,
+      "end": 151.48,
+      "text": "The same there."
+    },
+    {
+      "start": 154.16,
+      "end": 158.5,
+      "text": "This part felt nice, but now I see my knees clumping a little bit."
+    },
+    {
+      "start": 159.74,
+      "end": 160.9,
+      "text": "Which is a bit awkward."
+    },
+    {
+      "start": 163.76,
+      "end": 165.36,
+      "text": "That stance, I need to fix that stance."
+    },
+    {
+      "start": 165.44,
+      "end": 166.22,
+      "text": "It's off."
+    },
+    {
+      "start": 166.76,
+      "end": 167.96,
+      "text": "Yeah, I definitely lost balance there."
+    },
+    {
+      "start": 171.14,
+      "end": 172.46,
+      "text": "That horse stance was better."
+    },
+    {
+      "start": 174.26,
+      "end": 175.52,
+      "text": "Six, seven."
+    },
+    {
+      "start": 176.36,
+      "end": 177.66,
+      "text": "I gotta make a fist sooner."
+    },
+    {
+      "start": 177.66,
+      "end": 178.2,
+      "text": "That's what I was thinking."
+    },
+    {
+      "start": 178.2,
+      "end": 178.22,
+      "text": "That's what I was thinking."
+    },
+    {
+      "start": 178.28,
+      "end": 178.74,
+      "text": "That's what I was thinking there."
+    },
+    {
+      "start": 183.92,
+      "end": 185.52,
+      "text": "I felt very good about the last part, though."
+    },
+    {
+      "start": 185.82,
+      "end": 187.28,
+      "text": "I think the last part was fine."
+    },
+    {
+      "start": 188.5,
+      "end": 190.38,
+      "text": "But I didn't judge my distance correctly."
+    },
+    {
+      "start": 190.56,
+      "end": 192.2,
+      "text": "I was half a step behind."
+    },
+    {
+      "start": 208.22,
+      "end": 224.48,
+      "text": "But I'm not that far ahead."
+    },
+    {
+      "start": 224.48,
+      "end": 231.04,
+      "text": "I have a better sense of direction now."
+    },
+    {
+      "start": 232.07999999999998,
+      "end": 232.24,
+      "text": "Yeah."
+    },
+    {
+      "start": 232.24,
+      "end": 232.28,
+      "text": "Yeah."
+    },
+    {
+      "start": 232.28,
+      "end": 232.4,
+      "text": "I think you can get used to it."
+    },
+    {
+      "start": 232.4,
+      "end": 237.52,
+      "text": "I was a little lost."
+    },
+    {
+      "start": 237.52,
+      "end": 237.62,
+      "text": "I think I was a little lost."
+    },
+    {
+      "start": 237.62,
+      "end": 237.64,
+      "text": "I don't know."
+    },
+    {
+      "start": 237.64,
+      "end": 237.68,
+      "text": "I don't know."
+    },
+    {
+      "start": 237.68,
+      "end": 237.72,
+      "text": "I don't know."
+    },
+    {
+      "start": 237.72,
+      "end": 237.78,
+      "text": "I don't know."
+    },
+    {
+      "start": 237.78,
+      "end": 237.8,
+      "text": "I don't know."
+    },
+    {
+      "start": 237.8,
+      "end": 237.84,
+      "text": "I don't know."
+    },
+    {
+      "start": 237.84,
+      "end": 237.86,
+      "text": "I don't know."
+    },
+    {
+      "start": 237.86,
+      "end": 237.94,
+      "text": "I don't know."
+    },
+    {
+      "start": 237.94,
+      "end": 238.0,
+      "text": "I don't know."
+    }
+  ],
+  "word_segments": []
+}

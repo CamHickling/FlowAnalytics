@@ -1,0 +1,104 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P35_20260323_110729\\review\\P35_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P35_20260323_110729\\review\\P35_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "text": "Read the instructions."
+    },
+    {
+      "start": 60.0,
+      "end": 67.0,
+      "text": "You can pause and play using the space bar."
+    },
+    {
+      "start": 90.0,
+      "end": 100.0,
+      "text": "My stance is not nice there."
+    },
+    {
+      "start": 100.0,
+      "end": 102.0,
+      "text": "I think the floor was really squeaky."
+    },
+    {
+      "start": 102.0,
+      "end": 105.0,
+      "text": "It was kind of distracting."
+    },
+    {
+      "start": 105.0,
+      "end": 107.0,
+      "text": "And also just the softness."
+    },
+    {
+      "start": 107.0,
+      "end": 110.0,
+      "text": "Yeah, I lost my balance there."
+    },
+    {
+      "start": 114.0,
+      "end": 119.0,
+      "text": "I think overall my stances were just not very good today because of the mats."
+    },
+    {
+      "start": 119.0,
+      "end": 120.0,
+      "text": "But that's alright."
+    },
+    {
+      "start": 120.0,
+      "end": 130.0,
+      "text": "Yeah, I also lost my balance there."
+    },
+    {
+      "start": 130.0,
+      "end": 132.0,
+      "text": "I like lurched forward."
+    },
+    {
+      "start": 150.0,
+      "end": 159.0,
+      "text": "I think my stance was just fine today."
+    },
+    {
+      "start": 159.0,
+      "end": 162.0,
+      "text": "Yeah, I also lost my balance there."
+    },
+    {
+      "start": 162.0,
+      "end": 166.0,
+      "text": "But yeah, I also lost my balance today because of the mats."
+    },
+    {
+      "start": 166.0,
+      "end": 169.0,
+      "text": "Yeah, I also lost my balance there."
+    },
+    {
+      "start": 169.0,
+      "end": 172.0,
+      "text": "I'll be back tomorrow for another one."
+    },
+    {
+      "start": 172.0,
+      "end": 174.0,
+      "text": "Alright, everyone."
+    },
+    {
+      "start": 174.0,
+      "end": 176.0,
+      "text": "I hope you all enjoyed watching."
+    },
+    {
+      "start": 176.0,
+      "end": 179.0,
+      "text": "I'm so happy that my channel has come to a end."
+    }
+  ],
+  "word_segments": []
+}

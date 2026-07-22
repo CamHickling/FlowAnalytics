@@ -1,0 +1,69 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P25_20260312_111836\\review\\P25_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P25_20260312_111836\\review\\P25_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 12.0,
+      "text": "Hva er det som skjer i ditt høyre høyre høyre høyre høyre høyre?"
+    },
+    {
+      "start": 12.0,
+      "end": 13.0,
+      "text": "Wow!"
+    },
+    {
+      "start": 13.32,
+      "end": 15.64,
+      "text": "Hvor veit må nei deres leit? Nå må vi tåle kjøles."
+    },
+    {
+      "start": 42.0,
+      "end": 71.98,
+      "text": "1, 2, 3, 4, 5, 6, 7, 8."
+    },
+    {
+      "start": 72.0,
+      "end": 101.98,
+      "text": "1, 2, 3, 4, 5, 6, 7, 8."
+    },
+    {
+      "start": 101.98,
+      "end": 102.0,
+      "text": "1, 2, 3, 4, 5, 6, 7, 8."
+    },
+    {
+      "start": 102.0,
+      "end": 131.98,
+      "text": "1, 2, 3, 4, 5, 6, 7, 8."
+    },
+    {
+      "start": 131.98,
+      "end": 161.95999999999998,
+      "text": "1, 2, 3, 4, 5, 6, 7, 8."
+    },
+    {
+      "start": 161.96,
+      "end": 191.94,
+      "text": "1, 2, 3, 4, 5, 6, 7, 8."
+    },
+    {
+      "start": 191.94,
+      "end": 221.92,
+      "text": "1, 2, 3, 4, 5, 6, 7, 8."
+    },
+    {
+      "start": 221.92000000000002,
+      "end": 251.9,
+      "text": "1, 2, 3, 4, 5, 6, 7, 8."
+    },
+    {
+      "start": 251.92000000000002,
+      "end": 281.90000000000003,
+      "text": "1, 2, 3, 4, 5, 6, 7, 8."
+    }
+  ],
+  "word_segments": []
+}
