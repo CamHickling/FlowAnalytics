@@ -1,0 +1,35 @@
+FlowAnalytics synchronization log
+Base directory: C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data
+
+Folder: P03_20260224_102642\performance
+Reference video: P03_overhead_1of2.mp4
+Target video: P03_overhead_2of2.mp4
+Status: ERROR (RuntimeError: FFmpeg could not decode audio from 'C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data\P03_20260224_102642\performance\P03_overhead_1of2.mp4': [out#0/wav @ 00000155c74d7740] Output file does not contain any stream
+Error opening output file pipe:1.
+Error opening output files: Invalid argument)
+
+Folder: P26_20260312_132454\performance
+Reference video: P26_overhead_1of2.mp4
+Target video: P26_overhead_2of2.mp4
+Status: ERROR (RuntimeError: FFmpeg could not decode audio from 'C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data\P26_20260312_132454\performance\P26_overhead_1of2.mp4': [out#0/wav @ 000002b1b6e77740] Output file does not contain any stream
+Error opening output file pipe:1.
+Error opening output files: Invalid argument)
+
+Folder: P48_20260331_101809\gopro_footage
+Reference video: P48_front.MP4
+Target video: P48_side.MP4
+Status: SUCCESS
+Offset seconds: -23.3709
+Confidence score: 26.00
+Full synchronized video: generated
+Review snippet: generated
+
+Folder: P50_20260331_131459\gopro_footage
+Reference video: P50_front.MP4
+Target video: P50_side.MP4
+Status: LOW_CONFIDENCE
+Offset seconds: +6.1997
+Confidence score: 2.60
+Full synchronized video: not generated
+Review snippet: not generated
+

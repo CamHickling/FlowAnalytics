@@ -1,0 +1,8 @@
+Reference video: P10_front.MP4
+Target video: P10_side.MP4
+Status: SUCCESS
+Offset seconds: -13.5837
+Confidence score: 26.50
+Full synchronized video: generated
+Full video path: sync_full.mp4
+Review snippet: generated

@@ -1,0 +1,16 @@
+{
+    "status": "SUCCESS",
+    "offset_seconds": -29.141,
+    "confidence_score": 15.4,
+    "explanation": "'P49_side.MP4' started 29.1410s before 'P49_front.MP4'.",
+    "reference_video": "P49_front.MP4",
+    "target_video": "P49_side.MP4",
+    "trim_parameters": {
+        "video_1_trim_start": 0.0,
+        "video_2_trim_start": 29.141
+    },
+    "ffmpeg_sync_example": "ffmpeg -ss 0.0 -i 'P49_front.MP4' ... AND ffmpeg -ss 29.141 -i 'P49_side.MP4' ...",
+    "snippet_generated": false,
+    "full_video_generated": false,
+    "full_video_name": "sync_full.mp4"
+}

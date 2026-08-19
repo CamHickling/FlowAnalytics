@@ -1,0 +1,16 @@
+{
+    "status": "SUCCESS",
+    "offset_seconds": -9.9846,
+    "confidence_score": 19.0,
+    "explanation": "'P16_side.MP4' started 9.9846s before 'P16_front.MP4'.",
+    "reference_video": "P16_front.MP4",
+    "target_video": "P16_side.MP4",
+    "trim_parameters": {
+        "video_1_trim_start": 0.0,
+        "video_2_trim_start": 9.9846
+    },
+    "ffmpeg_sync_example": "ffmpeg -ss 0.0 -i 'P16_front.MP4' ... AND ffmpeg -ss 9.9846 -i 'P16_side.MP4' ...",
+    "snippet_generated": true,
+    "full_video_generated": true,
+    "full_video_name": "sync_full.mp4"
+}

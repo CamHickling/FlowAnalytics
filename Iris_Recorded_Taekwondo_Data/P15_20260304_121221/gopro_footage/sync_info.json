@@ -1,0 +1,16 @@
+{
+    "status": "SUCCESS",
+    "offset_seconds": 44.5591,
+    "confidence_score": 10.11,
+    "explanation": "'P15_front.MP4' started 44.5591s before 'P15_side.MP4'.",
+    "reference_video": "P15_front.MP4",
+    "target_video": "P15_side.MP4",
+    "trim_parameters": {
+        "video_1_trim_start": 44.5591,
+        "video_2_trim_start": 0.0
+    },
+    "ffmpeg_sync_example": "ffmpeg -ss 44.5591 -i 'P15_front.MP4' ... AND ffmpeg -ss 0.0 -i 'P15_side.MP4' ...",
+    "snippet_generated": true,
+    "full_video_generated": true,
+    "full_video_name": "sync_full.mp4"
+}
