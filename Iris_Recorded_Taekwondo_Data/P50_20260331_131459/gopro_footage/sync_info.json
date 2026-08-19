@@ -1,0 +1,16 @@
+{
+    "status": "LOW_CONFIDENCE",
+    "offset_seconds": 6.1997,
+    "confidence_score": 2.6,
+    "explanation": "'P50_front.MP4' started 6.1997s before 'P50_side.MP4'.",
+    "reference_video": "P50_front.MP4",
+    "target_video": "P50_side.MP4",
+    "trim_parameters": {
+        "video_1_trim_start": 6.1997,
+        "video_2_trim_start": 0.0
+    },
+    "ffmpeg_sync_example": "ffmpeg -ss 6.1997 -i 'P50_front.MP4' ... AND ffmpeg -ss 0.0 -i 'P50_side.MP4' ...",
+    "snippet_generated": false,
+    "full_video_generated": false,
+    "full_video_name": "sync_full.mp4"
+}

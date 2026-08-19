@@ -1,0 +1,8 @@
+Reference video: P19_front.MP4
+Target video: P19_side.MP4
+Status: SUCCESS
+Offset seconds: -7.5465
+Confidence score: 12.67
+Full synchronized video: generated
+Full video path: sync_full.mp4
+Review snippet: generated

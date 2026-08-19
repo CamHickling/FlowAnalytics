@@ -1,0 +1,8 @@
+Reference video: P47_front.MP4
+Target video: P47_side.MP4
+Status: SUCCESS
+Offset seconds: -46.2425
+Confidence score: 8.00
+Full synchronized video: not generated
+Full video path: sync_full.mp4
+Review snippet: not generated

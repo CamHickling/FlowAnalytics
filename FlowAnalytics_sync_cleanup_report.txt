@@ -1,0 +1,140 @@
+﻿FlowAnalytics synchronization cleanup report
+Generated: 2026-08-18 21:45:33
+Dataset: C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data
+
+CURRENT SYNC FULL VIDEO CHECKS
+================================
+MISSING | P01_20260223_112737 | No sync_info.json or full video found; folder may not have been processed or an earlier script failed before final rendering
+RENAMED | P02B_20260223_134013 | P02B_20260223_134013_sync_full.mp4 | 475877873 bytes
+REMOVED SNIPPET | P02B_20260223_134013 | sync_snippet_review.mp4 | 8677801 bytes
+RENAMED | P02_20260223_131246 | P02_20260223_131246_sync_full.mp4 | 620715579 bytes
+REMOVED SNIPPET | P02_20260223_131246 | sync_snippet_review.mp4 | 9170347 bytes
+RENAMED | P03_20260224_102642 | P03_20260224_102642_sync_full.mp4 | 869763664 bytes
+REMOVED SNIPPET | P03_20260224_102642 | sync_snippet_review.mp4 | 9164246 bytes
+RENAMED | P04__20260224_130709 | P04__20260224_130709_sync_full.mp4 | 768910836 bytes
+REMOVED SNIPPET | P04__20260224_130709 | sync_snippet_review.mp4 | 8764194 bytes
+RENAMED | P05_20260225_121858 | P05_20260225_121858_sync_full.mp4 | 590647088 bytes
+REMOVED SNIPPET | P05_20260225_121858 | sync_snippet_review.mp4 | 9127990 bytes
+MISSING | P06_20260226_111009 | sync_info.json status is 'LOW_CONFIDENCE', so cfsync.py did not generate a full video
+MISSING | P07_20260226_134350 | No sync_info.json or full video found; folder may not have been processed or an earlier script failed before final rendering
+RENAMED | P08_20260227_101638 | P08_20260227_101638_sync_full.mp4 | 1333867653 bytes
+REMOVED SNIPPET | P08_20260227_101638 | sync_snippet_review.mp4 | 8122945 bytes
+RENAMED | P09_20260227_112017 | P09_20260227_112017_sync_full.mp4 | 928848785 bytes
+REMOVED SNIPPET | P09_20260227_112017 | sync_snippet_review.mp4 | 8516604 bytes
+RENAMED | P10B_20260302_103731 | P10B_20260302_103731_sync_full.mp4 | 370104864 bytes
+REMOVED SNIPPET | P10B_20260302_103731 | sync_snippet_review.mp4 | 8764130 bytes
+RENAMED | P10_20260302_100447 | P10_20260302_100447_sync_full.mp4 | 834348881 bytes
+REMOVED SNIPPET | P10_20260302_100447 | sync_snippet_review.mp4 | 8521114 bytes
+RENAMED | P11_20260302_111053 | P11_20260302_111053_sync_full.mp4 | 1064919150 bytes
+REMOVED SNIPPET | P11_20260302_111053 | sync_snippet_review.mp4 | 8515227 bytes
+MISSING | P12_20260302_131117 | sync_info.json status is 'LOW_CONFIDENCE', so cfsync.py did not generate a full video
+RENAMED | P13_20260303_101155 | P13_20260303_101155_sync_full.mp4 | 1289623771 bytes
+REMOVED SNIPPET | P13_20260303_101155 | sync_snippet_review.mp4 | 9043082 bytes
+RENAMED | P14_20260303_111531 | P14_20260303_111531_sync_full.mp4 | 1217857256 bytes
+REMOVED SNIPPET | P14_20260303_111531 | sync_snippet_review.mp4 | 8722188 bytes
+RENAMED | P15_20260304_121221 | P15_20260304_121221_sync_full.mp4 | 1686985375 bytes
+REMOVED SNIPPET | P15_20260304_121221 | sync_snippet_review.mp4 | 9120729 bytes
+RENAMED | P16_20260304_131316 | P16_20260304_131316_sync_full.mp4 | 1171106596 bytes
+REMOVED SNIPPET | P16_20260304_131316 | sync_snippet_review.mp4 | 9273013 bytes
+RENAMED | P17_20260305_112555 | P17_20260305_112555_sync_full.mp4 | 1053651516 bytes
+REMOVED SNIPPET | P17_20260305_112555 | sync_snippet_review.mp4 | 8712209 bytes
+RENAMED | P18B_20260305_135732 | P18B_20260305_135732_sync_full.mp4 | 235737179 bytes
+REMOVED SNIPPET | P18B_20260305_135732 | sync_snippet_review.mp4 | 7706033 bytes
+MISSING | P18_20260305_131835 | No sync_info.json or full video found; folder may not have been processed or an earlier script failed before final rendering
+RENAMED | P19_20260306_101207 | P19_20260306_101207_sync_full.mp4 | 839332730 bytes
+REMOVED SNIPPET | P19_20260306_101207 | sync_snippet_review.mp4 | 8663439 bytes
+RENAMED | P20_20260306_132935 | P20_20260306_132935_sync_full.mp4 | 1177240632 bytes
+REMOVED SNIPPET | P20_20260306_132935 | sync_snippet_review.mp4 | 8663018 bytes
+RENAMED | P21_20260309_112711 | P21_20260309_112711_sync_full.mp4 | 538594207 bytes
+REMOVED SNIPPET | P21_20260309_112711 | sync_snippet_review.mp4 | 8286846 bytes
+RENAMED | P22_20260309_121330 | P22_20260309_121330_sync_full.mp4 | 684253394 bytes
+REMOVED SNIPPET | P22_20260309_121330 | sync_snippet_review.mp4 | 8926211 bytes
+RENAMED | P23_20260310_101542 | P23_20260310_101542_sync_full.mp4 | 1564590383 bytes
+REMOVED SNIPPET | P23_20260310_101542 | sync_snippet_review.mp4 | 7949989 bytes
+RENAMED | P24_20260311_131953 | P24_20260311_131953_sync_full.mp4 | 1268086793 bytes
+REMOVED SNIPPET | P24_20260311_131953 | sync_snippet_review.mp4 | 9064845 bytes
+RENAMED | P25_20260312_111836 | P25_20260312_111836_sync_full.mp4 | 1253507140 bytes
+REMOVED SNIPPET | P25_20260312_111836 | sync_snippet_review.mp4 | 8617207 bytes
+MISSING | P26_20260312_132454 | No sync_info.json or full video found; folder may not have been processed or an earlier script failed before final rendering
+RENAMED | P27B_20260313_104005 | P27B_20260313_104005_sync_full.mp4 | 287114478 bytes
+REMOVED SNIPPET | P27B_20260313_104005 | sync_snippet_review.mp4 | 8339612 bytes
+RENAMED | P27_20260313_101333 | P27_20260313_101333_sync_full.mp4 | 948656350 bytes
+REMOVED SNIPPET | P27_20260313_101333 | sync_snippet_review.mp4 | 9461773 bytes
+RENAMED | P28_20260313_130448 | P28_20260313_130448_sync_full.mp4 | 1118237686 bytes
+REMOVED SNIPPET | P28_20260313_130448 | sync_snippet_review.mp4 | 8479333 bytes
+MISSING | P29_20260318_121454 | No sync_info.json or full video found; folder may not have been processed or an earlier script failed before final rendering
+MISSING | P30_20260318_130947 | No sync_info.json or full video found; folder may not have been processed or an earlier script failed before final rendering
+MISSING | P31_20260319_101720 | No sync_info.json or full video found; folder may not have been processed or an earlier script failed before final rendering
+RENAMED | P32_20260319_130734 | P32_20260319_130734_sync_full.mp4 | 883286968 bytes
+RENAMED | P33_20260320_133219 | P33_20260320_133219_sync_full.mp4 | 1136351095 bytes
+REMOVED SNIPPET | P33_20260320_133219 | sync_snippet_review.mp4 | 8167957 bytes
+MISSING | P34_20260323_101229 | No sync_info.json or full video found; folder may not have been processed or an earlier script failed before final rendering
+RENAMED | P35_20260323_110729 | P35_20260323_110729_sync_full.mp4 | 1605739030 bytes
+REMOVED SNIPPET | P35_20260323_110729 | sync_snippet_review.mp4 | 8753137 bytes
+RENAMED | P36_20260323_121107 | P36_20260323_121107_sync_full.mp4 | 1056425899 bytes
+REMOVED SNIPPET | P36_20260323_121107 | sync_snippet_review.mp4 | 9047651 bytes
+RENAMED | P37_20260324_100703 | P37_20260324_100703_sync_full.mp4 | 1292285884 bytes
+REMOVED SNIPPET | P37_20260324_100703 | sync_snippet_review.mp4 | 8781026 bytes
+MISSING | P38_20260324_132055 | No sync_info.json or full video found; folder may not have been processed or an earlier script failed before final rendering
+RENAMED | P39_20260325_115952 | P39_20260325_115952_sync_full.mp4 | 1362811589 bytes
+REMOVED SNIPPET | P39_20260325_115952 | sync_snippet_review.mp4 | 9924409 bytes
+RENAMED | P40_20260325_132334 | P40_20260325_132334_sync_full.mp4 | 1309647632 bytes
+REMOVED SNIPPET | P40_20260325_132334 | sync_snippet_review.mp4 | 9328853 bytes
+RENAMED | P41_20260326_101142 | P41_20260326_101142_sync_full.mp4 | 1472543959 bytes
+REMOVED SNIPPET | P41_20260326_101142 | sync_snippet_review.mp4 | 8671143 bytes
+RENAMED | P42_20260326_130815 | P42_20260326_130815_sync_full.mp4 | 1477897911 bytes
+REMOVED SNIPPET | P42_20260326_130815 | sync_snippet_review.mp4 | 8927202 bytes
+MISSING | P43_20260327_101321 | No sync_info.json or full video found; folder may not have been processed or an earlier script failed before final rendering
+MISSING | P44_20260327_131313 | No sync_info.json or full video found; folder may not have been processed or an earlier script failed before final rendering
+RENAMED | P45_20260330_101202 | P45_20260330_101202_sync_full.mp4 | 1638800528 bytes
+REMOVED SNIPPET | P45_20260330_101202 | sync_snippet_review.mp4 | 8653031 bytes
+MISSING | P46_20260330_111907 | No sync_info.json or full video found; folder may not have been processed or an earlier script failed before final rendering
+RENAMED | P47_20260330_130419 | P47_20260330_130419_sync_full.mp4 | 216793136 bytes
+REMOVED SNIPPET | P47_20260330_130419 | sync_snippet_review.mp4 | 48 bytes
+RENAMED | P48_20260331_101809 | P48_20260331_101809_sync_full.mp4 | 1457820329 bytes
+REMOVED SNIPPET | P48_20260331_101809 | sync_snippet_review.mp4 | 9157316 bytes
+MISSING/INVALID | P49_20260331_111427 | sync_full.mp4 exists but is only 48 bytes; likely failed FFmpeg output. Kept for review; target name not created.
+MISSING | P50_20260331_131459 | sync_info.json status is 'LOW_CONFIDENCE', so cfsync.py did not generate a full video
+
+Summary: renamed=38, missing_or_invalid=16, snippets_removed=37, name_collisions=0
+
+LEGACY / POSSIBLE PREVIOUS BATCH-SYNC ARTIFACTS (NOT DELETED)
+============================================================
+batch_sync.log | 10924 bytes | pattern batch_sync.log
+P01_20260223_112737\sync_progress.log | 4947 bytes | pattern sync_progress.log
+P02B_20260223_134013\sync_progress.log | 2893 bytes | pattern sync_progress.log
+P02_20260223_131246\sync_progress.log | 1583 bytes | pattern sync_progress.log
+P03_20260224_102642\sync_progress.log | 1501 bytes | pattern sync_progress.log
+P01_20260223_112737\sync_results.txt | 209 bytes | pattern sync_results.txt
+P01_20260223_112737\P01_20260223_112737_synced.mp4 | 85018363 bytes | pattern *_synced.mp4
+P01_20260223_112737\previews\preview_sync_option_1.mp4 | 1371112 bytes | pattern preview_sync_option_*.mp4
+P01_20260223_112737\previews\preview_sync_option_2.mp4 | 1476908 bytes | pattern preview_sync_option_*.mp4
+P01_20260223_112737\previews\preview_sync_option_3.mp4 | 1743113 bytes | pattern preview_sync_option_*.mp4
+P01_20260223_112737\previews\preview_sync_option_4.mp4 | 1361146 bytes | pattern preview_sync_option_*.mp4
+P01_20260223_112737\previews\preview_sync_option_5.mp4 | 1521493 bytes | pattern preview_sync_option_*.mp4
+P02B_20260223_134013\preview_sync_option_1.mp4 | 1208319 bytes | pattern preview_sync_option_*.mp4
+P02B_20260223_134013\preview_sync_option_2.mp4 | 1305495 bytes | pattern preview_sync_option_*.mp4
+P02B_20260223_134013\preview_sync_option_3.mp4 | 1148252 bytes | pattern preview_sync_option_*.mp4
+P02B_20260223_134013\preview_sync_option_4.mp4 | 1087003 bytes | pattern preview_sync_option_*.mp4
+P02B_20260223_134013\preview_sync_option_5.mp4 | 1062111 bytes | pattern preview_sync_option_*.mp4
+P02B_20260223_134013\previews\preview_sync_option_1.mp4 | 1208319 bytes | pattern preview_sync_option_*.mp4
+P02B_20260223_134013\previews\preview_sync_option_2.mp4 | 1305495 bytes | pattern preview_sync_option_*.mp4
+P02B_20260223_134013\previews\preview_sync_option_3.mp4 | 1148252 bytes | pattern preview_sync_option_*.mp4
+P02B_20260223_134013\previews\preview_sync_option_4.mp4 | 1087003 bytes | pattern preview_sync_option_*.mp4
+P02B_20260223_134013\previews\preview_sync_option_5.mp4 | 1062111 bytes | pattern preview_sync_option_*.mp4
+P02_20260223_131246\previews\preview_sync_option_1.mp4 | 1849639 bytes | pattern preview_sync_option_*.mp4
+P02_20260223_131246\previews\preview_sync_option_2.mp4 | 1513807 bytes | pattern preview_sync_option_*.mp4
+P02_20260223_131246\previews\preview_sync_option_3.mp4 | 1773728 bytes | pattern preview_sync_option_*.mp4
+P02_20260223_131246\previews\preview_sync_option_4.mp4 | 1276615 bytes | pattern preview_sync_option_*.mp4
+P02_20260223_131246\previews\preview_sync_option_5.mp4 | 1524548 bytes | pattern preview_sync_option_*.mp4
+P03_20260224_102642\previews\preview_sync_option_1.mp4 | 1478284 bytes | pattern preview_sync_option_*.mp4
+P03_20260224_102642\previews\preview_sync_option_2.mp4 | 1520851 bytes | pattern preview_sync_option_*.mp4
+P03_20260224_102642\previews\preview_sync_option_3.mp4 | 1574493 bytes | pattern preview_sync_option_*.mp4
+P03_20260224_102642\previews\preview_sync_option_4.mp4 | 1615964 bytes | pattern preview_sync_option_*.mp4
+P03_20260224_102642\previews\preview_sync_option_5.mp4 | 1379980 bytes | pattern preview_sync_option_*.mp4
+P01_20260223_112737\previews\ | directory with 5 files | legacy preview folder
+P02B_20260223_134013\previews\ | directory with 5 files | legacy preview folder
+P02_20260223_131246\previews\ | directory with 5 files | legacy preview folder
+P03_20260224_102642\previews\ | directory with 5 files | legacy preview folder
+
+Legacy artifact count: 36
