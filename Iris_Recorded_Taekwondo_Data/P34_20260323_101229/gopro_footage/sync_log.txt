@@ -1,0 +1,7 @@
+Reference video: P34_front.MP4
+Target video: P34_side.MP4
+Status: SUCCESS
+Offset seconds: -17.7749
+Confidence score: 103.00
+Full synchronized video: generated
+Full video path: P34_20260323_101229_sync_full.mp4

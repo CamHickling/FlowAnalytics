@@ -2,8 +2,8 @@
 Segment narration transcripts into canonical thought-units (rubric section 1).
 
 Author: AC Mejia
-Ver: 1.0
-Date: 18-Aug-2026
+Version: 1.1
+Date: 21-Aug-2026
 
 This MUST run before both human coding and LLM labeling, because everyone has to code
 the SAME units or their unit_ids won't align and kappa can't be computed. Segmentation is
@@ -37,6 +37,18 @@ LONG_WORDS = 28      # units longer than this are flagged needs_review (likely >
 SOFT_MIN_WORDS = 6   # only split at "and then" if both sides have at least this many words
 
 import re as _re
+
+def read_csv_smart(path, **kw):
+    """Read a CSV trying UTF-8 (incl. BOM) then Windows-1252, so files saved from Excel
+    as either encoding load without a UnicodeDecodeError (0x85 ellipsis, smart quotes...)."""
+    import pandas as _pd
+    for enc in ('utf-8-sig', 'cp1252', 'latin-1'):
+        try:
+            return _pd.read_csv(path, encoding=enc, **kw)
+        except UnicodeDecodeError:
+            continue
+    return _pd.read_csv(path, encoding='utf-8', errors='replace', **kw)
+
 _STRONG = _re.compile(r'(?<=[.?!])\s+|\.\.\.+|\s*\n+\s*')   # sentence enders, ellipses, newlines
 _SOFT = _re.compile(r'\s+(?=and then\b)', _re.I)
 _DISFLUENCY = _re.compile(r'\b(um+|uh+|erm)\b', _re.I)

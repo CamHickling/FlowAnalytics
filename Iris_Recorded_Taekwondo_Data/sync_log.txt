@@ -4,25 +4,207 @@ Base directory: C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwon
 Folder: P03_20260224_102642\performance
 Reference video: P03_overhead_1of2.mp4
 Target video: P03_overhead_2of2.mp4
-Status: ERROR (RuntimeError: FFmpeg could not decode audio from 'C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data\P03_20260224_102642\performance\P03_overhead_1of2.mp4': [out#0/wav @ 00000155c74d7740] Output file does not contain any stream
+Status: ERROR (RuntimeError: FFmpeg could not decode audio from 'C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data\P03_20260224_102642\performance\P03_overhead_1of2.mp4': [out#0/wav @ 000001719b3be400] Output file does not contain any stream
 Error opening output file pipe:1.
 Error opening output files: Invalid argument)
+
+Folder: P07_20260226_134350\gopro_footage
+Reference video: P07_front.MP4
+Target video: P07_side.MP4
+Status: SUCCESS
+Offset seconds: -12.2137
+Confidence score: 14.86
+Full synchronized video: generated
+
+Folder: P07_20260226_134350\gopro_footage\scoring
+Reference video: P07_gopro_front_scoring.MP4
+Target video: P07_gopro_side_scoring.MP4
+Status: SUCCESS
+Offset seconds: -12.2021
+Confidence score: 105.00
+Full synchronized video: generated
+
+Folder: P12_20260302_131117\gopro_footage
+Reference video: P12_front.MP4
+Target video: P12_side.MP4
+Status: LOW_CONFIDENCE
+Offset seconds: +1.7067
+Confidence score: 2.89
+Full synchronized video: generated
+
+Folder: P18_20260305_131835\gopro_footage
+Reference video: P18_front.MP4
+Target video: P18_side.MP4
+Status: SUCCESS
+Offset seconds: +6.5945
+Confidence score: 9.57
+Full synchronized video: generated
+
+Folder: P18_20260305_131835\gopro_footage\2of2
+Reference video: P18_front_2of2.MP4
+Target video: P18_side_2of2.MP4
+Status: SUCCESS
+Offset seconds: +6.5945
+Confidence score: 3000000.00
+Full synchronized video: generated
+
+Folder: P26_20260312_132454\gopro_footage
+Reference video: P26_front.MP4
+Target video: P26_side.MP4
+Status: SUCCESS
+Offset seconds: -4.3537
+Confidence score: 40.00
+Full synchronized video: generated
+
+Folder: P07_20260226_134350\gopro_footage\scoring
+Reference video: P07_gopro_front_scoring.MP4
+Target video: P07_gopro_side_scoring.MP4
+Status: SUCCESS
+Offset seconds: -12.2021
+Confidence score: 105.00
+Full synchronized video: generated
+
+Folder: P26_20260312_132454\gopro_footage\scoring
+Reference video: P26_gopro_front_scoring.MP4
+Target video: P26_gopro_side_scoring.MP4
+Status: SUCCESS
+Offset seconds: -14.9653
+Confidence score: 2600000.00
+Full synchronized video: generated
 
 Folder: P26_20260312_132454\performance
 Reference video: P26_overhead_1of2.mp4
 Target video: P26_overhead_2of2.mp4
-Status: ERROR (RuntimeError: FFmpeg could not decode audio from 'C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data\P26_20260312_132454\performance\P26_overhead_1of2.mp4': [out#0/wav @ 000002b1b6e77740] Output file does not contain any stream
+Status: ERROR (RuntimeError: FFmpeg could not decode audio from 'C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data\P26_20260312_132454\performance\P26_overhead_1of2.mp4': [out#0/wav @ 000002b5e4f37240] Output file does not contain any stream
 Error opening output file pipe:1.
 Error opening output files: Invalid argument)
 
-Folder: P48_20260331_101809\gopro_footage
-Reference video: P48_front.MP4
-Target video: P48_side.MP4
+Folder: P26_20260312_132454\gopro_footage\scoring
+Reference video: P26_gopro_front_scoring.MP4
+Target video: P26_gopro_side_scoring.MP4
 Status: SUCCESS
-Offset seconds: -23.3709
-Confidence score: 26.00
+Offset seconds: -14.9653
+Confidence score: 2600000.00
 Full synchronized video: generated
-Review snippet: generated
+
+Folder: P26_20260312_132454\performance
+Reference video: P26_overhead_1of2.mp4
+Target video: P26_overhead_2of2.mp4
+Status: ERROR (RuntimeError: FFmpeg could not decode audio from 'C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data\P26_20260312_132454\performance\P26_overhead_1of2.mp4': [out#0/wav @ 000002805ab97380] Output file does not contain any stream
+Error opening output file pipe:1.
+Error opening output files: Invalid argument)
+
+Folder: P29_20260318_121454\gopro_footage\2of2
+Reference video: P29_P30_pair_front.MP4
+Target video: P29_P30_pair_side.MP4
+Status: SUCCESS
+Offset seconds: -10.3097
+Confidence score: 22.00
+Full synchronized video: generated
+
+Folder: P30_20260318_130947\gopro_footage
+Reference video: P30_front.MP4
+Target video: P30_side.MP4
+Status: SUCCESS
+Offset seconds: -8.4056
+Confidence score: 7.50
+Full synchronized video: generated
+
+Folder: P30_20260318_130947\gopro_footage\2of2
+Reference video: P29_P30_pair_front.MP4
+Target video: P29_P30_pair_side.MP4
+Status: SUCCESS
+Offset seconds: -10.3097
+Confidence score: 22.00
+Full synchronized video: generated
+
+Folder: P31_20260319_101720\gopro_footage
+Reference video: P31_front.MP4
+Target video: P31_side.MP4
+Status: SUCCESS
+Offset seconds: -5.4451
+Confidence score: 20.50
+Full synchronized video: generated
+
+Folder: P31_20260319_101720\gopro_footage\2of2
+Reference video: P31_front_2of2.MP4
+Target video: P31_side_2of2.MP4
+Status: LOW_CONFIDENCE
+Offset seconds: -5.9675
+Confidence score: 500000.00
+Full synchronized video: generated
+
+Folder: P34_20260323_101229\gopro_footage
+Reference video: P34_front.MP4
+Target video: P34_side.MP4
+Status: SUCCESS
+Offset seconds: -17.7749
+Confidence score: 103.00
+Full synchronized video: generated
+
+Folder: P34_20260323_101229\gopro_footage\2of2
+Reference video: P34_front_2of2.MP4
+Target video: P34_side_2of2.MP4
+Status: SUCCESS
+Offset seconds: -17.2756
+Confidence score: 13.29
+Full synchronized video: generated
+
+Folder: P38_20260324_132055\gopro_footage
+Reference video: P38_front.MP4
+Target video: P38_side.MP4
+Status: LOW_CONFIDENCE
+Offset seconds: +25.8786
+Confidence score: 3.80
+Full synchronized video: generated
+
+Folder: P29_20260318_121454\gopro_footage
+Reference video: P29_front.MP4
+Target video: P29_side.MP4
+Status: SUCCESS
+Offset seconds: +9.2415
+Confidence score: 13.50
+Full synchronized video: generated
+
+Folder: P43_20260327_101321\gopro_footage\2of2
+Reference video: P43_front_2of2.MP4
+Target video: P43_side_2of2.MP4
+Status: SUCCESS
+Offset seconds: -12.8290
+Confidence score: 1500000.00
+Full synchronized video: generated
+
+Folder: P43_20260327_101321\gopro_footage
+Reference video: P43_front.MP4
+Target video: P43_side.MP4
+Status: SUCCESS
+Offset seconds: -13.3399
+Confidence score: 14.67
+Full synchronized video: generated
+
+Folder: P44_20260327_131313\gopro_footage
+Reference video: P44_front.MP4
+Target video: P44_side.MP4
+Status: SUCCESS
+Offset seconds: -30.1976
+Confidence score: 9.50
+Full synchronized video: generated
+
+Folder: P46_20260330_111907\gopro_footage
+Reference video: P46_front.MP4
+Target video: P46_side.MP4
+Status: SUCCESS
+Offset seconds: -13.9784
+Confidence score: 8.87
+Full synchronized video: generated
+
+Folder: P46_20260330_111907\gopro_footage\2of2
+Reference video: P46_front_2of2.MP4
+Target video: P46_side_2of2.MP4
+Status: SUCCESS
+Offset seconds: -13.4792
+Confidence score: 15.25
+Full synchronized video: generated
 
 Folder: P50_20260331_131459\gopro_footage
 Reference video: P50_front.MP4
@@ -30,6 +212,13 @@ Target video: P50_side.MP4
 Status: LOW_CONFIDENCE
 Offset seconds: +6.1997
 Confidence score: 2.60
-Full synchronized video: not generated
-Review snippet: not generated
+Full synchronized video: generated
+
+Folder: P44_20260327_131313\gopro_footage
+Reference video: P44_front.MP4
+Target video: P44_side.MP4
+Status: SUCCESS
+Offset seconds: -30.1976
+Confidence score: 9.50
+Full synchronized video: generated
 

@@ -1,0 +1,7 @@
+Reference video: P43_front.MP4
+Target video: P43_side.MP4
+Status: SUCCESS
+Offset seconds: -13.3399
+Confidence score: 14.67
+Full synchronized video: generated
+Full video path: P43_20260327_101321_sync_full.mp4

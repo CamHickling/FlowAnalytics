@@ -3,6 +3,5 @@ Target video: P06_side.MP4
 Status: LOW_CONFIDENCE
 Offset seconds: -9.9265
 Confidence score: 600000.00
-Full synchronized video: not generated
-Full video path: N/A
-Review snippet: not generated
+Full synchronized video: generated
+Full video path: P06_20260226_111009_sync_full.mp4

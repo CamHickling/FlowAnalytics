@@ -10,7 +10,7 @@
         "video_2_trim_start": 29.141
     },
     "ffmpeg_sync_example": "ffmpeg -ss 0.0 -i 'P49_front.MP4' ... AND ffmpeg -ss 29.141 -i 'P49_side.MP4' ...",
-    "snippet_generated": false,
-    "full_video_generated": false,
-    "full_video_name": "sync_full.mp4"
+    "snippet_generated": true,
+    "full_video_generated": true,
+    "full_video_name": "P49_20260331_111427_sync_full.mp4"
 }

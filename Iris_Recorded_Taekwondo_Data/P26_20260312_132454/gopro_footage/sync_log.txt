@@ -1,0 +1,7 @@
+Reference video: P26_front.MP4
+Target video: P26_side.MP4
+Status: SUCCESS
+Offset seconds: -4.3537
+Confidence score: 40.00
+Full synchronized video: generated
+Full video path: P26_20260312_132454_sync_full.mp4

@@ -10,7 +10,6 @@
         "video_2_trim_start": 0.0
     },
     "ffmpeg_sync_example": "ffmpeg -ss 1.7067 -i 'P12_front.MP4' ... AND ffmpeg -ss 0.0 -i 'P12_side.MP4' ...",
-    "snippet_generated": false,
-    "full_video_generated": false,
-    "full_video_name": "sync_full.mp4"
+    "full_video_generated": true,
+    "full_video_name": "P12_20260302_131117_sync_full.mp4"
 }

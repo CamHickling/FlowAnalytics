@@ -1,0 +1,15 @@
+{
+    "status": "SUCCESS",
+    "offset_seconds": -30.1976,
+    "confidence_score": 9.5,
+    "explanation": "'P44_side.MP4' started 30.1976s before 'P44_front.MP4'.",
+    "reference_video": "P44_front.MP4",
+    "target_video": "P44_side.MP4",
+    "trim_parameters": {
+        "video_1_trim_start": 0.0,
+        "video_2_trim_start": 30.1976
+    },
+    "ffmpeg_sync_example": "ffmpeg -ss 0.0 -i 'P44_front.MP4' ... AND ffmpeg -ss 30.1976 -i 'P44_side.MP4' ...",
+    "full_video_generated": true,
+    "full_video_name": "P44_20260327_131313_sync_full.mp4"
+}

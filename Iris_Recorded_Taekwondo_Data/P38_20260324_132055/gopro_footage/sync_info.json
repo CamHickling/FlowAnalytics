@@ -1,0 +1,15 @@
+{
+    "status": "LOW_CONFIDENCE",
+    "offset_seconds": 25.8786,
+    "confidence_score": 3.8,
+    "explanation": "'P38_front.MP4' started 25.8786s before 'P38_side.MP4'.",
+    "reference_video": "P38_front.MP4",
+    "target_video": "P38_side.MP4",
+    "trim_parameters": {
+        "video_1_trim_start": 25.8786,
+        "video_2_trim_start": 0.0
+    },
+    "ffmpeg_sync_example": "ffmpeg -ss 25.8786 -i 'P38_front.MP4' ... AND ffmpeg -ss 0.0 -i 'P38_side.MP4' ...",
+    "full_video_generated": true,
+    "full_video_name": "P38_20260324_132055_sync_full.mp4"
+}
