@@ -1,0 +1,15 @@
+{
+    "status": "SUCCESS",
+    "offset_seconds": -17.2756,
+    "confidence_score": 13.29,
+    "explanation": "'P34_side_2of2.MP4' started 17.2756s before 'P34_front_2of2.MP4'.",
+    "reference_video": "P34_front_2of2.MP4",
+    "target_video": "P34_side_2of2.MP4",
+    "trim_parameters": {
+        "video_1_trim_start": 0.0,
+        "video_2_trim_start": 17.2756
+    },
+    "ffmpeg_sync_example": "ffmpeg -ss 0.0 -i 'P34_front_2of2.MP4' ... AND ffmpeg -ss 17.2756 -i 'P34_side_2of2.MP4' ...",
+    "full_video_generated": true,
+    "full_video_name": "P34_20260323_101229_sync_full.mp4"
+}

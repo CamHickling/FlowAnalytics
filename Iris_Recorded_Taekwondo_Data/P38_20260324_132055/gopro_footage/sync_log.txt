@@ -1,0 +1,7 @@
+Reference video: P38_front.MP4
+Target video: P38_side.MP4
+Status: LOW_CONFIDENCE
+Offset seconds: +25.8786
+Confidence score: 3.80
+Full synchronized video: generated
+Full video path: P38_20260324_132055_sync_full.mp4

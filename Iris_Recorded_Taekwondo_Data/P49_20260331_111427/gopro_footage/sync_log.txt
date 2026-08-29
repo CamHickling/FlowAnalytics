@@ -3,6 +3,6 @@ Target video: P49_side.MP4
 Status: SUCCESS
 Offset seconds: -29.1410
 Confidence score: 15.40
-Full synchronized video: not generated
-Full video path: sync_full.mp4
-Review snippet: not generated
+Full synchronized video: generated
+Full video path: P49_20260331_111427_sync_full.mp4
+Review snippet: generated

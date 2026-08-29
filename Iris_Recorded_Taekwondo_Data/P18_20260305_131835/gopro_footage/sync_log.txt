@@ -1,0 +1,7 @@
+Reference video: P18_front.MP4
+Target video: P18_side.MP4
+Status: SUCCESS
+Offset seconds: +6.5945
+Confidence score: 9.57
+Full synchronized video: generated
+Full video path: P18_20260305_131835_sync_full.mp4

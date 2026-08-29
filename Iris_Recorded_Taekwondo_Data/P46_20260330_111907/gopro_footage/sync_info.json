@@ -1,0 +1,15 @@
+{
+    "status": "SUCCESS",
+    "offset_seconds": -13.9784,
+    "confidence_score": 8.87,
+    "explanation": "'P46_side.MP4' started 13.9784s before 'P46_front.MP4'.",
+    "reference_video": "P46_front.MP4",
+    "target_video": "P46_side.MP4",
+    "trim_parameters": {
+        "video_1_trim_start": 0.0,
+        "video_2_trim_start": 13.9784
+    },
+    "ffmpeg_sync_example": "ffmpeg -ss 0.0 -i 'P46_front.MP4' ... AND ffmpeg -ss 13.9784 -i 'P46_side.MP4' ...",
+    "full_video_generated": true,
+    "full_video_name": "P46_20260330_111907_sync_full.mp4"
+}
