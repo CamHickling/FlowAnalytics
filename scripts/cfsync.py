@@ -155,7 +155,12 @@ def create_synced_video(vid1, vid2, offset_sec, out_path, duration=None):
         return False
 
 
-def folder_outputs_missing(current_dir):
+def get_trial_name(current_dir, base_path):
+    relative_parts = current_dir.relative_to(base_path).parts
+    return relative_parts[0] if relative_parts else current_dir.name
+
+
+def folder_outputs_missing(current_dir, base_path):
     """Return whether the expected outputs for a previously processed folder are missing."""
     sync_info_path = current_dir / "sync_info.json"
     folder_log_path = next(
@@ -173,11 +178,11 @@ def folder_outputs_missing(current_dir):
         return True
 
     required_outputs = [sync_info_path, folder_log_path]
-    if status == "SUCCESS":
-        full_video_path = current_dir / f"{current_dir.parent.name}_sync_full.mp4"
+    if status in {"SUCCESS", "LOW_CONFIDENCE"}:
+        trial_name = get_trial_name(current_dir, base_path)
+        full_video_path = current_dir / f"{trial_name}_sync_full.mp4"
         required_outputs.extend([
             full_video_path,
-            current_dir / "sync_snippet_review.mp4",
         ])
 
     return any(not path.is_file() for path in required_outputs)
@@ -204,11 +209,12 @@ def process_folder_tree(base_dir):
             if Path(f).suffix in VIDEO_EXTENSIONS
             and not f.startswith("._")
             and not f.lower().startswith(("sync_", "preview_sync"))
+            and "synced" not in f.lower()
         ])
 
         # Target folders containing exactly two GoPro/camera recordings
         if len(video_files) == 2:
-            if not folder_outputs_missing(current_dir):
+            if not folder_outputs_missing(current_dir, base_path):
                 print(f"Skipping complete folder: {current_dir.relative_to(base_path)}")
                 continue
 
@@ -249,25 +255,17 @@ def process_folder_tree(base_dir):
                     )
                 }
 
-                # 3. Create synchronized videos if alignment passed
-                snippet_created = False
+                # 3. Create a synchronized video when alignment produced a usable result
                 full_video_created = False
-                if status == "SUCCESS":
-                    full_video_path = current_dir / f"{current_dir.parent.name}_sync_full.mp4"
+                trial_name = get_trial_name(current_dir, base_path)
+                full_video_path = current_dir / f"{trial_name}_sync_full.mp4"
+                if status in {"SUCCESS", "LOW_CONFIDENCE"}:
                     full_video_created = create_synced_video(vid1, vid2, offset, full_video_path)
                     if full_video_created:
                         print(f"    Full synchronized video generated: {full_video_path.name}")
-
-                    snippet_path = current_dir / "sync_snippet_review.mp4"
-                    snippet_created = create_synced_video(
-                        vid1, vid2, offset, snippet_path, duration=SNIPPET_DURATION
-                    )
-                    if snippet_created:
-                        print(f"    Validation snippet generated: {snippet_path.name}")
                 
-                sync_data["snippet_generated"] = snippet_created
                 sync_data["full_video_generated"] = full_video_created
-                sync_data["full_video_name"] = full_video_path.name if status == "SUCCESS" else None
+                sync_data["full_video_name"] = full_video_path.name if status in {"SUCCESS", "LOW_CONFIDENCE"} else None
 
                 # 4. Save sync_info.json document in target folder
                 json_path = current_dir / "sync_info.json"
@@ -284,8 +282,7 @@ def process_folder_tree(base_dir):
                     f.write(f"Offset seconds: {offset:+.4f}\n")
                     f.write(f"Confidence score: {conf:.2f}\n")
                     f.write(f"Full synchronized video: {'generated' if full_video_created else 'not generated'}\n")
-                    f.write(f"Full video path: {full_video_path.name if status == 'SUCCESS' else 'N/A'}\n")
-                    f.write(f"Review snippet: {'generated' if snippet_created else 'not generated'}\n")
+                    f.write(f"Full video path: {full_video_path.name if status in {'SUCCESS', 'LOW_CONFIDENCE'} else 'N/A'}\n")
                 print(f"    Recorded sync log: {log_path.name}\n")
 
                 with open(main_log_path, "a", encoding="utf-8") as main_log:
@@ -296,7 +293,7 @@ def process_folder_tree(base_dir):
                     main_log.write(f"Offset seconds: {offset:+.4f}\n")
                     main_log.write(f"Confidence score: {conf:.2f}\n")
                     main_log.write(f"Full synchronized video: {'generated' if full_video_created else 'not generated'}\n")
-                    main_log.write(f"Review snippet: {'generated' if snippet_created else 'not generated'}\n\n")
+                    main_log.write("\n")
 
             except Exception as e:
                 print(f"    ❌ Error processing folder: {type(e).__name__}: {e}\n")
