@@ -1,7 +1,8 @@
 param(
-    [string]$InputDir = "Iris_Recorded_Taekwondo_Data",
-    [string]$OutputDir = "Iris_Recorded_Taekwondo_Data/transcripts",
-    [string]$AudioDir = "Iris_Recorded_Taekwondo_Data/audio",
+    [string]$DataRoot = "D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data",
+    [string]$InputDir,
+    [string]$OutputDir,
+    [string]$AudioDir,
     [string]$Model = "large-v3",
     [string]$Device = "cpu",
     [string]$Language = "en",
@@ -13,6 +14,10 @@ param(
 $ErrorActionPreference = "Stop"
 $repoRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $repoRoot
+
+if (-not $InputDir) { $InputDir = $DataRoot }
+if (-not $OutputDir) { $OutputDir = Join-Path $DataRoot "transcripts" }
+if (-not $AudioDir) { $AudioDir = Join-Path $DataRoot "audio" }
 
 $pythonExe = "C:/Users/BarlabPRIME/anaconda3/envs/flowhr/python.exe"
 $scriptPath = Join-Path $repoRoot "Iris_Recorded_Taekwondo_Data/scripts/process_videos_whisperx.py"

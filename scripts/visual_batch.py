@@ -70,6 +70,13 @@ def main(root_dir):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Launch visual_sync.py for each session interactively')
-    parser.add_argument('--root', default=r"C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data", help='Root folder with session subfolders')
+    parser.add_argument(
+        '--root',
+        default=os.environ.get(
+            'FLOW_ANALYTICS_DATA_ROOT',
+            r"C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data",
+        ),
+        help='Root folder with session subfolders',
+    )
     args = parser.parse_args()
     main(args.root)
