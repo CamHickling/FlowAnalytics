@@ -287,7 +287,10 @@ def main(root_dir, preview_timestamp=60):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Batch sync GoPro pairs across sessions')
     parser.add_argument('--root', required=False, help='Root folder with session subfolders',
-                        default=r"C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data")
+                        default=os.environ.get(
+                            'FLOW_ANALYTICS_DATA_ROOT',
+                            r"C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data",
+                        ))
     parser.add_argument('--preview-timestamp', type=int, default=60, help='Preview start time in seconds')
     args = parser.parse_args()
 

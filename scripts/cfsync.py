@@ -20,6 +20,7 @@ MAX_SEARCH_SEC = 90         # Maximum expected start difference (seconds)
 ANALYSIS_DURATION = 180     # Analyze first 3 minutes of overlap
 CONFIDENCE_THRESHOLD = 4.0  # Peak-to-background SNR ratio for acceptance
 SNIPPET_DURATION = 5.0      # Duration of validation video in seconds
+OUTPUT_FPS = 30             # Camera recordings are nominally 30 FPS
 FFMPEG_EXE = imageio_ffmpeg.get_ffmpeg_exe()
 # ==============================================================================
 
@@ -124,10 +125,10 @@ def create_synced_video(vid1, vid2, offset_sec, out_path, duration=None):
 
     # FFmpeg command: scales both to 720p height, places side-by-side, mixes audio
     filter_complex = (
-        "[0:v]scale=-1:720,setpts=PTS-STARTPTS[left];"
-        "[1:v]scale=-1:720,setpts=PTS-STARTPTS[right];"
-        "[left][right]hstack=inputs=2[v];"
-        "[0:a][1:a]amix=inputs=2:duration=first[a]"
+        f"[0:v]scale=-1:720,fps={OUTPUT_FPS},setpts=PTS-STARTPTS[left];"
+        f"[1:v]scale=-1:720,fps={OUTPUT_FPS},setpts=PTS-STARTPTS[right];"
+        "[left][right]hstack=inputs=2:shortest=1[v];"
+        "[0:a][1:a]amix=inputs=2:duration=shortest[a]"
     )
 
     cmd = [FFMPEG_EXE, "-y", "-ss", f"{ss1:.4f}"]
@@ -143,7 +144,7 @@ def create_synced_video(vid1, vid2, offset_sec, out_path, duration=None):
         "-filter_complex", filter_complex,
         "-map", "[v]", "-map", "[a]",
         "-shortest",
-        "-c:v", "libx264", "-preset", "ultrafast", "-crf", "22",
+        "-c:v", "libx264", "-preset", "ultrafast", "-crf", "22", "-r", str(OUTPUT_FPS),
         "-c:a", "aac",
         str(out_path)
     ])
@@ -307,13 +308,14 @@ def process_folder_tree(base_dir):
 
 
 if __name__ == "__main__":
-    '''
-    if len(sys.argv) > 1:
-        target_directory = sys.argv[1]
-    else:
-        target_directory = input("Enter path to the base dataset folder: ").strip()
-    '''
-    target_directory = r"C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data"
+    target_directory = (
+        sys.argv[1]
+        if len(sys.argv) > 1
+        else os.environ.get(
+            "FLOW_ANALYTICS_DATA_ROOT",
+            r"C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data",
+        )
+    )
 
     if not os.path.isdir(target_directory):
         print(f"Error: Directory '{target_directory}' does not exist.")
