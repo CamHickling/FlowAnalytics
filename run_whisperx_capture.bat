@@ -4,9 +4,10 @@ REM Modify INPUT_DIR and OUTPUT_DIR as needed.
 setlocal
 rem Edit CONDA_ROOT below if your Anaconda is installed elsewhere
 set "CONDA_ROOT=C:\Users\BarlabPRIME\anaconda3"
-rem Default to the dataset root so the run covers all participant folders recursively
-set "INPUT_DIR=%~dp0\Iris_Recorded_Taekwondo_Data"
-set "OUTPUT_DIR=%~dp0\Iris_Recorded_Taekwondo_Data\test_output"
+rem Keep large source and generated files on D: by default. Override DATA_ROOT if needed.
+if "%DATA_ROOT%"=="" set "DATA_ROOT=D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data"
+set "INPUT_DIR=%DATA_ROOT%"
+set "OUTPUT_DIR=%DATA_ROOT%\test_output"
 set "SCRIPT=%~dp0\Iris_Recorded_Taekwondo_Data\scripts\process_videos_whisperx.py"
 
 echo Running WhisperX audio-only transcription in capture env...
