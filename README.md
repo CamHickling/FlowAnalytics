@@ -1,106 +1,166 @@
 # FlowAnalytics
 
-FlowAnalytics is a repository focused on analyzing workflow, process, and data flow patterns. It provides tools and examples to help teams understand, visualize, and optimize end-to-end flows for more efficient operations.
+![FlowAnalytics logo](FlowAnalyticsLogo.png)
 
-## Key Features
+Tools for synchronizing and reviewing dual-camera athlete performance recordings.
+The working project and dataset are located on `D:` to keep large video files off
+the system drive.
 
-- Analyze flow data and metrics
-- Visualize system or process pathways
-- Support for customizable analytics workflows
-- Easy-to-extend structure for additional flow analysis use cases
+## Current Status
 
-## Getting Started
+Implemented and testable:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/CamHickling/FlowAnalytics.git
-   cd FlowAnalytics
-   ```
-2. Review the project files and configuration.
-3. Install any required dependencies as appropriate for your environment.
+- Constellation-style audio landmark synchronization in `scripts/cfsync.py`.
+- Side-by-side GoPro synchronization tools in `scripts/batch_sync.py` and
+   `scripts/visual_sync.py`.
+- Standard OpenCV calibration in `scripts/osr_instr_calibrate.py`.
+- Per-camera video undistortion in `scripts/undistort.py`.
+- Staged MVP inspection, timing, pause mapping, chart generation, preparation,
+   and short preview rendering in `scripts/mvp.py`.
+- WhisperX launcher scripts for transcription workflows.
 
-## Usage
+The full-length pause-aware MVP composition is still under development. The
+`render-preview` command is for short validation renders; do not treat it as the
+finished batch compositor yet.
 
-- Explore the repository structure to identify analytics scripts and flow definitions.
-- Run example workflows or analysis tools included in the repository.
-- Adapt existing components to support your own flow data sources and visualization needs.
+## Repository Layout
 
-## Keep Large Data on D:
-
-The video dataset and generated outputs can be stored outside the repository. The
-sync scripts honor `FLOW_ANALYTICS_DATA_ROOT`, and the WhisperX launchers accept a
-dataset root on `D:`.
-
-To migrate the existing dataset safely from PowerShell:
-
-```powershell
-$source = 'C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data'
-$destination = 'D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data'
-New-Item -ItemType Directory -Force -Path $destination | Out-Null
-robocopy $source $destination /E /COPY:DAT /DCOPY:DAT /R:2 /W:2 /XJ
+```text
+FlowAnalytics/
+├── scripts/                         Python processing tools
+├── tests/                           Test and synchronization utilities
+├── Iris_Recorded_Taekwondo_Data/    Trial data on D:
+├── MVP_SPEC.md                      MVP composition specification
+├── FlowAnalyticsLogo.png            Repository logo
+├── requirements.txt                 Core Python dependencies
+├── run_whisperx_batch.ps1           PowerShell WhisperX launcher
+└── run_whisperx_capture.bat        Windows batch WhisperX launcher
 ```
 
-After checking that the files are present on `D:`, use the new location for the
-rest of the session:
+Each trial normally contains `gopro_footage`, `review`, `heart_rate`, and a
+`*_sync_manifest.json`. MVP generated files are written under the trial's
+`MVP/` directory.
+
+## Setup
+
+Open the D: checkout and use an environment with the dependencies in
+`requirements.txt`:
 
 ```powershell
-$env:FLOW_ANALYTICS_DATA_ROOT = 'D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data'
-python scripts\batch_sync.py
-python scripts\visual_batch.py
-python scripts\cfsync.py $env:FLOW_ANALYTICS_DATA_ROOT
-.\run_whisperx_batch.ps1 -DataRoot $env:FLOW_ANALYTICS_DATA_ROOT
+cd D:\FlowAnalytics
+python -m pip install -r requirements.txt
 ```
 
-Do not delete the old dataset until the copy has been inspected. Once it is
-verified, remove it manually or with `Remove-Item -Recurse` to reclaim the space.
+The repository also contains Conda environment definitions for WhisperX:
+`environment-whisperx-gpu.yml` and `environment-whisperx-gpu-min.yml`.
 
-For quick cleanup of non-project caches, review first, then use `conda clean -a`
-and `pip cache purge`. These commands can remove downloaded package caches but do
-not move the Conda environment itself.
+## Staged MVP Workflow
 
-## MVP Pipeline Stages
-
-The MVP compositor is intentionally staged so each part can be checked before a
-long render:
+Run each stage separately against one trial before processing a batch:
 
 ```powershell
+cd D:\FlowAnalytics
 $trial = 'D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data\P01_20260223_112737'
 $calibration = 'D:\FlowAnalytics\calibration'
 
-# 1. Discover files and report missing prerequisites.
+# Discover inputs and report missing prerequisites.
 python scripts\mvp.py inspect --trial $trial --calibration-dir $calibration
 
-# 2. Verify manifest bounds and pause/resume pairing.
+# Validate manifest timing and review pause/resume pairing.
 python scripts\mvp.py timing --trial $trial
 python scripts\mvp.py pause-map --trial $trial
 
-# 3. Generate and inspect the heart-rate chart preview.
+# Generate a heart-rate JSON data file and PNG preview.
 python scripts\mvp.py chart --trial $trial --at-sec 60
 
-# 4. Preview the planned undistortion outputs without processing video.
+# Show the undistortion plan without processing video.
 python scripts\mvp.py prepare --trial $trial --calibration-dir $calibration --dry-run
 
-# 5. Undistort front and side into $trial\MVP\generated\.
+# Undistort front and side GoPro videos into trial\MVP\generated.
 python scripts\mvp.py prepare --trial $trial --calibration-dir $calibration
 
-# 6. Render a short composition preview after preparation.
+# Render a short composition preview.
 python scripts\mvp.py render-preview --trial $trial --duration 15
 ```
 
-The preview command accepts `--front-start-sec`, `--side-start-sec`, and
-`--review-start-sec` so source alignment can be tested explicitly. Add
-`--subtitles path\to\cleaned.srt` when the cleaned timestamped subtitles are
-available. Full-length pause-aware composition will use the same validated timing
-artifacts after this preview stage is confirmed.
+Add cleaned timestamped subtitles explicitly when available:
+
+```powershell
+python scripts\mvp.py render-preview --trial $trial --duration 15 `
+   --subtitles "$trial\review\narration.srt"
+```
+
+The preview supports `--front-start-sec`, `--side-start-sec`, and
+`--review-start-sec` for testing alignment. Calibration JSON files must exist in
+the directory supplied to `--calibration-dir` as `front_calibration.json` and
+`side_calibration.json`.
+
+## Calibration and Undistortion
+
+Generate calibration matrices from checkerboard footage:
+
+```powershell
+cd D:\FlowAnalytics
+$calibration = 'D:\FlowAnalytics\calibration'
+$dataRoot = 'D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data'
+New-Item -ItemType Directory -Force $calibration | Out-Null
+Push-Location $calibration
+python D:\FlowAnalytics\scripts\osr_instr_calibrate.py --intrinsics $dataRoot
+Pop-Location
+```
+
+This creates the standard OpenCV calibration files used by `undistort.py`.
+Undistortion processes front and side independently before the MVP composition.
+
+## Dataset Location
+
+Use this environment variable for scripts that support a configurable data root:
+
+```powershell
+$env:FLOW_ANALYTICS_DATA_ROOT = 'D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data'
+```
+
+The large dataset and generated videos should remain on `D:`. Video, audio, CSV,
+and archive formats are excluded from Git by `.gitignore`; Git tracks the scripts,
+configuration, documentation, and metadata needed to reproduce the workflow.
+
+## WhisperX Launchers
+
+The PowerShell launcher accepts `-DataRoot`, `-Model`, `-Device`, `-Language`,
+`-Resume`, and `-NoDiarize`. It currently references a local Anaconda executable,
+so update `$pythonExe` in `run_whisperx_batch.ps1` if that environment is installed
+elsewhere.
+
+```powershell
+.\run_whisperx_batch.ps1 `
+   -DataRoot D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data `
+   -Device cpu `
+   -Language en `
+   -Resume
+```
+
+The batch launcher uses the `capture` Conda environment and defaults to CUDA.
+Use it only when that environment and GPU runtime are available.
+
+## Storage Cleanup
+
+Package caches can be reviewed and cleared with:
+
+```powershell
+conda clean -a
+pip cache purge
+```
+
+Do not remove the C: dataset until the D: copy has been verified. The current
+working checkout is `D:\FlowAnalytics`.
+
+## Related Documentation
+
+- [MVP specification](MVP_SPEC.md)
+- [Technical calibration notes](scripts/markdown_gen.py)
 
 ## Contributing
 
-Contributions are welcome. If you want to improve FlowAnalytics:
-
-- Open an issue to discuss new features or fixes
-- Submit a pull request with clear descriptions of your changes
-- Keep code and documentation consistent with the repository style
-
-## License
-
-This repository uses the license defined in the project. If no license is present, please add one to clarify usage rights.
+Keep changes focused, validate staged commands against one trial, and avoid
+committing large media files. Use pull requests for changes intended for the
+shared repository.
