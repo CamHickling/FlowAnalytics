@@ -1,0 +1,261 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P47_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P47_audio_narration.srt",
+  "clean_line_count": 31,
+  "timed_segment_count": 31,
+  "exact_match_count": 31,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 60.0,
+      "end": 62.96,
+      "whisper_text": "Ok, I can drift you over this.",
+      "clean_text": "Ok, I can drift you over this.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 63.12,
+      "end": 63.72,
+      "whisper_text": "Let's go push this.",
+      "clean_text": "Let's go push this.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 81.03999999999999,
+      "end": 82.32,
+      "whisper_text": "Ok, uh...",
+      "clean_text": "Ok, uh...",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 82.32,
+      "end": 85.3,
+      "whisper_text": "Ok, we can start here.",
+      "clean_text": "Ok, we can start here.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 90.0,
+      "end": 112.03999999999999,
+      "whisper_text": "So starting off, I think I went a little bit too fast",
+      "clean_text": "So starting off, I think I went a little bit too fast",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 112.03999999999999,
+      "end": 114.06,
+      "whisper_text": "and probably could have kicked a little bit higher",
+      "clean_text": "and probably could have kicked a little bit higher",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 114.06,
+      "end": 115.36,
+      "whisper_text": "a little bit more flexibility.",
+      "clean_text": "a little bit more flexibility.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 120.0,
+      "end": 121.44,
+      "whisper_text": "This point felt pretty smooth.",
+      "clean_text": "This point felt pretty smooth.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 121.7,
+      "end": 122.92,
+      "whisper_text": "I think I was relaxed.",
+      "clean_text": "I think I was relaxed.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 124.96,
+      "end": 126.24,
+      "whisper_text": "Went a bit too quick there.",
+      "clean_text": "Went a bit too quick there.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 126.32,
+      "end": 128.24,
+      "whisper_text": "Should have done a little bit of a pause.",
+      "clean_text": "Should have done a little bit of a pause.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 129.54,
+      "end": 132.12,
+      "whisper_text": "This point, I felt pretty smooth here with this.",
+      "clean_text": "This point, I felt pretty smooth here with this.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 132.4,
+      "end": 133.84,
+      "whisper_text": "Kick, I could have done a little better,",
+      "clean_text": "Kick, I could have done a little better,",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 134.16,
+      "end": 136.94,
+      "whisper_text": "but again, form is what I'm thinking about.",
+      "clean_text": "but again, form is what I'm thinking about.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 138.38,
+      "end": 140.86,
+      "whisper_text": "And each time I think about how I could have done better",
+      "clean_text": "And each time I think about how I could have done better",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 140.86,
+      "end": 142.5,
+      "whisper_text": "with that form, I just move on.",
+      "clean_text": "with that form, I just move on.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 143.32,
+      "end": 145.04,
+      "whisper_text": "But my mind has been completely clear.",
+      "clean_text": "But my mind has been completely clear.",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 146.56,
+      "end": 148.62,
+      "whisper_text": "Keeping sure I make a good count",
+      "clean_text": "Keeping sure I make a good count",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 148.62,
+      "end": 149.96,
+      "whisper_text": "with every...",
+      "clean_text": "with every...",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 150.0,
+      "end": 151.42000000000002,
+      "whisper_text": "form or technique here.",
+      "clean_text": "form or technique here.",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 151.86,
+      "end": 153.68,
+      "whisper_text": "So, I think too bad.",
+      "clean_text": "So, I think too bad.",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 154.34,
+      "end": 155.76,
+      "whisper_text": "I feel like most of this was...",
+      "clean_text": "I feel like most of this was...",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 155.76,
+      "end": 157.04,
+      "whisper_text": "I was going a bit too fast,",
+      "clean_text": "I was going a bit too fast,",
+      "match": "exact"
+    },
+    {
+      "index": 24,
+      "start": 157.04,
+      "end": 159.64,
+      "whisper_text": "but overall, I kept my pace",
+      "clean_text": "but overall, I kept my pace",
+      "match": "exact"
+    },
+    {
+      "index": 25,
+      "start": 159.64,
+      "end": 161.8,
+      "whisper_text": "and good count.",
+      "clean_text": "and good count.",
+      "match": "exact"
+    },
+    {
+      "index": 26,
+      "start": 162.22,
+      "end": 164.12,
+      "whisper_text": "And yeah, I think...",
+      "clean_text": "And yeah, I think...",
+      "match": "exact"
+    },
+    {
+      "index": 27,
+      "start": 164.12,
+      "end": 166.5,
+      "whisper_text": "Overall, I think the experience was",
+      "clean_text": "Overall, I think the experience was",
+      "match": "exact"
+    },
+    {
+      "index": 28,
+      "start": 166.5,
+      "end": 168.0,
+      "whisper_text": "around in the middle.",
+      "clean_text": "around in the middle.",
+      "match": "exact"
+    },
+    {
+      "index": 29,
+      "start": 168.34,
+      "end": 169.06,
+      "whisper_text": "Very mediocre.",
+      "clean_text": "Very mediocre.",
+      "match": "exact"
+    },
+    {
+      "index": 30,
+      "start": 169.3,
+      "end": 170.02,
+      "whisper_text": "Not too great.",
+      "clean_text": "Not too great.",
+      "match": "exact"
+    },
+    {
+      "index": 31,
+      "start": 170.07999999999998,
+      "end": 170.82,
+      "whisper_text": "Not too bad.",
+      "clean_text": "Not too bad.",
+      "match": "exact"
+    }
+  ]
+}

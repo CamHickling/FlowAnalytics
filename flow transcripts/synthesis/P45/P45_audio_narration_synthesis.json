@@ -1,0 +1,549 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P45_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P45_audio_narration.srt",
+  "clean_line_count": 67,
+  "timed_segment_count": 67,
+  "exact_match_count": 67,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 11.68,
+      "whisper_text": "Can I sit down?",
+      "clean_text": "Can I sit down?",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 12.24,
+      "end": 13.26,
+      "whisper_text": "Oh, no, don't sit down.",
+      "clean_text": "Oh, no, don't sit down.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 13.26,
+      "end": 15.0,
+      "whisper_text": "All right.",
+      "clean_text": "All right.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 30.0,
+      "end": 59.98,
+      "whisper_text": "All right.",
+      "clean_text": "All right.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 60.0,
+      "end": 89.98,
+      "whisper_text": "All right.",
+      "clean_text": "All right.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 90.0,
+      "end": 90.24,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 90.44,
+      "end": 91.86,
+      "whisper_text": "Oh, my God, it was horrible.",
+      "clean_text": "Oh, my God, it was horrible.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 92.92,
+      "end": 93.46000000000001,
+      "whisper_text": "But it was good.",
+      "clean_text": "But it was good.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 94.36,
+      "end": 94.78,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 95.36,
+      "end": 97.78,
+      "whisper_text": "For this part, we'll ask you to narrate your own performance.",
+      "clean_text": "For this part, we'll ask you to narrate your own performance.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 98.52000000000001,
+      "end": 100.52000000000001,
+      "whisper_text": "Watch the video that you just completed.",
+      "clean_text": "Watch the video that you just completed.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 100.9,
+      "end": 103.42,
+      "whisper_text": "Verbally describe what you were thinking and feeling at each moment.",
+      "clean_text": "Verbally describe what you were thinking and feeling at each moment.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 104.06,
+      "end": 104.38,
+      "whisper_text": "Okay?",
+      "clean_text": "Okay?",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 105.68,
+      "end": 108.53999999999999,
+      "whisper_text": "Speak naturally as if you're explaining it to a friend.",
+      "clean_text": "Speak naturally as if you're explaining it to a friend.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 108.97999999999999,
+      "end": 111.86,
+      "whisper_text": "Describe what you remember thinking or feeling at each moment.",
+      "clean_text": "Describe what you remember thinking or feeling at each moment.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 113.32,
+      "end": 118.0,
+      "whisper_text": "Note any moments where you're in particular and those that are otherwise distracted.",
+      "clean_text": "Note any moments where you're in particular and those that are otherwise distracted.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 120.0,
+      "end": 121.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 121.36,
+      "end": 122.38,
+      "whisper_text": "Describe your experience.",
+      "clean_text": "Describe your experience.",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 122.52,
+      "end": 125.84,
+      "whisper_text": "What stood out to you when you were in the zone in particular?",
+      "clean_text": "What stood out to you when you were in the zone in particular?",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 125.84,
+      "end": 132.7,
+      "whisper_text": "Were there any specific movements or sections that particularly were challenging today?",
+      "clean_text": "Were there any specific movements or sections that particularly were challenging today?",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 132.98,
+      "end": 136.94,
+      "whisper_text": "What was going through your mind during your performance?",
+      "clean_text": "What was going through your mind during your performance?",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 137.22,
+      "end": 139.16,
+      "whisper_text": "What were you thinking about at the end?",
+      "clean_text": "What were you thinking about at the end?",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 139.96,
+      "end": 140.32,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 24,
+      "start": 142.3,
+      "end": 143.02,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 25,
+      "start": 143.32,
+      "end": 143.52,
+      "whisper_text": "Start.",
+      "clean_text": "Start.",
+      "match": "exact"
+    },
+    {
+      "index": 26,
+      "start": 143.52,
+      "end": 145.52,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 27,
+      "start": 150.0,
+      "end": 155.3,
+      "whisper_text": "So, like, this part leading up when you're, like,",
+      "clean_text": "So, like, this part leading up when you're, like,",
+      "match": "exact"
+    },
+    {
+      "index": 28,
+      "start": 155.36,
+      "end": 159.48,
+      "whisper_text": "Just keeping my eyes in the front.",
+      "clean_text": "Just keeping my eyes in the front.",
+      "match": "exact"
+    },
+    {
+      "index": 29,
+      "start": 159.64,
+      "end": 163.56,
+      "whisper_text": "This felt pretty normal, like, competition moment.",
+      "clean_text": "This felt pretty normal, like, competition moment.",
+      "match": "exact"
+    },
+    {
+      "index": 30,
+      "start": 166.18,
+      "end": 170.18,
+      "whisper_text": "And then from the first turn, I just had to remind myself it's slippery, so don't go too quickly.",
+      "clean_text": "And then from the first turn, I just had to remind myself it's slippery, so don't go too quickly.",
+      "match": "exact"
+    },
+    {
+      "index": 31,
+      "start": 171.4,
+      "end": 177.36,
+      "whisper_text": "And then after the kick and the double punching, even the blocking motion, I realized that my movements were really small.",
+      "clean_text": "And then after the kick and the double punching, even the blocking motion, I realized that my movements were really small.",
+      "match": "exact"
+    },
+    {
+      "index": 32,
+      "start": 177.36,
+      "end": 179.36,
+      "whisper_text": "And this was completely...",
+      "clean_text": "And this was completely...",
+      "match": "exact"
+    },
+    {
+      "index": 33,
+      "start": 180.0,
+      "end": 182.0,
+      "whisper_text": "Slower than what I usually do.",
+      "clean_text": "Slower than what I usually do.",
+      "match": "exact"
+    },
+    {
+      "index": 34,
+      "start": 183.2,
+      "end": 184.2,
+      "whisper_text": "Can I pause?",
+      "clean_text": "Can I pause?",
+      "match": "exact"
+    },
+    {
+      "index": 35,
+      "start": 186.0,
+      "end": 187.4,
+      "whisper_text": "Can I rewind a little bit?",
+      "clean_text": "Can I rewind a little bit?",
+      "match": "exact"
+    },
+    {
+      "index": 36,
+      "start": 187.4,
+      "end": 187.8,
+      "whisper_text": "Ah, no.",
+      "clean_text": "Ah, no.",
+      "match": "exact"
+    },
+    {
+      "index": 37,
+      "start": 187.8,
+      "end": 188.7,
+      "whisper_text": "No? Okay.",
+      "clean_text": "No? Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 38,
+      "start": 188.7,
+      "end": 197.0,
+      "whisper_text": "So, the moments leading up to, like, the step forward, the punching, and then the block step forward punch, there was a...",
+      "clean_text": "So, the moments leading up to, like, the step forward, the punching, and then the block step forward punch, there was a...",
+      "match": "exact"
+    },
+    {
+      "index": 39,
+      "start": 197.0,
+      "end": 200.0,
+      "whisper_text": "I realized my stance was wide.",
+      "clean_text": "I realized my stance was wide.",
+      "match": "exact"
+    },
+    {
+      "index": 40,
+      "start": 201.3,
+      "end": 202.3,
+      "whisper_text": "Stance was wide.",
+      "clean_text": "Stance was wide.",
+      "match": "exact"
+    },
+    {
+      "index": 41,
+      "start": 202.7,
+      "end": 209.6,
+      "whisper_text": "My movements were slower than normal, like, what I normally do because, to be honest, I think I was still...",
+      "clean_text": "My movements were slower than normal, like, what I normally do because, to be honest, I think I was still...",
+      "match": "exact"
+    },
+    {
+      "index": 42,
+      "start": 210.0,
+      "end": 212.0,
+      "whisper_text": "The body's still waking up.",
+      "clean_text": "The body's still waking up.",
+      "match": "exact"
+    },
+    {
+      "index": 43,
+      "start": 212.0,
+      "end": 216.0,
+      "whisper_text": "So, in that sense, like, I knew...",
+      "clean_text": "So, in that sense, like, I knew...",
+      "match": "exact"
+    },
+    {
+      "index": 44,
+      "start": 216.0,
+      "end": 218.0,
+      "whisper_text": "I knew the timing was off.",
+      "clean_text": "I knew the timing was off.",
+      "match": "exact"
+    },
+    {
+      "index": 45,
+      "start": 218.0,
+      "end": 226.0,
+      "whisper_text": "But there's nothing I can do about it, so I was just trying to think about creating power to offset the timing and to offset the presentation.",
+      "clean_text": "But there's nothing I can do about it, so I was just trying to think about creating power to offset the timing and to offset the presentation.",
+      "match": "exact"
+    },
+    {
+      "index": 46,
+      "start": 226.0,
+      "end": 234.0,
+      "whisper_text": "After the key up towards the spin, again, I remember that the mats are slippery, so don't overdo it.",
+      "clean_text": "After the key up towards the spin, again, I remember that the mats are slippery, so don't overdo it.",
+      "match": "exact"
+    },
+    {
+      "index": 47,
+      "start": 234.0,
+      "end": 236.0,
+      "whisper_text": "Don't go too high to...",
+      "clean_text": "Don't go too high to...",
+      "match": "exact"
+    },
+    {
+      "index": 48,
+      "start": 236.0,
+      "end": 238.0,
+      "whisper_text": "To slip or lose the balance for the side kick.",
+      "clean_text": "To slip or lose the balance for the side kick.",
+      "match": "exact"
+    },
+    {
+      "index": 49,
+      "start": 238.0,
+      "end": 239.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 50,
+      "start": 239.0,
+      "end": 241.0,
+      "whisper_text": "Balance for the side kick.",
+      "clean_text": "Balance for the side kick.",
+      "match": "exact"
+    },
+    {
+      "index": 51,
+      "start": 241.0,
+      "end": 246.0,
+      "whisper_text": "Also trying to remind myself to open the hip by...",
+      "clean_text": "Also trying to remind myself to open the hip by...",
+      "match": "exact"
+    },
+    {
+      "index": 52,
+      "start": 246.0,
+      "end": 250.0,
+      "whisper_text": "By opening the angle of my knee for that side kick.",
+      "clean_text": "By opening the angle of my knee for that side kick.",
+      "match": "exact"
+    },
+    {
+      "index": 53,
+      "start": 251.0,
+      "end": 252.0,
+      "whisper_text": "Elbow...",
+      "clean_text": "Elbow...",
+      "match": "exact"
+    },
+    {
+      "index": 54,
+      "start": 252.0,
+      "end": 254.0,
+      "whisper_text": "I wobbled a little bit there.",
+      "clean_text": "I wobbled a little bit there.",
+      "match": "exact"
+    },
+    {
+      "index": 55,
+      "start": 254.0,
+      "end": 256.0,
+      "whisper_text": "Wobbled here.",
+      "clean_text": "Wobbled here.",
+      "match": "exact"
+    },
+    {
+      "index": 56,
+      "start": 256.0,
+      "end": 258.0,
+      "whisper_text": "Slipped on the side kick.",
+      "clean_text": "Slipped on the side kick.",
+      "match": "exact"
+    },
+    {
+      "index": 57,
+      "start": 258.0,
+      "end": 261.0,
+      "whisper_text": "So, as you can see, my landing is short and completely off.",
+      "clean_text": "So, as you can see, my landing is short and completely off.",
+      "match": "exact"
+    },
+    {
+      "index": 58,
+      "start": 261.0,
+      "end": 263.0,
+      "whisper_text": "Long stance, major deduction there.",
+      "clean_text": "Long stance, major deduction there.",
+      "match": "exact"
+    },
+    {
+      "index": 59,
+      "start": 264.0,
+      "end": 266.0,
+      "whisper_text": "This part was okay, but...",
+      "clean_text": "This part was okay, but...",
+      "match": "exact"
+    },
+    {
+      "index": 60,
+      "start": 266.0,
+      "end": 267.0,
+      "whisper_text": "In general...",
+      "clean_text": "In general...",
+      "match": "exact"
+    },
+    {
+      "index": 61,
+      "start": 267.0,
+      "end": 269.0,
+      "whisper_text": "I would say my hand movement...",
+      "clean_text": "I would say my hand movement...",
+      "match": "exact"
+    },
+    {
+      "index": 62,
+      "start": 269.0,
+      "end": 272.0,
+      "whisper_text": "For the scissor blocks was also very small.",
+      "clean_text": "For the scissor blocks was also very small.",
+      "match": "exact"
+    },
+    {
+      "index": 63,
+      "start": 272.0,
+      "end": 275.0,
+      "whisper_text": "I was pretty tight in movement.",
+      "clean_text": "I was pretty tight in movement.",
+      "match": "exact"
+    },
+    {
+      "index": 64,
+      "start": 275.0,
+      "end": 277.0,
+      "whisper_text": "And just...",
+      "clean_text": "And just...",
+      "match": "exact"
+    },
+    {
+      "index": 65,
+      "start": 279.0,
+      "end": 282.0,
+      "whisper_text": "Slower than usual pace.",
+      "clean_text": "Slower than usual pace.",
+      "match": "exact"
+    },
+    {
+      "index": 66,
+      "start": 282.0,
+      "end": 284.0,
+      "whisper_text": "Partly, I think, because...",
+      "clean_text": "Partly, I think, because...",
+      "match": "exact"
+    },
+    {
+      "index": 67,
+      "start": 284.0,
+      "end": 286.0,
+      "whisper_text": "Body isn't at full ideal perf...",
+      "clean_text": "Body isn't at full ideal perf...",
+      "match": "exact"
+    }
+  ]
+}

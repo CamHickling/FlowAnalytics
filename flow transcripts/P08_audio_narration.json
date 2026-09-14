@@ -1,0 +1,184 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P08_20260227_101638\\review\\P08_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P08_20260227_101638\\review\\P08_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 26.92,
+      "text": "Oh, do I just start whenever?"
+    },
+    {
+      "start": 26.92,
+      "end": 33.800000000000004,
+      "text": "Okay, uh, I feel like initially it was pretty, uh, simple, everything came naturally to me,"
+    },
+    {
+      "start": 34.2,
+      "end": 41.86,
+      "text": "but during this part, the double, oh, sorry, am I on the pause? The, this one, for me, it was a"
+    },
+    {
+      "start": 41.86,
+      "end": 50.2,
+      "text": "particularly, like, flowy movement, so that one was, um, the, the most, uh, how do you say it,"
+    },
+    {
+      "start": 50.2,
+      "end": 56.74,
+      "text": "like, enjoyable for me to do throughout the whole process, and I feel like, uh, after the double"
+    },
+    {
+      "start": 56.74,
+      "end": 62.940000000000005,
+      "text": "knife hand down, that's when things start to get a little bit complicated, so that's when I started"
+    },
+    {
+      "start": 62.940000000000005,
+      "end": 67.26,
+      "text": "paying more attention to my movements, and that potentially brought me out of the zone, because"
+    },
+    {
+      "start": 67.26,
+      "end": 74.46000000000001,
+      "text": "I was being a lot more analytical with what I need to do next, and, uh, yeah, and how to make"
+    },
+    {
+      "start": 74.46000000000001,
+      "end": 84.96000000000001,
+      "text": "sure it looks good. This one, this one particularly, um, I had to make sure I was counting for, uh,"
+    },
+    {
+      "start": 85.1,
+      "end": 86.72,
+      "text": "the appropriate amount of time."
+    },
+    {
+      "start": 86.74,
+      "end": 94.52,
+      "text": "So that's when I, uh, that, that brought me a lot into reality, because, uh, the movements before"
+    },
+    {
+      "start": 94.52,
+      "end": 100.91999999999999,
+      "text": "that were a lot more flowy. I was able to just naturally put them out, um, yeah, but this one,"
+    },
+    {
+      "start": 100.97999999999999,
+      "end": 103.94,
+      "text": "I had to actually concentrate on how long I was doing it for."
+    },
+    {
+      "start": 111.47999999999999,
+      "end": 115.64,
+      "text": "Starting here, uh, everything was a little better, but once I got to the side,"
+    },
+    {
+      "start": 115.88,
+      "end": 116.72,
+      "text": "I started to work on my hands, and I was able to do a lot of things."
+    },
+    {
+      "start": 116.74000000000001,
+      "end": 122.18,
+      "text": "I had to worry about, um, distance, because I was getting quite close to the wall, so that, uh,"
+    },
+    {
+      "start": 122.2,
+      "end": 125.48,
+      "text": "potentially, like, distracted me a little bit from my movements."
+    },
+    {
+      "start": 129.52,
+      "end": 135.52,
+      "text": "And for me, this movement was the hardest, so I had to really concentrate on where my hand placement"
+    },
+    {
+      "start": 135.52,
+      "end": 141.0,
+      "text": "was, and how, when I have to draw my hand back, or the strength that I have to put it back out."
+    },
+    {
+      "start": 146.74,
+      "end": 155.02,
+      "text": "Everything from here on was very natural, and it just flowed out, uh, naturally for me."
+    },
+    {
+      "start": 176.74,
+      "end": 191.88,
+      "text": "so as you can see your pattern is scored based on the number 10 so out of 10 is your is your one"
+    },
+    {
+      "start": 191.88,
+      "end": 198.60000000000002,
+      "text": "as you can see it's split up into two parts we have our accuracy and our presentation of this"
+    },
+    {
+      "start": 198.60000000000002,
+      "end": 204.48000000000002,
+      "text": "so we'll start off with the accuracy first so your accuracy it's actually scored from"
+    },
+    {
+      "start": 204.48000000000002,
+      "end": 212.36,
+      "text": "a four so from the number four you're actually marked during your presentation of your pattern"
+    },
+    {
+      "start": 212.36,
+      "end": 218.92000000000002,
+      "text": "and then with that one any mistakes that you make whether if it's a minor mistake you get a minus"
+    },
+    {
+      "start": 218.92000000000002,
+      "end": 226.94000000000003,
+      "text": "of a 0.1 if it's a major mistake you get minus 0.3 so i'll just let you guys know about the"
+    },
+    {
+      "start": 226.94000000000003,
+      "end": 232.98000000000002,
+      "text": "difference between the two so with a minor mistake it's a very very small thing so say"
+    },
+    {
+      "start": 232.98000000000002,
+      "end": 233.98000000000002,
+      "text": "we're doing a"
+    },
+    {
+      "start": 234.48000000000002,
+      "end": 239.62,
+      "text": "out of block if it's not your shoulder height maybe it's a little bit lower or maybe it's a"
+    },
+    {
+      "start": 239.62,
+      "end": 245.86,
+      "text": "tiny bit higher that's a minor mistake so that's a 0.1 a major mistake would be you're supposed to"
+    },
+    {
+      "start": 245.86,
+      "end": 250.4,
+      "text": "do an out of block in the pattern but you forget and you say you do a rich hand strike instead"
+    },
+    {
+      "start": 250.4,
+      "end": 257.18,
+      "text": "so that would be a major mistake so with a minor mistake uh let's say pattern one for example"
+    },
+    {
+      "start": 257.18,
+      "end": 263.76,
+      "text": "there's 20 steps it's not uncommon to have up to maybe 14 15 mistakes"
+    },
+    {
+      "start": 263.76,
+      "end": 264.46000000000004,
+      "text": "in the pattern so if you're doing a out of block in the pattern you're supposed to do a"
+    },
+    {
+      "start": 264.48,
+      "end": 270.3,
+      "text": "20 patterns uh sorry the 20 steps so the reason for that one being uh it needs to"
+    }
+  ],
+  "word_segments": []
+}

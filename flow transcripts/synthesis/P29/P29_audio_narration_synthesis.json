@@ -1,0 +1,197 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P29_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P29_audio_narration.srt",
+  "clean_line_count": 23,
+  "timed_segment_count": 23,
+  "exact_match_count": 23,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 30.0,
+      "end": 59.98,
+      "whisper_text": "Nå får vi se hva som sker.",
+      "clean_text": "Nå får vi se hva som sker.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 60.0,
+      "end": 88.46000000000001,
+      "whisper_text": "Ok, perfect, so we can press play here",
+      "clean_text": "Ok, perfect, so we can press play here",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 88.46000000000001,
+      "end": 91.52,
+      "whisper_text": "And if you want to pause, you can also pause and press the spacebar",
+      "clean_text": "And if you want to pause, you can also pause and press the spacebar",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 91.52,
+      "end": 91.84,
+      "whisper_text": "Ok",
+      "clean_text": "Ok",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 118.46000000000001,
+      "end": 133.82,
+      "whisper_text": "So this first high kick, I felt like I kind of swung it",
+      "clean_text": "So this first high kick, I felt like I kind of swung it",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 133.82,
+      "end": 137.4,
+      "whisper_text": "I landed in a little bit too short of a stance",
+      "clean_text": "I landed in a little bit too short of a stance",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 137.4,
+      "end": 141.44,
+      "whisper_text": "This front part was ok",
+      "clean_text": "This front part was ok",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 141.44,
+      "end": 145.96,
+      "whisper_text": "I thought my movements could have been more sharp",
+      "clean_text": "I thought my movements could have been more sharp",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 148.46,
+      "end": 153.42000000000002,
+      "whisper_text": "Here I felt I had to prepare for the side kick",
+      "clean_text": "Here I felt I had to prepare for the side kick",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 153.42000000000002,
+      "end": 156.32,
+      "whisper_text": "And again, it felt a little bit swingy",
+      "clean_text": "And again, it felt a little bit swingy",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 156.32,
+      "end": 159.0,
+      "whisper_text": "But I didn't lose balance",
+      "clean_text": "But I didn't lose balance",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 159.0,
+      "end": 163.38,
+      "whisper_text": "So here I felt a little bit relieved since all the side kicks were over",
+      "clean_text": "So here I felt a little bit relieved since all the side kicks were over",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 163.38,
+      "end": 166.86,
+      "whisper_text": "And now I got a chance to breathe",
+      "clean_text": "And now I got a chance to breathe",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 166.86,
+      "end": 171.26,
+      "whisper_text": "And I wasn't worried about this last part",
+      "clean_text": "And I wasn't worried about this last part",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 171.26,
+      "end": 175.16,
+      "whisper_text": "So I felt more confident from now on",
+      "clean_text": "So I felt more confident from now on",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 178.46,
+      "end": 182.36,
+      "whisper_text": "So I pushed it and came back to the starting position",
+      "clean_text": "So I pushed it and came back to the starting position",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 182.36,
+      "end": 186.24,
+      "whisper_text": "And then I went over to the side kick",
+      "clean_text": "And then I went over to the side kick",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 186.24,
+      "end": 189.24,
+      "whisper_text": "And sat back down",
+      "clean_text": "And sat back down",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 189.24,
+      "end": 192.42,
+      "whisper_text": "And I'm back to the beginning",
+      "clean_text": "And I'm back to the beginning",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 192.42,
+      "end": 197.26,
+      "whisper_text": "And the knee rest",
+      "clean_text": "And the knee rest",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 197.26,
+      "end": 203.78,
+      "whisper_text": "And I'm back on the ground",
+      "clean_text": "And I'm back on the ground",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 203.78,
+      "end": 206.46,
+      "whisper_text": "And I'm back on the ground",
+      "clean_text": "And I'm back on the ground",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 206.46,
+      "end": 207.92000000000002,
+      "whisper_text": "And I'm back on the ground",
+      "clean_text": "And I'm back on the ground",
+      "match": "exact"
+    }
+  ]
+}

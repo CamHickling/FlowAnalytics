@@ -1,0 +1,317 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P27_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P27_audio_narration.srt",
+  "clean_line_count": 38,
+  "timed_segment_count": 38,
+  "exact_match_count": 38,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 60.0,
+      "end": 88.86,
+      "whisper_text": "So, Wendy want me to start talking, or just like as soon as the video starts.",
+      "clean_text": "So, Wendy want me to start talking, or just like as soon as the video starts.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 88.86,
+      "end": 89.86,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 89.86,
+      "end": 102.75999999999999,
+      "whisper_text": "You can pause, also press, you can press this if you want to pause.",
+      "clean_text": "You can pause, also press, you can press this if you want to pause.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 102.75999999999999,
+      "end": 105.25999999999999,
+      "whisper_text": "So I can start narrating even when the video is going?",
+      "clean_text": "So I can start narrating even when the video is going?",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 105.25999999999999,
+      "end": 106.25999999999999,
+      "whisper_text": "Yes.",
+      "clean_text": "Yes.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 106.25999999999999,
+      "end": 107.25999999999999,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 107.25999999999999,
+      "end": 108.25999999999999,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 108.25999999999999,
+      "end": 109.25999999999999,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 109.25999999999999,
+      "end": 110.25999999999999,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 110.25999999999999,
+      "end": 111.25999999999999,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 111.25999999999999,
+      "end": 112.25999999999999,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 112.25999999999999,
+      "end": 113.25999999999999,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 113.25999999999999,
+      "end": 114.25999999999999,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 114.25999999999999,
+      "end": 115.25999999999999,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 115.25999999999999,
+      "end": 116.25999999999999,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 116.25999999999999,
+      "end": 117.25999999999999,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 117.25999999999999,
+      "end": 118.25999999999999,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 118.25999999999999,
+      "end": 119.25999999999999,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 119.25999999999999,
+      "end": 120.26,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 120.26,
+      "end": 121.26,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 121.26,
+      "end": 122.26,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 122.26,
+      "end": 123.26,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 139.26,
+      "end": 146.26,
+      "whisper_text": "I haven't fully... got used to these new mads yet.",
+      "clean_text": "I haven't fully... got used to these new mads yet.",
+      "match": "exact"
+    },
+    {
+      "index": 24,
+      "start": 146.26,
+      "end": 147.46,
+      "whisper_text": "Um...",
+      "clean_text": "Um...",
+      "match": "exact"
+    },
+    {
+      "index": 25,
+      "start": 147.46,
+      "end": 148.06,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 26,
+      "start": 148.06,
+      "end": 154.46,
+      "whisper_text": "but the mats felt really good today the motions felt good",
+      "clean_text": "but the mats felt really good today the motions felt good",
+      "match": "exact"
+    },
+    {
+      "index": 27,
+      "start": 157.5,
+      "end": 158.0,
+      "whisper_text": "and",
+      "clean_text": "and",
+      "match": "exact"
+    },
+    {
+      "index": 28,
+      "start": 168.54,
+      "end": 170.14,
+      "whisper_text": "motions are a little bit stiff today",
+      "clean_text": "motions are a little bit stiff today",
+      "match": "exact"
+    },
+    {
+      "index": 29,
+      "start": 178.06,
+      "end": 196.06,
+      "whisper_text": "okay um i like the",
+      "clean_text": "okay um i like the",
+      "match": "exact"
+    },
+    {
+      "index": 30,
+      "start": 198.54,
+      "end": 205.34,
+      "whisper_text": "today's flow was really good today's the mind doing things pretty good it's just",
+      "clean_text": "today's flow was really good today's the mind doing things pretty good it's just",
+      "match": "exact"
+    },
+    {
+      "index": 31,
+      "start": 205.34,
+      "end": 207.98,
+      "whisper_text": "when you when i was going on this",
+      "clean_text": "when you when i was going on this",
+      "match": "exact"
+    },
+    {
+      "index": 32,
+      "start": 208.06,
+      "end": 217.02,
+      "whisper_text": "mat um i maybe could have gotten more used to it and get a little more time familiar with it",
+      "clean_text": "mat um i maybe could have gotten more used to it and get a little more time familiar with it",
+      "match": "exact"
+    },
+    {
+      "index": 33,
+      "start": 217.74,
+      "end": 227.34,
+      "whisper_text": "but overall the feeling and motion excuse me executing everything",
+      "clean_text": "but overall the feeling and motion excuse me executing everything",
+      "match": "exact"
+    },
+    {
+      "index": 34,
+      "start": 228.06,
+      "end": 236.14,
+      "whisper_text": "went better than i thought i expected um i could improve on maybe going a little bit more harder",
+      "clean_text": "went better than i thought i expected um i could improve on maybe going a little bit more harder",
+      "match": "exact"
+    },
+    {
+      "index": 35,
+      "start": 237.1,
+      "end": 237.42000000000002,
+      "whisper_text": "and",
+      "clean_text": "and",
+      "match": "exact"
+    },
+    {
+      "index": 36,
+      "start": 238.94,
+      "end": 244.78,
+      "whisper_text": "put don't put too much pressure on certain movements because",
+      "clean_text": "put don't put too much pressure on certain movements because",
+      "match": "exact"
+    },
+    {
+      "index": 37,
+      "start": 245.9,
+      "end": 255.34,
+      "whisper_text": "today overall was a little more shaky than usual but the entire movement was yes",
+      "clean_text": "today overall was a little more shaky than usual but the entire movement was yes",
+      "match": "exact"
+    },
+    {
+      "index": 38,
+      "start": 258.78,
+      "end": 263.58,
+      "whisper_text": "yeah",
+      "clean_text": "yeah",
+      "match": "exact"
+    }
+  ]
+}

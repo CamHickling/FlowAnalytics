@@ -1,0 +1,413 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P41_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P41_audio_narration.srt",
+  "clean_line_count": 50,
+  "timed_segment_count": 50,
+  "exact_match_count": 50,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 2.0,
+      "whisper_text": "1, 2, 3, 4...",
+      "clean_text": "1, 2, 3, 4...",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 30.0,
+      "end": 59.98,
+      "whisper_text": "Thank you for watching!",
+      "clean_text": "Thank you for watching!",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 60.0,
+      "end": 89.98,
+      "whisper_text": "Please subscribe to my channel!",
+      "clean_text": "Please subscribe to my channel!",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 90.0,
+      "end": 119.97999999999999,
+      "whisper_text": "Thank you for watching!",
+      "clean_text": "Thank you for watching!",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 120.0,
+      "end": 149.98,
+      "whisper_text": "Thank you for watching!",
+      "clean_text": "Thank you for watching!",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 150.0,
+      "end": 179.98,
+      "whisper_text": "Thank you for watching!",
+      "clean_text": "Thank you for watching!",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 180.0,
+      "end": 200.62,
+      "whisper_text": "I wasn't thinking much during my performance.",
+      "clean_text": "I wasn't thinking much during my performance.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 210.0,
+      "end": 217.48,
+      "whisper_text": "You can probably say that you're not thinking about every move.",
+      "clean_text": "You can probably say that you're not thinking about every move.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 217.8,
+      "end": 220.42000000000002,
+      "whisper_text": "Like every move that you're not thinking about anything.",
+      "clean_text": "Like every move that you're not thinking about anything.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 220.88,
+      "end": 222.2,
+      "whisper_text": "You're not thinking about anything.",
+      "clean_text": "You're not thinking about anything.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 222.52,
+      "end": 223.04,
+      "whisper_text": "Per move.",
+      "clean_text": "Per move.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 223.94,
+      "end": 224.76,
+      "whisper_text": "So I keep saying it?",
+      "clean_text": "So I keep saying it?",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 224.76,
+      "end": 225.72,
+      "whisper_text": "Keep saying it, yes.",
+      "clean_text": "Keep saying it, yes.",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 225.88,
+      "end": 226.26,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 226.66,
+      "end": 226.84,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 240.0,
+      "end": 246.08,
+      "whisper_text": "So I just keep repeating it.",
+      "clean_text": "So I just keep repeating it.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 247.24,
+      "end": 249.04,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 249.04,
+      "end": 249.12,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 249.12,
+      "end": 249.24,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 249.24,
+      "end": 249.3,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 249.3,
+      "end": 249.34,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 249.34,
+      "end": 249.4,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 249.4,
+      "end": 249.5,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 24,
+      "start": 249.5,
+      "end": 249.6,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 25,
+      "start": 249.6,
+      "end": 249.62,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 26,
+      "start": 249.62,
+      "end": 249.68,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 27,
+      "start": 249.68,
+      "end": 249.76,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 28,
+      "start": 249.76,
+      "end": 249.88,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 29,
+      "start": 249.88,
+      "end": 249.98,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 30,
+      "start": 249.98,
+      "end": 250.06,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 31,
+      "start": 250.06,
+      "end": 250.16,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 32,
+      "start": 250.16,
+      "end": 250.24,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 33,
+      "start": 250.24,
+      "end": 250.3,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 34,
+      "start": 250.3,
+      "end": 250.38,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 35,
+      "start": 250.38,
+      "end": 250.44,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 36,
+      "start": 250.44,
+      "end": 250.52,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 37,
+      "start": 250.52,
+      "end": 250.54,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 38,
+      "start": 250.54,
+      "end": 250.58,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 39,
+      "start": 250.58,
+      "end": 250.64,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 40,
+      "start": 250.64,
+      "end": 250.7,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 41,
+      "start": 250.7,
+      "end": 250.76,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 42,
+      "start": 250.76,
+      "end": 250.78,
+      "whisper_text": "I wasn't thinking much.",
+      "clean_text": "I wasn't thinking much.",
+      "match": "exact"
+    },
+    {
+      "index": 43,
+      "start": 280.78,
+      "end": 290.78,
+      "whisper_text": "We remove the screen with the help of a pick.",
+      "clean_text": "We remove the screen with the help of a pick.",
+      "match": "exact"
+    },
+    {
+      "index": 44,
+      "start": 310.78,
+      "end": 317.78,
+      "whisper_text": "As you can see, your pattern is scored based on the number 10.",
+      "clean_text": "As you can see, your pattern is scored based on the number 10.",
+      "match": "exact"
+    },
+    {
+      "index": 45,
+      "start": 317.78,
+      "end": 320.78,
+      "whisper_text": "So out of 10 is your mark.",
+      "clean_text": "So out of 10 is your mark.",
+      "match": "exact"
+    },
+    {
+      "index": 46,
+      "start": 320.78,
+      "end": 323.78,
+      "whisper_text": "As you can see, it's split up into two parts.",
+      "clean_text": "As you can see, it's split up into two parts.",
+      "match": "exact"
+    },
+    {
+      "index": 47,
+      "start": 323.78,
+      "end": 326.78,
+      "whisper_text": "We have our accuracy and our presentation of the site.",
+      "clean_text": "We have our accuracy and our presentation of the site.",
+      "match": "exact"
+    },
+    {
+      "index": 48,
+      "start": 326.78,
+      "end": 328.78,
+      "whisper_text": "So we'll start off with the accuracy first.",
+      "clean_text": "So we'll start off with the accuracy first.",
+      "match": "exact"
+    },
+    {
+      "index": 49,
+      "start": 328.78,
+      "end": 333.78,
+      "whisper_text": "So your accuracy is actually scored from a 4.",
+      "clean_text": "So your accuracy is actually scored from a 4.",
+      "match": "exact"
+    },
+    {
+      "index": 50,
+      "start": 333.78,
+      "end": 335.78,
+      "whisper_text": "So from the number 4...",
+      "clean_text": "So from the number 4...",
+      "match": "exact"
+    }
+  ]
+}

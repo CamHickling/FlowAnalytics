@@ -1,0 +1,431 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P28_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P28_audio_narration.srt",
+  "clean_line_count": 36,
+  "timed_segment_count": 50,
+  "exact_match_count": 35,
+  "needs_review_count": 15,
+  "unmatched_clean_lines": [
+    "so right about now I was touching my fingertip to the thumb"
+  ],
+  "unmatched_timed_segments": [
+    "Hubsan X4 H502E Desire 2-3-18",
+    "Hubsan X4 H502E Desire 2-3-18",
+    "Hubsan X4 H502E Desire 2-3-18",
+    "Hubsan X4 H502E Desire 2-3-18",
+    "Hubsan X4 H502E Desire 2-3-18",
+    "Hubsan X4 H502E Desire 2-3-18",
+    "Hubsan X4 H502E Desire 2-3-18",
+    "Hubsan X4 H502E Desire 2-3-18",
+    "Hubsan X4 H502E Desire 2-3-18",
+    "Hubsan X4 H502E Desire 2-3-18",
+    "Hubsan X4 H502E Desire 2-3-18",
+    "Hubsan X4 H502E Desire 2-3-18",
+    "Hubsan X4 H502E Desire 2-3-18",
+    "Hubsan X4 H502E Desire 2-3-18",
+    "Hubsan X4 H502E Desire 2-3-18"
+  ],
+  "status": "NEEDS_REVIEW",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 2.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 2,
+      "start": 30.0,
+      "end": 32.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 3,
+      "start": 60.0,
+      "end": 62.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 4,
+      "start": 90.0,
+      "end": 92.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 5,
+      "start": 92.0,
+      "end": 94.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 6,
+      "start": 94.0,
+      "end": 96.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 7,
+      "start": 96.0,
+      "end": 98.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 8,
+      "start": 98.0,
+      "end": 100.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 9,
+      "start": 100.0,
+      "end": 102.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 10,
+      "start": 102.0,
+      "end": 104.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 11,
+      "start": 104.0,
+      "end": 106.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 12,
+      "start": 106.0,
+      "end": 108.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 13,
+      "start": 108.0,
+      "end": 110.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 14,
+      "start": 110.0,
+      "end": 112.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 15,
+      "start": 112.0,
+      "end": 114.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 16,
+      "start": 114.0,
+      "end": 121.28,
+      "whisper_text": "but uh the judges would probably notice that and you can see my bow legs here so they're not",
+      "clean_text": "but uh the judges would probably notice that and you can see my bow legs here so they're not",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 121.28,
+      "end": 123.28,
+      "whisper_text": "completely touching at the knees for the shins",
+      "clean_text": "completely touching at the knees for the shins",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 127.44,
+      "end": 130.32,
+      "whisper_text": "uh that chunbi was pretty bad the fingers were all",
+      "clean_text": "uh that chunbi was pretty bad the fingers were all",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 130.32,
+      "end": 133.52,
+      "whisper_text": "way too straight and i realized that before while i was doing it",
+      "clean_text": "way too straight and i realized that before while i was doing it",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 137.6,
+      "end": 142.24,
+      "whisper_text": "yeah i didn't i didn't realize that while i was doing it but the i tried to focus before",
+      "clean_text": "yeah i didn't i didn't realize that while i was doing it but the i tried to focus before",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 142.24,
+      "end": 150.32,
+      "whisper_text": "um actually doing the performance that uh that my back stance would be a lot lower and more weight",
+      "clean_text": "um actually doing the performance that uh that my back stance would be a lot lower and more weight",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 150.32,
+      "end": 154.88,
+      "whisper_text": "on the back leg but it did not turn out that way i guess i forgot about that while i was actually",
+      "clean_text": "on the back leg but it did not turn out that way i guess i forgot about that while i was actually",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 154.88,
+      "end": 167.84,
+      "whisper_text": "doing it yeah what i was mostly focusing on was the preparation for my uh double knife hand blocks",
+      "clean_text": "doing it yeah what i was mostly focusing on was the preparation for my uh double knife hand blocks",
+      "match": "exact"
+    },
+    {
+      "index": 24,
+      "start": 167.84,
+      "end": 172.24,
+      "whisper_text": "i tried to make sure that one of the hands go to the hip and i think i focused on that",
+      "clean_text": "i tried to make sure that one of the hands go to the hip and i think i focused on that",
+      "match": "exact"
+    },
+    {
+      "index": 25,
+      "start": 172.24,
+      "end": 177.92000000000002,
+      "whisper_text": "too much because my stances are really bad here like my right foot is totally not facing the front",
+      "clean_text": "too much because my stances are really bad here like my right foot is totally not facing the front",
+      "match": "exact"
+    },
+    {
+      "index": 26,
+      "start": 178.56,
+      "end": 180.24,
+      "whisper_text": "and the angle of both are pretty bad",
+      "clean_text": "and the angle of both are pretty bad",
+      "match": "exact"
+    },
+    {
+      "index": 27,
+      "start": 182.72,
+      "end": 188.32,
+      "whisper_text": "i went too high there and i realized that my head was bopping too up and down i tried to keep it in",
+      "clean_text": "i went too high there and i realized that my head was bopping too up and down i tried to keep it in",
+      "match": "exact"
+    },
+    {
+      "index": 28,
+      "start": 188.32,
+      "end": 196.64,
+      "whisper_text": "my in my head um this next section i felt pretty pretty in the zone i don't really have to think",
+      "clean_text": "my in my head um this next section i felt pretty pretty in the zone i don't really have to think",
+      "match": "exact"
+    },
+    {
+      "index": 29,
+      "start": 196.64,
+      "end": 201.92000000000002,
+      "whisper_text": "about what's going on here i just tried to nail each kick but then i realized that uh",
+      "clean_text": "about what's going on here i just tried to nail each kick but then i realized that uh",
+      "match": "exact"
+    },
+    {
+      "index": 30,
+      "start": 203.04,
+      "end": 207.68,
+      "whisper_text": "for one of the move oh wow yeah i never realized that my stance was so bad but",
+      "clean_text": "for one of the move oh wow yeah i never realized that my stance was so bad but",
+      "match": "exact"
+    },
+    {
+      "index": 31,
+      "start": 207.68,
+      "end": 212.32,
+      "whisper_text": "that was something i was trying to focus on but when i was performing i completely forgot about it",
+      "clean_text": "that was something i was trying to focus on but when i was performing i completely forgot about it",
+      "match": "exact"
+    },
+    {
+      "index": 32,
+      "start": 214.56,
+      "end": 219.44,
+      "whisper_text": "i noticed that for one of these my preparation after the block and punch was too bad",
+      "clean_text": "i noticed that for one of these my preparation after the block and punch was too bad",
+      "match": "exact"
+    },
+    {
+      "index": 33,
+      "start": 220.24,
+      "end": 224.96,
+      "whisper_text": "um i guess i haven't practiced the preparation that much but",
+      "clean_text": "um i guess i haven't practiced the preparation that much but",
+      "match": "exact"
+    },
+    {
+      "index": 34,
+      "start": 225.52,
+      "end": 230.48,
+      "whisper_text": "this block is also too high the elbow so the fish should be at shoulder level",
+      "clean_text": "this block is also too high the elbow so the fish should be at shoulder level",
+      "match": "exact"
+    },
+    {
+      "index": 35,
+      "start": 232.32,
+      "end": 236.07999999999998,
+      "whisper_text": "yeah the preparation with the arms was really bad there and that really threw me off because",
+      "clean_text": "yeah the preparation with the arms was really bad there and that really threw me off because",
+      "match": "exact"
+    },
+    {
+      "index": 36,
+      "start": 236.07999999999998,
+      "end": 240.08,
+      "whisper_text": "i realized that i hadn't practiced this enough and i didn't remember what the",
+      "clean_text": "i realized that i hadn't practiced this enough and i didn't remember what the",
+      "match": "exact"
+    },
+    {
+      "index": 37,
+      "start": 240.08,
+      "end": 242.72,
+      "whisper_text": "preparation for everything was supposed to be with the arms",
+      "clean_text": "preparation for everything was supposed to be with the arms",
+      "match": "exact"
+    },
+    {
+      "index": 38,
+      "start": 249.2,
+      "end": 254.48,
+      "whisper_text": "yeah here was pretty pretty normal pretty up to standard i felt pretty good about myself",
+      "clean_text": "yeah here was pretty pretty normal pretty up to standard i felt pretty good about myself",
+      "match": "exact"
+    },
+    {
+      "index": 39,
+      "start": 256.24,
+      "end": 261.84,
+      "whisper_text": "yeah i was pretty natural didn't really have to think about what will come next just maybe a big",
+      "clean_text": "yeah i was pretty natural didn't really have to think about what will come next just maybe a big",
+      "match": "exact"
+    },
+    {
+      "index": 40,
+      "start": 261.84,
+      "end": 268.72,
+      "whisper_text": "breath for the key up i tried to make sure not to keep forgot that but i'd say the beginning",
+      "clean_text": "breath for the key up i tried to make sure not to keep forgot that but i'd say the beginning",
+      "match": "exact"
+    },
+    {
+      "index": 41,
+      "start": 268.72,
+      "end": 275.44,
+      "whisper_text": "when i kept making all those mistakes i was a lot more attentive to what i was doing and trying not",
+      "clean_text": "when i kept making all those mistakes i was a lot more attentive to what i was doing and trying not",
+      "match": "exact"
+    },
+    {
+      "index": 42,
+      "start": 275.44,
+      "end": 280.0,
+      "whisper_text": "to make the same mistake so that ended up in me making other mistakes i maybe wouldn't have if i",
+      "clean_text": "to make the same mistake so that ended up in me making other mistakes i maybe wouldn't have if i",
+      "match": "exact"
+    },
+    {
+      "index": 43,
+      "start": 280.0,
+      "end": 283.12,
+      "whisper_text": "wasn't thinking about those things but at the end i was pretty",
+      "clean_text": "wasn't thinking about those things but at the end i was pretty",
+      "match": "exact"
+    },
+    {
+      "index": 44,
+      "start": 283.84000000000003,
+      "end": 286.64,
+      "whisper_text": "pretty in the zone and didn't really have to think about what i was doing",
+      "clean_text": "pretty in the zone and didn't really have to think about what i was doing",
+      "match": "exact"
+    },
+    {
+      "index": 45,
+      "start": 291.84000000000003,
+      "end": 294.8,
+      "whisper_text": "yeah here i was confused whether i should uh uh",
+      "clean_text": "yeah here i was confused whether i should uh uh",
+      "match": "exact"
+    },
+    {
+      "index": 46,
+      "start": 296.4,
+      "end": 301.04,
+      "whisper_text": "first uh shot and then chatty up we just go straight to chatty up and so it looks so weird",
+      "clean_text": "first uh shot and then chatty up we just go straight to chatty up and so it looks so weird",
+      "match": "exact"
+    },
+    {
+      "index": 47,
+      "start": 301.04,
+      "end": 305.84,
+      "whisper_text": "there yeah",
+      "clean_text": "there yeah",
+      "match": "exact"
+    },
+    {
+      "index": 48,
+      "start": 314.96,
+      "end": 315.84,
+      "whisper_text": "great",
+      "clean_text": "great",
+      "match": "exact"
+    },
+    {
+      "index": 49,
+      "start": 319.84,
+      "end": 321.44,
+      "whisper_text": "i was scoring so",
+      "clean_text": "i was scoring so",
+      "match": "exact"
+    },
+    {
+      "index": 50,
+      "start": 321.84,
+      "end": 322.16,
+      "whisper_text": "i think",
+      "clean_text": "i think",
+      "match": "exact"
+    }
+  ]
+}

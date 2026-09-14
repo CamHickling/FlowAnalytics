@@ -1,0 +1,165 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P35_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P35_audio_narration.srt",
+  "clean_line_count": 19,
+  "timed_segment_count": 19,
+  "exact_match_count": 19,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 30.0,
+      "end": 32.0,
+      "whisper_text": "Read the instructions.",
+      "clean_text": "Read the instructions.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 60.0,
+      "end": 67.0,
+      "whisper_text": "You can pause and play using the space bar.",
+      "clean_text": "You can pause and play using the space bar.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 90.0,
+      "end": 100.0,
+      "whisper_text": "My stance is not nice there.",
+      "clean_text": "My stance is not nice there.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 100.0,
+      "end": 102.0,
+      "whisper_text": "I think the floor was really squeaky.",
+      "clean_text": "I think the floor was really squeaky.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 102.0,
+      "end": 105.0,
+      "whisper_text": "It was kind of distracting.",
+      "clean_text": "It was kind of distracting.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 105.0,
+      "end": 107.0,
+      "whisper_text": "And also just the softness.",
+      "clean_text": "And also just the softness.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 107.0,
+      "end": 110.0,
+      "whisper_text": "Yeah, I lost my balance there.",
+      "clean_text": "Yeah, I lost my balance there.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 114.0,
+      "end": 119.0,
+      "whisper_text": "I think overall my stances were just not very good today because of the mats.",
+      "clean_text": "I think overall my stances were just not very good today because of the mats.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 119.0,
+      "end": 120.0,
+      "whisper_text": "But that's alright.",
+      "clean_text": "But that's alright.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 120.0,
+      "end": 130.0,
+      "whisper_text": "Yeah, I also lost my balance there.",
+      "clean_text": "Yeah, I also lost my balance there.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 130.0,
+      "end": 132.0,
+      "whisper_text": "I like lurched forward.",
+      "clean_text": "I like lurched forward.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 150.0,
+      "end": 159.0,
+      "whisper_text": "I think my stance was just fine today.",
+      "clean_text": "I think my stance was just fine today.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 159.0,
+      "end": 162.0,
+      "whisper_text": "Yeah, I also lost my balance there.",
+      "clean_text": "Yeah, I also lost my balance there.",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 162.0,
+      "end": 166.0,
+      "whisper_text": "But yeah, I also lost my balance today because of the mats.",
+      "clean_text": "But yeah, I also lost my balance today because of the mats.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 166.0,
+      "end": 169.0,
+      "whisper_text": "Yeah, I also lost my balance there.",
+      "clean_text": "Yeah, I also lost my balance there.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 169.0,
+      "end": 172.0,
+      "whisper_text": "I'll be back tomorrow for another one.",
+      "clean_text": "I'll be back tomorrow for another one.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 172.0,
+      "end": 174.0,
+      "whisper_text": "Alright, everyone.",
+      "clean_text": "Alright, everyone.",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 174.0,
+      "end": 176.0,
+      "whisper_text": "I hope you all enjoyed watching.",
+      "clean_text": "I hope you all enjoyed watching.",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 176.0,
+      "end": 179.0,
+      "whisper_text": "I'm so happy that my channel has come to a end.",
+      "clean_text": "I'm so happy that my channel has come to a end.",
+      "match": "exact"
+    }
+  ]
+}

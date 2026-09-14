@@ -1,0 +1,64 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P49_20260331_111427\\review\\P49_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P49_20260331_111427\\review\\P49_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 60.0,
+      "end": 82.58,
+      "text": "so do i speak just like yeah like what you're thinking what you're feeling when you're doing"
+    },
+    {
+      "start": 90.0,
+      "end": 100.0,
+      "text": "so"
+    },
+    {
+      "start": 119.12,
+      "end": 120.0,
+      "text": "i'm not supposed to"
+    },
+    {
+      "start": 120.0,
+      "end": 127.76,
+      "text": "oh okay is it like possible to like watch the video and then go back or i have to oh i see i see"
+    },
+    {
+      "start": 141.04,
+      "end": 144.88,
+      "text": "i felt like my psyche was pretty wobbly there but it's okay i just kept going"
+    },
+    {
+      "start": 146.16,
+      "end": 149.12,
+      "text": "i feel like this is the part that i usually lack power but"
+    },
+    {
+      "start": 150.0,
+      "end": 151.52,
+      "text": "yes i see the wobble now"
+    },
+    {
+      "start": 154.32,
+      "end": 155.68,
+      "text": "but like i just kept going"
+    },
+    {
+      "start": 167.44,
+      "end": 170.88,
+      "text": "i think overall i was pretty satisfied with my performance"
+    },
+    {
+      "start": 180.0,
+      "end": 186.4,
+      "text": "so yeah i think that's it for today i hope you enjoyed this video and i'll see you in the next one"
+    },
+    {
+      "start": 186.4,
+      "end": 187.44,
+      "text": "bye"
+    }
+  ],
+  "word_segments": []
+}

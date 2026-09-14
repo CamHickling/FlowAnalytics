@@ -1,0 +1,84 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P14_20260303_111531\\review\\P14_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P14_20260303_111531\\review\\P14_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 23.92,
+      "text": "Okay, let's see if we can get the instructions here."
+    },
+    {
+      "start": 30.0,
+      "end": 39.92,
+      "text": "Okay, I can see her."
+    },
+    {
+      "start": 39.92,
+      "end": 54.92,
+      "text": "I'm going to watch music this way."
+    },
+    {
+      "start": 54.92,
+      "end": 57.92,
+      "text": "Okay."
+    },
+    {
+      "start": 57.92,
+      "end": 58.92,
+      "text": "Okay."
+    },
+    {
+      "start": 58.92,
+      "end": 59.92,
+      "text": "Okay."
+    },
+    {
+      "start": 59.92,
+      "end": 74.96000000000001,
+      "text": "I'm going to pause a bit more for that."
+    },
+    {
+      "start": 74.96000000000001,
+      "end": 77.9,
+      "text": "That was okay, I think."
+    },
+    {
+      "start": 77.9,
+      "end": 82.26,
+      "text": "I thought my hip was doing pretty well and then it was okay."
+    },
+    {
+      "start": 82.26,
+      "end": 87.22,
+      "text": "That one I could have held it a bit higher."
+    },
+    {
+      "start": 87.22,
+      "end": 88.84,
+      "text": "I think okay."
+    },
+    {
+      "start": 88.84,
+      "end": 89.84,
+      "text": "Okay."
+    },
+    {
+      "start": 89.84,
+      "end": 96.26,
+      "text": "Overall, my timing is a little too fast, but it's not like excessively so, probably would"
+    },
+    {
+      "start": 96.26,
+      "end": 100.12,
+      "text": "have affected my presentation score a little bit."
+    },
+    {
+      "start": 119.84,
+      "end": 122.48,
+      "text": "Yeah, I think overall it was okay."
+    }
+  ],
+  "word_segments": []
+}

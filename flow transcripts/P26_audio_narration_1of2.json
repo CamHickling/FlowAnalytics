@@ -1,0 +1,79 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P26_20260312_132454\\review\\P26_audio_narration_1of2.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P26_20260312_132454\\review\\P26_audio_narration_1of2.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 60.0,
+      "end": 89.98,
+      "text": "Takk for at du så på!"
+    },
+    {
+      "start": 90.0,
+      "end": 94.58,
+      "text": "You can pause using this one, too, when you want to say something."
+    },
+    {
+      "start": 95.18,
+      "end": 95.42,
+      "text": "Oh."
+    },
+    {
+      "start": 99.34,
+      "end": 99.82,
+      "text": "Okay."
+    },
+    {
+      "start": 120.0,
+      "end": 122.36,
+      "text": "Okay, that's a quick play."
+    },
+    {
+      "start": 123.04,
+      "end": 129.72,
+      "text": "Oh, it wasn't, it wasn't, okay."
+    },
+    {
+      "start": 132.82,
+      "end": 135.6,
+      "text": "We have to do, to do one more time."
+    },
+    {
+      "start": 136.1,
+      "end": 136.36,
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 136.58,
+      "end": 136.84,
+      "text": "Okay."
+    },
+    {
+      "start": 140.2,
+      "end": 144.84,
+      "text": "I'm sorry."
+    },
+    {
+      "start": 144.84,
+      "end": 144.94,
+      "text": "I'm sorry."
+    },
+    {
+      "start": 147.58,
+      "end": 149.32,
+      "text": "We have to do it one more time."
+    },
+    {
+      "start": 149.32,
+      "end": 149.58,
+      "text": "Okay."
+    },
+    {
+      "start": 150.0,
+      "end": 151.42,
+      "text": "Okay, that was, yeah."
+    }
+  ],
+  "word_segments": []
+}

@@ -1,0 +1,69 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P34_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P34_audio_narration.srt",
+  "clean_line_count": 7,
+  "timed_segment_count": 7,
+  "exact_match_count": 7,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 2.0,
+      "whisper_text": "1, 2, 3, 4, 5, 6",
+      "clean_text": "1, 2, 3, 4, 5, 6",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 30.0,
+      "end": 59.98,
+      "whisper_text": "1, 2, 3, 4, 5, 6",
+      "clean_text": "1, 2, 3, 4, 5, 6",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 60.0,
+      "end": 89.98,
+      "whisper_text": "1, 2, 3, 4, 5, 6",
+      "clean_text": "1, 2, 3, 4, 5, 6",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 90.0,
+      "end": 119.97999999999999,
+      "whisper_text": "1, 2, 3, 4, 5, 6",
+      "clean_text": "1, 2, 3, 4, 5, 6",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 120.0,
+      "end": 149.98,
+      "whisper_text": "1, 2, 3, 4, 5, 6",
+      "clean_text": "1, 2, 3, 4, 5, 6",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 150.0,
+      "end": 179.98,
+      "whisper_text": "1, 2, 3, 4, 5, 6",
+      "clean_text": "1, 2, 3, 4, 5, 6",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 180.0,
+      "end": 209.98,
+      "whisper_text": "1, 2, 3, 4, 5, 6",
+      "clean_text": "1, 2, 3, 4, 5, 6",
+      "match": "exact"
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P03_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P03_audio_narration.srt",
+  "clean_line_count": 62,
+  "timed_segment_count": 62,
+  "exact_match_count": 62,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 30.0,
+      "end": 58.2,
+      "whisper_text": "Her?",
+      "clean_text": "Her?",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 58.2,
+      "end": 58.66,
+      "whisper_text": "Yes.",
+      "clean_text": "Yes.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 58.96,
+      "end": 59.16,
+      "whisper_text": "Ok.",
+      "clean_text": "Ok.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 60.0,
+      "end": 68.28,
+      "whisper_text": "What have you done before?",
+      "clean_text": "What have you done before?",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 69.96000000000001,
+      "end": 70.56,
+      "whisper_text": "Scrap.",
+      "clean_text": "Scrap.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 73.96000000000001,
+      "end": 74.6,
+      "whisper_text": "Ok.",
+      "clean_text": "Ok.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 76.18,
+      "end": 76.9,
+      "whisper_text": "Scrap.",
+      "clean_text": "Scrap.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 77.18,
+      "end": 77.78,
+      "whisper_text": "What do you remember?",
+      "clean_text": "What do you remember?",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 79.66,
+      "end": 80.98,
+      "whisper_text": "Don't have any moments.",
+      "clean_text": "Don't have any moments.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 82.8,
+      "end": 84.03999999999999,
+      "whisper_text": "Felt particularly.",
+      "clean_text": "Felt particularly.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 88.03999999999999,
+      "end": 89.2,
+      "whisper_text": "You felt.",
+      "clean_text": "You felt.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 90.0,
+      "end": 93.96000000000001,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 93.96000000000001,
+      "end": 93.97999999999999,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 93.97999999999999,
+      "end": 94.0,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 94.0,
+      "end": 94.06,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 94.06,
+      "end": 94.12,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 94.12,
+      "end": 94.14,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 94.14,
+      "end": 94.18,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 94.18,
+      "end": 94.22,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 94.22,
+      "end": 94.24000000000001,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 94.24000000000001,
+      "end": 94.25999999999999,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 94.25999999999999,
+      "end": 94.3,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 94.3,
+      "end": 94.34,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 24,
+      "start": 94.34,
+      "end": 94.36,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 25,
+      "start": 94.36,
+      "end": 94.38,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 26,
+      "start": 94.38,
+      "end": 94.4,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 27,
+      "start": 94.4,
+      "end": 94.42,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 28,
+      "start": 94.42,
+      "end": 94.44,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 29,
+      "start": 94.44,
+      "end": 94.5,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 30,
+      "start": 94.5,
+      "end": 94.52000000000001,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 31,
+      "start": 94.52000000000001,
+      "end": 94.58,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 32,
+      "start": 94.58,
+      "end": 94.62,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 33,
+      "start": 94.62,
+      "end": 94.66,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 34,
+      "start": 94.66,
+      "end": 94.68,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 35,
+      "start": 94.68,
+      "end": 94.7,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 36,
+      "start": 94.7,
+      "end": 94.75999999999999,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 37,
+      "start": 94.75999999999999,
+      "end": 94.78,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 38,
+      "start": 94.78,
+      "end": 94.82,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 39,
+      "start": 94.82,
+      "end": 94.88,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 40,
+      "start": 94.88,
+      "end": 94.9,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 41,
+      "start": 94.9,
+      "end": 94.94,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 42,
+      "start": 94.94,
+      "end": 94.96000000000001,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 43,
+      "start": 94.96000000000001,
+      "end": 94.97999999999999,
+      "whisper_text": "I don't know.",
+      "clean_text": "I don't know.",
+      "match": "exact"
+    },
+    {
+      "index": 44,
+      "start": 120.0,
+      "end": 149.98,
+      "whisper_text": "Ok, let's do it.",
+      "clean_text": "Ok, let's do it.",
+      "match": "exact"
+    },
+    {
+      "index": 45,
+      "start": 149.98,
+      "end": 163.98,
+      "whisper_text": "Ok, in this part I was",
+      "clean_text": "Ok, in this part I was",
+      "match": "exact"
+    },
+    {
+      "index": 46,
+      "start": 163.98,
+      "end": 166.07999999999998,
+      "whisper_text": "getting ready.",
+      "clean_text": "getting ready.",
+      "match": "exact"
+    },
+    {
+      "index": 47,
+      "start": 171.07999999999998,
+      "end": 172.66,
+      "whisper_text": "I was peeking at the door.",
+      "clean_text": "I was peeking at the door.",
+      "match": "exact"
+    },
+    {
+      "index": 48,
+      "start": 179.98,
+      "end": 193.48,
+      "whisper_text": "I was a bit distracted.",
+      "clean_text": "I was a bit distracted.",
+      "match": "exact"
+    },
+    {
+      "index": 49,
+      "start": 193.84,
+      "end": 195.24,
+      "whisper_text": "I think that the",
+      "clean_text": "I think that the",
+      "match": "exact"
+    },
+    {
+      "index": 50,
+      "start": 195.24,
+      "end": 197.0,
+      "whisper_text": "mattress moved a bit.",
+      "clean_text": "mattress moved a bit.",
+      "match": "exact"
+    },
+    {
+      "index": 51,
+      "start": 201.0,
+      "end": 203.16,
+      "whisper_text": "Here I did a mistake in the",
+      "clean_text": "Here I did a mistake in the",
+      "match": "exact"
+    },
+    {
+      "index": 52,
+      "start": 203.16,
+      "end": 204.92000000000002,
+      "whisper_text": "poomsae which took me out",
+      "clean_text": "poomsae which took me out",
+      "match": "exact"
+    },
+    {
+      "index": 53,
+      "start": 204.92000000000002,
+      "end": 206.8,
+      "whisper_text": "of focus.",
+      "clean_text": "of focus.",
+      "match": "exact"
+    },
+    {
+      "index": 54,
+      "start": 209.07999999999998,
+      "end": 209.96,
+      "whisper_text": "And I",
+      "clean_text": "And I",
+      "match": "exact"
+    },
+    {
+      "index": 55,
+      "start": 209.96,
+      "end": 210.56,
+      "whisper_text": "feel that",
+      "clean_text": "feel that",
+      "match": "exact"
+    },
+    {
+      "index": 56,
+      "start": 210.56,
+      "end": 213.54,
+      "whisper_text": "I finished it in",
+      "clean_text": "I finished it in",
+      "match": "exact"
+    },
+    {
+      "index": 57,
+      "start": 213.54,
+      "end": 214.74,
+      "whisper_text": "too high",
+      "clean_text": "too high",
+      "match": "exact"
+    },
+    {
+      "index": 58,
+      "start": 214.74,
+      "end": 216.82,
+      "whisper_text": "speed.",
+      "clean_text": "speed.",
+      "match": "exact"
+    },
+    {
+      "index": 59,
+      "start": 219.3,
+      "end": 220.54,
+      "whisper_text": "Like a tempo.",
+      "clean_text": "Like a tempo.",
+      "match": "exact"
+    },
+    {
+      "index": 60,
+      "start": 224.5,
+      "end": 225.07999999999998,
+      "whisper_text": "And",
+      "clean_text": "And",
+      "match": "exact"
+    },
+    {
+      "index": 61,
+      "start": 225.07999999999998,
+      "end": 227.96,
+      "whisper_text": "yeah, I think this is it.",
+      "clean_text": "yeah, I think this is it.",
+      "match": "exact"
+    },
+    {
+      "index": 62,
+      "start": 237.9,
+      "end": 238.57999999999998,
+      "whisper_text": "Ok.",
+      "clean_text": "Ok.",
+      "match": "exact"
+    }
+  ]
+}

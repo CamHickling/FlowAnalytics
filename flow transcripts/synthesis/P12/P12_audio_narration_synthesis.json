@@ -1,0 +1,181 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P12_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P12_audio_narration.srt",
+  "clean_line_count": 21,
+  "timed_segment_count": 21,
+  "exact_match_count": 21,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 14.0,
+      "whisper_text": "I'm going to put this one here.",
+      "clean_text": "I'm going to put this one here.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 30.0,
+      "end": 50.62,
+      "whisper_text": "I feel like I was like, waiting here, kinda nervous, um, but yeah, also not sure when",
+      "clean_text": "I feel like I was like, waiting here, kinda nervous, um, but yeah, also not sure when",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 50.62,
+      "end": 53.62,
+      "whisper_text": "I was gonna start.",
+      "clean_text": "I was gonna start.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 53.62,
+      "end": 58.62,
+      "whisper_text": "Um, yeah.",
+      "clean_text": "Um, yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 58.62,
+      "end": 59.62,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 59.62,
+      "end": 66.7,
+      "whisper_text": "Thinking about my stances, I realized I was going really fast, so I was like, oh, my stances",
+      "clean_text": "Thinking about my stances, I realized I was going really fast, so I was like, oh, my stances",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 66.7,
+      "end": 68.7,
+      "whisper_text": "aren't that great.",
+      "clean_text": "aren't that great.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 68.7,
+      "end": 80.74,
+      "whisper_text": "Um, thinking about my ki up here, I think overall, I was thinking about each move individually,",
+      "clean_text": "Um, thinking about my ki up here, I think overall, I was thinking about each move individually,",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 80.74,
+      "end": 85.7,
+      "whisper_text": "kinda focusing on my hand positioning, stances, I think in this moment, I realized I should",
+      "clean_text": "kinda focusing on my hand positioning, stances, I think in this moment, I realized I should",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 85.7,
+      "end": 89.24,
+      "whisper_text": "probably slow down this particular stance.",
+      "clean_text": "probably slow down this particular stance.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 89.24,
+      "end": 95.32,
+      "whisper_text": "Um, was giving me trouble, um, thinking about my block, whether or not I was doing it correctly,",
+      "clean_text": "Um, was giving me trouble, um, thinking about my block, whether or not I was doing it correctly,",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 95.32,
+      "end": 99.32,
+      "whisper_text": "whether or not I was swinging my arm in the right way, the stance switch here, um, but",
+      "clean_text": "whether or not I was swinging my arm in the right way, the stance switch here, um, but",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 99.32,
+      "end": 100.32,
+      "whisper_text": "yeah.",
+      "clean_text": "yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 100.32,
+      "end": 104.32,
+      "whisper_text": "And then, I forgot to take a breath, so at the end, I remember that I need to breathe.",
+      "clean_text": "And then, I forgot to take a breath, so at the end, I remember that I need to breathe.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 119.24000000000001,
+      "end": 141.32,
+      "whisper_text": "So, as you can see, your pattern is scored, uh, based on the number 10, so out of 10 is",
+      "clean_text": "So, as you can see, your pattern is scored, uh, based on the number 10, so out of 10 is",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 141.32,
+      "end": 142.32,
+      "whisper_text": "your, is your 1.",
+      "clean_text": "your, is your 1.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 142.32,
+      "end": 143.32,
+      "whisper_text": "Uh, as you can see, it's...",
+      "clean_text": "Uh, as you can see, it's...",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 143.32,
+      "end": 144.32,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 144.32,
+      "end": 145.32,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 145.32,
+      "end": 146.32,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 146.32,
+      "end": 147.32,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P02B_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P02B_audio_narration.srt",
+  "clean_line_count": 2,
+  "timed_segment_count": 2,
+  "exact_match_count": 2,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 5.68,
+      "whisper_text": "You need to do sparring. You need to sparring nothing. I do, but I'm not really good. Yeah, yeah, yeah, it's okay.",
+      "clean_text": "You need to do sparring. You need to sparring nothing. I do, but I'm not really good. Yeah, yeah, yeah, it's okay.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 6.04,
+      "end": 9.3,
+      "whisper_text": "We're going to be tracking your visual field.",
+      "clean_text": "We're going to be tracking your visual field.",
+      "match": "exact"
+    }
+  ]
+}

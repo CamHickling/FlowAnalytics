@@ -1,0 +1,101 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P49_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P49_audio_narration.srt",
+  "clean_line_count": 11,
+  "timed_segment_count": 11,
+  "exact_match_count": 11,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 60.0,
+      "end": 82.58,
+      "whisper_text": "so do i speak just like yeah like what you're thinking what you're feeling when you're doing",
+      "clean_text": "so do i speak just like yeah like what you're thinking what you're feeling when you're doing",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 90.0,
+      "end": 100.0,
+      "whisper_text": "so",
+      "clean_text": "so",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 119.12,
+      "end": 120.0,
+      "whisper_text": "i'm not supposed to",
+      "clean_text": "i'm not supposed to",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 120.0,
+      "end": 127.76,
+      "whisper_text": "oh okay is it like possible to like watch the video and then go back or i have to oh i see i see",
+      "clean_text": "oh okay is it like possible to like watch the video and then go back or i have to oh i see i see",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 141.04,
+      "end": 144.88,
+      "whisper_text": "i felt like my psyche was pretty wobbly there but it's okay i just kept going",
+      "clean_text": "i felt like my psyche was pretty wobbly there but it's okay i just kept going",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 146.16,
+      "end": 149.12,
+      "whisper_text": "i feel like this is the part that i usually lack power but",
+      "clean_text": "i feel like this is the part that i usually lack power but",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 150.0,
+      "end": 151.52,
+      "whisper_text": "yes i see the wobble now",
+      "clean_text": "yes i see the wobble now",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 154.32,
+      "end": 155.68,
+      "whisper_text": "but like i just kept going",
+      "clean_text": "but like i just kept going",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 167.44,
+      "end": 170.88,
+      "whisper_text": "i think overall i was pretty satisfied with my performance",
+      "clean_text": "i think overall i was pretty satisfied with my performance",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 180.0,
+      "end": 186.4,
+      "whisper_text": "so yeah i think that's it for today i hope you enjoyed this video and i'll see you in the next one",
+      "clean_text": "so yeah i think that's it for today i hope you enjoyed this video and i'll see you in the next one",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 186.4,
+      "end": 187.44,
+      "whisper_text": "bye",
+      "clean_text": "bye",
+      "match": "exact"
+    }
+  ]
+}

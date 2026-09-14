@@ -1,0 +1,421 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P21_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P21_audio_narration.srt",
+  "clean_line_count": 51,
+  "timed_segment_count": 51,
+  "exact_match_count": 51,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 30.0,
+      "end": 32.0,
+      "whisper_text": "Sit down here.",
+      "clean_text": "Sit down here.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 34.0,
+      "end": 36.0,
+      "whisper_text": "Okay, you can sit.",
+      "clean_text": "Okay, you can sit.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 36.0,
+      "end": 38.0,
+      "whisper_text": "Sit this way.",
+      "clean_text": "Sit this way.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 38.0,
+      "end": 40.0,
+      "whisper_text": "Oh, you, um,",
+      "clean_text": "Oh, you, um,",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 40.0,
+      "end": 42.0,
+      "whisper_text": "you gonna review this one first?",
+      "clean_text": "you gonna review this one first?",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 42.0,
+      "end": 44.0,
+      "whisper_text": "Oh, sure.",
+      "clean_text": "Oh, sure.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 60.0,
+      "end": 62.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 64.0,
+      "end": 66.0,
+      "whisper_text": "So you can play and then pause",
+      "clean_text": "So you can play and then pause",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 66.0,
+      "end": 68.0,
+      "whisper_text": "if you want to",
+      "clean_text": "if you want to",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 68.0,
+      "end": 70.0,
+      "whisper_text": "tell something. Sure.",
+      "clean_text": "tell something. Sure.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 90.0,
+      "end": 92.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 120.0,
+      "end": 122.0,
+      "whisper_text": "You can talk",
+      "clean_text": "You can talk",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 122.0,
+      "end": 124.0,
+      "whisper_text": "and explain what you were thinking.",
+      "clean_text": "and explain what you were thinking.",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 124.0,
+      "end": 126.0,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 126.0,
+      "end": 128.0,
+      "whisper_text": "Well, I would say, like,",
+      "clean_text": "Well, I would say, like,",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 128.0,
+      "end": 130.0,
+      "whisper_text": "um...",
+      "clean_text": "um...",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 130.0,
+      "end": 132.0,
+      "whisper_text": "So you mean, explain, like,",
+      "clean_text": "So you mean, explain, like,",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 132.0,
+      "end": 134.0,
+      "whisper_text": "which motion",
+      "clean_text": "which motion",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 134.0,
+      "end": 136.0,
+      "whisper_text": "like to say, or... Yeah, um,",
+      "clean_text": "like to say, or... Yeah, um,",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 136.0,
+      "end": 138.0,
+      "whisper_text": "you can, you can say,",
+      "clean_text": "you can, you can say,",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 138.0,
+      "end": 140.0,
+      "whisper_text": "you know, um,",
+      "clean_text": "you know, um,",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 140.0,
+      "end": 142.0,
+      "whisper_text": "you can go through this one. Yeah.",
+      "clean_text": "you can go through this one. Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 146.0,
+      "end": 148.0,
+      "whisper_text": "Mm.",
+      "clean_text": "Mm.",
+      "match": "exact"
+    },
+    {
+      "index": 24,
+      "start": 148.0,
+      "end": 150.0,
+      "whisper_text": "Describe what you were thinking",
+      "clean_text": "Describe what you were thinking",
+      "match": "exact"
+    },
+    {
+      "index": 25,
+      "start": 150.0,
+      "end": 152.0,
+      "whisper_text": "and what you were feeling at each moment.",
+      "clean_text": "and what you were feeling at each moment.",
+      "match": "exact"
+    },
+    {
+      "index": 26,
+      "start": 152.0,
+      "end": 154.0,
+      "whisper_text": "For me, I would say",
+      "clean_text": "For me, I would say",
+      "match": "exact"
+    },
+    {
+      "index": 27,
+      "start": 154.0,
+      "end": 156.0,
+      "whisper_text": "when I'm doing push-ups,",
+      "clean_text": "when I'm doing push-ups,",
+      "match": "exact"
+    },
+    {
+      "index": 28,
+      "start": 156.0,
+      "end": 158.0,
+      "whisper_text": "I would just, like,",
+      "clean_text": "I would just, like,",
+      "match": "exact"
+    },
+    {
+      "index": 29,
+      "start": 158.0,
+      "end": 160.0,
+      "whisper_text": "sometimes I would just confirm for the next step.",
+      "clean_text": "sometimes I would just confirm for the next step.",
+      "match": "exact"
+    },
+    {
+      "index": 30,
+      "start": 160.0,
+      "end": 162.0,
+      "whisper_text": "Sometimes I'm not sure for the next step.",
+      "clean_text": "Sometimes I'm not sure for the next step.",
+      "match": "exact"
+    },
+    {
+      "index": 31,
+      "start": 162.0,
+      "end": 164.0,
+      "whisper_text": "Even though, like, I practiced so many times,",
+      "clean_text": "Even though, like, I practiced so many times,",
+      "match": "exact"
+    },
+    {
+      "index": 32,
+      "start": 164.0,
+      "end": 166.0,
+      "whisper_text": "it would make me, like,",
+      "clean_text": "it would make me, like,",
+      "match": "exact"
+    },
+    {
+      "index": 33,
+      "start": 166.0,
+      "end": 168.0,
+      "whisper_text": "feeling, like, because it's competition,",
+      "clean_text": "feeling, like, because it's competition,",
+      "match": "exact"
+    },
+    {
+      "index": 34,
+      "start": 168.0,
+      "end": 170.0,
+      "whisper_text": "you would feel nervous,",
+      "clean_text": "you would feel nervous,",
+      "match": "exact"
+    },
+    {
+      "index": 35,
+      "start": 170.0,
+      "end": 172.0,
+      "whisper_text": "and it would affect your motion.",
+      "clean_text": "and it would affect your motion.",
+      "match": "exact"
+    },
+    {
+      "index": 36,
+      "start": 172.0,
+      "end": 174.0,
+      "whisper_text": "Like, in this example,",
+      "clean_text": "Like, in this example,",
+      "match": "exact"
+    },
+    {
+      "index": 37,
+      "start": 174.0,
+      "end": 176.0,
+      "whisper_text": "like, I forgot one motion,",
+      "clean_text": "like, I forgot one motion,",
+      "match": "exact"
+    },
+    {
+      "index": 38,
+      "start": 176.0,
+      "end": 178.0,
+      "whisper_text": "movement.",
+      "clean_text": "movement.",
+      "match": "exact"
+    },
+    {
+      "index": 39,
+      "start": 178.0,
+      "end": 180.0,
+      "whisper_text": "In my natural",
+      "clean_text": "In my natural",
+      "match": "exact"
+    },
+    {
+      "index": 40,
+      "start": 180.0,
+      "end": 182.0,
+      "whisper_text": "motion, I would just",
+      "clean_text": "motion, I would just",
+      "match": "exact"
+    },
+    {
+      "index": 41,
+      "start": 182.0,
+      "end": 184.0,
+      "whisper_text": "step to do it again.",
+      "clean_text": "step to do it again.",
+      "match": "exact"
+    },
+    {
+      "index": 42,
+      "start": 184.0,
+      "end": 186.0,
+      "whisper_text": "But it's not a step in the competition.",
+      "clean_text": "But it's not a step in the competition.",
+      "match": "exact"
+    },
+    {
+      "index": 43,
+      "start": 186.0,
+      "end": 188.0,
+      "whisper_text": "It may be do the wrong thing",
+      "clean_text": "It may be do the wrong thing",
+      "match": "exact"
+    },
+    {
+      "index": 44,
+      "start": 188.0,
+      "end": 190.0,
+      "whisper_text": "in the competition. So, yeah.",
+      "clean_text": "in the competition. So, yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 45,
+      "start": 190.0,
+      "end": 192.0,
+      "whisper_text": "And also...",
+      "clean_text": "And also...",
+      "match": "exact"
+    },
+    {
+      "index": 46,
+      "start": 194.0,
+      "end": 196.0,
+      "whisper_text": "Yeah, it may be",
+      "clean_text": "Yeah, it may be",
+      "match": "exact"
+    },
+    {
+      "index": 47,
+      "start": 196.0,
+      "end": 198.0,
+      "whisper_text": "feeling some",
+      "clean_text": "feeling some",
+      "match": "exact"
+    },
+    {
+      "index": 48,
+      "start": 198.0,
+      "end": 200.0,
+      "whisper_text": "stressful.",
+      "clean_text": "stressful.",
+      "match": "exact"
+    },
+    {
+      "index": 49,
+      "start": 204.0,
+      "end": 206.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 50,
+      "start": 206.0,
+      "end": 208.0,
+      "whisper_text": "Yeah, okay.",
+      "clean_text": "Yeah, okay.",
+      "match": "exact"
+    },
+    {
+      "index": 51,
+      "start": 210.0,
+      "end": 212.0,
+      "whisper_text": "Thank you.",
+      "clean_text": "Thank you.",
+      "match": "exact"
+    }
+  ]
+}

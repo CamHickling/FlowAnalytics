@@ -1,0 +1,69 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P18_20260305_131835\\scoring\\P18_audio_scoring.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P18_20260305_131835\\scoring\\P18_audio_scoring.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "Oh"
+    },
+    {
+      "start": 5.62,
+      "end": 7.62,
+      "text": "So"
+    },
+    {
+      "start": 19.52,
+      "end": 21.52,
+      "text": "Can I lift this"
+    },
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "text": "You"
+    },
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "You"
+    },
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "text": "You"
+    },
+    {
+      "start": 120.0,
+      "end": 122.0,
+      "text": "You"
+    },
+    {
+      "start": 143.3,
+      "end": 145.3,
+      "text": "Do I just"
+    },
+    {
+      "start": 150.0,
+      "end": 152.0,
+      "text": "Don't"
+    },
+    {
+      "start": 180.0,
+      "end": 182.0,
+      "text": "You"
+    },
+    {
+      "start": 210.0,
+      "end": 212.0,
+      "text": "You"
+    },
+    {
+      "start": 240.0,
+      "end": 242.0,
+      "text": "You"
+    }
+  ],
+  "word_segments": []
+}

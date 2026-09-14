@@ -1,0 +1,133 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P14_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P14_audio_narration.srt",
+  "clean_line_count": 15,
+  "timed_segment_count": 15,
+  "exact_match_count": 15,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 23.92,
+      "whisper_text": "Okay, let's see if we can get the instructions here.",
+      "clean_text": "Okay, let's see if we can get the instructions here.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 30.0,
+      "end": 39.92,
+      "whisper_text": "Okay, I can see her.",
+      "clean_text": "Okay, I can see her.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 39.92,
+      "end": 54.92,
+      "whisper_text": "I'm going to watch music this way.",
+      "clean_text": "I'm going to watch music this way.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 54.92,
+      "end": 57.92,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 57.92,
+      "end": 58.92,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 58.92,
+      "end": 59.92,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 59.92,
+      "end": 74.96000000000001,
+      "whisper_text": "I'm going to pause a bit more for that.",
+      "clean_text": "I'm going to pause a bit more for that.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 74.96000000000001,
+      "end": 77.9,
+      "whisper_text": "That was okay, I think.",
+      "clean_text": "That was okay, I think.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 77.9,
+      "end": 82.26,
+      "whisper_text": "I thought my hip was doing pretty well and then it was okay.",
+      "clean_text": "I thought my hip was doing pretty well and then it was okay.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 82.26,
+      "end": 87.22,
+      "whisper_text": "That one I could have held it a bit higher.",
+      "clean_text": "That one I could have held it a bit higher.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 87.22,
+      "end": 88.84,
+      "whisper_text": "I think okay.",
+      "clean_text": "I think okay.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 88.84,
+      "end": 89.84,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 89.84,
+      "end": 96.25999999999999,
+      "whisper_text": "Overall, my timing is a little too fast, but it's not like excessively so, probably would",
+      "clean_text": "Overall, my timing is a little too fast, but it's not like excessively so, probably would",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 96.25999999999999,
+      "end": 100.12,
+      "whisper_text": "have affected my presentation score a little bit.",
+      "clean_text": "have affected my presentation score a little bit.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 119.84,
+      "end": 122.48,
+      "whisper_text": "Yeah, I think overall it was okay.",
+      "clean_text": "Yeah, I think overall it was okay.",
+      "match": "exact"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P38_20260324_132055\\review\\P38_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P38_20260324_132055\\review\\P38_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 37.0,
+      "text": "Um, I try to look friendly, maybe because I've done better, but I enjoy doing it."
+    },
+    {
+      "start": 60.0,
+      "end": 61.0,
+      "text": "Thank you."
+    },
+    {
+      "start": 73.0,
+      "end": 74.0,
+      "text": "Thank you."
+    },
+    {
+      "start": 74.0,
+      "end": 75.0,
+      "text": "You can take a seat."
+    },
+    {
+      "start": 77.0,
+      "end": 78.0,
+      "text": "Oh!"
+    },
+    {
+      "start": 78.0,
+      "end": 79.0,
+      "text": "You can take a seat here."
+    },
+    {
+      "start": 79.0,
+      "end": 80.0,
+      "text": "Oh wow, okay!"
+    },
+    {
+      "start": 90.0,
+      "end": 111.96000000000001,
+      "text": "um you can press play when you're ready and then pause you can pause and press and press"
+    },
+    {
+      "start": 111.96000000000001,
+      "end": 116.4,
+      "text": "this one too okay oh my gosh"
+    },
+    {
+      "start": 136.4,
+      "end": 140.72,
+      "text": "yeah I'm pretty much losing my"
+    },
+    {
+      "start": 141.96,
+      "end": 150.74,
+      "text": "looks awful no power my foot's off oh my goodness"
+    },
+    {
+      "start": 150.74,
+      "end": 160.66,
+      "text": "I was leaning forward which I felt totally felt that this was okay"
+    },
+    {
+      "start": 160.66,
+      "end": 168.06,
+      "text": "okay I paused too hard there timing's out almost lost my balance"
+    },
+    {
+      "start": 168.06,
+      "end": 171.94,
+      "text": "oh my gosh"
+    },
+    {
+      "start": 171.96,
+      "end": 182.76000000000002,
+      "text": "there's so many mistakes I have to redo this I think I started breathing here"
+    },
+    {
+      "start": 182.76000000000002,
+      "end": 186.12,
+      "text": "when I was counting right there but that's about it I was pretty much stopped"
+    },
+    {
+      "start": 186.12,
+      "end": 200.4,
+      "text": "breathing one two my back legs not straight gosh I have a lot of commentary"
+    },
+    {
+      "start": 201.96,
+      "end": 206.1,
+      "text": "ah complete mess of your narration um I think I get the weight"
+    }
+  ],
+  "word_segments": []
+}

@@ -1,0 +1,119 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P31_20260319_101720\\review\\P31_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P31_20260319_101720\\review\\P31_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 44.9,
+      "text": "I can go back here this way."
+    },
+    {
+      "start": 60.0,
+      "end": 89.98,
+      "text": "I can go back here this way."
+    },
+    {
+      "start": 90.0,
+      "end": 91.0,
+      "text": "Okay."
+    },
+    {
+      "start": 91.0,
+      "end": 92.0,
+      "text": "Okay."
+    },
+    {
+      "start": 92.0,
+      "end": 93.0,
+      "text": "So this is..."
+    },
+    {
+      "start": 93.0,
+      "end": 94.0,
+      "text": "You can play this one."
+    },
+    {
+      "start": 94.0,
+      "end": 95.0,
+      "text": "You can pause whenever you want."
+    },
+    {
+      "start": 95.0,
+      "end": 96.0,
+      "text": "Yeah."
+    },
+    {
+      "start": 96.0,
+      "end": 97.0,
+      "text": "So, you can pause."
+    },
+    {
+      "start": 120.0,
+      "end": 135.6,
+      "text": "The first setup was not strong enough, in my opinion here, and there should be more"
+    },
+    {
+      "start": 135.6,
+      "end": 138.6,
+      "text": "pauses between moves."
+    },
+    {
+      "start": 138.6,
+      "end": 148.0,
+      "text": "I think the 8 seconds is still perhaps too fast."
+    },
+    {
+      "start": 148.0,
+      "end": 149.0,
+      "text": "Okay."
+    },
+    {
+      "start": 149.0,
+      "end": 150.0,
+      "text": "Okay."
+    },
+    {
+      "start": 150.0,
+      "end": 151.0,
+      "text": "Okay."
+    },
+    {
+      "start": 151.0,
+      "end": 154.0,
+      "text": "So now, I can go back to the first setup."
+    },
+    {
+      "start": 154.0,
+      "end": 165.94,
+      "text": "Each movement does not feel as strong in the video compared to when I was doing it."
+    },
+    {
+      "start": 165.94,
+      "end": 170.48,
+      "text": "Especially..."
+    },
+    {
+      "start": 170.48,
+      "end": 179.0,
+      "text": "All the blocks and the punches and strikes need to be faster."
+    },
+    {
+      "start": 179.0,
+      "end": 180.0,
+      "text": "Okay."
+    },
+    {
+      "start": 180.0,
+      "end": 186.4,
+      "text": "And it felt strong when I was doing it, but I guess looking at the video it doesn't look as strong."
+    },
+    {
+      "start": 210.0,
+      "end": 216.0,
+      "text": "I'm going to do the same thing on the other side as well, but I'm going to do the same thing on the other side."
+    }
+  ],
+  "word_segments": []
+}

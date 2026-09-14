@@ -95,6 +95,66 @@ The preview supports `--front-start-sec`, `--side-start-sec`, and
 the directory supplied to `--calibration-dir` as `front_calibration.json` and
 `side_calibration.json`.
 
+The first render target is a **15-second clip**. Review that clip before starting
+the full-duration render. Corrected GoPro videos and generated timing, chart, and
+subtitle intermediates are intentionally retained under
+`$trial\MVP\generated`.
+
+### Subtitle timing workflow
+
+Review folders contain human-cleaned wording such as
+`<trial_id>_audio_narration.txt` and the matching narration WAV. The text file is
+the wording authority. Because its timestamps were removed, run WhisperX again on
+the WAV to recover timing, then merge the cleaned text onto the WhisperX timing
+segments. WhisperX wording must not replace the cleaned transcript.
+
+The processor is located at:
+
+```text
+Iris_Recorded_Taekwondo_Data\scripts\process_videos_whisperx.py
+```
+
+Run it against one review folder first, using the audio-only mode:
+
+```powershell
+$review = "$trial\review"
+$whisperOut = "$trial\MVP\generated\whisperx"
+$whisperAudio = "$trial\MVP\generated\whisperx_audio"
+New-Item -ItemType Directory -Force $whisperOut, $whisperAudio | Out-Null
+
+python D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data\scripts\process_videos_whisperx.py `
+   $review `
+   --audio-only `
+   --output-dir $whisperOut `
+   --audio-dir $whisperAudio `
+   --model large-v3 `
+   --device cuda `
+   --language en `
+   --no-diarize `
+   --overwrite
+```
+
+This produces WhisperX timing artifacts without overwriting the human-cleaned
+`<trial_id>_audio_narration.txt`. The next merge step will use the generated
+WhisperX `.srt`/`.json` timing and replace its wording with the cleaned text.
+
+The merge step must report cleaned lines that do not match WhisperX confidently
+instead of assigning arbitrary durations. Pass the resulting `.srt` or `.vtt`
+file to `render-preview` with `--subtitles`.
+
+To compare one narration pairing and create a non-destructive synthesis version:
+
+```powershell
+python scripts\compare_narration_transcripts.py `
+   --clean 'D:\FlowAnalytics\flow transcripts\P01_audio_narration.txt' `
+   --timed 'D:\FlowAnalytics\flow transcripts\P01_audio_narration.srt' `
+   --output-dir 'D:\FlowAnalytics\flow transcripts\synthesis\P01'
+```
+
+The script writes a synthesis JSON report and synthesis SRT. It preserves the
+cleaned TXT wording when timing segments match and marks unmatched segments as
+`needs_review`; it never overwrites the original TXT, SRT, or JSON files.
+
 ## Calibration and Undistortion
 
 Generate calibration matrices from checkerboard footage:
@@ -110,7 +170,8 @@ Pop-Location
 ```
 
 This creates the standard OpenCV calibration files used by `undistort.py`.
-Undistortion processes front and side independently before the MVP composition.
+Undistortion processes front and side independently before the MVP composition,
+and corrected videos are retained under the trial's `MVP\generated` folder.
 
 ## Dataset Location
 

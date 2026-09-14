@@ -1,0 +1,114 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P12_20260302_131117\\review\\P12_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P12_20260302_131117\\review\\P12_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 14.0,
+      "text": "I'm going to put this one here."
+    },
+    {
+      "start": 30.0,
+      "end": 50.620000000000005,
+      "text": "I feel like I was like, waiting here, kinda nervous, um, but yeah, also not sure when"
+    },
+    {
+      "start": 50.620000000000005,
+      "end": 53.620000000000005,
+      "text": "I was gonna start."
+    },
+    {
+      "start": 53.620000000000005,
+      "end": 58.620000000000005,
+      "text": "Um, yeah."
+    },
+    {
+      "start": 58.620000000000005,
+      "end": 59.620000000000005,
+      "text": "Yeah."
+    },
+    {
+      "start": 59.620000000000005,
+      "end": 66.7,
+      "text": "Thinking about my stances, I realized I was going really fast, so I was like, oh, my stances"
+    },
+    {
+      "start": 66.7,
+      "end": 68.7,
+      "text": "aren't that great."
+    },
+    {
+      "start": 68.7,
+      "end": 80.74000000000001,
+      "text": "Um, thinking about my ki up here, I think overall, I was thinking about each move individually,"
+    },
+    {
+      "start": 80.74000000000001,
+      "end": 85.7,
+      "text": "kinda focusing on my hand positioning, stances, I think in this moment, I realized I should"
+    },
+    {
+      "start": 85.7,
+      "end": 89.24000000000001,
+      "text": "probably slow down this particular stance."
+    },
+    {
+      "start": 89.24,
+      "end": 95.32,
+      "text": "Um, was giving me trouble, um, thinking about my block, whether or not I was doing it correctly,"
+    },
+    {
+      "start": 95.32,
+      "end": 99.32,
+      "text": "whether or not I was swinging my arm in the right way, the stance switch here, um, but"
+    },
+    {
+      "start": 99.32,
+      "end": 100.32,
+      "text": "yeah."
+    },
+    {
+      "start": 100.32,
+      "end": 104.32,
+      "text": "And then, I forgot to take a breath, so at the end, I remember that I need to breathe."
+    },
+    {
+      "start": 119.24000000000001,
+      "end": 141.32000000000002,
+      "text": "So, as you can see, your pattern is scored, uh, based on the number 10, so out of 10 is"
+    },
+    {
+      "start": 141.32000000000002,
+      "end": 142.32000000000002,
+      "text": "your, is your 1."
+    },
+    {
+      "start": 142.32000000000002,
+      "end": 143.32000000000002,
+      "text": "Uh, as you can see, it's..."
+    },
+    {
+      "start": 143.32000000000002,
+      "end": 144.32000000000002,
+      "text": "Okay."
+    },
+    {
+      "start": 144.32000000000002,
+      "end": 145.32000000000002,
+      "text": "Okay."
+    },
+    {
+      "start": 145.32000000000002,
+      "end": 146.32000000000002,
+      "text": "Okay."
+    },
+    {
+      "start": 146.32000000000002,
+      "end": 147.32000000000002,
+      "text": "Okay."
+    }
+  ],
+  "word_segments": []
+}

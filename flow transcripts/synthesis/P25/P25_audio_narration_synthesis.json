@@ -1,0 +1,109 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P25_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P25_audio_narration.srt",
+  "clean_line_count": 12,
+  "timed_segment_count": 12,
+  "exact_match_count": 12,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 12.0,
+      "whisper_text": "Hva er det som skjer i ditt høyre høyre høyre høyre høyre høyre?",
+      "clean_text": "Hva er det som skjer i ditt høyre høyre høyre høyre høyre høyre?",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 12.0,
+      "end": 13.0,
+      "whisper_text": "Wow!",
+      "clean_text": "Wow!",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 13.32,
+      "end": 15.64,
+      "whisper_text": "Hvor veit må nei deres leit? Nå må vi tåle kjøles.",
+      "clean_text": "Hvor veit må nei deres leit? Nå må vi tåle kjøles.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 42.0,
+      "end": 71.98,
+      "whisper_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "clean_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 72.0,
+      "end": 101.97999999999999,
+      "whisper_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "clean_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 101.97999999999999,
+      "end": 102.0,
+      "whisper_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "clean_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 102.0,
+      "end": 131.98,
+      "whisper_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "clean_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 131.98,
+      "end": 161.96,
+      "whisper_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "clean_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 161.96,
+      "end": 191.94,
+      "whisper_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "clean_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 191.94,
+      "end": 221.92000000000002,
+      "whisper_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "clean_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 221.92000000000002,
+      "end": 251.9,
+      "whisper_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "clean_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 251.92,
+      "end": 281.9,
+      "whisper_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "clean_text": "1, 2, 3, 4, 5, 6, 7, 8.",
+      "match": "exact"
+    }
+  ]
+}

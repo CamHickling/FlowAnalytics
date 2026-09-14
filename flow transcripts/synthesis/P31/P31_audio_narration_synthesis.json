@@ -1,0 +1,189 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P31_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P31_audio_narration.srt",
+  "clean_line_count": 22,
+  "timed_segment_count": 22,
+  "exact_match_count": 22,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 30.0,
+      "end": 44.9,
+      "whisper_text": "I can go back here this way.",
+      "clean_text": "I can go back here this way.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 60.0,
+      "end": 89.98,
+      "whisper_text": "I can go back here this way.",
+      "clean_text": "I can go back here this way.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 90.0,
+      "end": 91.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 91.0,
+      "end": 92.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 92.0,
+      "end": 93.0,
+      "whisper_text": "So this is...",
+      "clean_text": "So this is...",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 93.0,
+      "end": 94.0,
+      "whisper_text": "You can play this one.",
+      "clean_text": "You can play this one.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 94.0,
+      "end": 95.0,
+      "whisper_text": "You can pause whenever you want.",
+      "clean_text": "You can pause whenever you want.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 95.0,
+      "end": 96.0,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 96.0,
+      "end": 97.0,
+      "whisper_text": "So, you can pause.",
+      "clean_text": "So, you can pause.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 120.0,
+      "end": 135.6,
+      "whisper_text": "The first setup was not strong enough, in my opinion here, and there should be more",
+      "clean_text": "The first setup was not strong enough, in my opinion here, and there should be more",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 135.6,
+      "end": 138.6,
+      "whisper_text": "pauses between moves.",
+      "clean_text": "pauses between moves.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 138.6,
+      "end": 148.0,
+      "whisper_text": "I think the 8 seconds is still perhaps too fast.",
+      "clean_text": "I think the 8 seconds is still perhaps too fast.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 148.0,
+      "end": 149.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 149.0,
+      "end": 150.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 150.0,
+      "end": 151.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 151.0,
+      "end": 154.0,
+      "whisper_text": "So now, I can go back to the first setup.",
+      "clean_text": "So now, I can go back to the first setup.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 154.0,
+      "end": 165.94,
+      "whisper_text": "Each movement does not feel as strong in the video compared to when I was doing it.",
+      "clean_text": "Each movement does not feel as strong in the video compared to when I was doing it.",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 165.94,
+      "end": 170.48,
+      "whisper_text": "Especially...",
+      "clean_text": "Especially...",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 170.48,
+      "end": 179.0,
+      "whisper_text": "All the blocks and the punches and strikes need to be faster.",
+      "clean_text": "All the blocks and the punches and strikes need to be faster.",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 179.0,
+      "end": 180.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 180.0,
+      "end": 186.4,
+      "whisper_text": "And it felt strong when I was doing it, but I guess looking at the video it doesn't look as strong.",
+      "clean_text": "And it felt strong when I was doing it, but I guess looking at the video it doesn't look as strong.",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 210.0,
+      "end": 216.0,
+      "whisper_text": "I'm going to do the same thing on the other side as well, but I'm going to do the same thing on the other side.",
+      "clean_text": "I'm going to do the same thing on the other side as well, but I'm going to do the same thing on the other side.",
+      "match": "exact"
+    }
+  ]
+}

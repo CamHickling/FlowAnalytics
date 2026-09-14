@@ -1,0 +1,299 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P47_20260330_130419\\scoring\\P47_audio_scoring.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P47_20260330_130419\\scoring\\P47_audio_scoring.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 14.9,
+      "text": "When you start your pattern, there is a rhythm to your pattern. It's not just really fast all the way through, it's not slow all the way through. There's a slow, fast, and you get a 1.3 or a 1.4."
+    },
+    {
+      "start": 14.9,
+      "end": 30.980000000000004,
+      "text": "So, each individual category, you need to obviously get as high as you can. If you're a black belt, generally, depending on the competition, you will be scored from a 1.3. So, 1.3 would be your average that you start from."
+    },
+    {
+      "start": 30.980000000000004,
+      "end": 44.56,
+      "text": "So, say your pattern speed was above average, you might get scored a 1.4 for now. Say your rhythm was only about average."
+    },
+    {
+      "start": 44.9,
+      "end": 57.72,
+      "text": "It wasn't amazing. It might be just a 1.3, but let's say you didn't shout very loud. So, your expression of energy, your average was 1.3. It might drop to say, let's say, a 1.0."
+    },
+    {
+      "start": 59.839999999999996,
+      "end": 61.5,
+      "text": "I think I got enough."
+    },
+    {
+      "start": 61.5,
+      "end": 67.96,
+      "text": "Okay, we're going to practice reading."
+    },
+    {
+      "start": 69.86,
+      "end": 74.88,
+      "text": "This time, we cannot pause the video, but you're going to be doing minor errors."
+    },
+    {
+      "start": 74.9,
+      "end": 76.56,
+      "text": "Okay."
+    },
+    {
+      "start": 76.56,
+      "end": 85.52000000000001,
+      "text": "And then major errors. And then right after the performance would be reading your power and speed, coordination of rhythm, and expression of energy."
+    },
+    {
+      "start": 86.16000000000001,
+      "end": 86.46000000000001,
+      "text": "Okay."
+    },
+    {
+      "start": 87.10000000000001,
+      "end": 88.22,
+      "text": "Okay. And you're ready?"
+    },
+    {
+      "start": 104.9,
+      "end": 105.36,
+      "text": "Okay."
+    },
+    {
+      "start": 105.36,
+      "end": 105.68,
+      "text": "All right."
+    },
+    {
+      "start": 105.68,
+      "end": 105.74000000000001,
+      "text": "All right."
+    },
+    {
+      "start": 105.74000000000001,
+      "end": 105.84,
+      "text": "All right."
+    },
+    {
+      "start": 105.84,
+      "end": 105.9,
+      "text": "All right."
+    },
+    {
+      "start": 105.9,
+      "end": 105.98,
+      "text": "All right."
+    },
+    {
+      "start": 105.98,
+      "end": 106.04,
+      "text": "All right."
+    },
+    {
+      "start": 106.04,
+      "end": 106.14,
+      "text": "All right."
+    },
+    {
+      "start": 106.14,
+      "end": 106.2,
+      "text": "All right."
+    },
+    {
+      "start": 106.2,
+      "end": 106.30000000000001,
+      "text": "All right."
+    },
+    {
+      "start": 106.30000000000001,
+      "end": 106.36,
+      "text": "All right."
+    },
+    {
+      "start": 106.36,
+      "end": 106.44000000000001,
+      "text": "All right."
+    },
+    {
+      "start": 106.44000000000001,
+      "end": 106.46000000000001,
+      "text": "All right."
+    },
+    {
+      "start": 106.46000000000001,
+      "end": 106.52000000000001,
+      "text": "All right."
+    },
+    {
+      "start": 106.52000000000001,
+      "end": 106.56,
+      "text": "All right."
+    },
+    {
+      "start": 106.56,
+      "end": 106.62,
+      "text": "All right."
+    },
+    {
+      "start": 106.62,
+      "end": 106.68,
+      "text": "All right."
+    },
+    {
+      "start": 106.68,
+      "end": 106.7,
+      "text": "All right."
+    },
+    {
+      "start": 106.7,
+      "end": 107.0,
+      "text": "All right."
+    },
+    {
+      "start": 107.0,
+      "end": 107.02000000000001,
+      "text": "All right."
+    },
+    {
+      "start": 107.02000000000001,
+      "end": 107.08000000000001,
+      "text": "All right."
+    },
+    {
+      "start": 107.08000000000001,
+      "end": 107.14,
+      "text": "All right."
+    },
+    {
+      "start": 107.14,
+      "end": 107.2,
+      "text": "All right."
+    },
+    {
+      "start": 107.2,
+      "end": 107.28,
+      "text": "All right."
+    },
+    {
+      "start": 107.28,
+      "end": 107.34,
+      "text": "All right."
+    },
+    {
+      "start": 107.34,
+      "end": 107.4,
+      "text": "All right."
+    },
+    {
+      "start": 107.4,
+      "end": 107.5,
+      "text": "All right."
+    },
+    {
+      "start": 107.5,
+      "end": 107.56,
+      "text": "All right."
+    },
+    {
+      "start": 107.56,
+      "end": 107.66000000000001,
+      "text": "All right."
+    },
+    {
+      "start": 107.66000000000001,
+      "end": 107.72,
+      "text": "All right."
+    },
+    {
+      "start": 107.72,
+      "end": 107.80000000000001,
+      "text": "All right."
+    },
+    {
+      "start": 107.80000000000001,
+      "end": 107.9,
+      "text": "All right."
+    },
+    {
+      "start": 107.9,
+      "end": 107.96000000000001,
+      "text": "All right."
+    },
+    {
+      "start": 107.96000000000001,
+      "end": 108.04,
+      "text": "All right."
+    },
+    {
+      "start": 108.04,
+      "end": 108.14,
+      "text": "All right."
+    },
+    {
+      "start": 108.14,
+      "end": 108.24000000000001,
+      "text": "All right."
+    },
+    {
+      "start": 108.24000000000001,
+      "end": 108.30000000000001,
+      "text": "All right."
+    },
+    {
+      "start": 108.30000000000001,
+      "end": 108.36,
+      "text": "All right."
+    },
+    {
+      "start": 108.36,
+      "end": 108.4,
+      "text": "All right."
+    },
+    {
+      "start": 108.4,
+      "end": 108.44000000000001,
+      "text": "All right."
+    },
+    {
+      "start": 108.44000000000001,
+      "end": 108.5,
+      "text": "All right."
+    },
+    {
+      "start": 108.5,
+      "end": 108.54,
+      "text": "All right."
+    },
+    {
+      "start": 108.54,
+      "end": 108.60000000000001,
+      "text": "All right."
+    },
+    {
+      "start": 108.60000000000001,
+      "end": 108.64,
+      "text": "All right."
+    },
+    {
+      "start": 108.64,
+      "end": 138.62,
+      "text": "Thank you."
+    },
+    {
+      "start": 138.64000000000001,
+      "end": 168.62,
+      "text": "Thank you."
+    },
+    {
+      "start": 168.64000000000001,
+      "end": 198.62,
+      "text": "Thank you."
+    }
+  ],
+  "word_segments": []
+}

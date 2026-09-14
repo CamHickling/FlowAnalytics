@@ -1,0 +1,104 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P44_20260327_131313\\review\\P44_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P44_20260327_131313\\review\\P44_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "text": "You can review the instructions."
+    },
+    {
+      "start": 54.0,
+      "end": 58.0,
+      "text": "You can press space for it to play, and you can pause also pressing space."
+    },
+    {
+      "start": 58.0,
+      "end": 60.0,
+      "text": "Okay, so do I just talk?"
+    },
+    {
+      "start": 60.0,
+      "end": 63.0,
+      "text": "Yeah, talk and what you're feeling, what you're thinking."
+    },
+    {
+      "start": 63.0,
+      "end": 64.0,
+      "text": "Okay."
+    },
+    {
+      "start": 88.0,
+      "end": 91.0,
+      "text": "I was rushed, very nervous and tense."
+    },
+    {
+      "start": 93.0,
+      "end": 96.0,
+      "text": "And the mats were very slippery."
+    },
+    {
+      "start": 107.0,
+      "end": 109.0,
+      "text": "Start to focus in here."
+    },
+    {
+      "start": 115.0,
+      "end": 117.0,
+      "text": "My legs weren't stable, still pretty cold."
+    },
+    {
+      "start": 123.0,
+      "end": 131.0,
+      "text": "Everything felt really rushed, just looking back at the video."
+    },
+    {
+      "start": 142.0,
+      "end": 149.0,
+      "text": "I thought it was pretty good, but looking back, couldn't have done better."
+    },
+    {
+      "start": 149.0,
+      "end": 152.0,
+      "text": "Everything is a little too rushed."
+    },
+    {
+      "start": 153.0,
+      "end": 156.0,
+      "text": "And lost balance."
+    },
+    {
+      "start": 161.0,
+      "end": 163.0,
+      "text": "Moving to Second Mini."
+    },
+    {
+      "start": 163.0,
+      "end": 165.0,
+      "text": "This was actually very steep."
+    },
+    {
+      "start": 166.0,
+      "end": 168.0,
+      "text": "I mean the road was straight."
+    },
+    {
+      "start": 172.0,
+      "end": 175.0,
+      "text": "You can get to practice as soon as it's ready."
+    },
+    {
+      "start": 175.0,
+      "end": 179.0,
+      "text": "Make sure to switch on yourенти specifically."
+    },
+    {
+      "start": 179.0,
+      "end": 208.98,
+      "text": "Teksting av Nicolai Winther"
+    }
+  ],
+  "word_segments": []
+}

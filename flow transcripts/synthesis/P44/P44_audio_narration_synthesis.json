@@ -1,0 +1,165 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P44_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P44_audio_narration.srt",
+  "clean_line_count": 19,
+  "timed_segment_count": 19,
+  "exact_match_count": 19,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 30.0,
+      "end": 32.0,
+      "whisper_text": "You can review the instructions.",
+      "clean_text": "You can review the instructions.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 54.0,
+      "end": 58.0,
+      "whisper_text": "You can press space for it to play, and you can pause also pressing space.",
+      "clean_text": "You can press space for it to play, and you can pause also pressing space.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 58.0,
+      "end": 60.0,
+      "whisper_text": "Okay, so do I just talk?",
+      "clean_text": "Okay, so do I just talk?",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 60.0,
+      "end": 63.0,
+      "whisper_text": "Yeah, talk and what you're feeling, what you're thinking.",
+      "clean_text": "Yeah, talk and what you're feeling, what you're thinking.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 63.0,
+      "end": 64.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 88.0,
+      "end": 91.0,
+      "whisper_text": "I was rushed, very nervous and tense.",
+      "clean_text": "I was rushed, very nervous and tense.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 93.0,
+      "end": 96.0,
+      "whisper_text": "And the mats were very slippery.",
+      "clean_text": "And the mats were very slippery.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 107.0,
+      "end": 109.0,
+      "whisper_text": "Start to focus in here.",
+      "clean_text": "Start to focus in here.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 115.0,
+      "end": 117.0,
+      "whisper_text": "My legs weren't stable, still pretty cold.",
+      "clean_text": "My legs weren't stable, still pretty cold.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 123.0,
+      "end": 131.0,
+      "whisper_text": "Everything felt really rushed, just looking back at the video.",
+      "clean_text": "Everything felt really rushed, just looking back at the video.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 142.0,
+      "end": 149.0,
+      "whisper_text": "I thought it was pretty good, but looking back, couldn't have done better.",
+      "clean_text": "I thought it was pretty good, but looking back, couldn't have done better.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 149.0,
+      "end": 152.0,
+      "whisper_text": "Everything is a little too rushed.",
+      "clean_text": "Everything is a little too rushed.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 153.0,
+      "end": 156.0,
+      "whisper_text": "And lost balance.",
+      "clean_text": "And lost balance.",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 161.0,
+      "end": 163.0,
+      "whisper_text": "Moving to Second Mini.",
+      "clean_text": "Moving to Second Mini.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 163.0,
+      "end": 165.0,
+      "whisper_text": "This was actually very steep.",
+      "clean_text": "This was actually very steep.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 166.0,
+      "end": 168.0,
+      "whisper_text": "I mean the road was straight.",
+      "clean_text": "I mean the road was straight.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 172.0,
+      "end": 175.0,
+      "whisper_text": "You can get to practice as soon as it's ready.",
+      "clean_text": "You can get to practice as soon as it's ready.",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 175.0,
+      "end": 179.0,
+      "whisper_text": "Make sure to switch on yourенти specifically.",
+      "clean_text": "Make sure to switch on yourенти specifically.",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 179.0,
+      "end": 208.98,
+      "whisper_text": "Teksting av Nicolai Winther",
+      "clean_text": "Teksting av Nicolai Winther",
+      "match": "exact"
+    }
+  ]
+}

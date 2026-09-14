@@ -1,0 +1,259 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P41_20260326_101142\\review\\P41_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P41_20260326_101142\\review\\P41_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "1, 2, 3, 4..."
+    },
+    {
+      "start": 30.0,
+      "end": 59.980000000000004,
+      "text": "Thank you for watching!"
+    },
+    {
+      "start": 60.0,
+      "end": 89.98,
+      "text": "Please subscribe to my channel!"
+    },
+    {
+      "start": 90.0,
+      "end": 119.98,
+      "text": "Thank you for watching!"
+    },
+    {
+      "start": 120.0,
+      "end": 149.98,
+      "text": "Thank you for watching!"
+    },
+    {
+      "start": 150.0,
+      "end": 179.98,
+      "text": "Thank you for watching!"
+    },
+    {
+      "start": 180.0,
+      "end": 200.62,
+      "text": "I wasn't thinking much during my performance."
+    },
+    {
+      "start": 210.0,
+      "end": 217.48,
+      "text": "You can probably say that you're not thinking about every move."
+    },
+    {
+      "start": 217.8,
+      "end": 220.42,
+      "text": "Like every move that you're not thinking about anything."
+    },
+    {
+      "start": 220.88,
+      "end": 222.2,
+      "text": "You're not thinking about anything."
+    },
+    {
+      "start": 222.52,
+      "end": 223.04,
+      "text": "Per move."
+    },
+    {
+      "start": 223.94,
+      "end": 224.76,
+      "text": "So I keep saying it?"
+    },
+    {
+      "start": 224.76,
+      "end": 225.72,
+      "text": "Keep saying it, yes."
+    },
+    {
+      "start": 225.88,
+      "end": 226.26,
+      "text": "Okay."
+    },
+    {
+      "start": 226.66,
+      "end": 226.84,
+      "text": "Yeah."
+    },
+    {
+      "start": 240.0,
+      "end": 246.08,
+      "text": "So I just keep repeating it."
+    },
+    {
+      "start": 247.24,
+      "end": 249.04,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 249.04,
+      "end": 249.12,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 249.12,
+      "end": 249.24,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 249.24,
+      "end": 249.3,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 249.3,
+      "end": 249.34,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 249.34,
+      "end": 249.4,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 249.4,
+      "end": 249.5,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 249.5,
+      "end": 249.6,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 249.6,
+      "end": 249.62,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 249.62,
+      "end": 249.68,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 249.68,
+      "end": 249.76,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 249.76,
+      "end": 249.88,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 249.88,
+      "end": 249.98,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 249.98,
+      "end": 250.06,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 250.06,
+      "end": 250.16,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 250.16,
+      "end": 250.24,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 250.24,
+      "end": 250.3,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 250.3,
+      "end": 250.38,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 250.38,
+      "end": 250.44,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 250.44,
+      "end": 250.52,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 250.52,
+      "end": 250.54,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 250.54,
+      "end": 250.58,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 250.58,
+      "end": 250.64,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 250.64,
+      "end": 250.7,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 250.7,
+      "end": 250.76,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 250.76,
+      "end": 250.78,
+      "text": "I wasn't thinking much."
+    },
+    {
+      "start": 280.78000000000003,
+      "end": 290.78000000000003,
+      "text": "We remove the screen with the help of a pick."
+    },
+    {
+      "start": 310.78000000000003,
+      "end": 317.78000000000003,
+      "text": "As you can see, your pattern is scored based on the number 10."
+    },
+    {
+      "start": 317.78000000000003,
+      "end": 320.78000000000003,
+      "text": "So out of 10 is your mark."
+    },
+    {
+      "start": 320.78000000000003,
+      "end": 323.78000000000003,
+      "text": "As you can see, it's split up into two parts."
+    },
+    {
+      "start": 323.78000000000003,
+      "end": 326.78000000000003,
+      "text": "We have our accuracy and our presentation of the site."
+    },
+    {
+      "start": 326.78000000000003,
+      "end": 328.78000000000003,
+      "text": "So we'll start off with the accuracy first."
+    },
+    {
+      "start": 328.78000000000003,
+      "end": 333.78000000000003,
+      "text": "So your accuracy is actually scored from a 4."
+    },
+    {
+      "start": 333.78000000000003,
+      "end": 335.78000000000003,
+      "text": "So from the number 4..."
+    }
+  ],
+  "word_segments": []
+}

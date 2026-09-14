@@ -1,0 +1,293 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P08_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P08_audio_narration.srt",
+  "clean_line_count": 35,
+  "timed_segment_count": 35,
+  "exact_match_count": 35,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 26.92,
+      "whisper_text": "Oh, do I just start whenever?",
+      "clean_text": "Oh, do I just start whenever?",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 26.92,
+      "end": 33.8,
+      "whisper_text": "Okay, uh, I feel like initially it was pretty, uh, simple, everything came naturally to me,",
+      "clean_text": "Okay, uh, I feel like initially it was pretty, uh, simple, everything came naturally to me,",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 34.2,
+      "end": 41.86,
+      "whisper_text": "but during this part, the double, oh, sorry, am I on the pause? The, this one, for me, it was a",
+      "clean_text": "but during this part, the double, oh, sorry, am I on the pause? The, this one, for me, it was a",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 41.86,
+      "end": 50.2,
+      "whisper_text": "particularly, like, flowy movement, so that one was, um, the, the most, uh, how do you say it,",
+      "clean_text": "particularly, like, flowy movement, so that one was, um, the, the most, uh, how do you say it,",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 50.2,
+      "end": 56.74,
+      "whisper_text": "like, enjoyable for me to do throughout the whole process, and I feel like, uh, after the double",
+      "clean_text": "like, enjoyable for me to do throughout the whole process, and I feel like, uh, after the double",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 56.74,
+      "end": 62.94,
+      "whisper_text": "knife hand down, that's when things start to get a little bit complicated, so that's when I started",
+      "clean_text": "knife hand down, that's when things start to get a little bit complicated, so that's when I started",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 62.94,
+      "end": 67.26,
+      "whisper_text": "paying more attention to my movements, and that potentially brought me out of the zone, because",
+      "clean_text": "paying more attention to my movements, and that potentially brought me out of the zone, because",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 67.26,
+      "end": 74.46000000000001,
+      "whisper_text": "I was being a lot more analytical with what I need to do next, and, uh, yeah, and how to make",
+      "clean_text": "I was being a lot more analytical with what I need to do next, and, uh, yeah, and how to make",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 74.46000000000001,
+      "end": 84.96000000000001,
+      "whisper_text": "sure it looks good. This one, this one particularly, um, I had to make sure I was counting for, uh,",
+      "clean_text": "sure it looks good. This one, this one particularly, um, I had to make sure I was counting for, uh,",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 85.1,
+      "end": 86.72,
+      "whisper_text": "the appropriate amount of time.",
+      "clean_text": "the appropriate amount of time.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 86.74,
+      "end": 94.52000000000001,
+      "whisper_text": "So that's when I, uh, that, that brought me a lot into reality, because, uh, the movements before",
+      "clean_text": "So that's when I, uh, that, that brought me a lot into reality, because, uh, the movements before",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 94.52000000000001,
+      "end": 100.92,
+      "whisper_text": "that were a lot more flowy. I was able to just naturally put them out, um, yeah, but this one,",
+      "clean_text": "that were a lot more flowy. I was able to just naturally put them out, um, yeah, but this one,",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 100.97999999999999,
+      "end": 103.94,
+      "whisper_text": "I had to actually concentrate on how long I was doing it for.",
+      "clean_text": "I had to actually concentrate on how long I was doing it for.",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 111.47999999999999,
+      "end": 115.64,
+      "whisper_text": "Starting here, uh, everything was a little better, but once I got to the side,",
+      "clean_text": "Starting here, uh, everything was a little better, but once I got to the side,",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 115.88,
+      "end": 116.72,
+      "whisper_text": "I started to work on my hands, and I was able to do a lot of things.",
+      "clean_text": "I started to work on my hands, and I was able to do a lot of things.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 116.74000000000001,
+      "end": 122.18,
+      "whisper_text": "I had to worry about, um, distance, because I was getting quite close to the wall, so that, uh,",
+      "clean_text": "I had to worry about, um, distance, because I was getting quite close to the wall, so that, uh,",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 122.2,
+      "end": 125.48,
+      "whisper_text": "potentially, like, distracted me a little bit from my movements.",
+      "clean_text": "potentially, like, distracted me a little bit from my movements.",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 129.52,
+      "end": 135.52,
+      "whisper_text": "And for me, this movement was the hardest, so I had to really concentrate on where my hand placement",
+      "clean_text": "And for me, this movement was the hardest, so I had to really concentrate on where my hand placement",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 135.52,
+      "end": 141.0,
+      "whisper_text": "was, and how, when I have to draw my hand back, or the strength that I have to put it back out.",
+      "clean_text": "was, and how, when I have to draw my hand back, or the strength that I have to put it back out.",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 146.74,
+      "end": 155.02,
+      "whisper_text": "Everything from here on was very natural, and it just flowed out, uh, naturally for me.",
+      "clean_text": "Everything from here on was very natural, and it just flowed out, uh, naturally for me.",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 176.74,
+      "end": 191.88,
+      "whisper_text": "so as you can see your pattern is scored based on the number 10 so out of 10 is your is your one",
+      "clean_text": "so as you can see your pattern is scored based on the number 10 so out of 10 is your is your one",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 191.88,
+      "end": 198.6,
+      "whisper_text": "as you can see it's split up into two parts we have our accuracy and our presentation of this",
+      "clean_text": "as you can see it's split up into two parts we have our accuracy and our presentation of this",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 198.6,
+      "end": 204.48,
+      "whisper_text": "so we'll start off with the accuracy first so your accuracy it's actually scored from",
+      "clean_text": "so we'll start off with the accuracy first so your accuracy it's actually scored from",
+      "match": "exact"
+    },
+    {
+      "index": 24,
+      "start": 204.48,
+      "end": 212.36,
+      "whisper_text": "a four so from the number four you're actually marked during your presentation of your pattern",
+      "clean_text": "a four so from the number four you're actually marked during your presentation of your pattern",
+      "match": "exact"
+    },
+    {
+      "index": 25,
+      "start": 212.36,
+      "end": 218.92000000000002,
+      "whisper_text": "and then with that one any mistakes that you make whether if it's a minor mistake you get a minus",
+      "clean_text": "and then with that one any mistakes that you make whether if it's a minor mistake you get a minus",
+      "match": "exact"
+    },
+    {
+      "index": 26,
+      "start": 218.92000000000002,
+      "end": 226.94,
+      "whisper_text": "of a 0.1 if it's a major mistake you get minus 0.3 so i'll just let you guys know about the",
+      "clean_text": "of a 0.1 if it's a major mistake you get minus 0.3 so i'll just let you guys know about the",
+      "match": "exact"
+    },
+    {
+      "index": 27,
+      "start": 226.94,
+      "end": 232.98,
+      "whisper_text": "difference between the two so with a minor mistake it's a very very small thing so say",
+      "clean_text": "difference between the two so with a minor mistake it's a very very small thing so say",
+      "match": "exact"
+    },
+    {
+      "index": 28,
+      "start": 232.98,
+      "end": 233.98,
+      "whisper_text": "we're doing a",
+      "clean_text": "we're doing a",
+      "match": "exact"
+    },
+    {
+      "index": 29,
+      "start": 234.48,
+      "end": 239.62,
+      "whisper_text": "out of block if it's not your shoulder height maybe it's a little bit lower or maybe it's a",
+      "clean_text": "out of block if it's not your shoulder height maybe it's a little bit lower or maybe it's a",
+      "match": "exact"
+    },
+    {
+      "index": 30,
+      "start": 239.62,
+      "end": 245.86,
+      "whisper_text": "tiny bit higher that's a minor mistake so that's a 0.1 a major mistake would be you're supposed to",
+      "clean_text": "tiny bit higher that's a minor mistake so that's a 0.1 a major mistake would be you're supposed to",
+      "match": "exact"
+    },
+    {
+      "index": 31,
+      "start": 245.86,
+      "end": 250.4,
+      "whisper_text": "do an out of block in the pattern but you forget and you say you do a rich hand strike instead",
+      "clean_text": "do an out of block in the pattern but you forget and you say you do a rich hand strike instead",
+      "match": "exact"
+    },
+    {
+      "index": 32,
+      "start": 250.4,
+      "end": 257.18,
+      "whisper_text": "so that would be a major mistake so with a minor mistake uh let's say pattern one for example",
+      "clean_text": "so that would be a major mistake so with a minor mistake uh let's say pattern one for example",
+      "match": "exact"
+    },
+    {
+      "index": 33,
+      "start": 257.18,
+      "end": 263.76,
+      "whisper_text": "there's 20 steps it's not uncommon to have up to maybe 14 15 mistakes",
+      "clean_text": "there's 20 steps it's not uncommon to have up to maybe 14 15 mistakes",
+      "match": "exact"
+    },
+    {
+      "index": 34,
+      "start": 263.76,
+      "end": 264.46,
+      "whisper_text": "in the pattern so if you're doing a out of block in the pattern you're supposed to do a",
+      "clean_text": "in the pattern so if you're doing a out of block in the pattern you're supposed to do a",
+      "match": "exact"
+    },
+    {
+      "index": 35,
+      "start": 264.48,
+      "end": 270.3,
+      "whisper_text": "20 patterns uh sorry the 20 steps so the reason for that one being uh it needs to",
+      "clean_text": "20 patterns uh sorry the 20 steps so the reason for that one being uh it needs to",
+      "match": "exact"
+    }
+  ]
+}
