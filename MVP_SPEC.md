@@ -90,11 +90,20 @@ Unpaired or invalid pause events must fail that trial with a clear diagnostic.
 
 Subtitles must be English, cleaned/edited, legible, and placed immediately above the heart-rate graph. Preferred inputs are:
 
-1. An existing timestamped cleaned subtitle file (`.srt`, `.vtt`, or timestamped JSON).
-2. A cleaned timestamped transcript supplied by the reviewer.
-3. A timestamped transcription generated from the narration WAV only when enabled.
+1. The human-cleaned review text file, normally
+  `review/<trial_id>_audio_narration.txt`, as the authoritative wording.
+2. A fresh WhisperX transcription of
+  `review/<trial_id>_audio_narration.wav` to recover timestamps.
+3. A generated `.srt` or `.vtt` file created by merging the cleaned text onto the
+  WhisperX timing segments.
 
-The current plain-text `audio_narration.txt` files are useful transcript references but have no timing. They must not be assigned arbitrary equal durations without an explicit approximation warning. Subtitle timing may use the same review playback timeline and pause events, but the implementation must confirm whether the edited subtitle timestamps are relative to audio time, face-video time, or review wall time.
+The current plain-text `audio_narration.txt` files are the wording ground truth
+but have no timing. They must not be assigned arbitrary equal durations. WhisperX
+provides timing only; its recognized words must not replace the cleaned wording.
+The merge stage aligns cleaned lines to WhisperX segments, reports unmatched or
+ambiguous lines, and stops for manual review when matching is unreliable. Subtitle
+timestamps are relative to narration-audio time, then shifted onto the review
+timeline using the manifest and pause map.
 
 Style: high-contrast white text with a dark outline or semi-opaque background, at most two lines, wrapped without covering the chart or face overlay.
 
@@ -152,9 +161,9 @@ The performance level must be configurable, with an initial default around -18 d
 ```
 
 The final MP4 must use H.264 video, AAC audio, constant frame rate, and no
-unintended last-frame repetition after an input ends. Chart and subtitle assets
-may be stored in `generated`; corrected videos are stored there only when the
-optional correction mode is enabled.
+unintended last-frame repetition after an input ends. Generated subtitles,
+WhisperX timing data, chart assets, and corrected videos are retained under
+`MVP/generated/` for inspection and reruns.
 
 ## 8. Heart-Rate Axis Options
 
@@ -186,19 +195,24 @@ Store corrected videos in `<trial>/MVP/generated/`. This is simple to audit and 
 
 Store corrected videos in a configurable folder on `D:` keyed by source path, calibration file, and processing version. This avoids duplicate intermediates but requires cache invalidation when calibration or undistortion code changes.
 
-Recommended future default if correction is enabled: per-trial
-`MVP/generated/` for traceability. The initial MVP should not create an
-undistortion cache at all.
+Recommended default: retain corrected videos in per-trial `MVP/generated/` for
+traceability and reruns. They should not be deleted automatically after a
+successful preview or final render.
 
 ## 10. Configuration and Errors
 
-Command-line options should cover trial/dataset root, output folder, undistortion adapter and calibration paths, subtitle source, output dimensions/FPS, face scale, performance-audio level, cache mode, intermediate retention, dry-run, and single-trial testing.
+Command-line options should cover trial/dataset root, output folder, undistortion
+and calibration paths, WhisperX model/device, cleaned transcript path, subtitle
+merge output, output dimensions/FPS, face scale, performance-audio level, cache
+mode, intermediate retention, dry-run, and single-trial testing.
 
 Fail an individual trial with a useful message when required footage, manifest, narration, face video, heart-rate data, subtitle timing, or valid pause intervals are missing. Continue processing other trials in batch mode.
 
 ## 11. Acceptance Tests
 
-Validate one trial with both GoPros, at least one pause/resume interval, narration, face video, heart rate, and cleaned timestamped subtitles. Confirm that:
+Validate one trial with both GoPros, at least one pause/resume interval, narration,
+face video, heart rate, the cleaned text, and a fresh WhisperX timing transcript.
+First render a 15-second clip and confirm that:
 
 - Front is left and side is right.
 - Performance holds during review pauses.
@@ -209,9 +223,12 @@ Validate one trial with both GoPros, at least one pause/resume interval, narrati
 - Audio contains narration plus quiet performance sound.
 - Output is review-limited, readable, and constant 30 FPS.
 
+Only after the 15-second clip is accepted should the full review duration be
+rendered.
+
 ## 12. Remaining Questions
 
-1. **Undistortion integration:** Should the first implementation stop unless a video-undistortion adapter is configured, or should it permit an explicitly labeled passthrough test mode? The current calibration script only writes the intrinsic JSON files; it does not yet undistort video itself.
-2. **Subtitle time base:** Are the cleaned subtitle timestamps relative to the narration WAV, face video, or review wall clock? This determines the conversion needed when pauses occur.
-3. **Heart-rate mode:** Confirm fixed shared scaling as the default, with trial-specific scaling as an option.
-4. **Cache mode:** Confirm per-trial `MVP/generated` as the initial default, with a shared `D:` cache as a later optimization.
+1. **WhisperX output:** Confirm the model/device used for timestamp recovery and
+  the exact output format available from the local WhisperX workflow.
+2. **Subtitle merge review:** Any cleaned line that cannot be matched confidently
+  to WhisperX timing must be reported for manual correction.
