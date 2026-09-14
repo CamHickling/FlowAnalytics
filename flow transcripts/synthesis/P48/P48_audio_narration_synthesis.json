@@ -1,0 +1,77 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P48_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P48_audio_narration.srt",
+  "clean_line_count": 8,
+  "timed_segment_count": 8,
+  "exact_match_count": 8,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 30.0,
+      "end": 59.98,
+      "whisper_text": "Takk for at du så med.",
+      "clean_text": "Takk for at du så med.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 60.0,
+      "end": 89.98,
+      "whisper_text": "Tack for at du så med.",
+      "clean_text": "Tack for at du så med.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 90.0,
+      "end": 119.97999999999999,
+      "whisper_text": "Takk for at du så med.",
+      "clean_text": "Takk for at du så med.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 120.0,
+      "end": 149.98,
+      "whisper_text": "Takk for at du så med.",
+      "clean_text": "Takk for at du så med.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 150.0,
+      "end": 179.98,
+      "whisper_text": "Takk for at du så med.",
+      "clean_text": "Takk for at du så med.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 180.0,
+      "end": 209.98,
+      "whisper_text": "Takk for at du så med.",
+      "clean_text": "Takk for at du så med.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 210.0,
+      "end": 239.98,
+      "whisper_text": "Takk for at du så med.",
+      "clean_text": "Takk for at du så med.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 240.0,
+      "end": 269.98,
+      "whisper_text": "Takk for at du så med.",
+      "clean_text": "Takk for at du så med.",
+      "match": "exact"
+    }
+  ]
+}

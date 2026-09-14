@@ -1,0 +1,325 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P05_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P05_audio_narration.srt",
+  "clean_line_count": 39,
+  "timed_segment_count": 39,
+  "exact_match_count": 39,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 28.0,
+      "whisper_text": "Okay, you ready to get some hair done?",
+      "clean_text": "Okay, you ready to get some hair done?",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 28.0,
+      "end": 36.0,
+      "whisper_text": "This is a little more slippery than I expected.",
+      "clean_text": "This is a little more slippery than I expected.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 36.0,
+      "end": 44.0,
+      "whisper_text": "You just go through.",
+      "clean_text": "You just go through.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 44.0,
+      "end": 45.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 45.0,
+      "end": 49.0,
+      "whisper_text": "So you can pause and you can read your own video.",
+      "clean_text": "So you can pause and you can read your own video.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 49.0,
+      "end": 51.0,
+      "whisper_text": "You can pause basically with space bars.",
+      "clean_text": "You can pause basically with space bars.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 51.0,
+      "end": 53.0,
+      "whisper_text": "You can start.",
+      "clean_text": "You can start.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 53.0,
+      "end": 54.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 54.0,
+      "end": 55.0,
+      "whisper_text": "So I just speak to you?",
+      "clean_text": "So I just speak to you?",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 55.0,
+      "end": 57.0,
+      "whisper_text": "Yep.",
+      "clean_text": "Yep.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 57.0,
+      "end": 63.0,
+      "whisper_text": "Delightfully so.",
+      "clean_text": "Delightfully so.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 63.0,
+      "end": 67.0,
+      "whisper_text": "Yeah, I think at the beginning I'm pretty calm.",
+      "clean_text": "Yeah, I think at the beginning I'm pretty calm.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 67.0,
+      "end": 76.0,
+      "whisper_text": "Yeah, ready to start.",
+      "clean_text": "Yeah, ready to start.",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 76.0,
+      "end": 82.0,
+      "whisper_text": "Yeah, I think at that moment I realized the area is a bit different from what I'm used to.",
+      "clean_text": "Yeah, I think at that moment I realized the area is a bit different from what I'm used to.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 82.0,
+      "end": 84.0,
+      "whisper_text": "It's a little more slippery.",
+      "clean_text": "It's a little more slippery.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 84.0,
+      "end": 87.0,
+      "whisper_text": "So I try to focus on it and control.",
+      "clean_text": "So I try to focus on it and control.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 87.0,
+      "end": 97.0,
+      "whisper_text": "My pitford better.",
+      "clean_text": "My pitford better.",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 97.0,
+      "end": 100.0,
+      "whisper_text": "I think so far it's fine, but here.",
+      "clean_text": "I think so far it's fine, but here.",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 100.0,
+      "end": 102.0,
+      "whisper_text": "Yeah, I stopped on the wrong bit.",
+      "clean_text": "Yeah, I stopped on the wrong bit.",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 102.0,
+      "end": 107.0,
+      "whisper_text": "So I kind of fixed it.",
+      "clean_text": "So I kind of fixed it.",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 107.0,
+      "end": 111.0,
+      "whisper_text": "Yeah, so I made some adjustment along the way.",
+      "clean_text": "Yeah, so I made some adjustment along the way.",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 111.0,
+      "end": 114.0,
+      "whisper_text": "The level of power I exerted.",
+      "clean_text": "The level of power I exerted.",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 114.0,
+      "end": 115.0,
+      "whisper_text": "I kind of.",
+      "clean_text": "I kind of.",
+      "match": "exact"
+    },
+    {
+      "index": 24,
+      "start": 115.0,
+      "end": 117.0,
+      "whisper_text": "Reduce a bit.",
+      "clean_text": "Reduce a bit.",
+      "match": "exact"
+    },
+    {
+      "index": 25,
+      "start": 117.0,
+      "end": 119.0,
+      "whisper_text": "To have a better balance.",
+      "clean_text": "To have a better balance.",
+      "match": "exact"
+    },
+    {
+      "index": 26,
+      "start": 119.0,
+      "end": 124.0,
+      "whisper_text": "And then I think the flow is fine.",
+      "clean_text": "And then I think the flow is fine.",
+      "match": "exact"
+    },
+    {
+      "index": 27,
+      "start": 124.0,
+      "end": 137.0,
+      "whisper_text": "But yeah, if I have better balance, I might do a little bit more strength or power on some of the moves.",
+      "clean_text": "But yeah, if I have better balance, I might do a little bit more strength or power on some of the moves.",
+      "match": "exact"
+    },
+    {
+      "index": 28,
+      "start": 137.0,
+      "end": 143.0,
+      "whisper_text": "Yeah, this is towards the end and I feel mostly good.",
+      "clean_text": "Yeah, this is towards the end and I feel mostly good.",
+      "match": "exact"
+    },
+    {
+      "index": 29,
+      "start": 143.0,
+      "end": 145.0,
+      "whisper_text": "But yeah, there's some moves that I adjusted along the way.",
+      "clean_text": "But yeah, there's some moves that I adjusted along the way.",
+      "match": "exact"
+    },
+    {
+      "index": 30,
+      "start": 145.0,
+      "end": 146.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 31,
+      "start": 146.0,
+      "end": 154.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 32,
+      "start": 154.0,
+      "end": 161.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 33,
+      "start": 161.0,
+      "end": 162.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 34,
+      "start": 162.0,
+      "end": 163.0,
+      "whisper_text": "Okay, thank you.",
+      "clean_text": "Okay, thank you.",
+      "match": "exact"
+    },
+    {
+      "index": 35,
+      "start": 163.0,
+      "end": 165.0,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 36,
+      "start": 165.0,
+      "end": 166.0,
+      "whisper_text": "You get it.",
+      "clean_text": "You get it.",
+      "match": "exact"
+    },
+    {
+      "index": 37,
+      "start": 173.0,
+      "end": 174.0,
+      "whisper_text": "On how you're scored.",
+      "clean_text": "On how you're scored.",
+      "match": "exact"
+    },
+    {
+      "index": 38,
+      "start": 174.0,
+      "end": 182.32,
+      "whisper_text": "As you can see, your pattern is scored based on the number 10, so out of 10 is your 1.",
+      "clean_text": "As you can see, your pattern is scored based on the number 10, so out of 10 is your 1.",
+      "match": "exact"
+    },
+    {
+      "index": 39,
+      "start": 182.32,
+      "end": 183.56,
+      "whisper_text": "As you can see, it's...",
+      "clean_text": "As you can see, it's...",
+      "match": "exact"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P07_20260226_134350\\review\\P07_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P07_20260226_134350\\review\\P07_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "So you can press play."
+    },
+    {
+      "start": 4.0,
+      "end": 8.0,
+      "text": "Okay."
+    },
+    {
+      "start": 8.0,
+      "end": 12.0,
+      "text": "Spacebar."
+    },
+    {
+      "start": 30.0,
+      "end": 34.0,
+      "text": "For the first few moves here,"
+    },
+    {
+      "start": 34.0,
+      "end": 38.0,
+      "text": "I did remember everything perfectly fine, so this was pretty"
+    },
+    {
+      "start": 38.0,
+      "end": 42.0,
+      "text": "normal to me. Felt okay. That down block"
+    },
+    {
+      "start": 42.0,
+      "end": 46.0,
+      "text": "was fine, and the middle blocks were something that I had practiced"
+    },
+    {
+      "start": 46.0,
+      "end": 50.0,
+      "text": "a bit, so I was okay with it. When it came to the high block kick part, I was a little"
+    },
+    {
+      "start": 50.0,
+      "end": 54.0,
+      "text": "unsure, but I think I did it right, so that part was"
+    },
+    {
+      "start": 54.0,
+      "end": 58.0,
+      "text": "alright. My front kick form could definitely be better. The down block at the end"
+    },
+    {
+      "start": 58.0,
+      "end": 60.0,
+      "text": "and the last low punch"
+    },
+    {
+      "start": 60.0,
+      "end": 64.0,
+      "text": "were quite good, I think."
+    },
+    {
+      "start": 86.0,
+      "end": 90.0,
+      "text": "So, as you can see, your pattern is"
+    },
+    {
+      "start": 90.0,
+      "end": 94.0,
+      "text": "scored based on the number 10, so out of 10"
+    },
+    {
+      "start": 94.0,
+      "end": 98.0,
+      "text": "is your mark. As you can see, it's split up into"
+    },
+    {
+      "start": 98.0,
+      "end": 102.0,
+      "text": "two parts. We have our accuracy and our presentation on this side."
+    },
+    {
+      "start": 102.0,
+      "end": 106.0,
+      "text": "So, we'll start off with the accuracy first. So, your accuracy"
+    },
+    {
+      "start": 106.0,
+      "end": 110.0,
+      "text": "is actually scored from a 4. So, from the number"
+    },
+    {
+      "start": 110.0,
+      "end": 114.0,
+      "text": "4, you're actually marked during your"
+    },
+    {
+      "start": 114.0,
+      "end": 118.0,
+      "text": "presentation of your pattern, and then with that one, any mistakes"
+    },
+    {
+      "start": 118.0,
+      "end": 119.92,
+      "text": "that you make, whether it's a"
+    },
+    {
+      "start": 119.92,
+      "end": 129.58,
+      "text": "minor mistake you get minus of 0.1 if it's a major mistake you get minus 0.3 so i'll just let you guys"
+    }
+  ],
+  "word_segments": []
+}

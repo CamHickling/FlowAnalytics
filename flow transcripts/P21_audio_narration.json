@@ -1,0 +1,264 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P21_20260309_112711\\review\\P21_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P21_20260309_112711\\review\\P21_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "text": "Sit down here."
+    },
+    {
+      "start": 34.0,
+      "end": 36.0,
+      "text": "Okay, you can sit."
+    },
+    {
+      "start": 36.0,
+      "end": 38.0,
+      "text": "Sit this way."
+    },
+    {
+      "start": 38.0,
+      "end": 40.0,
+      "text": "Oh, you, um,"
+    },
+    {
+      "start": 40.0,
+      "end": 42.0,
+      "text": "you gonna review this one first?"
+    },
+    {
+      "start": 42.0,
+      "end": 44.0,
+      "text": "Oh, sure."
+    },
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "Okay."
+    },
+    {
+      "start": 64.0,
+      "end": 66.0,
+      "text": "So you can play and then pause"
+    },
+    {
+      "start": 66.0,
+      "end": 68.0,
+      "text": "if you want to"
+    },
+    {
+      "start": 68.0,
+      "end": 70.0,
+      "text": "tell something. Sure."
+    },
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "text": "Okay."
+    },
+    {
+      "start": 120.0,
+      "end": 122.0,
+      "text": "You can talk"
+    },
+    {
+      "start": 122.0,
+      "end": 124.0,
+      "text": "and explain what you were thinking."
+    },
+    {
+      "start": 124.0,
+      "end": 126.0,
+      "text": "Yeah."
+    },
+    {
+      "start": 126.0,
+      "end": 128.0,
+      "text": "Well, I would say, like,"
+    },
+    {
+      "start": 128.0,
+      "end": 130.0,
+      "text": "um..."
+    },
+    {
+      "start": 130.0,
+      "end": 132.0,
+      "text": "So you mean, explain, like,"
+    },
+    {
+      "start": 132.0,
+      "end": 134.0,
+      "text": "which motion"
+    },
+    {
+      "start": 134.0,
+      "end": 136.0,
+      "text": "like to say, or... Yeah, um,"
+    },
+    {
+      "start": 136.0,
+      "end": 138.0,
+      "text": "you can, you can say,"
+    },
+    {
+      "start": 138.0,
+      "end": 140.0,
+      "text": "you know, um,"
+    },
+    {
+      "start": 140.0,
+      "end": 142.0,
+      "text": "you can go through this one. Yeah."
+    },
+    {
+      "start": 146.0,
+      "end": 148.0,
+      "text": "Mm."
+    },
+    {
+      "start": 148.0,
+      "end": 150.0,
+      "text": "Describe what you were thinking"
+    },
+    {
+      "start": 150.0,
+      "end": 152.0,
+      "text": "and what you were feeling at each moment."
+    },
+    {
+      "start": 152.0,
+      "end": 154.0,
+      "text": "For me, I would say"
+    },
+    {
+      "start": 154.0,
+      "end": 156.0,
+      "text": "when I'm doing push-ups,"
+    },
+    {
+      "start": 156.0,
+      "end": 158.0,
+      "text": "I would just, like,"
+    },
+    {
+      "start": 158.0,
+      "end": 160.0,
+      "text": "sometimes I would just confirm for the next step."
+    },
+    {
+      "start": 160.0,
+      "end": 162.0,
+      "text": "Sometimes I'm not sure for the next step."
+    },
+    {
+      "start": 162.0,
+      "end": 164.0,
+      "text": "Even though, like, I practiced so many times,"
+    },
+    {
+      "start": 164.0,
+      "end": 166.0,
+      "text": "it would make me, like,"
+    },
+    {
+      "start": 166.0,
+      "end": 168.0,
+      "text": "feeling, like, because it's competition,"
+    },
+    {
+      "start": 168.0,
+      "end": 170.0,
+      "text": "you would feel nervous,"
+    },
+    {
+      "start": 170.0,
+      "end": 172.0,
+      "text": "and it would affect your motion."
+    },
+    {
+      "start": 172.0,
+      "end": 174.0,
+      "text": "Like, in this example,"
+    },
+    {
+      "start": 174.0,
+      "end": 176.0,
+      "text": "like, I forgot one motion,"
+    },
+    {
+      "start": 176.0,
+      "end": 178.0,
+      "text": "movement."
+    },
+    {
+      "start": 178.0,
+      "end": 180.0,
+      "text": "In my natural"
+    },
+    {
+      "start": 180.0,
+      "end": 182.0,
+      "text": "motion, I would just"
+    },
+    {
+      "start": 182.0,
+      "end": 184.0,
+      "text": "step to do it again."
+    },
+    {
+      "start": 184.0,
+      "end": 186.0,
+      "text": "But it's not a step in the competition."
+    },
+    {
+      "start": 186.0,
+      "end": 188.0,
+      "text": "It may be do the wrong thing"
+    },
+    {
+      "start": 188.0,
+      "end": 190.0,
+      "text": "in the competition. So, yeah."
+    },
+    {
+      "start": 190.0,
+      "end": 192.0,
+      "text": "And also..."
+    },
+    {
+      "start": 194.0,
+      "end": 196.0,
+      "text": "Yeah, it may be"
+    },
+    {
+      "start": 196.0,
+      "end": 198.0,
+      "text": "feeling some"
+    },
+    {
+      "start": 198.0,
+      "end": 200.0,
+      "text": "stressful."
+    },
+    {
+      "start": 204.0,
+      "end": 206.0,
+      "text": "Okay."
+    },
+    {
+      "start": 206.0,
+      "end": 208.0,
+      "text": "Yeah, okay."
+    },
+    {
+      "start": 210.0,
+      "end": 212.0,
+      "text": "Thank you."
+    }
+  ],
+  "word_segments": []
+}

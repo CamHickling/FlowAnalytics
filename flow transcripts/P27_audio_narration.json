@@ -1,0 +1,199 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P27_20260313_101333\\review\\P27_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P27_20260313_101333\\review\\P27_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 60.0,
+      "end": 88.86,
+      "text": "So, Wendy want me to start talking, or just like as soon as the video starts."
+    },
+    {
+      "start": 88.86,
+      "end": 89.86,
+      "text": "Okay."
+    },
+    {
+      "start": 89.86,
+      "end": 102.76,
+      "text": "You can pause, also press, you can press this if you want to pause."
+    },
+    {
+      "start": 102.76,
+      "end": 105.25999999999999,
+      "text": "So I can start narrating even when the video is going?"
+    },
+    {
+      "start": 105.25999999999999,
+      "end": 106.26,
+      "text": "Yes."
+    },
+    {
+      "start": 106.26,
+      "end": 107.26,
+      "text": "Okay."
+    },
+    {
+      "start": 107.26,
+      "end": 108.26,
+      "text": "Okay."
+    },
+    {
+      "start": 108.26,
+      "end": 109.26,
+      "text": "Okay."
+    },
+    {
+      "start": 109.26,
+      "end": 110.26,
+      "text": "Okay."
+    },
+    {
+      "start": 110.26,
+      "end": 111.26,
+      "text": "Okay."
+    },
+    {
+      "start": 111.26,
+      "end": 112.26,
+      "text": "Okay."
+    },
+    {
+      "start": 112.26,
+      "end": 113.26,
+      "text": "Okay."
+    },
+    {
+      "start": 113.26,
+      "end": 114.26,
+      "text": "Okay."
+    },
+    {
+      "start": 114.26,
+      "end": 115.26,
+      "text": "Okay."
+    },
+    {
+      "start": 115.26,
+      "end": 116.26,
+      "text": "Okay."
+    },
+    {
+      "start": 116.26,
+      "end": 117.26,
+      "text": "Okay."
+    },
+    {
+      "start": 117.26,
+      "end": 118.26,
+      "text": "Okay."
+    },
+    {
+      "start": 118.26,
+      "end": 119.26,
+      "text": "Okay."
+    },
+    {
+      "start": 119.26,
+      "end": 120.26,
+      "text": "Okay."
+    },
+    {
+      "start": 120.26,
+      "end": 121.26,
+      "text": "Okay."
+    },
+    {
+      "start": 121.26,
+      "end": 122.26,
+      "text": "Okay."
+    },
+    {
+      "start": 122.26,
+      "end": 123.26,
+      "text": "Okay."
+    },
+    {
+      "start": 139.26,
+      "end": 146.26,
+      "text": "I haven't fully... got used to these new mads yet."
+    },
+    {
+      "start": 146.26,
+      "end": 147.46,
+      "text": "Um..."
+    },
+    {
+      "start": 147.46,
+      "end": 148.06,
+      "text": "Yeah."
+    },
+    {
+      "start": 148.06,
+      "end": 154.46,
+      "text": "but the mats felt really good today the motions felt good"
+    },
+    {
+      "start": 157.5,
+      "end": 158.0,
+      "text": "and"
+    },
+    {
+      "start": 168.54,
+      "end": 170.14000000000001,
+      "text": "motions are a little bit stiff today"
+    },
+    {
+      "start": 178.06,
+      "end": 196.06,
+      "text": "okay um i like the"
+    },
+    {
+      "start": 198.54,
+      "end": 205.34,
+      "text": "today's flow was really good today's the mind doing things pretty good it's just"
+    },
+    {
+      "start": 205.34,
+      "end": 207.98000000000002,
+      "text": "when you when i was going on this"
+    },
+    {
+      "start": 208.06,
+      "end": 217.02,
+      "text": "mat um i maybe could have gotten more used to it and get a little more time familiar with it"
+    },
+    {
+      "start": 217.74,
+      "end": 227.34,
+      "text": "but overall the feeling and motion excuse me executing everything"
+    },
+    {
+      "start": 228.06,
+      "end": 236.14000000000001,
+      "text": "went better than i thought i expected um i could improve on maybe going a little bit more harder"
+    },
+    {
+      "start": 237.1,
+      "end": 237.42000000000002,
+      "text": "and"
+    },
+    {
+      "start": 238.94,
+      "end": 244.78,
+      "text": "put don't put too much pressure on certain movements because"
+    },
+    {
+      "start": 245.9,
+      "end": 255.34,
+      "text": "today overall was a little more shaky than usual but the entire movement was yes"
+    },
+    {
+      "start": 258.78,
+      "end": 263.58,
+      "text": "yeah"
+    }
+  ],
+  "word_segments": []
+}

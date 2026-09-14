@@ -1,0 +1,319 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P30_20260318_130947\\review\\P30_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P30_20260318_130947\\review\\P30_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 59.980000000000004,
+      "text": "Thank you for watching!"
+    },
+    {
+      "start": 60.0,
+      "end": 89.98,
+      "text": "Thank you for watching!"
+    },
+    {
+      "start": 90.0,
+      "end": 119.98,
+      "text": "Thank you for watching!"
+    },
+    {
+      "start": 120.0,
+      "end": 138.56,
+      "text": "Oh, so here I was kind of like nervous. I didn't really know what to expect because like it's my first time doing something like this and because of the rumors, I don't have a lot like pressure on me since it isn't as big as like a competition venue."
+    },
+    {
+      "start": 150.0,
+      "end": 160.58,
+      "text": "So after I ready up for any kind of competition or whenever I start my poomsae, I always try to like strictly focus on my poomsae and not think of anything else."
+    },
+    {
+      "start": 160.82,
+      "end": 169.94,
+      "text": "So it makes it easier for myself so I don't have to suddenly forget things or feel weak whenever I start my poomsae."
+    },
+    {
+      "start": 180.0,
+      "end": 194.42,
+      "text": "So whenever I do this section of six, I felt that I was like a little rushed so a lot of my power went away because of how fast I was going."
+    },
+    {
+      "start": 194.42000000000002,
+      "end": 214.4,
+      "text": "So at this moment, because I realized I was going a little too fast at the beginning,"
+    },
+    {
+      "start": 214.4,
+      "end": 219.34000000000003,
+      "text": "I tried to slow down and improve my overall power and presentation."
+    },
+    {
+      "start": 224.42000000000002,
+      "end": 240.4,
+      "text": "I think that's what it's going to look like."
+    },
+    {
+      "start": 240.4,
+      "end": 246.4,
+      "text": "And if I get tired, I'll go back to the beginning."
+    },
+    {
+      "start": 246.4,
+      "end": 249.4,
+      "text": "But I think it's still going to be a little scary."
+    },
+    {
+      "start": 249.4,
+      "end": 252.4,
+      "text": "But it's still going to be a little scary."
+    },
+    {
+      "start": 252.4,
+      "end": 254.4,
+      "text": "It's going to be a little scary."
+    },
+    {
+      "start": 254.4,
+      "end": 265.68,
+      "text": "As you can see, your pattern is scored based on the number 10."
+    },
+    {
+      "start": 266.08,
+      "end": 268.24,
+      "text": "So out of 10 is your mark."
+    },
+    {
+      "start": 268.92,
+      "end": 271.74,
+      "text": "As you can see, it's split up into two parts."
+    },
+    {
+      "start": 272.0,
+      "end": 275.08,
+      "text": "We have our accuracy and our presentation of the set."
+    },
+    {
+      "start": 275.14,
+      "end": 276.96,
+      "text": "So we'll start off with the accuracy first."
+    },
+    {
+      "start": 277.52,
+      "end": 280.68,
+      "text": "So your accuracy is actually scored from..."
+    },
+    {
+      "start": 280.68,
+      "end": 282.46000000000004,
+      "text": "I already know how this works, Dr. Moster."
+    },
+    {
+      "start": 282.46,
+      "end": 283.56,
+      "text": "Yeah, you can move forward."
+    },
+    {
+      "start": 284.56,
+      "end": 286.18,
+      "text": "You were actually marked true."
+    },
+    {
+      "start": 289.18,
+      "end": 291.78,
+      "text": "So where the judges actually mark you from,"
+    },
+    {
+      "start": 292.12,
+      "end": 295.88,
+      "text": "it's actually was above average."
+    },
+    {
+      "start": 295.88,
+      "end": 301.24,
+      "text": "You might get scored a 1.4 for now."
+    },
+    {
+      "start": 302.03999999999996,
+      "end": 305.47999999999996,
+      "text": "So your rhythm was only about average."
+    },
+    {
+      "start": 306.17999999999995,
+      "end": 307.34,
+      "text": "It wasn't amazing."
+    },
+    {
+      "start": 307.78,
+      "end": 309.38,
+      "text": "It might be just a 1.3."
+    },
+    {
+      "start": 309.96,
+      "end": 311.91999999999996,
+      "text": "But let's say you didn't shout very loud."
+    },
+    {
+      "start": 312.28,
+      "end": 312.38,
+      "text": "So..."
+    },
+    {
+      "start": 312.46,
+      "end": 315.58,
+      "text": "Your expression of energy, your average was 1.3."
+    },
+    {
+      "start": 315.85999999999996,
+      "end": 318.58,
+      "text": "It might drop to, say, let's say a 1.0."
+    },
+    {
+      "start": 320.28,
+      "end": 320.88,
+      "text": "So..."
+    },
+    {
+      "start": 320.88,
+      "end": 324.68,
+      "text": "Okay, so..."
+    },
+    {
+      "start": 324.68,
+      "end": 328.94,
+      "text": "Sam did our 15 mistakes, very small mistakes."
+    },
+    {
+      "start": 329.46,
+      "end": 333.12,
+      "text": "At these numbers, after the judges are finished scoring,"
+    },
+    {
+      "start": 333.53999999999996,
+      "end": 337.52,
+      "text": "you would get, for this pattern, a 6.2."
+    },
+    {
+      "start": 338.14,
+      "end": 339.67999999999995,
+      "text": "Which is actually very good."
+    },
+    {
+      "start": 341.67999999999995,
+      "end": 342.28,
+      "text": "So..."
+    },
+    {
+      "start": 342.28000000000003,
+      "end": 343.14000000000004,
+      "text": "Pretty good."
+    },
+    {
+      "start": 344.22,
+      "end": 344.62,
+      "text": "For Hannah,"
+    },
+    {
+      "start": 345.66,
+      "end": 348.1,
+      "text": "he saw a couple more mistakes than I did."
+    },
+    {
+      "start": 348.36,
+      "end": 350.12,
+      "text": "So maybe this one would be a little bit lower."
+    },
+    {
+      "start": 350.24,
+      "end": 351.48,
+      "text": "It might be a 5 point something."
+    },
+    {
+      "start": 352.00000000000006,
+      "end": 354.04,
+      "text": "Another judge on the other side,"
+    },
+    {
+      "start": 354.04,
+      "end": 355.68,
+      "text": "they scored a little bit higher."
+    },
+    {
+      "start": 356.06000000000006,
+      "end": 357.64000000000004,
+      "text": "So we get the three numbers,"
+    },
+    {
+      "start": 357.82000000000005,
+      "end": 359.34000000000003,
+      "text": "and then we average that as well."
+    },
+    {
+      "start": 359.90000000000003,
+      "end": 362.20000000000005,
+      "text": "So I hope this helped you guys."
+    },
+    {
+      "start": 362.54,
+      "end": 364.72,
+      "text": "So make sure you enjoy your pool deck competition."
+    },
+    {
+      "start": 365.32000000000005,
+      "end": 366.48,
+      "text": "And anytime..."
+    },
+    {
+      "start": 366.48,
+      "end": 368.04,
+      "text": "Make sure, obviously, you..."
+    },
+    {
+      "start": 372.28000000000003,
+      "end": 376.78000000000003,
+      "text": "Make sure you enjoy your pool deck competition."
+    },
+    {
+      "start": 376.78000000000003,
+      "end": 378.02000000000004,
+      "text": "So, minor errors."
+    },
+    {
+      "start": 378.20000000000005,
+      "end": 380.48,
+      "text": "We cannot pause your video this time."
+    },
+    {
+      "start": 381.78000000000003,
+      "end": 383.78000000000003,
+      "text": "So we can..."
+    },
+    {
+      "start": 383.78000000000003,
+      "end": 385.6,
+      "text": "Do it real time."
+    },
+    {
+      "start": 386.18,
+      "end": 387.28000000000003,
+      "text": "While you're watching your..."
+    },
+    {
+      "start": 388.42,
+      "end": 389.22,
+      "text": "Performance."
+    },
+    {
+      "start": 389.96000000000004,
+      "end": 390.20000000000005,
+      "text": "Okay."
+    },
+    {
+      "start": 390.48,
+      "end": 392.14000000000004,
+      "text": "Okay, and then after the..."
+    }
+  ],
+  "word_segments": []
+}

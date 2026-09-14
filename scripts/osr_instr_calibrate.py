@@ -19,6 +19,22 @@ from pathlib import Path
 import numpy as np
 import cv2
 
+
+def format_elapsed(seconds: float) -> str:
+    total_seconds = max(0, int(seconds))
+    hours, rem = divmod(total_seconds, 3600)
+    minutes, seconds_part = divmod(rem, 60)
+    return f"{hours:02d}:{minutes:02d}:{seconds_part:02d}"
+
+
+def log_progress(stage: str, current: int, total: int, start_time: float, details: str = "") -> None:
+    elapsed = time.time() - start_time
+    pct = 0.0 if total == 0 else (current / total) * 100.0
+    eta_seconds = 0.0 if current == 0 or total == 0 else (elapsed / current) * (total - current)
+    suffix = f" | {details}" if details else ""
+    print(f"[{time.strftime('%H:%M:%S')}] {stage}: {current}/{total} ({pct:.1f}%) elapsed={format_elapsed(elapsed)} eta={format_elapsed(eta_seconds)}{suffix}")
+
+
 # Ensure relative imports work for the hardware check modules
 try:
     from .camera import Camera, CameraConfig
@@ -310,30 +326,47 @@ def sample_video(video_path: Path, calibrator: CameraCalibrator):
 
 def run_intrinsic_generation(dataset_path: str):
     root_dir = Path(dataset_path).resolve()
+    start_time = time.time()
     front_calibrator = CameraCalibrator("FRONT_CAMERA")
     side_calibrator = CameraCalibrator("SIDE_CAMERA")
-    
+    candidate_videos = []
+
     print("Extracting sharp, spatially-diverse checkerboard frames...")
     for item in sorted(root_dir.iterdir()):
         if item.is_dir() and item.name.startswith("P"):
             gopro_dir = item / "gopro_footage"
-            if not gopro_dir.is_dir(): continue
-                
-            for video_file in gopro_dir.iterdir():
-                if not video_file.is_file() or video_file.suffix.lower() not in {'.mp4', '.mov'}: continue
-                stem = video_file.stem.lower()
-                if "scoring" in stem or "sync_full" in stem: continue #
-                    
-                if "front" in stem: sample_video(video_file, front_calibrator)
-                elif "side" in stem: sample_video(video_file, side_calibrator)
+            if not gopro_dir.is_dir():
+                continue
 
+            for video_file in sorted(gopro_dir.iterdir()):
+                if not video_file.is_file() or video_file.suffix.lower() not in {'.mp4', '.mov'}:
+                    continue
+                stem = video_file.stem.lower()
+                if "scoring" in stem or "sync_full" in stem:
+                    continue
+                if "front" in stem or "side" in stem:
+                    candidate_videos.append((video_file, "front" if "front" in stem else "side"))
+
+    total = len(candidate_videos)
+    print(f"Found {total} candidate calibration videos across the dataset.")
+    for index, (video_file, camera_label) in enumerate(candidate_videos, start=1):
+        log_progress("Calibration scan", index, total, start_time, details=f"{camera_label} {video_file.name}")
+        if camera_label == "front":
+            sample_video(video_file, front_calibrator)
+        else:
+            sample_video(video_file, side_calibrator)
+
+    print("\nCalibration solve started. This can take a few minutes depending on the number of valid frames.")
     front_mtx, front_dist = front_calibrator.auto_prune_and_calibrate()
     side_mtx, side_dist = side_calibrator.auto_prune_and_calibrate()
-    
+
     for name, mtx, dist in [("front", front_mtx, front_dist), ("side", side_mtx, side_dist)]:
         with open(f"{name}_calibration.json", "w") as f:
             json.dump({"camera_matrix": mtx.tolist(), "dist_coeffs": dist.tolist()}, f, indent=4)
         print(f"Saved {name}_calibration.json")
+
+    elapsed = time.time() - start_time
+    print(f"\nCalibration complete. total_elapsed={format_elapsed(elapsed)}")
 
 
 def main():

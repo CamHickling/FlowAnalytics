@@ -1,0 +1,861 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P37_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P37_audio_narration.srt",
+  "clean_line_count": 106,
+  "timed_segment_count": 106,
+  "exact_match_count": 106,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 27.32,
+      "whisper_text": "Thank you.",
+      "clean_text": "Thank you.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 27.32,
+      "end": 30.7,
+      "whisper_text": "You can sit here, Fernando.",
+      "clean_text": "You can sit here, Fernando.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 31.18,
+      "end": 31.46,
+      "whisper_text": "Yes.",
+      "clean_text": "Yes.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 32.08,
+      "end": 34.32,
+      "whisper_text": "And then you can sit here.",
+      "clean_text": "And then you can sit here.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 35.1,
+      "end": 35.62,
+      "whisper_text": "Nice.",
+      "clean_text": "Nice.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 57.32,
+      "end": 65.2,
+      "whisper_text": "Cool.",
+      "clean_text": "Cool.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 65.78,
+      "end": 67.66,
+      "whisper_text": "Okay, you can press space if you want to play",
+      "clean_text": "Okay, you can press space if you want to play",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 67.66,
+      "end": 69.12,
+      "whisper_text": "and then pause if you want to pause,",
+      "clean_text": "and then pause if you want to pause,",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 69.2,
+      "end": 72.03999999999999,
+      "whisper_text": "but you can start talking whenever you want to space.",
+      "clean_text": "but you can start talking whenever you want to space.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 72.18,
+      "end": 72.74,
+      "whisper_text": "Sounds good.",
+      "clean_text": "Sounds good.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 80.0,
+      "end": 81.78,
+      "whisper_text": "So, yeah, getting ready.",
+      "clean_text": "So, yeah, getting ready.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 82.7,
+      "end": 85.16,
+      "whisper_text": "Always drink a sip of water or a Gatorade",
+      "clean_text": "Always drink a sip of water or a Gatorade",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 85.16,
+      "end": 86.16,
+      "whisper_text": "before getting started",
+      "clean_text": "before getting started",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 86.16,
+      "end": 87.03999999999999,
+      "whisper_text": "because,",
+      "clean_text": "because,",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 87.32,
+      "end": 89.5,
+      "whisper_text": "it's like pre-ritual.",
+      "clean_text": "it's like pre-ritual.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 93.24000000000001,
+      "end": 94.2,
+      "whisper_text": "This time,",
+      "clean_text": "This time,",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 94.62,
+      "end": 96.42,
+      "whisper_text": "I imagined myself in a tournament",
+      "clean_text": "I imagined myself in a tournament",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 96.42,
+      "end": 100.03999999999999,
+      "whisper_text": "really focusing on what I've ever seen",
+      "clean_text": "really focusing on what I've ever seen",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 100.03999999999999,
+      "end": 101.06,
+      "whisper_text": "when people do punze.",
+      "clean_text": "when people do punze.",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 101.2,
+      "end": 103.68,
+      "whisper_text": "They lock their faces to get ready.",
+      "clean_text": "They lock their faces to get ready.",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 104.94,
+      "end": 105.44,
+      "whisper_text": "The beginning,",
+      "clean_text": "The beginning,",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 105.9,
+      "end": 106.62,
+      "whisper_text": "very straightforward,",
+      "clean_text": "very straightforward,",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 107.03999999999999,
+      "end": 108.42,
+      "whisper_text": "but my side could have been",
+      "clean_text": "but my side could have been",
+      "match": "exact"
+    },
+    {
+      "index": 24,
+      "start": 108.42,
+      "end": 111.0,
+      "whisper_text": "more distinguished.",
+      "clean_text": "more distinguished.",
+      "match": "exact"
+    },
+    {
+      "index": 25,
+      "start": 111.32,
+      "end": 113.34,
+      "whisper_text": "My left side seems a little better than my right side.",
+      "clean_text": "My left side seems a little better than my right side.",
+      "match": "exact"
+    },
+    {
+      "index": 26,
+      "start": 114.18,
+      "end": 115.0,
+      "whisper_text": "Attacking forward,",
+      "clean_text": "Attacking forward,",
+      "match": "exact"
+    },
+    {
+      "index": 27,
+      "start": 115.78,
+      "end": 116.52000000000001,
+      "whisper_text": "I was very",
+      "clean_text": "I was very",
+      "match": "exact"
+    },
+    {
+      "index": 28,
+      "start": 116.52000000000001,
+      "end": 117.3,
+      "whisper_text": "focused.",
+      "clean_text": "focused.",
+      "match": "exact"
+    },
+    {
+      "index": 29,
+      "start": 117.72,
+      "end": 118.82,
+      "whisper_text": "One thing I see a lot,",
+      "clean_text": "One thing I see a lot,",
+      "match": "exact"
+    },
+    {
+      "index": 30,
+      "start": 118.9,
+      "end": 119.96000000000001,
+      "whisper_text": "I didn't chamber my hand",
+      "clean_text": "I didn't chamber my hand",
+      "match": "exact"
+    },
+    {
+      "index": 31,
+      "start": 119.96000000000001,
+      "end": 121.44,
+      "whisper_text": "and make a fist",
+      "clean_text": "and make a fist",
+      "match": "exact"
+    },
+    {
+      "index": 32,
+      "start": 121.44,
+      "end": 122.68,
+      "whisper_text": "when I chambered back to my belt,",
+      "clean_text": "when I chambered back to my belt,",
+      "match": "exact"
+    },
+    {
+      "index": 33,
+      "start": 123.28,
+      "end": 126.48,
+      "whisper_text": "but the timing and the motions were prepared",
+      "clean_text": "but the timing and the motions were prepared",
+      "match": "exact"
+    },
+    {
+      "index": 34,
+      "start": 126.48,
+      "end": 129.04,
+      "whisper_text": "and I extended the motion fully,",
+      "clean_text": "and I extended the motion fully,",
+      "match": "exact"
+    },
+    {
+      "index": 35,
+      "start": 129.16,
+      "end": 129.92,
+      "whisper_text": "tried to snap.",
+      "clean_text": "tried to snap.",
+      "match": "exact"
+    },
+    {
+      "index": 36,
+      "start": 132.8,
+      "end": 134.08,
+      "whisper_text": "I remember my key-up was",
+      "clean_text": "I remember my key-up was",
+      "match": "exact"
+    },
+    {
+      "index": 37,
+      "start": 134.08,
+      "end": 137.52,
+      "whisper_text": "coming from my belly,",
+      "clean_text": "coming from my belly,",
+      "match": "exact"
+    },
+    {
+      "index": 38,
+      "start": 137.82,
+      "end": 139.06,
+      "whisper_text": "so I really exhaled",
+      "clean_text": "so I really exhaled",
+      "match": "exact"
+    },
+    {
+      "index": 39,
+      "start": 139.06,
+      "end": 140.57999999999998,
+      "whisper_text": "with a lot of effort.",
+      "clean_text": "with a lot of effort.",
+      "match": "exact"
+    },
+    {
+      "index": 40,
+      "start": 145.44,
+      "end": 146.28,
+      "whisper_text": "In this moment,",
+      "clean_text": "In this moment,",
+      "match": "exact"
+    },
+    {
+      "index": 41,
+      "start": 146.28,
+      "end": 147.2,
+      "whisper_text": "I wanted to really focus",
+      "clean_text": "I wanted to really focus",
+      "match": "exact"
+    },
+    {
+      "index": 42,
+      "start": 147.2,
+      "end": 148.64,
+      "whisper_text": "on the sitting stance,",
+      "clean_text": "on the sitting stance,",
+      "match": "exact"
+    },
+    {
+      "index": 43,
+      "start": 148.64,
+      "end": 149.84,
+      "whisper_text": "which comes after this move,",
+      "clean_text": "which comes after this move,",
+      "match": "exact"
+    },
+    {
+      "index": 44,
+      "start": 149.84,
+      "end": 152.32,
+      "whisper_text": "so I might have delayed the move a little bit,",
+      "clean_text": "so I might have delayed the move a little bit,",
+      "match": "exact"
+    },
+    {
+      "index": 45,
+      "start": 152.32,
+      "end": 154.8,
+      "whisper_text": "so I was really trying to focus on the stance",
+      "clean_text": "so I was really trying to focus on the stance",
+      "match": "exact"
+    },
+    {
+      "index": 46,
+      "start": 154.8,
+      "end": 156.8,
+      "whisper_text": "because this punze has many different stances",
+      "clean_text": "because this punze has many different stances",
+      "match": "exact"
+    },
+    {
+      "index": 47,
+      "start": 156.8,
+      "end": 158.76,
+      "whisper_text": "and different preparations,",
+      "clean_text": "and different preparations,",
+      "match": "exact"
+    },
+    {
+      "index": 48,
+      "start": 159.0,
+      "end": 159.64,
+      "whisper_text": "so for this moment,",
+      "clean_text": "so for this moment,",
+      "match": "exact"
+    },
+    {
+      "index": 49,
+      "start": 159.86,
+      "end": 161.36,
+      "whisper_text": "I took an extra second",
+      "clean_text": "I took an extra second",
+      "match": "exact"
+    },
+    {
+      "index": 50,
+      "start": 161.36,
+      "end": 162.96,
+      "whisper_text": "that I should have to go to the back stance.",
+      "clean_text": "that I should have to go to the back stance.",
+      "match": "exact"
+    },
+    {
+      "index": 51,
+      "start": 168.38,
+      "end": 170.8,
+      "whisper_text": "I tried to extend the side kick as much as possible,",
+      "clean_text": "I tried to extend the side kick as much as possible,",
+      "match": "exact"
+    },
+    {
+      "index": 52,
+      "start": 171.22,
+      "end": 172.74,
+      "whisper_text": "trying to, once again,",
+      "clean_text": "trying to, once again,",
+      "match": "exact"
+    },
+    {
+      "index": 53,
+      "start": 173.56,
+      "end": 177.02,
+      "whisper_text": "once I noticed that I didn't chamber my hand as much,",
+      "clean_text": "once I noticed that I didn't chamber my hand as much,",
+      "match": "exact"
+    },
+    {
+      "index": 54,
+      "start": 177.12,
+      "end": 177.18,
+      "whisper_text": "I tried to extend the side kick as much as possible,",
+      "clean_text": "I tried to extend the side kick as much as possible,",
+      "match": "exact"
+    },
+    {
+      "index": 55,
+      "start": 177.18,
+      "end": 177.76,
+      "whisper_text": "but going forward,",
+      "clean_text": "but going forward,",
+      "match": "exact"
+    },
+    {
+      "index": 56,
+      "start": 178.14,
+      "end": 180.16,
+      "whisper_text": "I tried to chamber as much as possible now",
+      "clean_text": "I tried to chamber as much as possible now",
+      "match": "exact"
+    },
+    {
+      "index": 57,
+      "start": 180.16,
+      "end": 181.58,
+      "whisper_text": "that I was in the front motion",
+      "clean_text": "that I was in the front motion",
+      "match": "exact"
+    },
+    {
+      "index": 58,
+      "start": 181.58,
+      "end": 184.14,
+      "whisper_text": "because trying to fix those little things.",
+      "clean_text": "because trying to fix those little things.",
+      "match": "exact"
+    },
+    {
+      "index": 59,
+      "start": 190.26,
+      "end": 191.66,
+      "whisper_text": "Trying to extend the side kick,",
+      "clean_text": "Trying to extend the side kick,",
+      "match": "exact"
+    },
+    {
+      "index": 60,
+      "start": 191.96,
+      "end": 194.22,
+      "whisper_text": "really trying to frame in the front stance",
+      "clean_text": "really trying to frame in the front stance",
+      "match": "exact"
+    },
+    {
+      "index": 61,
+      "start": 194.22,
+      "end": 195.66,
+      "whisper_text": "with the preparation.",
+      "clean_text": "with the preparation.",
+      "match": "exact"
+    },
+    {
+      "index": 62,
+      "start": 199.18,
+      "end": 201.02,
+      "whisper_text": "Now, I was thinking about",
+      "clean_text": "Now, I was thinking about",
+      "match": "exact"
+    },
+    {
+      "index": 63,
+      "start": 201.02,
+      "end": 202.86,
+      "whisper_text": "whether my feet were pointing forward,",
+      "clean_text": "whether my feet were pointing forward,",
+      "match": "exact"
+    },
+    {
+      "index": 64,
+      "start": 202.98,
+      "end": 204.54,
+      "whisper_text": "but once again, I can't check that.",
+      "clean_text": "but once again, I can't check that.",
+      "match": "exact"
+    },
+    {
+      "index": 65,
+      "start": 204.54,
+      "end": 206.54,
+      "whisper_text": "It has to be very natural",
+      "clean_text": "It has to be very natural",
+      "match": "exact"
+    },
+    {
+      "index": 66,
+      "start": 207.18,
+      "end": 210.18,
+      "whisper_text": "and I was wondering the timing",
+      "clean_text": "and I was wondering the timing",
+      "match": "exact"
+    },
+    {
+      "index": 67,
+      "start": 210.18,
+      "end": 211.72,
+      "whisper_text": "because once you're competing,",
+      "clean_text": "because once you're competing,",
+      "match": "exact"
+    },
+    {
+      "index": 68,
+      "start": 211.92000000000002,
+      "end": 213.66,
+      "whisper_text": "the time passes a little bit differently,",
+      "clean_text": "the time passes a little bit differently,",
+      "match": "exact"
+    },
+    {
+      "index": 69,
+      "start": 213.94,
+      "end": 216.68,
+      "whisper_text": "so I have to count in my head those eight seconds",
+      "clean_text": "so I have to count in my head those eight seconds",
+      "match": "exact"
+    },
+    {
+      "index": 70,
+      "start": 216.68,
+      "end": 218.88,
+      "whisper_text": "in the proper eight-second time",
+      "clean_text": "in the proper eight-second time",
+      "match": "exact"
+    },
+    {
+      "index": 71,
+      "start": 218.88,
+      "end": 221.56,
+      "whisper_text": "and maybe should I close my fist at the right time",
+      "clean_text": "and maybe should I close my fist at the right time",
+      "match": "exact"
+    },
+    {
+      "index": 72,
+      "start": 221.56,
+      "end": 222.62,
+      "whisper_text": "while keeping eyes forward.",
+      "clean_text": "while keeping eyes forward.",
+      "match": "exact"
+    },
+    {
+      "index": 73,
+      "start": 223.0,
+      "end": 224.96,
+      "whisper_text": "I was really worried about which way I was looking",
+      "clean_text": "I was really worried about which way I was looking",
+      "match": "exact"
+    },
+    {
+      "index": 74,
+      "start": 224.96,
+      "end": 227.98,
+      "whisper_text": "because in korea, you go so many different directions",
+      "clean_text": "because in korea, you go so many different directions",
+      "match": "exact"
+    },
+    {
+      "index": 75,
+      "start": 227.98,
+      "end": 230.28,
+      "whisper_text": "and just like any other punze,",
+      "clean_text": "and just like any other punze,",
+      "match": "exact"
+    },
+    {
+      "index": 76,
+      "start": 230.38,
+      "end": 231.68,
+      "whisper_text": "so your eyes have to be locked in",
+      "clean_text": "so your eyes have to be locked in",
+      "match": "exact"
+    },
+    {
+      "index": 77,
+      "start": 231.68,
+      "end": 232.48,
+      "whisper_text": "on which way you're going,",
+      "clean_text": "on which way you're going,",
+      "match": "exact"
+    },
+    {
+      "index": 78,
+      "start": 233.32,
+      "end": 235.92000000000002,
+      "whisper_text": "so this time, I was trying to keep my eyes forward",
+      "clean_text": "so this time, I was trying to keep my eyes forward",
+      "match": "exact"
+    },
+    {
+      "index": 79,
+      "start": 235.92000000000002,
+      "end": 237.1,
+      "whisper_text": "knowing that I was going to go to the back stance,",
+      "clean_text": "knowing that I was going to go to the back stance,",
+      "match": "exact"
+    },
+    {
+      "index": 80,
+      "start": 237.1,
+      "end": 239.1,
+      "whisper_text": "so I'm going to turn back and prepare right away.",
+      "clean_text": "so I'm going to turn back and prepare right away.",
+      "match": "exact"
+    },
+    {
+      "index": 81,
+      "start": 240.1,
+      "end": 242.1,
+      "whisper_text": "Counting the seconds in my head.",
+      "clean_text": "Counting the seconds in my head.",
+      "match": "exact"
+    },
+    {
+      "index": 82,
+      "start": 242.1,
+      "end": 244.1,
+      "whisper_text": "I think I did a good job counting here,",
+      "clean_text": "I think I did a good job counting here,",
+      "match": "exact"
+    },
+    {
+      "index": 83,
+      "start": 244.1,
+      "end": 246.1,
+      "whisper_text": "putting my fist right on my palm.",
+      "clean_text": "putting my fist right on my palm.",
+      "match": "exact"
+    },
+    {
+      "index": 84,
+      "start": 246.1,
+      "end": 248.1,
+      "whisper_text": "Now, going back.",
+      "clean_text": "Now, going back.",
+      "match": "exact"
+    },
+    {
+      "index": 85,
+      "start": 248.1,
+      "end": 250.1,
+      "whisper_text": "One, two.",
+      "clean_text": "One, two.",
+      "match": "exact"
+    },
+    {
+      "index": 86,
+      "start": 250.1,
+      "end": 251.1,
+      "whisper_text": "I think I prepared this one.",
+      "clean_text": "I think I prepared this one.",
+      "match": "exact"
+    },
+    {
+      "index": 87,
+      "start": 251.1,
+      "end": 253.1,
+      "whisper_text": "I didn't prepare as much as the first one,",
+      "clean_text": "I didn't prepare as much as the first one,",
+      "match": "exact"
+    },
+    {
+      "index": 88,
+      "start": 253.1,
+      "end": 255.1,
+      "whisper_text": "but I snapped,",
+      "clean_text": "but I snapped,",
+      "match": "exact"
+    },
+    {
+      "index": 89,
+      "start": 255.1,
+      "end": 257.1,
+      "whisper_text": "and then once I step forward and I key up,",
+      "clean_text": "and then once I step forward and I key up,",
+      "match": "exact"
+    },
+    {
+      "index": 90,
+      "start": 257.1,
+      "end": 260.1,
+      "whisper_text": "my front stance could have been a little bit longer",
+      "clean_text": "my front stance could have been a little bit longer",
+      "match": "exact"
+    },
+    {
+      "index": 91,
+      "start": 260.1,
+      "end": 263.1,
+      "whisper_text": "because I see that my back leg was a little bent there,",
+      "clean_text": "because I see that my back leg was a little bent there,",
+      "match": "exact"
+    },
+    {
+      "index": 92,
+      "start": 263.1,
+      "end": 265.1,
+      "whisper_text": "but my chamber hand is there.",
+      "clean_text": "but my chamber hand is there.",
+      "match": "exact"
+    },
+    {
+      "index": 93,
+      "start": 265.1,
+      "end": 267.1,
+      "whisper_text": "My extension was towards the...",
+      "clean_text": "My extension was towards the...",
+      "match": "exact"
+    },
+    {
+      "index": 94,
+      "start": 267.1,
+      "end": 270.1,
+      "whisper_text": "My choking motion was towards the neck,",
+      "clean_text": "My choking motion was towards the neck,",
+      "match": "exact"
+    },
+    {
+      "index": 95,
+      "start": 270.1,
+      "end": 273.1,
+      "whisper_text": "and then I reset around the same area",
+      "clean_text": "and then I reset around the same area",
+      "match": "exact"
+    },
+    {
+      "index": 96,
+      "start": 273.1,
+      "end": 275.1,
+      "whisper_text": "which I started from.",
+      "clean_text": "which I started from.",
+      "match": "exact"
+    },
+    {
+      "index": 97,
+      "start": 275.1,
+      "end": 278.1,
+      "whisper_text": "So, regarding the same size stances,",
+      "clean_text": "So, regarding the same size stances,",
+      "match": "exact"
+    },
+    {
+      "index": 98,
+      "start": 278.1,
+      "end": 281.1,
+      "whisper_text": "I was similar,",
+      "clean_text": "I was similar,",
+      "match": "exact"
+    },
+    {
+      "index": 99,
+      "start": 281.1,
+      "end": 284.1,
+      "whisper_text": "but I went a little bit bigger stance,",
+      "clean_text": "but I went a little bit bigger stance,",
+      "match": "exact"
+    },
+    {
+      "index": 100,
+      "start": 284.1,
+      "end": 285.1,
+      "whisper_text": "going backward motion,",
+      "clean_text": "going backward motion,",
+      "match": "exact"
+    },
+    {
+      "index": 101,
+      "start": 285.1,
+      "end": 287.1,
+      "whisper_text": "rather than when I was going forward,",
+      "clean_text": "rather than when I was going forward,",
+      "match": "exact"
+    },
+    {
+      "index": 102,
+      "start": 287.1,
+      "end": 291.1,
+      "whisper_text": "which is why I ended on a further portion of the mat",
+      "clean_text": "which is why I ended on a further portion of the mat",
+      "match": "exact"
+    },
+    {
+      "index": 103,
+      "start": 291.1,
+      "end": 292.1,
+      "whisper_text": "which I started from.",
+      "clean_text": "which I started from.",
+      "match": "exact"
+    },
+    {
+      "index": 104,
+      "start": 292.1,
+      "end": 296.1,
+      "whisper_text": "But yeah, it was longer stance,",
+      "clean_text": "But yeah, it was longer stance,",
+      "match": "exact"
+    },
+    {
+      "index": 105,
+      "start": 296.1,
+      "end": 298.1,
+      "whisper_text": "going backwards and forwards,",
+      "clean_text": "going backwards and forwards,",
+      "match": "exact"
+    },
+    {
+      "index": 106,
+      "start": 298.1,
+      "end": 301.1,
+      "whisper_text": "which is why I ended a little bit further back.",
+      "clean_text": "which is why I ended a little bit further back.",
+      "match": "exact"
+    }
+  ]
+}

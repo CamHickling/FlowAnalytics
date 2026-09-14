@@ -1,0 +1,19 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P02B_20260223_134013\\review\\P02B_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P02B_20260223_134013\\review\\P02B_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.68,
+      "text": "You need to do sparring. You need to sparring nothing. I do, but I'm not really good. Yeah, yeah, yeah, it's okay."
+    },
+    {
+      "start": 6.04,
+      "end": 9.3,
+      "text": "We're going to be tracking your visual field."
+    }
+  ],
+  "word_segments": []
+}

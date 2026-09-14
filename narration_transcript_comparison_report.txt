@@ -1,0 +1,79 @@
+FlowAnalytics Narration Transcript Comparison Report
+====================================================
+
+Run scope
+---------
+Compared narration transcript files only. Scoring transcript files were excluded.
+
+Source folder:
+D:\FlowAnalytics\flow transcripts
+
+Comparison inputs
+------------------
+For each narration prefix, the human-cleaned TXT was compared with the timed SRT.
+The matching JSON files were available as WhisperX timing artifacts and were used
+for the P01 cross-check.
+
+Synthesis output folder:
+D:\FlowAnalytics\flow transcripts\synthesis
+
+Results
+-------
+Narration TXT/SRT pairs processed: 51
+Fully matched pairs: 48
+Pairs requiring review: 3
+Missing SRT files: 0
+
+Fully matched pairs had identical normalized wording between the cleaned TXT and
+timed SRT segments. Their synthesis JSON and SRT files are under the corresponding
+folder in flow transcripts\synthesis.
+
+Pairs requiring review
+----------------------
+P02_audio_narration.txt
+- Cleaned lines: 21
+- Timed SRT segments: 158
+- Exact matches: 19
+- Cleaned lines not matched: 2
+- Timed segments not matched: 139
+- The timed transcript contains additional instruction/scoring speech and repeated
+  Whisper artifact text. This file should not be used as a final subtitle source
+  until reviewed.
+
+P28_audio_narration.txt
+- Cleaned lines: 36
+- Timed SRT segments: 50
+- Exact matches: 35
+- Cleaned lines not matched: 1
+- Timed segments not matched: 15
+- The unmatched timed segments are repeated "Hubsan X4 H502E Desire 2-3-18"
+  Whisper artifact entries. The cleaned line also needs timing review.
+
+P42_audio_narration.txt
+- Cleaned lines: 7
+- Timed SRT segments: 16
+- Exact matches: 7
+- Cleaned lines not matched: 0
+- Timed segments not matched: 9
+- The timed transcript contains additional spoken introductory/instruction lines
+  that are not present in the cleaned TXT.
+
+P01 validation
+--------------
+P01 matched 160 of 160 cleaned lines to 160 timed SRT segments.
+The matching P01 JSON was also checked: 160 of 160 segments matched exactly.
+
+Generated files
+---------------
+Each processed narration has a synthesis folder containing:
+- <prefix>_audio_narration_synthesis.json
+- <prefix>_audio_narration_synthesis.srt
+
+Original TXT, SRT, and JSON files were not overwritten.
+
+Recommendation
+--------------
+Use synthesis outputs from the 48 fully matched pairs for the next subtitle stage.
+Review P02, P28, and P42 manually before final video composition. The comparison
+script is:
+D:\FlowAnalytics\scripts\compare_narration_transcripts.py

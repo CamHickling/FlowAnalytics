@@ -1,0 +1,319 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P03_20260224_102642\\review\\P03_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P03_20260224_102642\\review\\P03_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 58.2,
+      "text": "Her?"
+    },
+    {
+      "start": 58.2,
+      "end": 58.66,
+      "text": "Yes."
+    },
+    {
+      "start": 58.96,
+      "end": 59.16,
+      "text": "Ok."
+    },
+    {
+      "start": 60.0,
+      "end": 68.28,
+      "text": "What have you done before?"
+    },
+    {
+      "start": 69.96000000000001,
+      "end": 70.56,
+      "text": "Scrap."
+    },
+    {
+      "start": 73.96000000000001,
+      "end": 74.6,
+      "text": "Ok."
+    },
+    {
+      "start": 76.18,
+      "end": 76.9,
+      "text": "Scrap."
+    },
+    {
+      "start": 77.18,
+      "end": 77.78,
+      "text": "What do you remember?"
+    },
+    {
+      "start": 79.66,
+      "end": 80.98,
+      "text": "Don't have any moments."
+    },
+    {
+      "start": 82.8,
+      "end": 84.03999999999999,
+      "text": "Felt particularly."
+    },
+    {
+      "start": 88.03999999999999,
+      "end": 89.2,
+      "text": "You felt."
+    },
+    {
+      "start": 90.0,
+      "end": 93.96,
+      "text": "I don't know."
+    },
+    {
+      "start": 93.96,
+      "end": 93.98,
+      "text": "I don't know."
+    },
+    {
+      "start": 93.98,
+      "end": 94.0,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.0,
+      "end": 94.06,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.06,
+      "end": 94.12,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.12,
+      "end": 94.14,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.14,
+      "end": 94.18,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.18,
+      "end": 94.22,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.22,
+      "end": 94.24,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.24,
+      "end": 94.26,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.26,
+      "end": 94.3,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.3,
+      "end": 94.34,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.34,
+      "end": 94.36,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.36,
+      "end": 94.38,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.38,
+      "end": 94.4,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.4,
+      "end": 94.42,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.42,
+      "end": 94.44,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.44,
+      "end": 94.5,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.5,
+      "end": 94.52,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.52,
+      "end": 94.58,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.58,
+      "end": 94.62,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.62,
+      "end": 94.66,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.66,
+      "end": 94.68,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.68,
+      "end": 94.7,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.7,
+      "end": 94.76,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.76,
+      "end": 94.78,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.78,
+      "end": 94.82,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.82,
+      "end": 94.88,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.88,
+      "end": 94.9,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.9,
+      "end": 94.94,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.94,
+      "end": 94.96,
+      "text": "I don't know."
+    },
+    {
+      "start": 94.96,
+      "end": 94.98,
+      "text": "I don't know."
+    },
+    {
+      "start": 120.0,
+      "end": 149.98,
+      "text": "Ok, let's do it."
+    },
+    {
+      "start": 149.98,
+      "end": 163.98,
+      "text": "Ok, in this part I was"
+    },
+    {
+      "start": 163.98,
+      "end": 166.07999999999998,
+      "text": "getting ready."
+    },
+    {
+      "start": 171.07999999999998,
+      "end": 172.66,
+      "text": "I was peeking at the door."
+    },
+    {
+      "start": 179.98,
+      "end": 193.48,
+      "text": "I was a bit distracted."
+    },
+    {
+      "start": 193.83999999999997,
+      "end": 195.23999999999998,
+      "text": "I think that the"
+    },
+    {
+      "start": 195.23999999999998,
+      "end": 197.0,
+      "text": "mattress moved a bit."
+    },
+    {
+      "start": 201.0,
+      "end": 203.16,
+      "text": "Here I did a mistake in the"
+    },
+    {
+      "start": 203.16,
+      "end": 204.92,
+      "text": "poomsae which took me out"
+    },
+    {
+      "start": 204.92,
+      "end": 206.79999999999998,
+      "text": "of focus."
+    },
+    {
+      "start": 209.07999999999998,
+      "end": 209.95999999999998,
+      "text": "And I"
+    },
+    {
+      "start": 209.96,
+      "end": 210.56,
+      "text": "feel that"
+    },
+    {
+      "start": 210.56,
+      "end": 213.54000000000002,
+      "text": "I finished it in"
+    },
+    {
+      "start": 213.54000000000002,
+      "end": 214.74,
+      "text": "too high"
+    },
+    {
+      "start": 214.74,
+      "end": 216.82000000000002,
+      "text": "speed."
+    },
+    {
+      "start": 219.3,
+      "end": 220.54000000000002,
+      "text": "Like a tempo."
+    },
+    {
+      "start": 224.5,
+      "end": 225.08,
+      "text": "And"
+    },
+    {
+      "start": 225.08,
+      "end": 227.96,
+      "text": "yeah, I think this is it."
+    },
+    {
+      "start": 237.9,
+      "end": 238.58,
+      "text": "Ok."
+    }
+  ],
+  "word_segments": []
+}

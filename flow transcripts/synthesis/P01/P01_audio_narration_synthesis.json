@@ -1,0 +1,1293 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P01_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P01_audio_narration.srt",
+  "clean_line_count": 160,
+  "timed_segment_count": 160,
+  "exact_match_count": 160,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 29.98,
+      "whisper_text": "You can sit here.",
+      "clean_text": "You can sit here.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 29.98,
+      "end": 36.1,
+      "whisper_text": "I'm going to do my own performance.",
+      "clean_text": "I'm going to do my own performance.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 37.44,
+      "end": 40.98,
+      "whisper_text": "So I should speak while I'm like...",
+      "clean_text": "So I should speak while I'm like...",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 42.98,
+      "end": 46.0,
+      "whisper_text": "Where it felt in the zone or otherwise just rub it.",
+      "clean_text": "Where it felt in the zone or otherwise just rub it.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 56.3,
+      "end": 56.94,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 59.98,
+      "end": 62.82,
+      "whisper_text": "So we're going to use this piece of art to play in pause.",
+      "clean_text": "So we're going to use this piece of art to play in pause.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 63.04,
+      "end": 65.46,
+      "whisper_text": "So we'll go backwards when we proceed forwards,",
+      "clean_text": "So we'll go backwards when we proceed forwards,",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 65.6,
+      "end": 69.5,
+      "whisper_text": "but if you want to, we'll continue commentating.",
+      "clean_text": "but if you want to, we'll continue commentating.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 69.94,
+      "end": 70.4,
+      "whisper_text": "That's pause.",
+      "clean_text": "That's pause.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 70.58,
+      "end": 71.14,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 89.98,
+      "end": 94.72,
+      "whisper_text": "It looks like we're just stretching here.",
+      "clean_text": "It looks like we're just stretching here.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 94.82,
+      "end": 95.7,
+      "whisper_text": "Should I skip ahead?",
+      "clean_text": "Should I skip ahead?",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 97.7,
+      "end": 98.6,
+      "whisper_text": "Should I start again?",
+      "clean_text": "Should I start again?",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 98.92,
+      "end": 99.58,
+      "whisper_text": "We're just going to wait.",
+      "clean_text": "We're just going to wait.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 99.58,
+      "end": 100.42,
+      "whisper_text": "You may just have to wait.",
+      "clean_text": "You may just have to wait.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 105.44,
+      "end": 105.88,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 107.5,
+      "end": 110.14,
+      "whisper_text": "I'm just doing 90-90s here to stretch,",
+      "clean_text": "I'm just doing 90-90s here to stretch,",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 111.12,
+      "end": 112.58,
+      "whisper_text": "warm up my hips.",
+      "clean_text": "warm up my hips.",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 117.94,
+      "end": 118.58,
+      "whisper_text": "Wow.",
+      "clean_text": "Wow.",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 119.97999999999999,
+      "end": 121.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 149.98,
+      "end": 158.74,
+      "whisper_text": "You can relax a little bit, Victor.",
+      "clean_text": "You can relax a little bit, Victor.",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 159.38,
+      "end": 161.14,
+      "whisper_text": "Just maybe close your eyes.",
+      "clean_text": "Just maybe close your eyes.",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 161.54,
+      "end": 162.06,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 24,
+      "start": 162.82,
+      "end": 163.82,
+      "whisper_text": "Wait for the video.",
+      "clean_text": "Wait for the video.",
+      "match": "exact"
+    },
+    {
+      "index": 25,
+      "start": 179.98,
+      "end": 180.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 26,
+      "start": 180.98,
+      "end": 181.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 27,
+      "start": 181.98,
+      "end": 182.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 28,
+      "start": 182.98,
+      "end": 183.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 29,
+      "start": 183.98,
+      "end": 184.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 30,
+      "start": 184.98,
+      "end": 185.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 31,
+      "start": 185.98,
+      "end": 186.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 32,
+      "start": 186.98,
+      "end": 187.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 33,
+      "start": 187.98,
+      "end": 188.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 34,
+      "start": 188.98,
+      "end": 189.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 35,
+      "start": 189.98,
+      "end": 190.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 36,
+      "start": 190.98,
+      "end": 191.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 37,
+      "start": 191.98,
+      "end": 192.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 38,
+      "start": 192.98,
+      "end": 193.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 39,
+      "start": 193.98,
+      "end": 194.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 40,
+      "start": 194.98,
+      "end": 195.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 41,
+      "start": 195.98,
+      "end": 196.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 42,
+      "start": 196.98,
+      "end": 197.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 43,
+      "start": 197.98,
+      "end": 198.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 44,
+      "start": 198.98,
+      "end": 199.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 45,
+      "start": 199.98,
+      "end": 200.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 46,
+      "start": 200.98,
+      "end": 201.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 47,
+      "start": 201.98,
+      "end": 202.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 48,
+      "start": 202.98,
+      "end": 203.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 49,
+      "start": 203.98,
+      "end": 204.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 50,
+      "start": 204.98,
+      "end": 205.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 51,
+      "start": 205.98,
+      "end": 206.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 52,
+      "start": 206.98,
+      "end": 207.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 53,
+      "start": 207.98,
+      "end": 208.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 54,
+      "start": 208.98,
+      "end": 209.98,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 55,
+      "start": 209.98,
+      "end": 239.96,
+      "whisper_text": "Thank you.",
+      "clean_text": "Thank you.",
+      "match": "exact"
+    },
+    {
+      "index": 56,
+      "start": 239.98,
+      "end": 269.96,
+      "whisper_text": "Thank you.",
+      "clean_text": "Thank you.",
+      "match": "exact"
+    },
+    {
+      "index": 57,
+      "start": 269.98,
+      "end": 299.96,
+      "whisper_text": "Thank you.",
+      "clean_text": "Thank you.",
+      "match": "exact"
+    },
+    {
+      "index": 58,
+      "start": 299.98,
+      "end": 329.96,
+      "whisper_text": "Thank you.",
+      "clean_text": "Thank you.",
+      "match": "exact"
+    },
+    {
+      "index": 59,
+      "start": 329.98,
+      "end": 359.96,
+      "whisper_text": "Thank you.",
+      "clean_text": "Thank you.",
+      "match": "exact"
+    },
+    {
+      "index": 60,
+      "start": 359.98,
+      "end": 389.96,
+      "whisper_text": "Thank you.",
+      "clean_text": "Thank you.",
+      "match": "exact"
+    },
+    {
+      "index": 61,
+      "start": 389.98,
+      "end": 419.96,
+      "whisper_text": "Thank you.",
+      "clean_text": "Thank you.",
+      "match": "exact"
+    },
+    {
+      "index": 62,
+      "start": 419.98,
+      "end": 436.12,
+      "whisper_text": "All right, I'm stirring the poonsae now.",
+      "clean_text": "All right, I'm stirring the poonsae now.",
+      "match": "exact"
+    },
+    {
+      "index": 63,
+      "start": 437.0,
+      "end": 442.26,
+      "whisper_text": "This was the first time practicing it since at least the summer.",
+      "clean_text": "This was the first time practicing it since at least the summer.",
+      "match": "exact"
+    },
+    {
+      "index": 64,
+      "start": 444.56,
+      "end": 448.12,
+      "whisper_text": "On the way to UBC on the bus ride,",
+      "clean_text": "On the way to UBC on the bus ride,",
+      "match": "exact"
+    },
+    {
+      "index": 65,
+      "start": 448.2,
+      "end": 449.88,
+      "whisper_text": "I was watching the video,",
+      "clean_text": "I was watching the video,",
+      "match": "exact"
+    },
+    {
+      "index": 66,
+      "start": 449.98,
+      "end": 452.04,
+      "whisper_text": "on YouTube, just making sure I wouldn't mess up",
+      "clean_text": "on YouTube, just making sure I wouldn't mess up",
+      "match": "exact"
+    },
+    {
+      "index": 67,
+      "start": 452.04,
+      "end": 452.84000000000003,
+      "whisper_text": "any of the steps.",
+      "clean_text": "any of the steps.",
+      "match": "exact"
+    },
+    {
+      "index": 68,
+      "start": 454.14,
+      "end": 456.68,
+      "whisper_text": "And here I'm supposed to bow in.",
+      "clean_text": "And here I'm supposed to bow in.",
+      "match": "exact"
+    },
+    {
+      "index": 69,
+      "start": 456.76,
+      "end": 458.0,
+      "whisper_text": "I think I forget to do that.",
+      "clean_text": "I think I forget to do that.",
+      "match": "exact"
+    },
+    {
+      "index": 70,
+      "start": 478.0,
+      "end": 478.4,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 71,
+      "start": 478.4,
+      "end": 479.96,
+      "whisper_text": "I do all the steps pretty smoothly.",
+      "clean_text": "I do all the steps pretty smoothly.",
+      "match": "exact"
+    },
+    {
+      "index": 72,
+      "start": 479.98,
+      "end": 485.68,
+      "whisper_text": "But I'm a lot less rigid than I need to be at the end.",
+      "clean_text": "But I'm a lot less rigid than I need to be at the end.",
+      "match": "exact"
+    },
+    {
+      "index": 73,
+      "start": 492.94,
+      "end": 495.96,
+      "whisper_text": "I kind of sway a little bit after each movement.",
+      "clean_text": "I kind of sway a little bit after each movement.",
+      "match": "exact"
+    },
+    {
+      "index": 74,
+      "start": 499.8,
+      "end": 502.4,
+      "whisper_text": "Here I kind of...",
+      "clean_text": "Here I kind of...",
+      "match": "exact"
+    },
+    {
+      "index": 75,
+      "start": 502.4,
+      "end": 503.78,
+      "whisper_text": "My foot position is wrong.",
+      "clean_text": "My foot position is wrong.",
+      "match": "exact"
+    },
+    {
+      "index": 76,
+      "start": 504.44,
+      "end": 507.44,
+      "whisper_text": "The front foot is supposed to be facing forwards",
+      "clean_text": "The front foot is supposed to be facing forwards",
+      "match": "exact"
+    },
+    {
+      "index": 77,
+      "start": 507.44,
+      "end": 509.96,
+      "whisper_text": "and the other one is more to the back.",
+      "clean_text": "and the other one is more to the back.",
+      "match": "exact"
+    },
+    {
+      "index": 78,
+      "start": 509.98,
+      "end": 515.84,
+      "whisper_text": "But I didn't make any major mistakes.",
+      "clean_text": "But I didn't make any major mistakes.",
+      "match": "exact"
+    },
+    {
+      "index": 79,
+      "start": 515.94,
+      "end": 516.98,
+      "whisper_text": "Like, I was afraid I would.",
+      "clean_text": "Like, I was afraid I would.",
+      "match": "exact"
+    },
+    {
+      "index": 80,
+      "start": 518.98,
+      "end": 519.98,
+      "whisper_text": "That's not a very good...",
+      "clean_text": "That's not a very good...",
+      "match": "exact"
+    },
+    {
+      "index": 81,
+      "start": 520.8,
+      "end": 521.34,
+      "whisper_text": "Shouldn't be.",
+      "clean_text": "Shouldn't be.",
+      "match": "exact"
+    },
+    {
+      "index": 82,
+      "start": 521.34,
+      "end": 521.8,
+      "whisper_text": "Oh.",
+      "clean_text": "Oh.",
+      "match": "exact"
+    },
+    {
+      "index": 83,
+      "start": 521.8,
+      "end": 521.84,
+      "whisper_text": "Oh.",
+      "clean_text": "Oh.",
+      "match": "exact"
+    },
+    {
+      "index": 84,
+      "start": 521.84,
+      "end": 522.84,
+      "whisper_text": ", oh.",
+      "clean_text": ", oh.",
+      "match": "exact"
+    },
+    {
+      "index": 85,
+      "start": 522.84,
+      "end": 523.84,
+      "whisper_text": "Oh.",
+      "clean_text": "Oh.",
+      "match": "exact"
+    },
+    {
+      "index": 86,
+      "start": 523.84,
+      "end": 524.84,
+      "whisper_text": "Oh.",
+      "clean_text": "Oh.",
+      "match": "exact"
+    },
+    {
+      "index": 87,
+      "start": 524.84,
+      "end": 525.84,
+      "whisper_text": "Wait.",
+      "clean_text": "Wait.",
+      "match": "exact"
+    },
+    {
+      "index": 88,
+      "start": 525.84,
+      "end": 530.06,
+      "whisper_text": "I'll tell you later.",
+      "clean_text": "I'll tell you later.",
+      "match": "exact"
+    },
+    {
+      "index": 89,
+      "start": 530.06,
+      "end": 534.92,
+      "whisper_text": "So now it's easier to Be careful.",
+      "clean_text": "So now it's easier to Be careful.",
+      "match": "exact"
+    },
+    {
+      "index": 90,
+      "start": 534.92,
+      "end": 536.58,
+      "whisper_text": "Not...",
+      "clean_text": "Not...",
+      "match": "exact"
+    },
+    {
+      "index": 91,
+      "start": 536.58,
+      "end": 547.48,
+      "whisper_text": "I mean, you're just looking for more information on how you're scoring.",
+      "clean_text": "I mean, you're just looking for more information on how you're scoring.",
+      "match": "exact"
+    },
+    {
+      "index": 92,
+      "start": 547.48,
+      "end": 550.8,
+      "whisper_text": "So as you can see, your pattern is scored better.",
+      "clean_text": "So as you can see, your pattern is scored better.",
+      "match": "exact"
+    },
+    {
+      "index": 93,
+      "start": 550.8,
+      "end": 551.8,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 94,
+      "start": 551.84,
+      "end": 553.34,
+      "whisper_text": "based on the number 10.",
+      "clean_text": "based on the number 10.",
+      "match": "exact"
+    },
+    {
+      "index": 95,
+      "start": 553.34,
+      "end": 556.52,
+      "whisper_text": "So out of 10 is your mark.",
+      "clean_text": "So out of 10 is your mark.",
+      "match": "exact"
+    },
+    {
+      "index": 96,
+      "start": 556.52,
+      "end": 559.3,
+      "whisper_text": "As you can see, it's split up into two parts.",
+      "clean_text": "As you can see, it's split up into two parts.",
+      "match": "exact"
+    },
+    {
+      "index": 97,
+      "start": 559.3,
+      "end": 562.44,
+      "whisper_text": "We have our accuracy and our presentation on this side.",
+      "clean_text": "We have our accuracy and our presentation on this side.",
+      "match": "exact"
+    },
+    {
+      "index": 98,
+      "start": 562.44,
+      "end": 564.74,
+      "whisper_text": "So we'll start off with the accuracy first.",
+      "clean_text": "So we'll start off with the accuracy first.",
+      "match": "exact"
+    },
+    {
+      "index": 99,
+      "start": 564.74,
+      "end": 569.62,
+      "whisper_text": "So your accuracy, it's actually scored from a four.",
+      "clean_text": "So your accuracy, it's actually scored from a four.",
+      "match": "exact"
+    },
+    {
+      "index": 100,
+      "start": 569.62,
+      "end": 572.0,
+      "whisper_text": "So from the number four,",
+      "clean_text": "So from the number four,",
+      "match": "exact"
+    },
+    {
+      "index": 101,
+      "start": 572.0,
+      "end": 575.08,
+      "whisper_text": "you're actually marked during your presentation",
+      "clean_text": "you're actually marked during your presentation",
+      "match": "exact"
+    },
+    {
+      "index": 102,
+      "start": 575.08,
+      "end": 576.5,
+      "whisper_text": "of your pattern.",
+      "clean_text": "of your pattern.",
+      "match": "exact"
+    },
+    {
+      "index": 103,
+      "start": 576.5,
+      "end": 579.58,
+      "whisper_text": "And then with that one, any mistakes that you make,",
+      "clean_text": "And then with that one, any mistakes that you make,",
+      "match": "exact"
+    },
+    {
+      "index": 104,
+      "start": 579.58,
+      "end": 584.44,
+      "whisper_text": "whether if it's a minor mistake, you get a minus of a 0.1.",
+      "clean_text": "whether if it's a minor mistake, you get a minus of a 0.1.",
+      "match": "exact"
+    },
+    {
+      "index": 105,
+      "start": 584.44,
+      "end": 587.96,
+      "whisper_text": "If it's a major mistake, you get minus 0.3.",
+      "clean_text": "If it's a major mistake, you get minus 0.3.",
+      "match": "exact"
+    },
+    {
+      "index": 106,
+      "start": 587.96,
+      "end": 590.18,
+      "whisper_text": "So I'll just let you guys know",
+      "clean_text": "So I'll just let you guys know",
+      "match": "exact"
+    },
+    {
+      "index": 107,
+      "start": 590.18,
+      "end": 592.0,
+      "whisper_text": "about the difference between the two.",
+      "clean_text": "about the difference between the two.",
+      "match": "exact"
+    },
+    {
+      "index": 108,
+      "start": 592.0,
+      "end": 596.04,
+      "whisper_text": "So with a minor mistake, it's a very, very small thing.",
+      "clean_text": "So with a minor mistake, it's a very, very small thing.",
+      "match": "exact"
+    },
+    {
+      "index": 109,
+      "start": 596.04,
+      "end": 599.28,
+      "whisper_text": "So say we're doing a outer block.",
+      "clean_text": "So say we're doing a outer block.",
+      "match": "exact"
+    },
+    {
+      "index": 110,
+      "start": 599.28,
+      "end": 600.96,
+      "whisper_text": "If it's not your shoulder height,",
+      "clean_text": "If it's not your shoulder height,",
+      "match": "exact"
+    },
+    {
+      "index": 111,
+      "start": 600.96,
+      "end": 602.58,
+      "whisper_text": "maybe it's a little bit lower,",
+      "clean_text": "maybe it's a little bit lower,",
+      "match": "exact"
+    },
+    {
+      "index": 112,
+      "start": 602.58,
+      "end": 605.5,
+      "whisper_text": "or maybe it's a tiny bit higher, that's a minor mistake.",
+      "clean_text": "or maybe it's a tiny bit higher, that's a minor mistake.",
+      "match": "exact"
+    },
+    {
+      "index": 113,
+      "start": 605.5,
+      "end": 607.24,
+      "whisper_text": "So that's a 0.1.",
+      "clean_text": "So that's a 0.1.",
+      "match": "exact"
+    },
+    {
+      "index": 114,
+      "start": 607.24,
+      "end": 608.8,
+      "whisper_text": "A major mistake would be,",
+      "clean_text": "A major mistake would be,",
+      "match": "exact"
+    },
+    {
+      "index": 115,
+      "start": 608.8,
+      "end": 609.56,
+      "whisper_text": "you're supposed to do it",
+      "clean_text": "you're supposed to do it",
+      "match": "exact"
+    },
+    {
+      "index": 116,
+      "start": 609.56,
+      "end": 611.16,
+      "whisper_text": "out of block in the pattern,",
+      "clean_text": "out of block in the pattern,",
+      "match": "exact"
+    },
+    {
+      "index": 117,
+      "start": 611.16,
+      "end": 614.34,
+      "whisper_text": "but you forget and you say you do a rich hand strike instead.",
+      "clean_text": "but you forget and you say you do a rich hand strike instead.",
+      "match": "exact"
+    },
+    {
+      "index": 118,
+      "start": 614.34,
+      "end": 616.32,
+      "whisper_text": "So that would be a major mistake.",
+      "clean_text": "So that would be a major mistake.",
+      "match": "exact"
+    },
+    {
+      "index": 119,
+      "start": 616.32,
+      "end": 619.12,
+      "whisper_text": "So with a minor mistake,",
+      "clean_text": "So with a minor mistake,",
+      "match": "exact"
+    },
+    {
+      "index": 120,
+      "start": 619.12,
+      "end": 621.2,
+      "whisper_text": "let's say pattern one, for example,",
+      "clean_text": "let's say pattern one, for example,",
+      "match": "exact"
+    },
+    {
+      "index": 121,
+      "start": 621.2,
+      "end": 623.18,
+      "whisper_text": "there's 20 steps.",
+      "clean_text": "there's 20 steps.",
+      "match": "exact"
+    },
+    {
+      "index": 122,
+      "start": 623.18,
+      "end": 627.8,
+      "whisper_text": "It's not uncommon to have up to maybe 14, 15 mistakes",
+      "clean_text": "It's not uncommon to have up to maybe 14, 15 mistakes",
+      "match": "exact"
+    },
+    {
+      "index": 123,
+      "start": 627.8,
+      "end": 630.62,
+      "whisper_text": "in the 20 patterns, sorry, the 20 steps.",
+      "clean_text": "in the 20 patterns, sorry, the 20 steps.",
+      "match": "exact"
+    },
+    {
+      "index": 124,
+      "start": 630.62,
+      "end": 633.32,
+      "whisper_text": "So the reason for that one being,",
+      "clean_text": "So the reason for that one being,",
+      "match": "exact"
+    },
+    {
+      "index": 125,
+      "start": 633.32,
+      "end": 635.8,
+      "whisper_text": "it needs to be absolutely perfect",
+      "clean_text": "it needs to be absolutely perfect",
+      "match": "exact"
+    },
+    {
+      "index": 126,
+      "start": 635.8,
+      "end": 639.5,
+      "whisper_text": "to get, to not get a deduction",
+      "clean_text": "to get, to not get a deduction",
+      "match": "exact"
+    },
+    {
+      "index": 127,
+      "start": 639.5,
+      "end": 640.78,
+      "whisper_text": "on 0.1.",
+      "clean_text": "on 0.1.",
+      "match": "exact"
+    },
+    {
+      "index": 128,
+      "start": 640.78,
+      "end": 644.62,
+      "whisper_text": "So it's not uncommon to let's say there's 20 steps",
+      "clean_text": "So it's not uncommon to let's say there's 20 steps",
+      "match": "exact"
+    },
+    {
+      "index": 129,
+      "start": 644.62,
+      "end": 647.62,
+      "whisper_text": "and you made, let's say, 15 mistakes.",
+      "clean_text": "and you made, let's say, 15 mistakes.",
+      "match": "exact"
+    },
+    {
+      "index": 130,
+      "start": 647.62,
+      "end": 648.84,
+      "whisper_text": "So what would that be?",
+      "clean_text": "So what would that be?",
+      "match": "exact"
+    },
+    {
+      "index": 131,
+      "start": 648.84,
+      "end": 651.78,
+      "whisper_text": "So we'll leave that there on this side",
+      "clean_text": "So we'll leave that there on this side",
+      "match": "exact"
+    },
+    {
+      "index": 132,
+      "start": 651.78,
+      "end": 653.64,
+      "whisper_text": "and we'll come back and we'll just calculate",
+      "clean_text": "and we'll come back and we'll just calculate",
+      "match": "exact"
+    },
+    {
+      "index": 133,
+      "start": 653.64,
+      "end": 655.14,
+      "whisper_text": "what you got at the end.",
+      "clean_text": "what you got at the end.",
+      "match": "exact"
+    },
+    {
+      "index": 134,
+      "start": 655.14,
+      "end": 659.78,
+      "whisper_text": "So a major mistake, say you're supposed to turn to the left,",
+      "clean_text": "So a major mistake, say you're supposed to turn to the left,",
+      "match": "exact"
+    },
+    {
+      "index": 135,
+      "start": 659.78,
+      "end": 662.1,
+      "whisper_text": "but you turn to the right, that would be a major mistake.",
+      "clean_text": "but you turn to the right, that would be a major mistake.",
+      "match": "exact"
+    },
+    {
+      "index": 136,
+      "start": 662.1,
+      "end": 663.78,
+      "whisper_text": "So obviously we do wanna try",
+      "clean_text": "So obviously we do wanna try",
+      "match": "exact"
+    },
+    {
+      "index": 137,
+      "start": 663.78,
+      "end": 666.64,
+      "whisper_text": "and avoid any of these major mistakes.",
+      "clean_text": "and avoid any of these major mistakes.",
+      "match": "exact"
+    },
+    {
+      "index": 138,
+      "start": 666.64,
+      "end": 669.34,
+      "whisper_text": "So after we've done our pattern, that's why.",
+      "clean_text": "So after we've done our pattern, that's why.",
+      "match": "exact"
+    },
+    {
+      "index": 139,
+      "start": 669.34,
+      "end": 671.8,
+      "whisper_text": "That's when we move on to the presentation side.",
+      "clean_text": "That's when we move on to the presentation side.",
+      "match": "exact"
+    },
+    {
+      "index": 140,
+      "start": 671.8,
+      "end": 673.72,
+      "whisper_text": "So the presentation, as you can see,",
+      "clean_text": "So the presentation, as you can see,",
+      "match": "exact"
+    },
+    {
+      "index": 141,
+      "start": 673.72,
+      "end": 675.62,
+      "whisper_text": "it's from a score of six.",
+      "clean_text": "it's from a score of six.",
+      "match": "exact"
+    },
+    {
+      "index": 142,
+      "start": 675.62,
+      "end": 679.02,
+      "whisper_text": "This six is actually split up into three parts.",
+      "clean_text": "This six is actually split up into three parts.",
+      "match": "exact"
+    },
+    {
+      "index": 143,
+      "start": 679.02,
+      "end": 681.1,
+      "whisper_text": "So we have one, two, three here.",
+      "clean_text": "So we have one, two, three here.",
+      "match": "exact"
+    },
+    {
+      "index": 144,
+      "start": 681.1,
+      "end": 684.84,
+      "whisper_text": "So with this one, for a score of two,",
+      "clean_text": "So with this one, for a score of two,",
+      "match": "exact"
+    },
+    {
+      "index": 145,
+      "start": 684.84,
+      "end": 686.5,
+      "whisper_text": "is your power and speed.",
+      "clean_text": "is your power and speed.",
+      "match": "exact"
+    },
+    {
+      "index": 146,
+      "start": 686.5,
+      "end": 689.12,
+      "whisper_text": "Your rhythm is also a score of two.",
+      "clean_text": "Your rhythm is also a score of two.",
+      "match": "exact"
+    },
+    {
+      "index": 147,
+      "start": 689.12,
+      "end": 691.02,
+      "whisper_text": "And your expression, sorry,",
+      "clean_text": "And your expression, sorry,",
+      "match": "exact"
+    },
+    {
+      "index": 148,
+      "start": 691.02,
+      "end": 693.08,
+      "whisper_text": "I'm just gonna get you to begin the video",
+      "clean_text": "I'm just gonna get you to begin the video",
+      "match": "exact"
+    },
+    {
+      "index": 149,
+      "start": 693.08,
+      "end": 695.36,
+      "whisper_text": "because there is that warmup section that we want.",
+      "clean_text": "because there is that warmup section that we want.",
+      "match": "exact"
+    },
+    {
+      "index": 150,
+      "start": 695.36,
+      "end": 697.54,
+      "whisper_text": "You don't need to narrate or score that.",
+      "clean_text": "You don't need to narrate or score that.",
+      "match": "exact"
+    },
+    {
+      "index": 151,
+      "start": 697.54,
+      "end": 699.34,
+      "whisper_text": "So when it looks like you're about to start,",
+      "clean_text": "So when it looks like you're about to start,",
+      "match": "exact"
+    },
+    {
+      "index": 152,
+      "start": 699.34,
+      "end": 700.9,
+      "whisper_text": "you do wanna also watch.",
+      "clean_text": "you do wanna also watch.",
+      "match": "exact"
+    },
+    {
+      "index": 153,
+      "start": 700.9,
+      "end": 702.58,
+      "whisper_text": "You can just pause it there.",
+      "clean_text": "You can just pause it there.",
+      "match": "exact"
+    },
+    {
+      "index": 154,
+      "start": 702.58,
+      "end": 703.42,
+      "whisper_text": "Don't worry about anything.",
+      "clean_text": "Don't worry about anything.",
+      "match": "exact"
+    },
+    {
+      "index": 155,
+      "start": 703.42,
+      "end": 705.0,
+      "whisper_text": "You can watch it later.",
+      "clean_text": "You can watch it later.",
+      "match": "exact"
+    },
+    {
+      "index": 156,
+      "start": 705.0,
+      "end": 705.84,
+      "whisper_text": "Okay, thanks.",
+      "clean_text": "Okay, thanks.",
+      "match": "exact"
+    },
+    {
+      "index": 157,
+      "start": 709.02,
+      "end": 711.76,
+      "whisper_text": "Energy is also scored out at two as well.",
+      "clean_text": "Energy is also scored out at two as well.",
+      "match": "exact"
+    },
+    {
+      "index": 158,
+      "start": 711.76,
+      "end": 714.58,
+      "whisper_text": "So we'll start off with the power and speed.",
+      "clean_text": "So we'll start off with the power and speed.",
+      "match": "exact"
+    },
+    {
+      "index": 159,
+      "start": 714.58,
+      "end": 716.78,
+      "whisper_text": "So with this one, whether it's your blocks,",
+      "clean_text": "So with this one, whether it's your blocks,",
+      "match": "exact"
+    },
+    {
+      "index": 160,
+      "start": 716.78,
+      "end": 718.58,
+      "whisper_text": "your kicks, your strikes.",
+      "clean_text": "your kicks, your strikes.",
+      "match": "exact"
+    }
+  ]
+}

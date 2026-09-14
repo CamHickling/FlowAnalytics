@@ -1,0 +1,44 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P43_20260327_101321\\review\\P43_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P43_20260327_101321\\review\\P43_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 38.06,
+      "text": "We are always at the same time."
+    },
+    {
+      "start": 38.88,
+      "end": 40.82,
+      "text": "We are not always at the same time."
+    },
+    {
+      "start": 40.82,
+      "end": 43.82,
+      "text": "We are not always at the same time."
+    },
+    {
+      "start": 60.0,
+      "end": 89.98,
+      "text": "Takk for at du så med."
+    },
+    {
+      "start": 90.0,
+      "end": 119.98,
+      "text": "Takk for at du så med."
+    },
+    {
+      "start": 120.0,
+      "end": 149.98,
+      "text": "Takk for at du så med."
+    },
+    {
+      "start": 150.0,
+      "end": 179.98,
+      "text": "Takk for at du så med."
+    }
+  ],
+  "word_segments": []
+}

@@ -1,0 +1,204 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P05_20260225_121858\\review\\P05_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P05_20260225_121858\\review\\P05_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 28.0,
+      "text": "Okay, you ready to get some hair done?"
+    },
+    {
+      "start": 28.0,
+      "end": 36.0,
+      "text": "This is a little more slippery than I expected."
+    },
+    {
+      "start": 36.0,
+      "end": 44.0,
+      "text": "You just go through."
+    },
+    {
+      "start": 44.0,
+      "end": 45.0,
+      "text": "Okay."
+    },
+    {
+      "start": 45.0,
+      "end": 49.0,
+      "text": "So you can pause and you can read your own video."
+    },
+    {
+      "start": 49.0,
+      "end": 51.0,
+      "text": "You can pause basically with space bars."
+    },
+    {
+      "start": 51.0,
+      "end": 53.0,
+      "text": "You can start."
+    },
+    {
+      "start": 53.0,
+      "end": 54.0,
+      "text": "Okay."
+    },
+    {
+      "start": 54.0,
+      "end": 55.0,
+      "text": "So I just speak to you?"
+    },
+    {
+      "start": 55.0,
+      "end": 57.0,
+      "text": "Yep."
+    },
+    {
+      "start": 57.0,
+      "end": 63.0,
+      "text": "Delightfully so."
+    },
+    {
+      "start": 63.0,
+      "end": 67.0,
+      "text": "Yeah, I think at the beginning I'm pretty calm."
+    },
+    {
+      "start": 67.0,
+      "end": 76.0,
+      "text": "Yeah, ready to start."
+    },
+    {
+      "start": 76.0,
+      "end": 82.0,
+      "text": "Yeah, I think at that moment I realized the area is a bit different from what I'm used to."
+    },
+    {
+      "start": 82.0,
+      "end": 84.0,
+      "text": "It's a little more slippery."
+    },
+    {
+      "start": 84.0,
+      "end": 87.0,
+      "text": "So I try to focus on it and control."
+    },
+    {
+      "start": 87.0,
+      "end": 97.0,
+      "text": "My pitford better."
+    },
+    {
+      "start": 97.0,
+      "end": 100.0,
+      "text": "I think so far it's fine, but here."
+    },
+    {
+      "start": 100.0,
+      "end": 102.0,
+      "text": "Yeah, I stopped on the wrong bit."
+    },
+    {
+      "start": 102.0,
+      "end": 107.0,
+      "text": "So I kind of fixed it."
+    },
+    {
+      "start": 107.0,
+      "end": 111.0,
+      "text": "Yeah, so I made some adjustment along the way."
+    },
+    {
+      "start": 111.0,
+      "end": 114.0,
+      "text": "The level of power I exerted."
+    },
+    {
+      "start": 114.0,
+      "end": 115.0,
+      "text": "I kind of."
+    },
+    {
+      "start": 115.0,
+      "end": 117.0,
+      "text": "Reduce a bit."
+    },
+    {
+      "start": 117.0,
+      "end": 119.0,
+      "text": "To have a better balance."
+    },
+    {
+      "start": 119.0,
+      "end": 124.0,
+      "text": "And then I think the flow is fine."
+    },
+    {
+      "start": 124.0,
+      "end": 137.0,
+      "text": "But yeah, if I have better balance, I might do a little bit more strength or power on some of the moves."
+    },
+    {
+      "start": 137.0,
+      "end": 143.0,
+      "text": "Yeah, this is towards the end and I feel mostly good."
+    },
+    {
+      "start": 143.0,
+      "end": 145.0,
+      "text": "But yeah, there's some moves that I adjusted along the way."
+    },
+    {
+      "start": 145.0,
+      "end": 146.0,
+      "text": "Okay."
+    },
+    {
+      "start": 146.0,
+      "end": 154.0,
+      "text": "Okay."
+    },
+    {
+      "start": 154.0,
+      "end": 161.0,
+      "text": "Okay."
+    },
+    {
+      "start": 161.0,
+      "end": 162.0,
+      "text": "Okay."
+    },
+    {
+      "start": 162.0,
+      "end": 163.0,
+      "text": "Okay, thank you."
+    },
+    {
+      "start": 163.0,
+      "end": 165.0,
+      "text": "Yeah."
+    },
+    {
+      "start": 165.0,
+      "end": 166.0,
+      "text": "You get it."
+    },
+    {
+      "start": 173.0,
+      "end": 174.0,
+      "text": "On how you're scored."
+    },
+    {
+      "start": 174.0,
+      "end": 182.32,
+      "text": "As you can see, your pattern is scored based on the number 10, so out of 10 is your 1."
+    },
+    {
+      "start": 182.32,
+      "end": 183.56,
+      "text": "As you can see, it's..."
+    }
+  ],
+  "word_segments": []
+}

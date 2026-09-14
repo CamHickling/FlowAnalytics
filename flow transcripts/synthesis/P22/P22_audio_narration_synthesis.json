@@ -1,0 +1,213 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P22_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P22_audio_narration.srt",
+  "clean_line_count": 25,
+  "timed_segment_count": 25,
+  "exact_match_count": 25,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 60.0,
+      "end": 81.5,
+      "whisper_text": "So basically I'm just like going through it, and then like talking about it.",
+      "clean_text": "So basically I'm just like going through it, and then like talking about it.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 90.0,
+      "end": 109.22,
+      "whisper_text": "Once I did the bow, I felt like that's when my mind cleared, and then, that's good.",
+      "clean_text": "Once I did the bow, I felt like that's when my mind cleared, and then, that's good.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 109.22,
+      "end": 111.38,
+      "whisper_text": "Pretty good, I think.",
+      "clean_text": "Pretty good, I think.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 111.38,
+      "end": 115.88,
+      "whisper_text": "After all my kicks, I felt a little bit off balance, but when I was doing those motions,",
+      "clean_text": "After all my kicks, I felt a little bit off balance, but when I was doing those motions,",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 115.88,
+      "end": 118.78,
+      "whisper_text": "I felt pretty in control.",
+      "clean_text": "I felt pretty in control.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 118.78,
+      "end": 119.78,
+      "whisper_text": "And then going forward.",
+      "clean_text": "And then going forward.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 119.78,
+      "end": 126.78,
+      "whisper_text": "I think this was like, I felt smooth, like in control, like in the zone.",
+      "clean_text": "I think this was like, I felt smooth, like in control, like in the zone.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 126.78,
+      "end": 132.54,
+      "whisper_text": "Yeah, most of my hand motions felt like pretty like in control.",
+      "clean_text": "Yeah, most of my hand motions felt like pretty like in control.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 132.54,
+      "end": 137.44,
+      "whisper_text": "I think whenever I was getting to the kicks, I kind of felt like a little bit off balance",
+      "clean_text": "I think whenever I was getting to the kicks, I kind of felt like a little bit off balance",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 137.44,
+      "end": 143.82,
+      "whisper_text": "when I was getting there, but stance seemed pretty good.",
+      "clean_text": "when I was getting there, but stance seemed pretty good.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 143.82,
+      "end": 149.76,
+      "whisper_text": "I could have probably extended a little bit more on my side kicks, but going through it,",
+      "clean_text": "I could have probably extended a little bit more on my side kicks, but going through it,",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 149.76,
+      "end": 154.07999999999998,
+      "whisper_text": "here was kind of like, again, just gathering everything.",
+      "clean_text": "here was kind of like, again, just gathering everything.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 154.07999999999998,
+      "end": 160.12,
+      "whisper_text": "I think I might have gone a second too long on that motion, but, and going back, felt",
+      "clean_text": "I think I might have gone a second too long on that motion, but, and going back, felt",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 160.12,
+      "end": 161.12,
+      "whisper_text": "pretty good.",
+      "clean_text": "pretty good.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 161.12,
+      "end": 165.48,
+      "whisper_text": "And then, yeah, just whenever I was going through the hands, I felt good.",
+      "clean_text": "And then, yeah, just whenever I was going through the hands, I felt good.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 165.48,
+      "end": 170.76,
+      "whisper_text": "The kicks kind of like threw me off a little, but, yeah, I felt pretty in the zone.",
+      "clean_text": "The kicks kind of like threw me off a little, but, yeah, I felt pretty in the zone.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 170.76,
+      "end": 171.76,
+      "whisper_text": "Pretty good.",
+      "clean_text": "Pretty good.",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 171.76,
+      "end": 172.76,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 172.76,
+      "end": 173.76,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 173.76,
+      "end": 174.76,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 174.76,
+      "end": 175.76,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 175.76,
+      "end": 176.76,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 176.76,
+      "end": 177.76,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 24,
+      "start": 177.76,
+      "end": 178.76,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 25,
+      "start": 178.76,
+      "end": 179.76,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    }
+  ]
+}

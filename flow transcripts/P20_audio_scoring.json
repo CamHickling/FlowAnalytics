@@ -1,0 +1,229 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P20_20260306_132935\\scoring\\P20_audio_scoring.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P20_20260306_132935\\scoring\\P20_audio_scoring.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "1."
+    },
+    {
+      "start": 2.0,
+      "end": 4.0,
+      "text": "2."
+    },
+    {
+      "start": 4.0,
+      "end": 6.0,
+      "text": "3."
+    },
+    {
+      "start": 6.0,
+      "end": 8.0,
+      "text": "4."
+    },
+    {
+      "start": 8.0,
+      "end": 10.0,
+      "text": "5."
+    },
+    {
+      "start": 10.0,
+      "end": 12.0,
+      "text": "6."
+    },
+    {
+      "start": 12.0,
+      "end": 14.0,
+      "text": "7."
+    },
+    {
+      "start": 14.0,
+      "end": 16.0,
+      "text": "8."
+    },
+    {
+      "start": 16.0,
+      "end": 18.0,
+      "text": "9."
+    },
+    {
+      "start": 18.0,
+      "end": 20.0,
+      "text": "10."
+    },
+    {
+      "start": 20.0,
+      "end": 22.0,
+      "text": "11."
+    },
+    {
+      "start": 22.0,
+      "end": 24.0,
+      "text": "12."
+    },
+    {
+      "start": 24.0,
+      "end": 26.0,
+      "text": "13."
+    },
+    {
+      "start": 26.0,
+      "end": 28.0,
+      "text": "14."
+    },
+    {
+      "start": 28.0,
+      "end": 30.0,
+      "text": "15."
+    },
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "text": "16."
+    },
+    {
+      "start": 32.0,
+      "end": 34.0,
+      "text": "17."
+    },
+    {
+      "start": 34.0,
+      "end": 36.0,
+      "text": "18."
+    },
+    {
+      "start": 36.0,
+      "end": 38.0,
+      "text": "19."
+    },
+    {
+      "start": 38.0,
+      "end": 40.0,
+      "text": "20."
+    },
+    {
+      "start": 40.0,
+      "end": 42.0,
+      "text": "21."
+    },
+    {
+      "start": 42.0,
+      "end": 44.0,
+      "text": "22."
+    },
+    {
+      "start": 44.0,
+      "end": 46.0,
+      "text": "23."
+    },
+    {
+      "start": 46.0,
+      "end": 48.0,
+      "text": "24."
+    },
+    {
+      "start": 48.0,
+      "end": 50.0,
+      "text": "25."
+    },
+    {
+      "start": 50.0,
+      "end": 52.0,
+      "text": "26."
+    },
+    {
+      "start": 52.0,
+      "end": 54.0,
+      "text": "27."
+    },
+    {
+      "start": 54.0,
+      "end": 56.0,
+      "text": "28."
+    },
+    {
+      "start": 56.0,
+      "end": 58.0,
+      "text": "29."
+    },
+    {
+      "start": 58.0,
+      "end": 60.0,
+      "text": "30."
+    },
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "31."
+    },
+    {
+      "start": 62.0,
+      "end": 64.0,
+      "text": "32."
+    },
+    {
+      "start": 64.0,
+      "end": 66.0,
+      "text": "33."
+    },
+    {
+      "start": 66.0,
+      "end": 68.0,
+      "text": "34."
+    },
+    {
+      "start": 68.0,
+      "end": 70.0,
+      "text": "35."
+    },
+    {
+      "start": 70.0,
+      "end": 72.0,
+      "text": "36."
+    },
+    {
+      "start": 72.0,
+      "end": 74.0,
+      "text": "37."
+    },
+    {
+      "start": 74.0,
+      "end": 76.0,
+      "text": "38."
+    },
+    {
+      "start": 76.0,
+      "end": 78.0,
+      "text": "39."
+    },
+    {
+      "start": 78.0,
+      "end": 80.0,
+      "text": "40."
+    },
+    {
+      "start": 80.0,
+      "end": 82.0,
+      "text": "41."
+    },
+    {
+      "start": 82.0,
+      "end": 84.0,
+      "text": "42."
+    },
+    {
+      "start": 84.0,
+      "end": 86.0,
+      "text": "43."
+    },
+    {
+      "start": 86.0,
+      "end": 88.0,
+      "text": "44."
+    }
+  ],
+  "word_segments": []
+}

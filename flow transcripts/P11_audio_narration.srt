@@ -1,0 +1,919 @@
+1
+00:00:30,000 --> 00:00:59,980
+Takk for att du så med.
+
+2
+00:01:00,000 --> 00:01:29,980
+Takk for att du så med.
+
+3
+00:01:30,000 --> 00:01:59,980
+Takk for att du så med.
+
+4
+00:02:00,000 --> 00:02:29,980
+Takk for att du så med.
+
+5
+00:02:30,000 --> 00:02:59,980
+Takk for att du så med.
+
+6
+00:03:00,000 --> 00:03:29,980
+Takk for att du så med.
+
+7
+00:03:30,000 --> 00:03:59,980
+Takk for att du så med.
+
+8
+00:04:00,000 --> 00:04:29,980
+Takk for at du så med.
+
+9
+00:04:30,000 --> 00:04:59,980
+Takk for at du så med.
+
+10
+00:05:00,000 --> 00:05:29,980
+Takk for at du så med.
+
+11
+00:05:30,000 --> 00:05:59,980
+Takk for at du så med.
+
+12
+00:06:00,000 --> 00:06:29,980
+Takk for at du så med.
+
+13
+00:06:30,000 --> 00:06:32,000
+Takk for at du så med.
+
+14
+00:06:32,000 --> 00:06:34,000
+Takk for at du så med.
+
+15
+00:06:34,000 --> 00:06:38,000
+Takk for at du så med.
+
+16
+00:06:38,000 --> 00:06:40,000
+Takk for at du så med.
+
+17
+00:06:40,000 --> 00:06:42,000
+Takk for at du så med.
+
+18
+00:06:42,000 --> 00:06:44,000
+Takk for at du så med.
+
+19
+00:06:44,000 --> 00:06:46,000
+Takk for at du så med.
+
+20
+00:06:46,000 --> 00:06:48,000
+Takk for at du så med.
+
+21
+00:06:48,000 --> 00:06:50,000
+Takk for at du så med.
+
+22
+00:06:50,000 --> 00:06:52,000
+Takk for at du så med.
+
+23
+00:06:52,000 --> 00:06:54,000
+Takk for at du så med.
+
+24
+00:06:54,000 --> 00:06:56,000
+Takk for at du så med.
+
+25
+00:06:56,000 --> 00:06:58,000
+Takk for at du så med.
+
+26
+00:06:58,000 --> 00:07:06,000
+It needs to be absolutely perfect to get, to not get a deduction of 0.1
+
+27
+00:07:06,000 --> 00:07:13,000
+So, let's say there's 20 steps and you made let's say 15 steps
+
+28
+00:07:13,000 --> 00:07:15,000
+So what would that be?
+
+29
+00:07:15,000 --> 00:07:17,000
+We'll leave that there on this side
+
+30
+00:07:17,000 --> 00:07:20,000
+And we'll come back and we'll just calculate the score at the end
+
+31
+00:07:20,000 --> 00:07:23,000
+So, major mistake
+
+32
+00:07:23,000 --> 00:07:26,000
+Say you're supposed to turn to the left when you turn to the right
+
+33
+00:07:26,000 --> 00:07:28,000
+That would be a major mistake
+
+34
+00:07:28,000 --> 00:07:32,000
+So, obviously we do want to try and avoid any of these major mistakes
+
+35
+00:07:32,000 --> 00:07:37,000
+So, after we've done our pattern, that's when we move on to the presentation side
+
+36
+00:07:37,000 --> 00:07:41,000
+So, the presentation, as you can see, it's from a score of 6
+
+37
+00:07:41,000 --> 00:07:44,000
+This 6 is actually split up into 3 parts
+
+38
+00:07:44,000 --> 00:07:46,000
+So, we have 1, 2, 3 here
+
+39
+00:07:46,000 --> 00:07:52,000
+So, with this one, for a score of 2 is your tower and speed
+
+40
+00:07:52,000 --> 00:07:54,000
+Your rhythm is also a score of 2
+
+41
+00:07:54,000 --> 00:07:56,000
+And your expression of 2
+
+42
+00:07:56,000 --> 00:07:59,000
+Your energy is also a score of 2 as well
+
+43
+00:07:59,000 --> 00:08:01,000
+So, we'll start off with the power and speed
+
+44
+00:08:01,000 --> 00:08:06,000
+So, with this one, whether it's your blocks, your kicks, your strikes, your punches
+
+45
+00:08:06,000 --> 00:08:09,000
+Anything that you do, it needs to be nice and strong
+
+46
+00:08:09,000 --> 00:08:11,000
+And it has to be fast as well
+
+47
+00:08:11,000 --> 00:08:16,000
+So, it's one thing to have a very strong punch or a very fast punch
+
+48
+00:08:16,000 --> 00:08:22,000
+But it has to be both strong and fast to get high in that category
+
+49
+00:08:22,000 --> 00:08:24,000
+So, the next part is your rhythm
+
+50
+00:08:24,000 --> 00:08:25,000
+So, the rhythm
+
+51
+00:08:25,000 --> 00:08:28,000
+When you do start your pattern, there is a rhythm to the pattern
+
+52
+00:08:28,000 --> 00:08:30,000
+It's not just really fast all the way through
+
+53
+00:08:30,000 --> 00:08:32,000
+It's not slow all the way through
+
+54
+00:08:32,000 --> 00:08:36,000
+There's a slow, fast, slow, fast kind of aspect to it as well
+
+55
+00:08:36,000 --> 00:08:39,000
+So, you do need to kind of work on your rhythm
+
+56
+00:08:39,000 --> 00:08:41,000
+And that's also a score out of 2
+
+57
+00:08:41,000 --> 00:08:44,000
+The last bit is your expression of energy
+
+58
+00:08:44,000 --> 00:08:46,000
+So, what is expression of energy?
+
+59
+00:08:46,000 --> 00:08:49,000
+So, that's basically how loud you shout
+
+60
+00:08:49,000 --> 00:08:52,000
+So, how much intensity you have during your pattern as well
+
+61
+00:08:52,000 --> 00:08:53,000
+So, let's say you're doing your pattern rhythm
+
+62
+00:08:53,000 --> 00:08:56,000
+Say you're doing your pattern really well
+
+63
+00:08:56,000 --> 00:08:58,000
+It's really fast and it's strong
+
+64
+00:08:58,000 --> 00:08:59,000
+Your rhythm is really great
+
+65
+00:08:59,000 --> 00:09:01,000
+But you're not shouting very loud
+
+66
+00:09:01,000 --> 00:09:02,000
+Or you can kind of tell
+
+67
+00:09:02,000 --> 00:09:06,000
+The judges can kind of tell that you're not really confident
+
+68
+00:09:06,000 --> 00:09:08,000
+You're a little bit nervous
+
+69
+00:09:08,000 --> 00:09:11,000
+So, that's what we need to kind of improve on as well
+
+70
+00:09:11,000 --> 00:09:14,000
+So, I'll just come around to this side
+
+71
+00:09:14,000 --> 00:09:17,000
+So, with this one, for colour belts and black belts
+
+72
+00:09:17,000 --> 00:09:19,000
+It's actually scored a little bit differently
+
+73
+00:09:19,000 --> 00:09:22,000
+So, if you're a colour belt, you'll actually
+
+74
+00:09:22,000 --> 00:09:25,000
+Your average, so where the judges actually mark you from
+
+75
+00:09:25,000 --> 00:09:29,000
+It's actually from a 1.1
+
+76
+00:09:29,000 --> 00:09:31,000
+So, this is your average
+
+77
+00:09:31,000 --> 00:09:34,000
+So, say you did alright
+
+78
+00:09:34,000 --> 00:09:36,000
+You did average compared to everyone else
+
+79
+00:09:36,000 --> 00:09:39,000
+Your score for 1, 2 and 3
+
+80
+00:09:39,000 --> 00:09:41,000
+It'll start from a 1.1
+
+81
+00:09:41,000 --> 00:09:44,000
+So, if you're less than average in the judges' eyes
+
+82
+00:09:44,000 --> 00:09:47,000
+You might go down to, say for your power and speed
+
+83
+00:09:47,000 --> 00:09:50,000
+You might get a 1 or even a 0.9
+
+84
+00:09:50,000 --> 00:09:51,000
+If you did really great
+
+85
+00:09:51,000 --> 00:09:54,000
+You might even get a 1.3 or a 1.4
+
+86
+00:09:54,000 --> 00:09:58,000
+So, each individual category
+
+87
+00:09:58,000 --> 00:10:00,000
+You need to obviously get as high as you can
+
+88
+00:10:00,000 --> 00:10:02,000
+If you're a black belt
+
+89
+00:10:02,000 --> 00:10:04,000
+Generally, depending on the competition
+
+90
+00:10:04,000 --> 00:10:06,000
+You will be scored from a 1.3
+
+91
+00:10:06,000 --> 00:10:09,000
+So, 1.3 would be your average
+
+92
+00:10:09,000 --> 00:10:10,000
+That you start from
+
+93
+00:10:10,000 --> 00:10:12,000
+So, say your power and speed
+
+94
+00:10:12,000 --> 00:10:14,000
+Was above average
+
+95
+00:10:14,000 --> 00:10:17,000
+You might get scored a 1 point, say
+
+96
+00:10:17,000 --> 00:10:20,000
+Let's say 1.4 for now
+
+97
+00:10:20,000 --> 00:10:24,000
+Say your rhythm was only about average
+
+98
+00:10:24,000 --> 00:10:26,000
+It wasn't amazing
+
+99
+00:10:26,000 --> 00:10:28,000
+It might be just a 1.3
+
+100
+00:10:28,000 --> 00:10:30,000
+But let's say you didn't shout very loud
+
+101
+00:10:30,000 --> 00:10:32,000
+So, your expression of energy
+
+102
+00:10:32,000 --> 00:10:34,000
+You averaged with 1.3
+
+103
+00:10:34,000 --> 00:10:37,000
+It might drop to, say, a 1.0
+
+104
+00:10:37,000 --> 00:10:40,000
+So, with this one
+
+105
+00:10:40,000 --> 00:10:42,000
+We'll comment down to this side
+
+106
+00:10:42,000 --> 00:10:45,000
+So, with this one
+
+107
+00:10:45,000 --> 00:10:48,000
+As I was saying, it's a total of 10
+
+108
+00:10:48,000 --> 00:10:51,000
+So, let's see
+
+109
+00:10:51,000 --> 00:10:53,000
+For presentation, we had
+
+110
+00:10:53,000 --> 00:10:55,000
+1.7
+
+111
+00:10:55,000 --> 00:10:57,000
+1, 2, 3
+
+112
+00:10:57,000 --> 00:10:59,000
+So, you had a 3.7
+
+113
+00:10:59,000 --> 00:11:02,000
+And so, you made 15 mistakes
+
+114
+00:11:02,000 --> 00:11:04,000
+So, with this one obviously
+
+115
+00:11:04,000 --> 00:11:05,000
+Don't be too discouraged
+
+116
+00:11:05,000 --> 00:11:08,000
+If you do get pretty high in your mistakes
+
+117
+00:11:08,000 --> 00:11:11,000
+This is with the judges
+
+118
+00:11:11,000 --> 00:11:14,000
+We have three judges usually at the panel
+
+119
+00:11:14,000 --> 00:11:16,000
+And each judge obviously is very subjective
+
+120
+00:11:16,000 --> 00:11:18,000
+So
+
+121
+00:11:18,000 --> 00:11:20,000
+From their point of view
+
+122
+00:11:20,000 --> 00:11:21,000
+You might have made a lot of mistakes
+
+123
+00:11:21,000 --> 00:11:24,000
+Or you may have made not a lot of mistakes as well
+
+124
+00:11:24,000 --> 00:11:26,000
+So, that's why we have the three judges
+
+125
+00:11:26,000 --> 00:11:28,000
+And we average it out as well
+
+126
+00:11:28,000 --> 00:11:30,000
+Okay, so
+
+127
+00:11:30,000 --> 00:11:33,000
+Say we did our 15 mistakes
+
+128
+00:11:33,000 --> 00:11:35,000
+Very small mistakes
+
+129
+00:11:35,000 --> 00:11:38,000
+So, if they're all minus 0.1
+
+130
+00:11:38,000 --> 00:11:40,000
+It would be 1.5
+
+131
+00:11:40,000 --> 00:11:44,000
+So, you go 4.0 minus 1.5
+
+132
+00:11:44,000 --> 00:11:48,000
+Which equals 2.5
+
+133
+00:11:48,000 --> 00:11:50,000
+So, this would be your accuracy score
+
+134
+00:11:50,000 --> 00:11:53,000
+So, with our presentation like before
+
+135
+00:11:53,000 --> 00:11:56,000
+We're saying we got a 3.7 here
+
+136
+00:11:56,000 --> 00:11:58,000
+So, we add these numbers at the
+
+137
+00:11:58,000 --> 00:12:01,000
+After the judges are finished scoring
+
+138
+00:12:01,000 --> 00:12:03,000
+So, you would get for this pattern
+
+139
+00:12:03,000 --> 00:12:05,000
+A 6.2
+
+140
+00:12:05,000 --> 00:12:07,000
+Which is actually very good
+
+141
+00:12:07,000 --> 00:12:09,000
+So, I'll just talk about a little bit more now
+
+142
+00:12:09,000 --> 00:12:11,000
+About this number here
+
+143
+00:12:11,000 --> 00:12:13,000
+So, if you're a colour belt
+
+144
+00:12:13,000 --> 00:12:16,000
+If you're a yellow or above
+
+145
+00:12:16,000 --> 00:12:18,000
+And you do your patterns
+
+146
+00:12:18,000 --> 00:12:19,000
+It's not uncommon
+
+147
+00:12:19,000 --> 00:12:21,000
+Generally for a colour belt
+
+148
+00:12:21,000 --> 00:12:27,000
+The average is about a 4.5
+
+149
+00:12:27,000 --> 00:12:29,000
+So, if you get a number between
+
+150
+00:12:29,000 --> 00:12:31,000
+4 and 5 out of 10
+
+151
+00:12:31,000 --> 00:12:32,000
+For your pattern
+
+152
+00:12:32,000 --> 00:12:35,000
+That's actually generally considered pretty good
+
+153
+00:12:35,000 --> 00:12:37,000
+So, anything above that
+
+154
+00:12:37,000 --> 00:12:39,000
+You can consider yourself pretty good
+
+155
+00:12:39,000 --> 00:12:40,000
+If you're a black belt
+
+156
+00:12:40,000 --> 00:12:42,000
+The average would say
+
+157
+00:12:42,000 --> 00:12:44,000
+Because we're talking here about
+
+158
+00:12:44,000 --> 00:12:47,000
+The higher presentation of the average
+
+159
+00:12:47,000 --> 00:12:52,000
+Anything from 5 to 6
+
+160
+00:12:52,000 --> 00:12:56,000
+Is actually considered pretty good
+
+161
+00:12:56,000 --> 00:12:59,000
+And anything over a 7
+
+162
+00:12:59,000 --> 00:13:01,000
+Is actually considered almost world class
+
+163
+00:13:01,000 --> 00:13:03,000
+So, if you get a 7
+
+164
+00:13:03,000 --> 00:13:04,000
+For any of your patterns
+
+165
+00:13:04,000 --> 00:13:07,000
+You generally need to pat yourself on the back
+
+166
+00:13:07,000 --> 00:13:08,000
+You did an amazing job
+
+167
+00:13:08,000 --> 00:13:11,000
+So, we just went through our 4.0 scoring
+
+168
+00:13:11,000 --> 00:13:13,000
+So, just remember
+
+169
+00:13:13,000 --> 00:13:15,000
+Accuracy is a 4.0
+
+170
+00:13:15,000 --> 00:13:17,000
+Presentation is a 6.0
+
+171
+00:13:17,000 --> 00:13:21,000
+Accuracy is judge during your pattern
+
+172
+00:13:21,000 --> 00:13:23,000
+Presentation is after
+
+173
+00:13:23,000 --> 00:13:27,000
+And then we get 2 scores that we add up
+
+174
+00:13:27,000 --> 00:13:28,000
+And we get that number
+
+175
+00:13:28,000 --> 00:13:30,000
+So, with this one obviously
+
+176
+00:13:30,000 --> 00:13:33,000
+Say I was judge number 1
+
+177
+00:13:33,000 --> 00:13:35,000
+I would give you a 6.2
+
+178
+00:13:35,000 --> 00:13:37,000
+There was another judge on the other side
+
+179
+00:13:37,000 --> 00:13:40,000
+Maybe he saw a couple more mistakes than I did
+
+180
+00:13:40,000 --> 00:13:42,000
+And maybe this one would be a little bit lower
+
+181
+00:13:42,000 --> 00:13:44,000
+It might be a 5.something
+
+182
+00:13:44,000 --> 00:13:46,000
+Another judge on the other side
+
+183
+00:13:46,000 --> 00:13:48,000
+They scored a little bit higher
+
+184
+00:13:48,000 --> 00:13:50,000
+So, we get 3 numbers
+
+185
+00:13:50,000 --> 00:13:52,000
+And then we average that as well
+
+186
+00:13:52,000 --> 00:13:54,000
+So, I hope this helped you guys
+
+187
+00:13:54,000 --> 00:13:57,000
+So, make sure you enjoy your 4.0 competitions
+
+188
+00:13:57,000 --> 00:13:58,000
+And any time
+
+189
+00:13:58,000 --> 00:14:00,000
+Make sure obviously
+
+190
+00:14:00,000 --> 00:14:02,000
+You record down your numbers as well
+
+191
+00:14:02,000 --> 00:14:04,000
+Okay, that makes sense
+
+192
+00:14:04,000 --> 00:14:06,000
+Okay, we're going to practice reading
+
+193
+00:14:06,000 --> 00:14:08,000
+Okay, you can practice before you begin to read
+
+194
+00:14:08,000 --> 00:14:10,000
+Your actual performance or scoring
+
+195
+00:14:10,000 --> 00:14:12,000
+Use plus and minus to count errors
+
+196
+00:14:12,000 --> 00:14:14,000
+Click on a choice to rate the presentation
+
+197
+00:14:14,000 --> 00:14:18,000
+Okay, sure, so
+
+198
+00:14:18,000 --> 00:14:21,000
+Okay, so this is minor errors
+
+199
+00:14:21,000 --> 00:14:22,000
+Okay, got it
+
+200
+00:14:22,000 --> 00:14:24,000
+You cannot pause the video anymore
+
+201
+00:14:24,000 --> 00:14:25,000
+You're like, you're looking
+
+202
+00:14:25,000 --> 00:14:26,000
+Oh, you can't pause
+
+203
+00:14:26,000 --> 00:14:27,000
+Oh, okay, okay, got it
+
+204
+00:14:27,000 --> 00:14:28,000
+So, it's like you're being a judge for your
+
+205
+00:14:28,000 --> 00:14:29,000
+Mm-hmm, like I have to do it live
+
+206
+00:14:29,000 --> 00:14:30,000
+Yeah
+
+207
+00:14:30,000 --> 00:14:31,000
+Okay, that makes sense
+
+208
+00:14:31,000 --> 00:14:32,000
+So, major errors
+
+209
+00:14:32,000 --> 00:14:33,000
+Minor errors
+
+210
+00:14:33,000 --> 00:14:34,000
+And then right after the performance
+
+211
+00:14:34,000 --> 00:14:36,000
+You just rate your power and speed
+
+212
+00:14:36,000 --> 00:14:37,000
+Coordination
+
+213
+00:14:37,000 --> 00:14:38,000
+And rhythm
+
+214
+00:14:38,000 --> 00:14:39,000
+And then the expression of energy
+
+215
+00:14:39,000 --> 00:14:40,000
+From
+
+216
+00:14:40,000 --> 00:14:41,000
+Okay, okay
+
+217
+00:14:41,000 --> 00:14:42,000
+Yeah
+
+218
+00:14:42,000 --> 00:14:43,000
+Okay, that makes sense
+
+219
+00:14:43,000 --> 00:14:44,000
+Yeah
+
+220
+00:14:44,000 --> 00:14:45,000
+So, minor errors, major errors
+
+221
+00:14:45,000 --> 00:14:46,000
+Okay
+
+222
+00:14:46,000 --> 00:14:47,000
+Okay, perfect, perfect
+
+223
+00:14:47,000 --> 00:14:48,000
+Are you ready?
+
+224
+00:14:48,000 --> 00:14:49,000
+Okay
+
+225
+00:14:49,000 --> 00:14:58,000
+Let's do the best I can here
+
+226
+00:14:58,000 --> 00:15:03,000
+Okay, perfect, perfect
+
+227
+00:15:03,000 --> 00:15:05,000
+Okay
+
+228
+00:15:05,000 --> 00:15:08,000
+Okay
+
+229
+00:15:08,000 --> 00:15:11,000
+Okay
+
+230
+00:15:11,000 --> 00:15:13,000
+Do a little NCAA

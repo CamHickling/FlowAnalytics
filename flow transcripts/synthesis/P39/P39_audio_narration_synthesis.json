@@ -1,0 +1,117 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P39_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P39_audio_narration.srt",
+  "clean_line_count": 13,
+  "timed_segment_count": 13,
+  "exact_match_count": 13,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 30.0,
+      "end": 32.0,
+      "whisper_text": "Skål!",
+      "clean_text": "Skål!",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 60.0,
+      "end": 62.0,
+      "whisper_text": "Skål!",
+      "clean_text": "Skål!",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 90.0,
+      "end": 92.0,
+      "whisper_text": "Skål!",
+      "clean_text": "Skål!",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 104.36,
+      "end": 110.36,
+      "whisper_text": "Skål!",
+      "clean_text": "Skål!",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 120.0,
+      "end": 142.32,
+      "whisper_text": "here i was still feeling a bit unsure about the timing of what i was doing i was thinking about",
+      "clean_text": "here i was still feeling a bit unsure about the timing of what i was doing i was thinking about",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 142.32,
+      "end": 149.36,
+      "whisper_text": "how you guys were leaving the room and then here i felt that my foot was slipping",
+      "clean_text": "how you guys were leaving the room and then here i felt that my foot was slipping",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 150.0,
+      "end": 155.74,
+      "whisper_text": "when i first kicked i that made me a little nervous here i was mostly in the zone because",
+      "clean_text": "when i first kicked i that made me a little nervous here i was mostly in the zone because",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 155.74,
+      "end": 166.2,
+      "whisper_text": "i like front kicks and here i was thinking about how i don't want to step off the mat",
+      "clean_text": "i like front kicks and here i was thinking about how i don't want to step off the mat",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 166.2,
+      "end": 173.36,
+      "whisper_text": "and during this moment um i didn't punch my hand hard enough and i was thinking about",
+      "clean_text": "and during this moment um i didn't punch my hand hard enough and i was thinking about",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 173.36,
+      "end": 178.96,
+      "whisper_text": "how that wasn't very good and here i was thinking about my positioning and how i would get back",
+      "clean_text": "how that wasn't very good and here i was thinking about my positioning and how i would get back",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 178.96,
+      "end": 179.96,
+      "whisper_text": "to my original spot",
+      "clean_text": "to my original spot",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 180.0,
+      "end": 187.96,
+      "whisper_text": "and here i knew my hand knives were a little rough so i was nervous about doing them and",
+      "clean_text": "and here i knew my hand knives were a little rough so i was nervous about doing them and",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 187.96,
+      "end": 195.0,
+      "whisper_text": "when i ended i i was thinking about how uh if i need to finish my whole um bow",
+      "clean_text": "when i ended i i was thinking about how uh if i need to finish my whole um bow",
+      "match": "exact"
+    }
+  ]
+}

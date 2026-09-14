@@ -1,0 +1,44 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P26_20260312_132454\\review\\P26_audio_narration_2of2.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P26_20260312_132454\\review\\P26_audio_narration_2of2.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 26.54,
+      "text": "You can press this if you want to pause too."
+    },
+    {
+      "start": 30.0,
+      "end": 59.879999999999995,
+      "text": "Okay, I'm just preparing it, interesting, because usually I see myself in the mirror"
+    },
+    {
+      "start": 59.879999999999995,
+      "end": 59.980000000000004,
+      "text": "not in the mirror."
+    },
+    {
+      "start": 59.980000000000004,
+      "end": 60.82000000000001,
+      "text": "I'm not from a top view."
+    },
+    {
+      "start": 63.00000000000001,
+      "end": 68.10000000000001,
+      "text": "Yeah, my block could definitely be more firm, I feel like, for each post."
+    },
+    {
+      "start": 80.32000000000001,
+      "end": 89.96000000000001,
+      "text": "Yeah, I think in general, I feel like I could, like, have some more time staying still."
+    },
+    {
+      "start": 89.98,
+      "end": 90.76,
+      "text": "A little under pose."
+    }
+  ],
+  "word_segments": []
+}

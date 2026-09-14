@@ -1,0 +1,264 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P45_20260330_101202\\scoring\\P45_audio_scoring.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P45_20260330_101202\\scoring\\P45_audio_scoring.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.62,
+      "text": "Wednesday but also because I know that the mats are slippery so I can't go full out"
+    },
+    {
+      "start": 5.62,
+      "end": 8.040000000000001,
+      "text": "otherwise I'll lose my balance okay"
+    },
+    {
+      "start": 8.040000000000001,
+      "end": 14.6,
+      "text": "okay how would you rate"
+    },
+    {
+      "start": 14.6,
+      "end": 19.02,
+      "text": "the complete list of your notes so most of what I was thinking"
+    },
+    {
+      "start": 19.02,
+      "end": 23.400000000000002,
+      "text": "most of what I'm seeing"
+    },
+    {
+      "start": 23.400000000000002,
+      "end": 28.88,
+      "text": "oh okay okay"
+    },
+    {
+      "start": 30.0,
+      "end": 35.980000000000004,
+      "text": "we are going to watch a video you can probably teach this one already but you can fast forward"
+    },
+    {
+      "start": 35.980000000000004,
+      "end": 44.34,
+      "text": "if you want no as you can see your pattern is scored based on the number 10 so out of 10 is"
+    },
+    {
+      "start": 44.34,
+      "end": 51.0,
+      "text": "your is your mark as you can see it's split up into two parts we have our accuracy and our"
+    },
+    {
+      "start": 51.0,
+      "end": 57.879999999999995,
+      "text": "presentation so we'll start off with the accuracy first so your accuracy it's actually scored from"
+    },
+    {
+      "start": 57.879999999999995,
+      "end": 59.980000000000004,
+      "text": "a four so from the"
+    },
+    {
+      "start": 60.0,
+      "end": 65.82,
+      "text": "number four you're actually marked during your presentation of your pattern"
+    },
+    {
+      "start": 65.82,
+      "end": 70.68,
+      "text": "and then with that one any mistakes that you make with it's a minor mistake"
+    },
+    {
+      "start": 70.68,
+      "end": 78.5,
+      "text": "get minus a 0.1 if it's a major mistake you get minus 0.3 so I'll"
+    },
+    {
+      "start": 78.5,
+      "end": 82.84,
+      "text": "let you guys know about the difference between the two so with a minor mistake"
+    },
+    {
+      "start": 82.84,
+      "end": 89.6,
+      "text": "it's a very very small thing so say we're doing a powder block"
+    },
+    {
+      "start": 90.0,
+      "end": 96.5,
+      "text": "six is actually split up into three parts so we have one two three here so with this one"
+    },
+    {
+      "start": 96.5,
+      "end": 104.18,
+      "text": "for a score of two is your power and speed your rhythm is also a score of two and your expression"
+    },
+    {
+      "start": 104.18,
+      "end": 110.3,
+      "text": "of energy is also scored out of two as well so we'll start off with the power and speed so with"
+    },
+    {
+      "start": 110.3,
+      "end": 115.98,
+      "text": "this one whether it's your blocks your kicks your strikes your punches anything you are letting do"
+    },
+    {
+      "start": 115.98,
+      "end": 121.74000000000001,
+      "text": "you need to be nice and strong and it has to be fast as well so that it's one thing to have a very"
+    },
+    {
+      "start": 121.74000000000001,
+      "end": 129.64000000000001,
+      "text": "strong punch or a very fast punch but it has to be both strong and fast to get uh high in that in"
+    },
+    {
+      "start": 129.64000000000001,
+      "end": 135.56,
+      "text": "that category the next part is your rhythm so the rhythm when you do start your pattern it isn't"
+    },
+    {
+      "start": 135.56,
+      "end": 140.48000000000002,
+      "text": "rhythm to pattern it's not just really fast all the way through it's not slow all the way through"
+    },
+    {
+      "start": 140.48000000000002,
+      "end": 145.56,
+      "text": "there's a slow fast kind of aspect to it just a quick"
+    },
+    {
+      "start": 145.56,
+      "end": 145.96,
+      "text": "yes"
+    },
+    {
+      "start": 146.14,
+      "end": 149.51999999999998,
+      "text": "presentation is marked after right yeah yeah okay"
+    },
+    {
+      "start": 149.51999999999998,
+      "end": 158.72,
+      "text": "excuse me that tickled so now let's practice reading"
+    },
+    {
+      "start": 158.72,
+      "end": 165.44,
+      "text": "use plus and minus to count the errors meaning yeah i can show you okay"
+    },
+    {
+      "start": 165.44,
+      "end": 172.2,
+      "text": "perfect so minor errors major errors oh i see okay you're gonna be watching your video"
+    },
+    {
+      "start": 172.2,
+      "end": 175.56,
+      "text": "no pausing this time it's like a real judge and then"
+    },
+    {
+      "start": 175.98,
+      "end": 181.56,
+      "text": "when you see it real time and then after the performance you're going to be reading your power"
+    },
+    {
+      "start": 181.56,
+      "end": 186.32,
+      "text": "just be coordination of rhythm and expression okay perfect let's do this more"
+    },
+    {
+      "start": 186.32,
+      "end": 188.14,
+      "text": "so"
+    },
+    {
+      "start": 188.14,
+      "end": 192.14,
+      "text": "so"
+    },
+    {
+      "start": 192.14,
+      "end": 194.14,
+      "text": "so"
+    },
+    {
+      "start": 194.14,
+      "end": 200.14,
+      "text": "so"
+    },
+    {
+      "start": 200.14,
+      "end": 202.14,
+      "text": "so"
+    },
+    {
+      "start": 202.14,
+      "end": 204.14,
+      "text": "so"
+    },
+    {
+      "start": 204.14,
+      "end": 205.28,
+      "text": "so"
+    },
+    {
+      "start": 205.28,
+      "end": 205.33999999999997,
+      "text": "so"
+    },
+    {
+      "start": 205.33999999999997,
+      "end": 205.5,
+      "text": "so"
+    },
+    {
+      "start": 205.5,
+      "end": 205.51999999999998,
+      "text": "so"
+    },
+    {
+      "start": 205.52,
+      "end": 232.56,
+      "text": "so"
+    },
+    {
+      "start": 232.56,
+      "end": 232.72,
+      "text": "so"
+    },
+    {
+      "start": 232.72,
+      "end": 234.8,
+      "text": "so"
+    },
+    {
+      "start": 234.8,
+      "end": 234.84,
+      "text": "so"
+    },
+    {
+      "start": 234.84,
+      "end": 234.88,
+      "text": "so"
+    },
+    {
+      "start": 234.88,
+      "end": 250.44,
+      "text": "you're okay"
+    },
+    {
+      "start": 250.44,
+      "end": 253.72,
+      "text": "power and speed"
+    },
+    {
+      "start": 253.72,
+      "end": 256.48,
+      "text": "power and speed"
+    }
+  ],
+  "word_segments": []
+}

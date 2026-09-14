@@ -1,0 +1,34 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P40_20260325_132334\\review\\P40_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P40_20260325_132334\\review\\P40_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 59.980000000000004,
+      "text": "Thank you for watching!"
+    },
+    {
+      "start": 60.0,
+      "end": 89.98,
+      "text": "Thank you for watching!"
+    },
+    {
+      "start": 90.0,
+      "end": 119.98,
+      "text": "Thank you for watching!"
+    },
+    {
+      "start": 120.0,
+      "end": 149.98,
+      "text": "Thank you for watching!"
+    },
+    {
+      "start": 150.0,
+      "end": 179.98,
+      "text": "Thank you for watching!"
+    }
+  ],
+  "word_segments": []
+}

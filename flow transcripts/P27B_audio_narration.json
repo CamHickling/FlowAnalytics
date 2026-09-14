@@ -1,0 +1,74 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P27B_20260313_104005\\review\\P27B_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P27B_20260313_104005\\review\\P27B_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 41.84,
+      "text": "Du kan høre min performance."
+    },
+    {
+      "start": 41.84,
+      "end": 47.5,
+      "text": "While you're doing it, just think out loud what you're thinking while you're doing it."
+    },
+    {
+      "start": 60.0,
+      "end": 70.0,
+      "text": "Let's do it again."
+    },
+    {
+      "start": 90.0,
+      "end": 116.36,
+      "text": "You can talk while you're watching."
+    },
+    {
+      "start": 120.0,
+      "end": 134.88,
+      "text": "I didn't go as extreme as I wanted because the mats were a little bit slippery and unstable"
+    },
+    {
+      "start": 134.88,
+      "end": 142.2,
+      "text": "because of my weight and the setup was small, but I think overall the movements I executed"
+    },
+    {
+      "start": 142.2,
+      "end": 149.0,
+      "text": "were not bad, but definitely improvable."
+    },
+    {
+      "start": 149.0,
+      "end": 150.0,
+      "text": "But some movements..."
+    },
+    {
+      "start": 150.0,
+      "end": 162.48,
+      "text": "I think the kicks I did today were okay and the quality execution was better than I expected."
+    },
+    {
+      "start": 162.48,
+      "end": 168.46,
+      "text": "The video looked better than what I felt when I did it."
+    },
+    {
+      "start": 168.46,
+      "end": 176.8,
+      "text": "Overall it was a positive and I like the routine I executed and the movements I did were good"
+    },
+    {
+      "start": 176.8,
+      "end": 180.0,
+      "text": "to my standards."
+    },
+    {
+      "start": 180.0,
+      "end": 180.84,
+      "text": "See you next time."
+    }
+  ],
+  "word_segments": []
+}

@@ -1,0 +1,27 @@
+1
+00:00:30,000 --> 00:00:38,060
+We are always at the same time.
+
+2
+00:00:38,880 --> 00:00:40,820
+We are not always at the same time.
+
+3
+00:00:40,820 --> 00:00:43,820
+We are not always at the same time.
+
+4
+00:01:00,000 --> 00:01:29,980
+Takk for at du så med.
+
+5
+00:01:30,000 --> 00:01:59,980
+Takk for at du så med.
+
+6
+00:02:00,000 --> 00:02:29,980
+Takk for at du så med.
+
+7
+00:02:30,000 --> 00:02:59,980
+Takk for at du så med.

@@ -1,0 +1,93 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P33_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P33_audio_narration.srt",
+  "clean_line_count": 10,
+  "timed_segment_count": 10,
+  "exact_match_count": 10,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 2.58,
+      "whisper_text": "Okay, um, we'll be curious to know what's going to happen.",
+      "clean_text": "Okay, um, we'll be curious to know what's going to happen.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 3.3,
+      "end": 9.26,
+      "whisper_text": "Um, first of all, um, we're still, we're still, we're still, we're still, we're still, we're still, we're still.",
+      "clean_text": "Um, first of all, um, we're still, we're still, we're still, we're still, we're still, we're still, we're still.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 30.0,
+      "end": 36.5,
+      "whisper_text": "I can't take this anymore.",
+      "clean_text": "I can't take this anymore.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 40.12,
+      "end": 41.02,
+      "whisper_text": "I can't take this anymore.",
+      "clean_text": "I can't take this anymore.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 41.02,
+      "end": 41.58,
+      "whisper_text": "I can't take this one.",
+      "clean_text": "I can't take this one.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 60.0,
+      "end": 89.98,
+      "whisper_text": "I can't take this anymore.",
+      "clean_text": "I can't take this anymore.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 90.0,
+      "end": 119.97999999999999,
+      "whisper_text": "I can't take this anymore.",
+      "clean_text": "I can't take this anymore.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 120.0,
+      "end": 120.54,
+      "whisper_text": "I can't take this anymore.",
+      "clean_text": "I can't take this anymore.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 127.3,
+      "end": 136.34,
+      "whisper_text": "Uh, my stance has to be, like, more lower, my back leg straighter, yeah.",
+      "clean_text": "Uh, my stance has to be, like, more lower, my back leg straighter, yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 141.16,
+      "end": 142.98,
+      "whisper_text": "Not one of my best ones.",
+      "clean_text": "Not one of my best ones.",
+      "match": "exact"
+    }
+  ]
+}

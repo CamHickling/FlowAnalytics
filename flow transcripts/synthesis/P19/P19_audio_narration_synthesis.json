@@ -1,0 +1,349 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P19_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P19_audio_narration.srt",
+  "clean_line_count": 42,
+  "timed_segment_count": 42,
+  "exact_match_count": 42,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 30.0,
+      "end": 37.14,
+      "whisper_text": "Mom, you can sit here.",
+      "clean_text": "Mom, you can sit here.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 38.04,
+      "end": 40.24,
+      "whisper_text": "He's going to watch his own performance in a minute.",
+      "clean_text": "He's going to watch his own performance in a minute.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 41.12,
+      "end": 44.74,
+      "whisper_text": "In a minute, so I just like, and I like scoring it.",
+      "clean_text": "In a minute, so I just like, and I like scoring it.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 44.84,
+      "end": 46.3,
+      "whisper_text": "So you can, you can, yeah, you can.",
+      "clean_text": "So you can, you can, yeah, you can.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 46.3,
+      "end": 52.96,
+      "whisper_text": "I'll be here to comment, so just, we'll watch him tell us what he's thinking.",
+      "clean_text": "I'll be here to comment, so just, we'll watch him tell us what he's thinking.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 53.9,
+      "end": 57.66,
+      "whisper_text": "What I remember thinking.",
+      "clean_text": "What I remember thinking.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 57.66,
+      "end": 59.36,
+      "whisper_text": "So, okay.",
+      "clean_text": "So, okay.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 66.6,
+      "end": 67.28,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 68.64,
+      "end": 72.8,
+      "whisper_text": "You can press pause here, and you can talk as much as you want.",
+      "clean_text": "You can press pause here, and you can talk as much as you want.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 73.44,
+      "end": 73.96000000000001,
+      "whisper_text": "Press play.",
+      "clean_text": "Press play.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 73.96000000000001,
+      "end": 74.78,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 87.66,
+      "end": 95.88,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 95.88,
+      "end": 95.96000000000001,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 98.97999999999999,
+      "end": 101.78,
+      "whisper_text": "So, like, I just say what I'm thinking about, right?",
+      "clean_text": "So, like, I just say what I'm thinking about, right?",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 102.52000000000001,
+      "end": 104.18,
+      "whisper_text": "So my mind's clear right now.",
+      "clean_text": "So my mind's clear right now.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 106.12,
+      "end": 110.0,
+      "whisper_text": "I'm just thinking about the sidekicks.",
+      "clean_text": "I'm just thinking about the sidekicks.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 116.75999999999999,
+      "end": 117.32,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 117.32,
+      "end": 117.47999999999999,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 117.66,
+      "end": 121.2,
+      "whisper_text": "Now my mind's still clear.",
+      "clean_text": "Now my mind's still clear.",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 122.06,
+      "end": 123.94,
+      "whisper_text": "Still thinking about the sidekick here.",
+      "clean_text": "Still thinking about the sidekick here.",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 124.4,
+      "end": 125.32,
+      "whisper_text": "Wasn't too great.",
+      "clean_text": "Wasn't too great.",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 126.7,
+      "end": 130.56,
+      "whisper_text": "Now, I'm just thinking about the last little part.",
+      "clean_text": "Now, I'm just thinking about the last little part.",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 133.78,
+      "end": 135.46,
+      "whisper_text": "Pulling hand, staying strong.",
+      "clean_text": "Pulling hand, staying strong.",
+      "match": "exact"
+    },
+    {
+      "index": 24,
+      "start": 137.6,
+      "end": 139.36,
+      "whisper_text": "Eight second count in my head.",
+      "clean_text": "Eight second count in my head.",
+      "match": "exact"
+    },
+    {
+      "index": 25,
+      "start": 140.24,
+      "end": 141.1,
+      "whisper_text": "Just looking straight.",
+      "clean_text": "Just looking straight.",
+      "match": "exact"
+    },
+    {
+      "index": 26,
+      "start": 143.28,
+      "end": 146.02,
+      "whisper_text": "Now I'm just thinking about pulling hand and key up.",
+      "clean_text": "Now I'm just thinking about pulling hand and key up.",
+      "match": "exact"
+    },
+    {
+      "index": 27,
+      "start": 147.0,
+      "end": 147.48,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 28,
+      "start": 147.48,
+      "end": 149.42000000000002,
+      "whisper_text": "And, yeah, that's pretty much it.",
+      "clean_text": "And, yeah, that's pretty much it.",
+      "match": "exact"
+    },
+    {
+      "index": 29,
+      "start": 149.42000000000002,
+      "end": 151.26,
+      "whisper_text": "I didn't really think about much else.",
+      "clean_text": "I didn't really think about much else.",
+      "match": "exact"
+    },
+    {
+      "index": 30,
+      "start": 157.96,
+      "end": 158.46,
+      "whisper_text": "Oh, shoot.",
+      "clean_text": "Oh, shoot.",
+      "match": "exact"
+    },
+    {
+      "index": 31,
+      "start": 160.3,
+      "end": 160.6,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 32,
+      "start": 160.6,
+      "end": 161.3,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 33,
+      "start": 161.3,
+      "end": 161.46,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 34,
+      "start": 161.46,
+      "end": 161.48,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 35,
+      "start": 161.48,
+      "end": 161.5,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 36,
+      "start": 161.5,
+      "end": 161.52,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 37,
+      "start": 161.52,
+      "end": 161.54,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 38,
+      "start": 161.54,
+      "end": 161.56,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 39,
+      "start": 161.56,
+      "end": 161.57999999999998,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 40,
+      "start": 161.57999999999998,
+      "end": 161.6,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 41,
+      "start": 161.6,
+      "end": 161.66,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 42,
+      "start": 161.66,
+      "end": 161.68,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    }
+  ]
+}

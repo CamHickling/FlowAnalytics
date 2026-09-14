@@ -1,0 +1,285 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P13_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P13_audio_narration.srt",
+  "clean_line_count": 34,
+  "timed_segment_count": 34,
+  "exact_match_count": 34,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 30.0,
+      "end": 59.38,
+      "whisper_text": "I know we'll continue recording",
+      "clean_text": "I know we'll continue recording",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 59.38,
+      "end": 60.42,
+      "whisper_text": "as your boss does.",
+      "clean_text": "as your boss does.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 61.3,
+      "end": 62.58,
+      "whisper_text": "Alright, sounds good.",
+      "clean_text": "Alright, sounds good.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 81.52,
+      "end": 83.78,
+      "whisper_text": "I thought this part was kind of awkward",
+      "clean_text": "I thought this part was kind of awkward",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 83.78,
+      "end": 85.76,
+      "whisper_text": "because I kind of choked there.",
+      "clean_text": "because I kind of choked there.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 89.38,
+      "end": 92.3,
+      "whisper_text": "This part felt pretty normal.",
+      "clean_text": "This part felt pretty normal.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 92.56,
+      "end": 93.38,
+      "whisper_text": "It was just like",
+      "clean_text": "It was just like",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 93.38,
+      "end": 96.18,
+      "whisper_text": "I felt a little bit weird",
+      "clean_text": "I felt a little bit weird",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 96.18,
+      "end": 97.36,
+      "whisper_text": "above my neck fans.",
+      "clean_text": "above my neck fans.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 102.64,
+      "end": 104.14,
+      "whisper_text": "I felt like I was rushing this part",
+      "clean_text": "I felt like I was rushing this part",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 104.14,
+      "end": 104.86,
+      "whisper_text": "a little bit",
+      "clean_text": "a little bit",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 104.86,
+      "end": 107.74000000000001,
+      "whisper_text": "because I was kind of",
+      "clean_text": "because I was kind of",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 107.74000000000001,
+      "end": 109.72,
+      "whisper_text": "really nervous.",
+      "clean_text": "really nervous.",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 109.84,
+      "end": 111.0,
+      "whisper_text": "I just wasn't really thinking about it.",
+      "clean_text": "I just wasn't really thinking about it.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 111.0,
+      "end": 112.74000000000001,
+      "whisper_text": "Around here I stopped thinking about it.",
+      "clean_text": "Around here I stopped thinking about it.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 112.86,
+      "end": 113.64,
+      "whisper_text": "I was just kind of",
+      "clean_text": "I was just kind of",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 113.64,
+      "end": 115.34,
+      "whisper_text": "doing whatever.",
+      "clean_text": "doing whatever.",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 115.94,
+      "end": 117.86,
+      "whisper_text": "But I kind of lost balance a little bit",
+      "clean_text": "But I kind of lost balance a little bit",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 117.86,
+      "end": 119.0,
+      "whisper_text": "because I was...",
+      "clean_text": "because I was...",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 119.38,
+      "end": 122.4,
+      "whisper_text": "not very stable there.",
+      "clean_text": "not very stable there.",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 130.88,
+      "end": 131.98,
+      "whisper_text": "This part was",
+      "clean_text": "This part was",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 131.98,
+      "end": 133.26,
+      "whisper_text": "alright.",
+      "clean_text": "alright.",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 133.5,
+      "end": 134.74,
+      "whisper_text": "I kind of",
+      "clean_text": "I kind of",
+      "match": "exact"
+    },
+    {
+      "index": 24,
+      "start": 134.74,
+      "end": 138.07999999999998,
+      "whisper_text": "thought too much about the back one",
+      "clean_text": "thought too much about the back one",
+      "match": "exact"
+    },
+    {
+      "index": 25,
+      "start": 138.07999999999998,
+      "end": 140.82,
+      "whisper_text": "so I lost more balance again.",
+      "clean_text": "so I lost more balance again.",
+      "match": "exact"
+    },
+    {
+      "index": 26,
+      "start": 142.18,
+      "end": 143.54,
+      "whisper_text": "And then this part was like",
+      "clean_text": "And then this part was like",
+      "match": "exact"
+    },
+    {
+      "index": 27,
+      "start": 143.54,
+      "end": 144.96,
+      "whisper_text": "kind of when I clicked back in",
+      "clean_text": "kind of when I clicked back in",
+      "match": "exact"
+    },
+    {
+      "index": 28,
+      "start": 144.96,
+      "end": 145.84,
+      "whisper_text": "and I was like, oh!",
+      "clean_text": "and I was like, oh!",
+      "match": "exact"
+    },
+    {
+      "index": 29,
+      "start": 147.28,
+      "end": 149.32,
+      "whisper_text": "That was kind of scary.",
+      "clean_text": "That was kind of scary.",
+      "match": "exact"
+    },
+    {
+      "index": 30,
+      "start": 149.38,
+      "end": 151.88,
+      "whisper_text": "Yeah.",
+      "clean_text": "Yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 31,
+      "start": 152.98,
+      "end": 154.32,
+      "whisper_text": "Should I pause it here?",
+      "clean_text": "Should I pause it here?",
+      "match": "exact"
+    },
+    {
+      "index": 32,
+      "start": 154.6,
+      "end": 155.52,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 33,
+      "start": 170.52,
+      "end": 171.44,
+      "whisper_text": "Oh.",
+      "clean_text": "Oh.",
+      "match": "exact"
+    },
+    {
+      "index": 34,
+      "start": 171.44,
+      "end": 173.44,
+      "whisper_text": "Oh.",
+      "clean_text": "Oh.",
+      "match": "exact"
+    }
+  ]
+}

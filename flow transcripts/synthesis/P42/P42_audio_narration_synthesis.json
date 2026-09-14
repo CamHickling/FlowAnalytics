@@ -1,0 +1,151 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P42_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P42_audio_narration.srt",
+  "clean_line_count": 7,
+  "timed_segment_count": 16,
+  "exact_match_count": 7,
+  "needs_review_count": 9,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [
+    "We can bring you through the instructions.",
+    "We can start now. I'm going to press play, space here to play, and then you can pause anytime.",
+    "You can read your own performance.",
+    "Wait, I just want to confirm here. Do I narrate what I'm thinking?",
+    "What you're thinking, what you're feeling, during that same exact moment.",
+    "Okay, thank you.",
+    "Okay.",
+    "Okay.",
+    "Yeah."
+  ],
+  "status": "NEEDS_REVIEW",
+  "segments": [
+    {
+      "index": 1,
+      "start": 30.0,
+      "end": 33.0,
+      "whisper_text": "We can bring you through the instructions.",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 2,
+      "start": 49.0,
+      "end": 55.0,
+      "whisper_text": "We can start now. I'm going to press play, space here to play, and then you can pause anytime.",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 3,
+      "start": 55.0,
+      "end": 57.0,
+      "whisper_text": "You can read your own performance.",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 4,
+      "start": 60.0,
+      "end": 73.0,
+      "whisper_text": "Wait, I just want to confirm here. Do I narrate what I'm thinking?",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 5,
+      "start": 73.0,
+      "end": 78.0,
+      "whisper_text": "What you're thinking, what you're feeling, during that same exact moment.",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 6,
+      "start": 78.0,
+      "end": 80.0,
+      "whisper_text": "Okay, thank you.",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 7,
+      "start": 80.0,
+      "end": 96.0,
+      "whisper_text": "So, this moment, I felt like my beginning move wasn't as strong as usual.",
+      "clean_text": "So, this moment, I felt like my beginning move wasn't as strong as usual.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 96.0,
+      "end": 100.0,
+      "whisper_text": "And so I tried to make more power towards the front.",
+      "clean_text": "And so I tried to make more power towards the front.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 100.0,
+      "end": 105.0,
+      "whisper_text": "For this section, I was trying to pay attention to the sidekick.",
+      "clean_text": "For this section, I was trying to pay attention to the sidekick.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 105.0,
+      "end": 108.0,
+      "whisper_text": "Just making sure I wouldn't lose my balance and such.",
+      "clean_text": "Just making sure I wouldn't lose my balance and such.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 110.0,
+      "end": 117.0,
+      "whisper_text": "That part there, I saw my foot somewhat tilt as I was losing balance.",
+      "clean_text": "That part there, I saw my foot somewhat tilt as I was losing balance.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 120.0,
+      "end": 124.0,
+      "whisper_text": "And then this part, just make sure to stay strong throughout the end.",
+      "clean_text": "And then this part, just make sure to stay strong throughout the end.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 124.0,
+      "end": 126.0,
+      "whisper_text": "Stay consistent, yeah.",
+      "clean_text": "Stay consistent, yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 140.0,
+      "end": 142.0,
+      "whisper_text": "Okay.",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 15,
+      "start": 142.0,
+      "end": 144.0,
+      "whisper_text": "Okay.",
+      "clean_text": null,
+      "match": "needs_review"
+    },
+    {
+      "index": 16,
+      "start": 144.0,
+      "end": 146.0,
+      "whisper_text": "Yeah.",
+      "clean_text": null,
+      "match": "needs_review"
+    }
+  ]
+}

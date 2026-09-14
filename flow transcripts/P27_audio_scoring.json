@@ -1,0 +1,404 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P27_20260313_101333\\scoring\\P27_audio_scoring.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P27_20260313_101333\\scoring\\P27_audio_scoring.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 16.94,
+      "text": "Okay, I don't think you, yeah, perfect."
+    },
+    {
+      "start": 18.28,
+      "end": 20.72,
+      "text": "Okay, you're going to score your own performance."
+    },
+    {
+      "start": 21.78,
+      "end": 22.5,
+      "text": "So watch it again?"
+    },
+    {
+      "start": 22.68,
+      "end": 23.6,
+      "text": "Yeah, watch it again."
+    },
+    {
+      "start": 23.96,
+      "end": 25.1,
+      "text": "Oh, shoot."
+    },
+    {
+      "start": 26.44,
+      "end": 27.080000000000002,
+      "text": "Referee mode."
+    },
+    {
+      "start": 28.080000000000002,
+      "end": 29.46,
+      "text": "But, hold on."
+    },
+    {
+      "start": 29.46,
+      "end": 29.8,
+      "text": "Okay, sorry."
+    },
+    {
+      "start": 29.8,
+      "end": 30.04,
+      "text": "Sorry."
+    },
+    {
+      "start": 30.54,
+      "end": 31.72,
+      "text": "We cannot pause this time."
+    },
+    {
+      "start": 31.900000000000002,
+      "end": 32.08,
+      "text": "Okay."
+    },
+    {
+      "start": 32.38,
+      "end": 32.78,
+      "text": "So."
+    },
+    {
+      "start": 33.28,
+      "end": 35.18,
+      "text": "Do I just add one each time I see one?"
+    },
+    {
+      "start": 35.22,
+      "end": 36.58,
+      "text": "Yes, add one each time you see one."
+    },
+    {
+      "start": 37.94,
+      "end": 39.760000000000005,
+      "text": "I'm going to be more harsh on myself then."
+    },
+    {
+      "start": 45.18,
+      "end": 46.620000000000005,
+      "text": "Can I see my head?"
+    },
+    {
+      "start": 46.78,
+      "end": 47.94,
+      "text": "Oh, not that much."
+    },
+    {
+      "start": 59.800000000000004,
+      "end": 75.18,
+      "text": "I'm going to be more harsh on myself than I am on my head."
+    },
+    {
+      "start": 75.18,
+      "end": 89.64,
+      "text": "I'm going to be more harsh on myself than I am on my head."
+    },
+    {
+      "start": 89.64,
+      "end": 89.7,
+      "text": "Okay."
+    },
+    {
+      "start": 89.7,
+      "end": 89.76,
+      "text": "Okay."
+    },
+    {
+      "start": 89.76,
+      "end": 89.78,
+      "text": "Okay."
+    },
+    {
+      "start": 89.8,
+      "end": 89.84,
+      "text": "Okay."
+    },
+    {
+      "start": 89.84,
+      "end": 89.89999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 89.89999999999999,
+      "end": 89.94,
+      "text": "Okay."
+    },
+    {
+      "start": 89.94,
+      "end": 89.96,
+      "text": "Okay."
+    },
+    {
+      "start": 89.96,
+      "end": 90.0,
+      "text": "Okay."
+    },
+    {
+      "start": 90.0,
+      "end": 90.03999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 90.03999999999999,
+      "end": 90.06,
+      "text": "Okay."
+    },
+    {
+      "start": 90.06,
+      "end": 90.08,
+      "text": "Okay."
+    },
+    {
+      "start": 90.08,
+      "end": 90.1,
+      "text": "Okay."
+    },
+    {
+      "start": 90.1,
+      "end": 90.11999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 90.11999999999999,
+      "end": 90.14,
+      "text": "Okay."
+    },
+    {
+      "start": 90.14,
+      "end": 90.16,
+      "text": "Okay."
+    },
+    {
+      "start": 90.16,
+      "end": 90.17999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 90.17999999999999,
+      "end": 90.2,
+      "text": "Okay."
+    },
+    {
+      "start": 90.2,
+      "end": 90.22,
+      "text": "Okay."
+    },
+    {
+      "start": 90.22,
+      "end": 90.24,
+      "text": "Okay."
+    },
+    {
+      "start": 90.24,
+      "end": 90.25999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 90.25999999999999,
+      "end": 90.28,
+      "text": "Okay."
+    },
+    {
+      "start": 90.28,
+      "end": 90.3,
+      "text": "Okay."
+    },
+    {
+      "start": 90.3,
+      "end": 90.32,
+      "text": "Okay."
+    },
+    {
+      "start": 90.32,
+      "end": 90.34,
+      "text": "Okay."
+    },
+    {
+      "start": 90.34,
+      "end": 90.38,
+      "text": "Okay."
+    },
+    {
+      "start": 90.38,
+      "end": 90.39999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 90.39999999999999,
+      "end": 90.42,
+      "text": "Okay."
+    },
+    {
+      "start": 90.42,
+      "end": 90.44,
+      "text": "Okay."
+    },
+    {
+      "start": 90.44,
+      "end": 90.46,
+      "text": "Okay."
+    },
+    {
+      "start": 90.46,
+      "end": 90.48,
+      "text": "Okay."
+    },
+    {
+      "start": 90.48,
+      "end": 90.5,
+      "text": "Okay."
+    },
+    {
+      "start": 90.5,
+      "end": 90.53999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 90.53999999999999,
+      "end": 90.56,
+      "text": "Okay."
+    },
+    {
+      "start": 90.56,
+      "end": 90.6,
+      "text": "Okay."
+    },
+    {
+      "start": 90.6,
+      "end": 94.7,
+      "text": "Okay."
+    },
+    {
+      "start": 94.7,
+      "end": 94.74,
+      "text": "Okay."
+    },
+    {
+      "start": 94.74,
+      "end": 94.78,
+      "text": "Okay."
+    },
+    {
+      "start": 94.78,
+      "end": 94.82,
+      "text": "Okay."
+    },
+    {
+      "start": 94.82,
+      "end": 94.88,
+      "text": "Okay."
+    },
+    {
+      "start": 94.88,
+      "end": 94.94,
+      "text": "Okay."
+    },
+    {
+      "start": 94.94,
+      "end": 94.97999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 94.97999999999999,
+      "end": 95.03999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 95.03999999999999,
+      "end": 95.1,
+      "text": "Okay."
+    },
+    {
+      "start": 95.1,
+      "end": 95.14,
+      "text": "Okay."
+    },
+    {
+      "start": 95.14,
+      "end": 95.17999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 95.17999999999999,
+      "end": 95.2,
+      "text": "Okay."
+    },
+    {
+      "start": 95.2,
+      "end": 95.24,
+      "text": "Okay."
+    },
+    {
+      "start": 95.24,
+      "end": 95.28,
+      "text": "Okay."
+    },
+    {
+      "start": 95.28,
+      "end": 95.3,
+      "text": "Okay."
+    },
+    {
+      "start": 95.3,
+      "end": 95.34,
+      "text": "Okay."
+    },
+    {
+      "start": 95.34,
+      "end": 95.38,
+      "text": "Okay."
+    },
+    {
+      "start": 95.38,
+      "end": 95.44,
+      "text": "Okay."
+    },
+    {
+      "start": 95.44,
+      "end": 95.5,
+      "text": "Okay."
+    },
+    {
+      "start": 95.5,
+      "end": 95.53999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 95.53999999999999,
+      "end": 95.6,
+      "text": "Okay."
+    },
+    {
+      "start": 95.6,
+      "end": 95.7,
+      "text": "Okay."
+    },
+    {
+      "start": 95.7,
+      "end": 95.89999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 95.89999999999999,
+      "end": 95.97999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 95.97999999999999,
+      "end": 96.03999999999999,
+      "text": "Okay."
+    },
+    {
+      "start": 119.8,
+      "end": 149.78,
+      "text": "Thank you for watching."
+    }
+  ],
+  "word_segments": []
+}

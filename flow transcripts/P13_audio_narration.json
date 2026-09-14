@@ -1,0 +1,179 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P13_20260303_101155\\review\\P13_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P13_20260303_101155\\review\\P13_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 59.379999999999995,
+      "text": "I know we'll continue recording"
+    },
+    {
+      "start": 59.38,
+      "end": 60.42,
+      "text": "as your boss does."
+    },
+    {
+      "start": 61.300000000000004,
+      "end": 62.580000000000005,
+      "text": "Alright, sounds good."
+    },
+    {
+      "start": 81.52000000000001,
+      "end": 83.78,
+      "text": "I thought this part was kind of awkward"
+    },
+    {
+      "start": 83.78,
+      "end": 85.76,
+      "text": "because I kind of choked there."
+    },
+    {
+      "start": 89.38,
+      "end": 92.3,
+      "text": "This part felt pretty normal."
+    },
+    {
+      "start": 92.56,
+      "end": 93.38,
+      "text": "It was just like"
+    },
+    {
+      "start": 93.38,
+      "end": 96.17999999999999,
+      "text": "I felt a little bit weird"
+    },
+    {
+      "start": 96.17999999999999,
+      "end": 97.36,
+      "text": "above my neck fans."
+    },
+    {
+      "start": 102.64,
+      "end": 104.14,
+      "text": "I felt like I was rushing this part"
+    },
+    {
+      "start": 104.14,
+      "end": 104.86,
+      "text": "a little bit"
+    },
+    {
+      "start": 104.86,
+      "end": 107.74,
+      "text": "because I was kind of"
+    },
+    {
+      "start": 107.74,
+      "end": 109.72,
+      "text": "really nervous."
+    },
+    {
+      "start": 109.84,
+      "end": 111.0,
+      "text": "I just wasn't really thinking about it."
+    },
+    {
+      "start": 111.0,
+      "end": 112.74,
+      "text": "Around here I stopped thinking about it."
+    },
+    {
+      "start": 112.86,
+      "end": 113.64,
+      "text": "I was just kind of"
+    },
+    {
+      "start": 113.64,
+      "end": 115.34,
+      "text": "doing whatever."
+    },
+    {
+      "start": 115.94,
+      "end": 117.86,
+      "text": "But I kind of lost balance a little bit"
+    },
+    {
+      "start": 117.86,
+      "end": 119.0,
+      "text": "because I was..."
+    },
+    {
+      "start": 119.38,
+      "end": 122.39999999999999,
+      "text": "not very stable there."
+    },
+    {
+      "start": 130.88,
+      "end": 131.98,
+      "text": "This part was"
+    },
+    {
+      "start": 131.98,
+      "end": 133.26,
+      "text": "alright."
+    },
+    {
+      "start": 133.5,
+      "end": 134.74,
+      "text": "I kind of"
+    },
+    {
+      "start": 134.74,
+      "end": 138.07999999999998,
+      "text": "thought too much about the back one"
+    },
+    {
+      "start": 138.07999999999998,
+      "end": 140.82,
+      "text": "so I lost more balance again."
+    },
+    {
+      "start": 142.18,
+      "end": 143.54,
+      "text": "And then this part was like"
+    },
+    {
+      "start": 143.54,
+      "end": 144.96,
+      "text": "kind of when I clicked back in"
+    },
+    {
+      "start": 144.96,
+      "end": 145.84,
+      "text": "and I was like, oh!"
+    },
+    {
+      "start": 147.28,
+      "end": 149.32,
+      "text": "That was kind of scary."
+    },
+    {
+      "start": 149.38,
+      "end": 151.88,
+      "text": "Yeah."
+    },
+    {
+      "start": 152.98,
+      "end": 154.32,
+      "text": "Should I pause it here?"
+    },
+    {
+      "start": 154.6,
+      "end": 155.51999999999998,
+      "text": "Okay."
+    },
+    {
+      "start": 170.51999999999998,
+      "end": 171.44,
+      "text": "Oh."
+    },
+    {
+      "start": 171.44,
+      "end": 173.44,
+      "text": "Oh."
+    }
+  ],
+  "word_segments": []
+}

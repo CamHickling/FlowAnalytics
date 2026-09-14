@@ -1,0 +1,69 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P43_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P43_audio_narration.srt",
+  "clean_line_count": 7,
+  "timed_segment_count": 7,
+  "exact_match_count": 7,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 30.0,
+      "end": 38.06,
+      "whisper_text": "We are always at the same time.",
+      "clean_text": "We are always at the same time.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 38.88,
+      "end": 40.82,
+      "whisper_text": "We are not always at the same time.",
+      "clean_text": "We are not always at the same time.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 40.82,
+      "end": 43.82,
+      "whisper_text": "We are not always at the same time.",
+      "clean_text": "We are not always at the same time.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 60.0,
+      "end": 89.98,
+      "whisper_text": "Takk for at du så med.",
+      "clean_text": "Takk for at du så med.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 90.0,
+      "end": 119.97999999999999,
+      "whisper_text": "Takk for at du så med.",
+      "clean_text": "Takk for at du så med.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 120.0,
+      "end": 149.98,
+      "whisper_text": "Takk for at du så med.",
+      "clean_text": "Takk for at du så med.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 150.0,
+      "end": 179.98,
+      "whisper_text": "Takk for at du så med.",
+      "clean_text": "Takk for at du så med.",
+      "match": "exact"
+    }
+  ]
+}

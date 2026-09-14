@@ -1,0 +1,125 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P32_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P32_audio_narration.srt",
+  "clean_line_count": 14,
+  "timed_segment_count": 14,
+  "exact_match_count": 14,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 2.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": "Hubsan X4 H502E Desire 2-3-18",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 30.0,
+      "end": 59.98,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": "Hubsan X4 H502E Desire 2-3-18",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 60.0,
+      "end": 89.98,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": "Hubsan X4 H502E Desire 2-3-18",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 90.0,
+      "end": 119.97999999999999,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": "Hubsan X4 H502E Desire 2-3-18",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 120.0,
+      "end": 149.98,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": "Hubsan X4 H502E Desire 2-3-18",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 150.0,
+      "end": 155.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": "Hubsan X4 H502E Desire 2-3-18",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 155.04,
+      "end": 158.0,
+      "whisper_text": "Here in that stance my foot adjusted a little bit.",
+      "clean_text": "Here in that stance my foot adjusted a little bit.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 158.0,
+      "end": 160.0,
+      "whisper_text": "I felt myself lose a little balance.",
+      "clean_text": "I felt myself lose a little balance.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 160.0,
+      "end": 162.0,
+      "whisper_text": "Um, yeah.",
+      "clean_text": "Um, yeah.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 162.0,
+      "end": 167.0,
+      "whisper_text": "And then here I was thinking if I should key up or not,",
+      "clean_text": "And then here I was thinking if I should key up or not,",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 167.0,
+      "end": 169.0,
+      "whisper_text": "and I ended up doing it.",
+      "clean_text": "and I ended up doing it.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 169.0,
+      "end": 171.0,
+      "whisper_text": "And it felt very natural when I came out.",
+      "clean_text": "And it felt very natural when I came out.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 171.0,
+      "end": 175.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": "Hubsan X4 H502E Desire 2-3-18",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 175.0,
+      "end": 179.0,
+      "whisper_text": "Hubsan X4 H502E Desire 2-3-18",
+      "clean_text": "Hubsan X4 H502E Desire 2-3-18",
+      "match": "exact"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P27B_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P27B_audio_narration.srt",
+  "clean_line_count": 13,
+  "timed_segment_count": 13,
+  "exact_match_count": 13,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 30.0,
+      "end": 41.84,
+      "whisper_text": "Du kan høre min performance.",
+      "clean_text": "Du kan høre min performance.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 41.84,
+      "end": 47.5,
+      "whisper_text": "While you're doing it, just think out loud what you're thinking while you're doing it.",
+      "clean_text": "While you're doing it, just think out loud what you're thinking while you're doing it.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 60.0,
+      "end": 70.0,
+      "whisper_text": "Let's do it again.",
+      "clean_text": "Let's do it again.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 90.0,
+      "end": 116.36,
+      "whisper_text": "You can talk while you're watching.",
+      "clean_text": "You can talk while you're watching.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 120.0,
+      "end": 134.88,
+      "whisper_text": "I didn't go as extreme as I wanted because the mats were a little bit slippery and unstable",
+      "clean_text": "I didn't go as extreme as I wanted because the mats were a little bit slippery and unstable",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 134.88,
+      "end": 142.2,
+      "whisper_text": "because of my weight and the setup was small, but I think overall the movements I executed",
+      "clean_text": "because of my weight and the setup was small, but I think overall the movements I executed",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 142.2,
+      "end": 149.0,
+      "whisper_text": "were not bad, but definitely improvable.",
+      "clean_text": "were not bad, but definitely improvable.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 149.0,
+      "end": 150.0,
+      "whisper_text": "But some movements...",
+      "clean_text": "But some movements...",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 150.0,
+      "end": 162.48,
+      "whisper_text": "I think the kicks I did today were okay and the quality execution was better than I expected.",
+      "clean_text": "I think the kicks I did today were okay and the quality execution was better than I expected.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 162.48,
+      "end": 168.46,
+      "whisper_text": "The video looked better than what I felt when I did it.",
+      "clean_text": "The video looked better than what I felt when I did it.",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 168.46,
+      "end": 176.8,
+      "whisper_text": "Overall it was a positive and I like the routine I executed and the movements I did were good",
+      "clean_text": "Overall it was a positive and I like the routine I executed and the movements I did were good",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 176.8,
+      "end": 180.0,
+      "whisper_text": "to my standards.",
+      "clean_text": "to my standards.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 180.0,
+      "end": 180.84,
+      "whisper_text": "See you next time.",
+      "clean_text": "See you next time.",
+      "match": "exact"
+    }
+  ]
+}

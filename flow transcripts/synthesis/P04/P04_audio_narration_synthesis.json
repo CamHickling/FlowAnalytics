@@ -1,0 +1,173 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P04_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P04_audio_narration.srt",
+  "clean_line_count": 20,
+  "timed_segment_count": 20,
+  "exact_match_count": 20,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 2.0,
+      "whisper_text": "I",
+      "clean_text": "I",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 22.64,
+      "end": 24.64,
+      "whisper_text": "Need to do yes",
+      "clean_text": "Need to do yes",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 30.0,
+      "end": 36.08,
+      "whisper_text": "You're gonna need to read your own performance, but you can once you're ready, okay, do it",
+      "clean_text": "You're gonna need to read your own performance, but you can once you're ready, okay, do it",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 60.0,
+      "end": 62.0,
+      "whisper_text": "Oh",
+      "clean_text": "Oh",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 82.72,
+      "end": 84.72,
+      "whisper_text": "Like I love",
+      "clean_text": "Like I love",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 90.0,
+      "end": 94.72,
+      "whisper_text": "Okay, you're gonna read what you're feeling and thinking each moment",
+      "clean_text": "Okay, you're gonna read what you're feeling and thinking each moment",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 96.47999999999999,
+      "end": 100.56,
+      "whisper_text": "Okay, can I can I go back go back no we cannot",
+      "clean_text": "Okay, can I can I go back go back no we cannot",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 104.64,
+      "end": 107.52000000000001,
+      "whisper_text": "I don't think so. Okay. Yeah, let's just just continue",
+      "clean_text": "I don't think so. Okay. Yeah, let's just just continue",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 108.47999999999999,
+      "end": 114.4,
+      "whisper_text": "Okay, well when I was doing this my mind was probably the most clear. Okay. It was kind of like a reset",
+      "clean_text": "Okay, well when I was doing this my mind was probably the most clear. Okay. It was kind of like a reset",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 115.28,
+      "end": 117.28,
+      "whisper_text": "Okay",
+      "clean_text": "Okay",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 120.0,
+      "end": 123.84,
+      "whisper_text": "That part I was like trying to focus",
+      "clean_text": "That part I was like trying to focus",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 126.4,
+      "end": 128.88,
+      "whisper_text": "I paused there a little bit because I wasn't sure what to do next",
+      "clean_text": "I paused there a little bit because I wasn't sure what to do next",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 134.96,
+      "end": 137.76,
+      "whisper_text": "I couldn't remember if I had to keep a fist open",
+      "clean_text": "I couldn't remember if I had to keep a fist open",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 141.6,
+      "end": 145.14,
+      "whisper_text": "I think I finished just somewhat in the same spot",
+      "clean_text": "I think I finished just somewhat in the same spot",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 150.0,
+      "end": 152.0,
+      "whisper_text": "So",
+      "clean_text": "So",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 169.76,
+      "end": 172.4,
+      "whisper_text": "Let me get that number so with this one, obviously",
+      "clean_text": "Let me get that number so with this one, obviously",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 176.88,
+      "end": 179.6,
+      "whisper_text": "Oh score so as you can see",
+      "clean_text": "Oh score so as you can see",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 180.24,
+      "end": 182.24,
+      "whisper_text": "Your pattern is scored",
+      "clean_text": "Your pattern is scored",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 182.48,
+      "end": 186.32,
+      "whisper_text": "Based on the number 10. So out of 10 is your is your mark",
+      "clean_text": "Based on the number 10. So out of 10 is your is your mark",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 187.2,
+      "end": 189.2,
+      "whisper_text": "As you can see it's split",
+      "clean_text": "As you can see it's split",
+      "match": "exact"
+    }
+  ]
+}

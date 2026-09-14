@@ -1,0 +1,197 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P46_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P46_audio_narration.srt",
+  "clean_line_count": 23,
+  "timed_segment_count": 23,
+  "exact_match_count": 23,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 60.0,
+      "end": 61.68,
+      "whisper_text": "What happened?",
+      "clean_text": "What happened?",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 63.88,
+      "end": 65.06,
+      "whisper_text": "It's weird.",
+      "clean_text": "It's weird.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 70.74,
+      "end": 71.9,
+      "whisper_text": "Do you want to see?",
+      "clean_text": "Do you want to see?",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 72.68,
+      "end": 73.4,
+      "whisper_text": "Yes.",
+      "clean_text": "Yes.",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 77.12,
+      "end": 77.88,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 79.14,
+      "end": 82.14,
+      "whisper_text": "I can go through the veneration section.",
+      "clean_text": "I can go through the veneration section.",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 82.68,
+      "end": 82.9,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 90.0,
+      "end": 92.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 120.0,
+      "end": 127.2,
+      "whisper_text": "Okay, we can start.",
+      "clean_text": "Okay, we can start.",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 127.9,
+      "end": 129.92,
+      "whisper_text": "Do I speak like right now?",
+      "clean_text": "Do I speak like right now?",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 130.02,
+      "end": 130.28,
+      "whisper_text": "Yes.",
+      "clean_text": "Yes.",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 134.24,
+      "end": 140.74,
+      "whisper_text": "Well, when I saw that you guys were going out, I started to get more nervous because I knew that it was coming up.",
+      "clean_text": "Well, when I saw that you guys were going out, I started to get more nervous because I knew that it was coming up.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 143.98,
+      "end": 146.7,
+      "whisper_text": "Here where I started, I felt that I was in my zone.",
+      "clean_text": "Here where I started, I felt that I was in my zone.",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 147.02,
+      "end": 149.5,
+      "whisper_text": "I felt that I was going to do a great performance.",
+      "clean_text": "I felt that I was going to do a great performance.",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 150.0,
+      "end": 154.7,
+      "whisper_text": "Everything good, good.",
+      "clean_text": "Everything good, good.",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 158.14,
+      "end": 164.4,
+      "whisper_text": "When I was here, I felt, I don't know, like my movements were not as good as I expected.",
+      "clean_text": "When I was here, I felt, I don't know, like my movements were not as good as I expected.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 164.96,
+      "end": 167.22,
+      "whisper_text": "So in my mind, I started to fight.",
+      "clean_text": "So in my mind, I started to fight.",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 167.22,
+      "end": 173.0,
+      "whisper_text": "And exactly here, I started to feel that I was going to forget the pomse.",
+      "clean_text": "And exactly here, I started to feel that I was going to forget the pomse.",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 173.64,
+      "end": 179.9,
+      "whisper_text": "But then I felt that my body had like memory, like...",
+      "clean_text": "But then I felt that my body had like memory, like...",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 180.0,
+      "end": 180.86,
+      "whisper_text": "Muscular memory.",
+      "clean_text": "Muscular memory.",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 181.28,
+      "end": 182.74,
+      "whisper_text": "And it was doing it by itself.",
+      "clean_text": "And it was doing it by itself.",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 183.7,
+      "end": 189.52,
+      "whisper_text": "And here in the kicks is where I got my mind back where it had to be.",
+      "clean_text": "And here in the kicks is where I got my mind back where it had to be.",
+      "match": "exact"
+    },
+    {
+      "index": 23,
+      "start": 190.4,
+      "end": 195.9,
+      "whisper_text": "And in the key up, I felt that I had to compensate.",
+      "clean_text": "And in the key up, I felt that I had to compensate.",
+      "match": "exact"
+    }
+  ]
+}

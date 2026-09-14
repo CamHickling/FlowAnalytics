@@ -1,0 +1,39 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P14_20260303_111531\\scoring\\P14_audio_scoring.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P14_20260303_111531\\scoring\\P14_audio_scoring.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "There we go. Perfect. This is what we wanted. Okay. Thank you."
+    },
+    {
+      "start": 4.0,
+      "end": 6.0,
+      "text": "Um, let's um, okay."
+    },
+    {
+      "start": 6.0,
+      "end": 8.0,
+      "text": "Okay."
+    },
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "text": "Okay."
+    },
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "Okay."
+    },
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "text": "Okay."
+    }
+  ],
+  "word_segments": []
+}

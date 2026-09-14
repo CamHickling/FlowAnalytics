@@ -1,0 +1,124 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P46_20260330_111907\\review\\P46_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P46_20260330_111907\\review\\P46_audio_narration.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 60.0,
+      "end": 61.68,
+      "text": "What happened?"
+    },
+    {
+      "start": 63.88,
+      "end": 65.06,
+      "text": "It's weird."
+    },
+    {
+      "start": 70.74,
+      "end": 71.9,
+      "text": "Do you want to see?"
+    },
+    {
+      "start": 72.68,
+      "end": 73.4,
+      "text": "Yes."
+    },
+    {
+      "start": 77.12,
+      "end": 77.88,
+      "text": "Okay."
+    },
+    {
+      "start": 79.14,
+      "end": 82.14,
+      "text": "I can go through the veneration section."
+    },
+    {
+      "start": 82.68,
+      "end": 82.9,
+      "text": "Okay."
+    },
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "text": "Okay."
+    },
+    {
+      "start": 120.0,
+      "end": 127.2,
+      "text": "Okay, we can start."
+    },
+    {
+      "start": 127.9,
+      "end": 129.92,
+      "text": "Do I speak like right now?"
+    },
+    {
+      "start": 130.02,
+      "end": 130.28,
+      "text": "Yes."
+    },
+    {
+      "start": 134.24,
+      "end": 140.74,
+      "text": "Well, when I saw that you guys were going out, I started to get more nervous because I knew that it was coming up."
+    },
+    {
+      "start": 143.98,
+      "end": 146.7,
+      "text": "Here where I started, I felt that I was in my zone."
+    },
+    {
+      "start": 147.02,
+      "end": 149.5,
+      "text": "I felt that I was going to do a great performance."
+    },
+    {
+      "start": 150.0,
+      "end": 154.7,
+      "text": "Everything good, good."
+    },
+    {
+      "start": 158.14,
+      "end": 164.4,
+      "text": "When I was here, I felt, I don't know, like my movements were not as good as I expected."
+    },
+    {
+      "start": 164.96,
+      "end": 167.22,
+      "text": "So in my mind, I started to fight."
+    },
+    {
+      "start": 167.22,
+      "end": 173.0,
+      "text": "And exactly here, I started to feel that I was going to forget the pomse."
+    },
+    {
+      "start": 173.64,
+      "end": 179.9,
+      "text": "But then I felt that my body had like memory, like..."
+    },
+    {
+      "start": 180.0,
+      "end": 180.86,
+      "text": "Muscular memory."
+    },
+    {
+      "start": 181.28,
+      "end": 182.74,
+      "text": "And it was doing it by itself."
+    },
+    {
+      "start": 183.7,
+      "end": 189.52,
+      "text": "And here in the kicks is where I got my mind back where it had to be."
+    },
+    {
+      "start": 190.4,
+      "end": 195.9,
+      "text": "And in the key up, I felt that I had to compensate."
+    }
+  ],
+  "word_segments": []
+}

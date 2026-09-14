@@ -1,0 +1,59 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P33_20260320_133219\\review\\P33_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P33_20260320_133219\\review\\P33_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.58,
+      "text": "Okay, um, we'll be curious to know what's going to happen."
+    },
+    {
+      "start": 3.3000000000000003,
+      "end": 9.26,
+      "text": "Um, first of all, um, we're still, we're still, we're still, we're still, we're still, we're still, we're still."
+    },
+    {
+      "start": 30.0,
+      "end": 36.5,
+      "text": "I can't take this anymore."
+    },
+    {
+      "start": 40.120000000000005,
+      "end": 41.019999999999996,
+      "text": "I can't take this anymore."
+    },
+    {
+      "start": 41.019999999999996,
+      "end": 41.58,
+      "text": "I can't take this one."
+    },
+    {
+      "start": 60.0,
+      "end": 89.98,
+      "text": "I can't take this anymore."
+    },
+    {
+      "start": 90.0,
+      "end": 119.98,
+      "text": "I can't take this anymore."
+    },
+    {
+      "start": 120.0,
+      "end": 120.54,
+      "text": "I can't take this anymore."
+    },
+    {
+      "start": 127.3,
+      "end": 136.34,
+      "text": "Uh, my stance has to be, like, more lower, my back leg straighter, yeah."
+    },
+    {
+      "start": 141.16,
+      "end": 142.98,
+      "text": "Not one of my best ones."
+    }
+  ],
+  "word_segments": []
+}

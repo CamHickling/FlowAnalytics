@@ -1,0 +1,24 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P02_20260223_131246\\scoring\\P02_audio_scoring.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P02_20260223_131246\\scoring\\P02_audio_scoring.wav",
+  "model": "large-v3",
+  "language": "nn",
+  "segments": [
+    {
+      "start": 60.0,
+      "end": 89.98,
+      "text": "2, 3, 4, 5, 6, 7, 8, 9, 10."
+    },
+    {
+      "start": 90.0,
+      "end": 90.48,
+      "text": "Okay."
+    },
+    {
+      "start": 120.0,
+      "end": 149.98,
+      "text": "2, 3, 4, 5, 6, 7, 8, 9, 10."
+    }
+  ],
+  "word_segments": []
+}

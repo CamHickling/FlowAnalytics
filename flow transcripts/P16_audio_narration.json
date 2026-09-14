@@ -1,0 +1,104 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P16_20260304_131316\\review\\P16_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P16_20260304_131316\\review\\P16_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "text": "Can you go through all the instructions?"
+    },
+    {
+      "start": 32.0,
+      "end": 33.0,
+      "text": "Okay."
+    },
+    {
+      "start": 57.0,
+      "end": 58.0,
+      "text": "Okay."
+    },
+    {
+      "start": 58.0,
+      "end": 60.0,
+      "text": "How can I get, what was it?"
+    },
+    {
+      "start": 60.0,
+      "end": 61.0,
+      "text": "Space bar."
+    },
+    {
+      "start": 61.0,
+      "end": 62.0,
+      "text": "Okay."
+    },
+    {
+      "start": 85.0,
+      "end": 87.0,
+      "text": "Focusing, trying to get in the zone."
+    },
+    {
+      "start": 88.0,
+      "end": 92.0,
+      "text": "Kick high."
+    },
+    {
+      "start": 94.0,
+      "end": 96.0,
+      "text": "Make sure you do the right block."
+    },
+    {
+      "start": 97.0,
+      "end": 100.0,
+      "text": "I felt more in the zone here, a little bit more in control."
+    },
+    {
+      "start": 106.0,
+      "end": 111.0,
+      "text": "Thinking about corrections about my form, keeping my elbow straight."
+    },
+    {
+      "start": 117.0,
+      "end": 118.0,
+      "text": "Moving a little bit fast."
+    },
+    {
+      "start": 119.0,
+      "end": 125.0,
+      "text": "Missed the correct step, but thought it was okay, just continue on."
+    },
+    {
+      "start": 130.0,
+      "end": 132.0,
+      "text": "Felt in the zone in this sequence here."
+    },
+    {
+      "start": 137.0,
+      "end": 145.0,
+      "text": "Paused a little bit there because I initially forgot during the initial practice, but was happy that I got it right this time."
+    },
+    {
+      "start": 148.0,
+      "end": 152.0,
+      "text": "Thought I did a nice kick there."
+    },
+    {
+      "start": 162.0,
+      "end": 163.0,
+      "text": "Okay."
+    },
+    {
+      "start": 163.0,
+      "end": 192.98,
+      "text": "I'm sorry."
+    },
+    {
+      "start": 193.0,
+      "end": 193.54,
+      "text": "I'm sorry."
+    }
+  ],
+  "word_segments": []
+}

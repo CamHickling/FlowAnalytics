@@ -1,0 +1,189 @@
+{
+  "clean_source": "D:\\FlowAnalytics\\flow transcripts\\P07_audio_narration.txt",
+  "timed_source": "D:\\FlowAnalytics\\flow transcripts\\P07_audio_narration.srt",
+  "clean_line_count": 22,
+  "timed_segment_count": 22,
+  "exact_match_count": 22,
+  "needs_review_count": 0,
+  "unmatched_clean_lines": [],
+  "unmatched_timed_segments": [],
+  "status": "MATCHED",
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 4.0,
+      "whisper_text": "So you can press play.",
+      "clean_text": "So you can press play.",
+      "match": "exact"
+    },
+    {
+      "index": 2,
+      "start": 4.0,
+      "end": 8.0,
+      "whisper_text": "Okay.",
+      "clean_text": "Okay.",
+      "match": "exact"
+    },
+    {
+      "index": 3,
+      "start": 8.0,
+      "end": 12.0,
+      "whisper_text": "Spacebar.",
+      "clean_text": "Spacebar.",
+      "match": "exact"
+    },
+    {
+      "index": 4,
+      "start": 30.0,
+      "end": 34.0,
+      "whisper_text": "For the first few moves here,",
+      "clean_text": "For the first few moves here,",
+      "match": "exact"
+    },
+    {
+      "index": 5,
+      "start": 34.0,
+      "end": 38.0,
+      "whisper_text": "I did remember everything perfectly fine, so this was pretty",
+      "clean_text": "I did remember everything perfectly fine, so this was pretty",
+      "match": "exact"
+    },
+    {
+      "index": 6,
+      "start": 38.0,
+      "end": 42.0,
+      "whisper_text": "normal to me. Felt okay. That down block",
+      "clean_text": "normal to me. Felt okay. That down block",
+      "match": "exact"
+    },
+    {
+      "index": 7,
+      "start": 42.0,
+      "end": 46.0,
+      "whisper_text": "was fine, and the middle blocks were something that I had practiced",
+      "clean_text": "was fine, and the middle blocks were something that I had practiced",
+      "match": "exact"
+    },
+    {
+      "index": 8,
+      "start": 46.0,
+      "end": 50.0,
+      "whisper_text": "a bit, so I was okay with it. When it came to the high block kick part, I was a little",
+      "clean_text": "a bit, so I was okay with it. When it came to the high block kick part, I was a little",
+      "match": "exact"
+    },
+    {
+      "index": 9,
+      "start": 50.0,
+      "end": 54.0,
+      "whisper_text": "unsure, but I think I did it right, so that part was",
+      "clean_text": "unsure, but I think I did it right, so that part was",
+      "match": "exact"
+    },
+    {
+      "index": 10,
+      "start": 54.0,
+      "end": 58.0,
+      "whisper_text": "alright. My front kick form could definitely be better. The down block at the end",
+      "clean_text": "alright. My front kick form could definitely be better. The down block at the end",
+      "match": "exact"
+    },
+    {
+      "index": 11,
+      "start": 58.0,
+      "end": 60.0,
+      "whisper_text": "and the last low punch",
+      "clean_text": "and the last low punch",
+      "match": "exact"
+    },
+    {
+      "index": 12,
+      "start": 60.0,
+      "end": 64.0,
+      "whisper_text": "were quite good, I think.",
+      "clean_text": "were quite good, I think.",
+      "match": "exact"
+    },
+    {
+      "index": 13,
+      "start": 86.0,
+      "end": 90.0,
+      "whisper_text": "So, as you can see, your pattern is",
+      "clean_text": "So, as you can see, your pattern is",
+      "match": "exact"
+    },
+    {
+      "index": 14,
+      "start": 90.0,
+      "end": 94.0,
+      "whisper_text": "scored based on the number 10, so out of 10",
+      "clean_text": "scored based on the number 10, so out of 10",
+      "match": "exact"
+    },
+    {
+      "index": 15,
+      "start": 94.0,
+      "end": 98.0,
+      "whisper_text": "is your mark. As you can see, it's split up into",
+      "clean_text": "is your mark. As you can see, it's split up into",
+      "match": "exact"
+    },
+    {
+      "index": 16,
+      "start": 98.0,
+      "end": 102.0,
+      "whisper_text": "two parts. We have our accuracy and our presentation on this side.",
+      "clean_text": "two parts. We have our accuracy and our presentation on this side.",
+      "match": "exact"
+    },
+    {
+      "index": 17,
+      "start": 102.0,
+      "end": 106.0,
+      "whisper_text": "So, we'll start off with the accuracy first. So, your accuracy",
+      "clean_text": "So, we'll start off with the accuracy first. So, your accuracy",
+      "match": "exact"
+    },
+    {
+      "index": 18,
+      "start": 106.0,
+      "end": 110.0,
+      "whisper_text": "is actually scored from a 4. So, from the number",
+      "clean_text": "is actually scored from a 4. So, from the number",
+      "match": "exact"
+    },
+    {
+      "index": 19,
+      "start": 110.0,
+      "end": 114.0,
+      "whisper_text": "4, you're actually marked during your",
+      "clean_text": "4, you're actually marked during your",
+      "match": "exact"
+    },
+    {
+      "index": 20,
+      "start": 114.0,
+      "end": 118.0,
+      "whisper_text": "presentation of your pattern, and then with that one, any mistakes",
+      "clean_text": "presentation of your pattern, and then with that one, any mistakes",
+      "match": "exact"
+    },
+    {
+      "index": 21,
+      "start": 118.0,
+      "end": 119.92,
+      "whisper_text": "that you make, whether it's a",
+      "clean_text": "that you make, whether it's a",
+      "match": "exact"
+    },
+    {
+      "index": 22,
+      "start": 119.92,
+      "end": 129.58,
+      "whisper_text": "minor mistake you get minus of 0.1 if it's a major mistake you get minus 0.3 so i'll just let you guys",
+      "clean_text": "minor mistake you get minus of 0.1 if it's a major mistake you get minus 0.3 so i'll just let you guys",
+      "match": "exact"
+    }
+  ]
+}

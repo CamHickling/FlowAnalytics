@@ -1,0 +1,329 @@
+{
+  "video": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P10_20260302_100447\\review\\P10_audio_narration.wav",
+  "audio": "C:\\Users\\BarlabPRIME\\Desktop\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P10_20260302_100447\\review\\P10_audio_narration.wav",
+  "model": "large-v3",
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 27.46,
+      "text": "Okay."
+    },
+    {
+      "start": 30.0,
+      "end": 33.44,
+      "text": "Okay, let's bring this hard."
+    },
+    {
+      "start": 33.76,
+      "end": 34.36,
+      "text": "Thank you."
+    },
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "Okay."
+    },
+    {
+      "start": 90.0,
+      "end": 100.38,
+      "text": "I think when I hit the"
+    },
+    {
+      "start": 100.38,
+      "end": 101.58,
+      "text": "jumbie position here,"
+    },
+    {
+      "start": 102.32,
+      "end": 104.2,
+      "text": "I tend to, like,"
+    },
+    {
+      "start": 104.2,
+      "end": 105.76,
+      "text": "kind of focus a little bit more."
+    },
+    {
+      "start": 106.34,
+      "end": 108.2,
+      "text": "So, like, when my eyes"
+    },
+    {
+      "start": 108.2,
+      "end": 109.82,
+      "text": "go from, like, the"
+    },
+    {
+      "start": 109.82,
+      "end": 112.1,
+      "text": "floor, like, to the judges"
+    },
+    {
+      "start": 112.1,
+      "end": 114.1,
+      "text": "or to the wall, is when"
+    },
+    {
+      "start": 114.1,
+      "end": 116.08,
+      "text": "I'm trying to kind of, like, lock in"
+    },
+    {
+      "start": 116.08,
+      "end": 117.34,
+      "text": "my mental and"
+    },
+    {
+      "start": 117.34,
+      "end": 119.78,
+      "text": "get ready for the plumes."
+    },
+    {
+      "start": 120.98,
+      "end": 122.58,
+      "text": "So, right here,"
+    },
+    {
+      "start": 123.0,
+      "end": 124.48,
+      "text": "one of those"
+    },
+    {
+      "start": 124.48,
+      "end": 126.5,
+      "text": "technical aspects I've been trying to work on"
+    },
+    {
+      "start": 126.5,
+      "end": 128.34,
+      "text": "is my hands coming a little bit"
+    },
+    {
+      "start": 128.34,
+      "end": 130.3,
+      "text": "too far to pass"
+    },
+    {
+      "start": 130.3,
+      "end": 132.28,
+      "text": "my hips. I was really focusing"
+    },
+    {
+      "start": 132.28,
+      "end": 133.7,
+      "text": "on getting them, like, putting them"
+    },
+    {
+      "start": 133.7,
+      "end": 135.92,
+      "text": "in the right spot here."
+    },
+    {
+      "start": 137.82,
+      "end": 139.98,
+      "text": "Ooh, my foot"
+    },
+    {
+      "start": 139.98,
+      "end": 141.88,
+      "text": "is looking a little bit"
+    },
+    {
+      "start": 141.88,
+      "end": 144.28,
+      "text": "incorrect,"
+    },
+    {
+      "start": 144.64,
+      "end": 145.12,
+      "text": "but I think"
+    },
+    {
+      "start": 145.12,
+      "end": 147.8,
+      "text": "my stance form's alright."
+    },
+    {
+      "start": 148.4,
+      "end": 149.74,
+      "text": "But I was really focusing on"
+    },
+    {
+      "start": 149.74,
+      "end": 151.64000000000001,
+      "text": "correct stance form, proper"
+    },
+    {
+      "start": 151.64000000000001,
+      "end": 153.58,
+      "text": "placement of my, uh, my hands."
+    },
+    {
+      "start": 162.28,
+      "end": 163.64000000000001,
+      "text": "And then in this part,"
+    },
+    {
+      "start": 163.92000000000002,
+      "end": 165.92000000000002,
+      "text": "I was really"
+    },
+    {
+      "start": 165.92000000000002,
+      "end": 166.94,
+      "text": "focusing on, um,"
+    },
+    {
+      "start": 167.88,
+      "end": 169.68,
+      "text": "my hand coming"
+    },
+    {
+      "start": 169.68,
+      "end": 171.56,
+      "text": "to my face"
+    },
+    {
+      "start": 171.56,
+      "end": 173.68,
+      "text": "doing a full, complete motion"
+    },
+    {
+      "start": 173.68,
+      "end": 175.84,
+      "text": "all the way through, which I think that"
+    },
+    {
+      "start": 175.84,
+      "end": 178.02,
+      "text": "I've kind of did correctly here."
+    },
+    {
+      "start": 179.74,
+      "end": 180.82000000000002,
+      "text": "And then I tried to do that"
+    },
+    {
+      "start": 180.82000000000002,
+      "end": 182.12,
+      "text": "with my hands,"
+    },
+    {
+      "start": 182.12,
+      "end": 183.94,
+      "text": "but I think that's"
+    },
+    {
+      "start": 183.94,
+      "end": 187.4,
+      "text": "where it came into play."
+    },
+    {
+      "start": 187.4,
+      "end": 188.96,
+      "text": "And then, this part"
+    },
+    {
+      "start": 188.96,
+      "end": 189.98000000000002,
+      "text": "here, um,"
+    },
+    {
+      "start": 189.98000000000002,
+      "end": 192.22,
+      "text": "one of the most technical things"
+    },
+    {
+      "start": 192.22,
+      "end": 194.34,
+      "text": "that I was trying to focus on was,"
+    },
+    {
+      "start": 194.34,
+      "end": 195.32000000000002,
+      "text": "um,"
+    },
+    {
+      "start": 195.32000000000002,
+      "end": 196.5,
+      "text": "the movement of my hand."
+    },
+    {
+      "start": 196.5,
+      "end": 199.12,
+      "text": "So, the high-blocking hand"
+    },
+    {
+      "start": 199.12,
+      "end": 201.5,
+      "text": "coming across my body"
+    },
+    {
+      "start": 201.5,
+      "end": 203.22,
+      "text": "up into my face here."
+    },
+    {
+      "start": 203.22,
+      "end": 204.32000000000002,
+      "text": "And then this hand, the"
+    },
+    {
+      "start": 204.32000000000002,
+      "end": 205.32000000000002,
+      "text": "outer-block hand,"
+    },
+    {
+      "start": 205.32000000000002,
+      "end": 207.5,
+      "text": "coming to the correct, um, height"
+    },
+    {
+      "start": 207.5,
+      "end": 208.72,
+      "text": "by my shoulder."
+    },
+    {
+      "start": 208.72,
+      "end": 217.98,
+      "text": "having proper um preparation for my punches so hand out and then and hand out out like that"
+    },
+    {
+      "start": 217.98,
+      "end": 226.84,
+      "text": "and then here after that my side kicks trying to make sure it's good form and i'm completing"
+    },
+    {
+      "start": 226.84,
+      "end": 233.34,
+      "text": "the kick i stumble a little bit there which is something i noted here i made a mistake there"
+    },
+    {
+      "start": 233.34,
+      "end": 239.32,
+      "text": "which i you kind of see in the video i hesitated a little bit and then towards the end here i was"
+    },
+    {
+      "start": 239.32,
+      "end": 244.26,
+      "text": "thinking about that mistake and then it kind of made me have a little bit of a bad performance"
+    },
+    {
+      "start": 244.26,
+      "end": 249.66,
+      "text": "here at the end and yeah that's the end yeah"
+    },
+    {
+      "start": 263.34000000000003,
+      "end": 279.70000000000005,
+      "text": "it's looking for more information on how you're scored so as you can see"
+    },
+    {
+      "start": 279.70000000000005,
+      "end": 284.66,
+      "text": "your pattern is scored based on the number 10 so out of"
+    }
+  ],
+  "word_segments": []
+}
