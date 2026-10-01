@@ -1,0 +1,41 @@
+{
+  "review_duration_sec": 625.7735736370087,
+  "segments": [
+    {
+      "type": "play",
+      "review_start_sec": 0.0,
+      "review_end_sec": 421.70027589797974,
+      "source_start_sec": 0.0,
+      "source_end_sec": 409.1
+    },
+    {
+      "type": "hold",
+      "review_start_sec": 421.70027589797974,
+      "review_end_sec": 431.6727442741394,
+      "source_start_sec": 409.1,
+      "source_end_sec": 409.1
+    },
+    {
+      "type": "play",
+      "review_start_sec": 431.6727442741394,
+      "review_end_sec": 445.3599021434784,
+      "source_start_sec": 409.1,
+      "source_end_sec": 422.43333333333334
+    },
+    {
+      "type": "hold",
+      "review_start_sec": 445.3599021434784,
+      "review_end_sec": 617.3610074520111,
+      "source_start_sec": 422.43333333333334,
+      "source_end_sec": 422.43333333333334
+    },
+    {
+      "type": "play",
+      "review_start_sec": 617.3610074520111,
+      "review_end_sec": 625.7735736370087,
+      "source_start_sec": 422.43333333333334,
+      "source_end_sec": 430.8458995183309
+    }
+  ],
+  "note": "Source positions assume the reviewed performance timeline starts at source second zero."
+}

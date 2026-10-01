@@ -1,0 +1,153 @@
+{
+  "trial_dir": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P01_20260223_112737",
+  "assets": {
+    "trial_dir": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P01_20260223_112737",
+    "front_video": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P01_20260223_112737\\gopro_footage\\P01_front.MP4",
+    "side_video": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P01_20260223_112737\\gopro_footage\\P01_side.MP4",
+    "sync_manifest": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P01_20260223_112737\\P01_sync_manifest.json",
+    "pause_timestamps": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P01_20260223_112737\\review\\P01_review_timestamps.json",
+    "narration_audio": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P01_20260223_112737\\review\\P01_audio_narration.wav",
+    "face_video": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P01_20260223_112737\\review\\P01_face_narration.mp4",
+    "heart_rate_csv": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P01_20260223_112737\\heart_rate\\P01_hr_full_session.csv",
+    "subtitle_candidates": [],
+    "calibration_front": "D:\\FlowAnalytics\\calibration\\front_calibration.json",
+    "calibration_side": "D:\\FlowAnalytics\\calibration\\side_calibration.json",
+    "missing_required": [
+      "timestamped subtitle file"
+    ]
+  },
+  "timing": {
+    "manifest_events": {
+      "session_created": [
+        1771874857.170911
+      ],
+      "experiment_start": [
+        1771874857.170911
+      ],
+      "phase_start": [
+        1771874857.170911,
+        1771874857.1719117,
+        1771874863.7204576,
+        1771875226.0134335,
+        1771875322.610298,
+        1771876041.1115339,
+        1771876526.9760337
+      ],
+      "hr_connect_attempt": [
+        1771874857.1719117
+      ],
+      "hr_connect_success": [
+        1771874863.7204576
+      ],
+      "hr_recording_start": [
+        1771874863.7204576
+      ],
+      "overhead_recorder_start": [
+        1771874878.7688563
+      ],
+      "gopro_manual_stop_prompted": [
+        1771875226.0134335,
+        1771875322.610298
+      ],
+      "gopro_manual_start_prompted": [
+        1771875226.0134335
+      ],
+      "overhead_recorder_stop": [
+        1771875322.5987892
+      ],
+      "face_recorder_start": [
+        1771875322.621299,
+        1771876041.1145337
+      ],
+      "audio_recorder_start": [
+        1771875322.6633058,
+        1771876041.1375382
+      ],
+      "review_video_player_shown": [
+        1771875322.6633058
+      ],
+      "review_playback_stop": [
+        1771876041.0440986
+      ],
+      "face_recorder_stop": [
+        1771876041.0576196,
+        1771876526.9540074
+      ],
+      "audio_recorder_stop": [
+        1771876041.110498,
+        1771876526.9760337
+      ],
+      "scoring_video_player_shown": [
+        1771876041.1375382
+      ],
+      "scoring_playback_start": [
+        1771876069.3735628
+      ],
+      "scoring_playback_stop": [
+        1771876526.923431
+      ],
+      "hr_stop_in_finish": [
+        1771876863.7432857
+      ],
+      "teardown_start": [
+        1771876974.2491543
+      ],
+      "teardown_complete": [
+        1771876975.3775356
+      ]
+    },
+    "pause_intervals": [
+      {
+        "pause_wall_time": 1771875822.8576872,
+        "resume_wall_time": 1771875832.8301556,
+        "performance_position_sec": 409.1,
+        "duration_sec": 9.972468376159668
+      },
+      {
+        "pause_wall_time": 1771875846.5173135,
+        "resume_wall_time": 1771876018.5184188,
+        "performance_position_sec": 422.43333333333334,
+        "duration_sec": 172.00110530853271
+      }
+    ],
+    "unpaired_pause": null,
+    "review_wall_start": 1771875401.1574113,
+    "review_wall_end": 1771876026.930985,
+    "review_wall_duration_sec": 625.7735736370087,
+    "review_playback_duration_sec": 443.8,
+    "review_pause_duration_sec": 181.97357368469238,
+    "performance_wall_start": 1771874878.7688563,
+    "performance_wall_end": 1771875322.5987892,
+    "performance_wall_duration_sec": 443.8299329280853,
+    "wall_clock_alignment_status": "available",
+    "source_media": {
+      "front": {
+        "path": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P01_20260223_112737\\gopro_footage\\P01_front.MP4",
+        "opened": true,
+        "fps": 30.000005576801545,
+        "frames": 12552,
+        "duration_sec": 418.39992222222224,
+        "width": 1920,
+        "height": 1080
+      },
+      "side": {
+        "path": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P01_20260223_112737\\gopro_footage\\P01_side.MP4",
+        "opened": true,
+        "fps": 29.99942708625309,
+        "frames": 12986,
+        "duration_sec": 432.87493333333333,
+        "width": 1920,
+        "height": 1080
+      },
+      "face": {
+        "path": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P01_20260223_112737\\review\\P01_face_narration.mp4",
+        "opened": true,
+        "fps": 30.0,
+        "frames": 21551,
+        "duration_sec": 718.3666666666667,
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  }
+}

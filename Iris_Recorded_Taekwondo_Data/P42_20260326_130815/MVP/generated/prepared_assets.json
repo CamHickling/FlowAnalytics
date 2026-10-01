@@ -1,0 +1,10 @@
+{
+  "front": {
+    "source": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P42_20260326_130815\\gopro_footage\\P42_front.MP4",
+    "output": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P42_20260326_130815\\MVP\\generated\\P42_front_undistorted.mp4"
+  },
+  "side": {
+    "source": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P42_20260326_130815\\gopro_footage\\P42_side.MP4",
+    "output": "D:\\FlowAnalytics\\Iris_Recorded_Taekwondo_Data\\P42_20260326_130815\\MVP\\generated\\P42_side_undistorted.mp4"
+  }
+}

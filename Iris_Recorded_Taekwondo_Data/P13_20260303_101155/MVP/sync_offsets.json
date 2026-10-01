@@ -1,0 +1,6 @@
+{
+  "front_offset_sec": 676.0,
+  "side_offset_sec": 681.863,
+  "note": "Manually verified via sync_review.py: overhead 0:05 matches front 11:21.",
+  "meaning": "Seconds into the undistorted front/side GoPro file where the review timeline's t=0 (review start) occurs. Set manually with set-offsets after visually confirming alignment; render commands refuse to run without this file unless --front-start-sec/--side-start-sec are passed explicitly."
+}

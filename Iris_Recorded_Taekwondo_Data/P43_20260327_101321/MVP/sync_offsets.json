@@ -1,0 +1,6 @@
+{
+  "front_offset_sec": 1086.0,
+  "side_offset_sec": 1099.3399,
+  "note": "Manually verified by user: overhead 4.00s matches front 1090.00s. side derived via this trial's own gopro_footage/sync_info.json (front/side gap -13.3399s).",
+  "meaning": "Seconds into the undistorted front/side GoPro file where the review timeline's t=0 (review start) occurs. Set manually with set-offsets after visually confirming alignment; render commands refuse to run without this file unless --front-start-sec/--side-start-sec are passed explicitly."
+}
