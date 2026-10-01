@@ -12,28 +12,20 @@ import threading
 import time
 import json
 import math
+import re
 import argparse
+import shutil
+import subprocess
 from typing import Optional
 from pathlib import Path
 
 import numpy as np
 import cv2
 
-
-def format_elapsed(seconds: float) -> str:
-    total_seconds = max(0, int(seconds))
-    hours, rem = divmod(total_seconds, 3600)
-    minutes, seconds_part = divmod(rem, 60)
-    return f"{hours:02d}:{minutes:02d}:{seconds_part:02d}"
-
-
-def log_progress(stage: str, current: int, total: int, start_time: float, details: str = "") -> None:
-    elapsed = time.time() - start_time
-    pct = 0.0 if total == 0 else (current / total) * 100.0
-    eta_seconds = 0.0 if current == 0 or total == 0 else (elapsed / current) * (total - current)
-    suffix = f" | {details}" if details else ""
-    print(f"[{time.strftime('%H:%M:%S')}] {stage}: {current}/{total} ({pct:.1f}%) elapsed={format_elapsed(elapsed)} eta={format_elapsed(eta_seconds)}{suffix}")
-
+# Calibration footage lives in the first part of each trial's raw GoPro file.
+# Only scan this much of each video for checkerboard frames.
+CALIBRATION_SCAN_SECONDS = 90.0
+CALIBRATION_SAMPLE_FPS = 3.0
 
 # Ensure relative imports work for the hardware check modules
 try:
@@ -43,7 +35,13 @@ except ImportError:
     pass # Bypassed if running solely for post-hoc intrinsics
 
 # --- Intrinsic Calibration Configuration ---
-CHESSBOARD_SIZE = (9, 6)       # Inner corners (width, height)
+# Verified against actual footage (P01_front.MP4 and P01_side.MP4, ~t=44-63s) with
+# a brute-force size sweep + visual overlay check: the physical board is 11x8
+# squares -> 10x7 inner corners. An earlier (8, 5) guess looked clean on one frame
+# but was a false positive (checkerboards are self-similar, so a sub-block of a
+# larger grid can coincidentally satisfy the corner detector). The original (9, 6)
+# never matched either camera's footage at all.
+CHESSBOARD_SIZE = (10, 7)      # Inner corners (width, height)
 SQUARE_SIZE_METERS = 0.025     # Measured size of a single square in meters
 BLUR_THRESHOLD = 80.0          # Minimum Variance of Laplacian to accept frame
 GRID_COLS, GRID_ROWS = 4, 4    # Spatial bins to ensure edge/corner coverage
@@ -279,94 +277,147 @@ class CameraCalibrator:
         return True
 
     def auto_prune_and_calibrate(self):
-        print(f"\n[{self.name}] Initiating solve with {len(self.imgpoints)} frames...")
+        """Solve fisheye intrinsics. GoPro wide-FOV lenses are genuinely fisheye,
+        so cv2.fisheye.calibrate() is used instead of the pinhole cv2.calibrateCamera();
+        the pinhole model collapses most of the frame to black on correction."""
+        print(f"\n[{self.name}] Initiating fisheye solve with {len(self.imgpoints)} frames...")
+        flags = (
+            cv2.fisheye.CALIB_RECOMPUTE_EXTRINSIC
+            | cv2.fisheye.CALIB_CHECK_COND
+            | cv2.fisheye.CALIB_FIX_SKEW
+        )
+        criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 1e-6)
+
+        mtx, dist = None, None
         for iteration in range(MAX_CALIB_ITERATIONS):
-            ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(self.objpoints, self.imgpoints, self.image_size, None, None)
-            
+            n = len(self.imgpoints)
+            objpoints = [p.reshape(1, -1, 3).astype(np.float64) for p in self.objpoints]
+            imgpoints = [p.reshape(1, -1, 2).astype(np.float64) for p in self.imgpoints]
+            K = np.zeros((3, 3))
+            D = np.zeros((4, 1))
+            rvecs = [np.zeros((1, 1, 3), dtype=np.float64) for _ in range(n)]
+            tvecs = [np.zeros((1, 1, 3), dtype=np.float64) for _ in range(n)]
+
+            try:
+                ret, mtx, dist, rvecs, tvecs = cv2.fisheye.calibrate(
+                    objpoints, imgpoints, self.image_size, K, D, rvecs, tvecs, flags, criteria
+                )
+            except cv2.error as exc:
+                match = re.search(r"input array (\d+)", str(exc))
+                if match and n > 20:
+                    bad = int(match.group(1))
+                    print(f"  Frame {bad} is ill-conditioned for the fisheye model; dropping it.")
+                    del self.objpoints[bad]
+                    del self.imgpoints[bad]
+                    continue
+                raise RuntimeError(f"[{self.name}] fisheye calibration failed: {exc}") from exc
+
             errors = []
-            for i in range(len(self.objpoints)):
-                imgpoints2, _ = cv2.projectPoints(self.objpoints[i], rvecs[i], tvecs[i], mtx, dist)
-                error = cv2.norm(self.imgpoints[i], imgpoints2, cv2.NORM_L2) / len(imgpoints2)
+            for i in range(n):
+                projected, _ = cv2.fisheye.projectPoints(objpoints[i], rvecs[i], tvecs[i], mtx, dist)
+                error = cv2.norm(imgpoints[i], projected, cv2.NORM_L2) / len(projected[0])
                 errors.append((i, error))
-                
-            print(f"  Iteration {iteration + 1}: Global RMS = {ret:.4f} px")
-            if ret <= TARGET_RMS or len(self.imgpoints) < 20:
+
+            print(f"  Iteration {iteration + 1}: Global RMS = {ret:.4f} px ({n} frames)")
+            if ret <= TARGET_RMS or n < 20:
                 print(f"  [{self.name}] Calibration locked. Final RMS: {ret:.4f}")
                 return mtx, dist
-                
+
             errors.sort(key=lambda x: x[1], reverse=True)
             prune_count = max(1, int(len(errors) * 0.05))
             indices_to_drop = {e[0] for e in errors[:prune_count]}
-            
+
             print(f"  Dropping {prune_count} worst outlier frames...")
             self.objpoints = [p for i, p in enumerate(self.objpoints) if i not in indices_to_drop]
             self.imgpoints = [p for i, p in enumerate(self.imgpoints) if i not in indices_to_drop]
-            
+
         return mtx, dist
 
 
+def get_ffmpeg() -> str:
+    ffmpeg = shutil.which("ffmpeg")
+    if ffmpeg:
+        return ffmpeg
+    try:
+        import imageio_ffmpeg
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except ImportError as exc:
+        raise RuntimeError("FFmpeg is required to read GoPro footage for calibration") from exc
+
+
 def sample_video(video_path: Path, calibrator: CameraCalibrator):
-    cap = cv2.VideoCapture(video_path.as_posix())
-    if not cap.isOpened(): return
-        
-    fps = cap.get(cv2.CAP_PROP_FPS) or 30
-    frames_to_check, max_frames, current_frame = int(fps * 0.5), int(fps * 120), 0
-    
-    while current_frame < max_frames:
-        cap.set(cv2.CAP_PROP_POS_FRAMES, current_frame)
-        ret, frame = cap.read()
-        if not ret: break
-            
-        if calibrator.process_frame(frame):
-            current_frame += int(fps * 2) 
-        else:
-            current_frame += frames_to_check
-    cap.release()
+    """Extract frames with real ffmpeg rather than cv2.VideoCapture.
+
+    GoPro files interleave video/audio with tmcd/gpmd/fdsc metadata tracks that
+    OpenCV's bundled ffmpeg backend frequently stumbles on mid-grab ("packet read
+    max attempts exceeded"), silently truncating the scan long before it reaches
+    most of the video. A direct ffmpeg subprocess decoding only the video stream
+    (-map 0:v:0) does not have this problem.
+    """
+    probe = cv2.VideoCapture(video_path.as_posix())
+    if not probe.isOpened():
+        return
+    width = int(probe.get(cv2.CAP_PROP_FRAME_WIDTH))
+    height = int(probe.get(cv2.CAP_PROP_FRAME_HEIGHT))
+    probe.release()
+    if width <= 0 or height <= 0:
+        return
+
+    frame_size = width * height * 3
+    command = [
+        get_ffmpeg(),
+        "-v", "error",
+        "-i", video_path.as_posix(),
+        "-t", str(CALIBRATION_SCAN_SECONDS),
+        "-map", "0:v:0",
+        "-vf", f"fps={CALIBRATION_SAMPLE_FPS}",
+        "-f", "rawvideo",
+        "-pix_fmt", "bgr24",
+        "-",
+    ]
+    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
+    try:
+        while True:
+            raw = process.stdout.read(frame_size)
+            if len(raw) < frame_size:
+                break
+            frame = np.frombuffer(raw, dtype=np.uint8).reshape((height, width, 3))
+            calibrator.process_frame(frame)
+    finally:
+        process.stdout.close()
+        process.wait()
 
 
 def run_intrinsic_generation(dataset_path: str):
     root_dir = Path(dataset_path).resolve()
-    start_time = time.time()
     front_calibrator = CameraCalibrator("FRONT_CAMERA")
     side_calibrator = CameraCalibrator("SIDE_CAMERA")
-    candidate_videos = []
-
+    
     print("Extracting sharp, spatially-diverse checkerboard frames...")
     for item in sorted(root_dir.iterdir()):
         if item.is_dir() and item.name.startswith("P"):
             gopro_dir = item / "gopro_footage"
-            if not gopro_dir.is_dir():
-                continue
-
-            for video_file in sorted(gopro_dir.iterdir()):
-                if not video_file.is_file() or video_file.suffix.lower() not in {'.mp4', '.mov'}:
-                    continue
+            if not gopro_dir.is_dir(): continue
+                
+            for video_file in gopro_dir.iterdir():
+                if not video_file.is_file() or video_file.suffix.lower() not in {'.mp4', '.mov'}: continue
                 stem = video_file.stem.lower()
-                if "scoring" in stem or "sync_full" in stem:
-                    continue
-                if "front" in stem or "side" in stem:
-                    candidate_videos.append((video_file, "front" if "front" in stem else "side"))
+                if "scoring" in stem or "sync_full" in stem: continue #
+                    
+                if "front" in stem: sample_video(video_file, front_calibrator)
+                elif "side" in stem: sample_video(video_file, side_calibrator)
 
-    total = len(candidate_videos)
-    print(f"Found {total} candidate calibration videos across the dataset.")
-    for index, (video_file, camera_label) in enumerate(candidate_videos, start=1):
-        log_progress("Calibration scan", index, total, start_time, details=f"{camera_label} {video_file.name}")
-        if camera_label == "front":
-            sample_video(video_file, front_calibrator)
-        else:
-            sample_video(video_file, side_calibrator)
-
-    print("\nCalibration solve started. This can take a few minutes depending on the number of valid frames.")
     front_mtx, front_dist = front_calibrator.auto_prune_and_calibrate()
     side_mtx, side_dist = side_calibrator.auto_prune_and_calibrate()
-
+    
     for name, mtx, dist in [("front", front_mtx, front_dist), ("side", side_mtx, side_dist)]:
         with open(f"{name}_calibration.json", "w") as f:
-            json.dump({"camera_matrix": mtx.tolist(), "dist_coeffs": dist.tolist()}, f, indent=4)
+            json.dump(
+                {"model": "fisheye", "camera_matrix": mtx.tolist(), "dist_coeffs": dist.tolist()},
+                f,
+                indent=4,
+            )
         print(f"Saved {name}_calibration.json")
-
-    elapsed = time.time() - start_time
-    print(f"\nCalibration complete. total_elapsed={format_elapsed(elapsed)}")
 
 
 def main():
