@@ -1,0 +1,34 @@
+# OpenFace video analysis configuration.
+# Relative paths are resolved against the folder containing this file.
+
+openface:
+  # OpenFace 2.2.0 Windows binary (installed by scripts/setup_openface.ps1)
+  exe: tools/OpenFace_2.2.0_win_x64/FeatureExtraction.exe
+  # Which feature groups OpenFace writes to the per-frame CSV.
+  # Omitting all flags makes OpenFace write *everything* (incl. HOG + aligned face images),
+  # which is very large for long videos, so we pick explicitly.
+  flags: ["-2Dfp", "-3Dfp", "-pdmparams", "-pose", "-aus", "-gaze"]
+  # Also save a video with the landmark/gaze overlay drawn on it (large files, useful for QA).
+  save_tracked_video: false
+
+input:
+  # Folders searched recursively for videos.
+  dirs:
+    - D:/footage
+  extensions: [".mp4", ".avi", ".mov", ".mkv"]
+  # Skip files smaller than this (GoPro offloads contain ~1 MB stub/LRV files).
+  min_size_mb: 5
+
+output:
+  dir: outputs
+
+# Number of videos processed at once. Each OpenFace process is itself multi-threaded,
+# so 2-4 is usually the sweet spot.
+workers: 3
+
+analysis:
+  # Frames count as valid only if OpenFace tracked the face (success == 1)
+  # with at least this landmark confidence. 0.8 is a common choice in the literature.
+  min_confidence: 0.8
+  # Smoothing window (seconds) for the AU time-series plots.
+  plot_smoothing_s: 1.0

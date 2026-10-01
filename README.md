@@ -65,6 +65,7 @@ narration, the face cam, subtitles, and heart-rate keep running. See the
 | **Transcribe** | Batch WhisperX transcription with resume support | `scripts/process_videos_whisperx.py` |
 | **Align subtitles** | Merge human-cleaned narration onto WhisperX timing, flagging mismatches | `scripts/compare_narration_transcripts.py` |
 | **Compose** | Staged pipeline: inspect → timing → pause map → chart → prepare → render | `scripts/mvp.py` |
+| **Facial analysis** | Batch OpenFace action units, head pose and gaze, with quality filtering and AU heatmaps ([README](facial_analysis/README.md)) | `facial_analysis/` |
 | **Analyze** | Heart-rate analysis, narration segmentation, LLM-assisted coding, inter-rater reliability | `analysis/` |
 
 ## Quick start
@@ -204,6 +205,7 @@ names are also listed in `.gitignore` as a safeguard.
 ```
 FlowAnalytics/
 ├── scripts/        Core pipeline: sync, calibration, undistortion, transcription, MVP composer
+├── facial_analysis/ OpenFace facial analysis package (own README)
 ├── analysis/       Research analysis: heart rate, narration coding, inter-rater reliability
 ├── tools/          Launchers and utilities (WhisperX batch runners, session lister, codepack)
 ├── experiments/    Early sync prototypes kept for reference

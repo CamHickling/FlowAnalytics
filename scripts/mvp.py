@@ -702,6 +702,37 @@ def media_info(path: str | None) -> dict[str, Any] | None:
         return {"path": path, "opened": None, "error": "opencv-python is unavailable"}
 
 
+def review_phase_event_time(manifest: Any, event_name: str) -> float | None:
+    """Wall time of the first `event_name` logged during the review phase."""
+    events = manifest.get("events", []) if isinstance(manifest, dict) else []
+    return next(
+        (
+            event.get("wall_time")
+            for event in events
+            if event.get("event") == event_name and event.get("phase") == "review"
+        ),
+        None,
+    )
+
+
+def review_media_offsets(assets: TrialAssets) -> tuple[float, float]:
+    """(face, audio) seconds into the face video / narration audio where
+    review time t=0 (first press of play) falls. Falls back to 0.0, the old
+    behaviour, when the manifest or pause log can't place it."""
+    timing = build_timing_report(assets)
+    if timing.get("review_start_source") != "first_play_press":
+        print("WARNING: no play/pause log for this review; the face and narration "
+              "can't be aligned to playback and start at the recorder start", file=sys.stderr)
+    offsets = []
+    for key, label in (("review_face_offset_sec", "face video"), ("review_audio_offset_sec", "narration audio")):
+        value = timing.get(key)
+        if value is None:
+            print(f"WARNING: could not place {label} on the review timeline; using offset 0.0", file=sys.stderr)
+            value = 0.0
+        offsets.append(value)
+    return offsets[0], offsets[1]
+
+
 def build_timing_report(assets: TrialAssets) -> dict[str, Any]:
     timing = summarize_timing(assets)
     manifest_events = timing["manifest_events"]
@@ -742,7 +773,18 @@ def build_timing_report(assets: TrialAssets) -> dict[str, Any]:
     performance_start = (manifest_events.get("overhead_recorder_start") or [None])[0]
     performance_end = (manifest_events.get("overhead_recorder_stop") or [None])[-1]
 
+    # The face cam and narration mic start recording when the review phase
+    # begins, before the participant presses play. Review time t=0 is that
+    # first press, so file time = review time + these offsets.
+    face_recorder_start = review_phase_event_time(review_player_events, "face_recorder_start")
+    audio_recorder_start = review_phase_event_time(review_player_events, "audio_recorder_start")
+    face_offset = review_start - face_recorder_start if review_start is not None and face_recorder_start is not None else None
+    audio_offset = review_start - audio_recorder_start if review_start is not None and audio_recorder_start is not None else None
+
     timing.update({
+        "review_start_source": "first_play_press" if playback_start is not None else "face_recorder_start_fallback",
+        "review_face_offset_sec": face_offset,
+        "review_audio_offset_sec": audio_offset,
         "review_wall_start": review_start,
         "review_wall_end": review_end,
         "review_wall_duration_sec": review_end - review_start if review_start and review_end else None,
@@ -1344,6 +1386,14 @@ def compose_review_video(
     assets_dir = chart.parent
     layout = generate_layout_assets(assets_dir)
 
+    # Face and narration files start before the first press of play, so seek
+    # each by its own offset to show the reaction to what's on screen.
+    face_offset, audio_offset = review_media_offsets(assets)
+    face_seek = review_start_sec + face_offset
+    audio_seek = review_start_sec + audio_offset
+    print(f"Face video seek {face_seek:.3f}s (offset {face_offset:.3f}s), "
+          f"narration audio seek {audio_seek:.3f}s (offset {audio_offset:.3f}s)")
+
     front_x, front_y = LAYOUT_MARGIN, LAYOUT_MARGIN
     side_x, side_y = LAYOUT_MARGIN + LAYOUT_VIDEO_W + LAYOUT_GAP, LAYOUT_MARGIN
     sub_x = LAYOUT_MARGIN
@@ -1414,8 +1464,9 @@ def compose_review_video(
         current_label = marker_label
         cue_index = 0
         for cue in parse_srt(subtitles):
-            start = cue["start"] - review_start_sec
-            end = cue["end"] - review_start_sec
+            # Cue times come from the narration WAV, so they're in audio-file time
+            start = cue["start"] - audio_seek
+            end = cue["end"] - audio_seek
             if end <= 0 or start >= duration:
                 continue
             start = max(start, 0.0)
@@ -1444,7 +1495,9 @@ def compose_review_video(
         "-y",
         "-ss", str(front_start_sec), "-i", str(front),
         "-ss", str(side_start_sec), "-i", str(side),
-        "-stream_loop", "-1", "-ss", str(review_start_sec), "-i", assets.face_video,
+        # No -stream_loop: a face video that runs short should end visibly,
+        # not silently restart from the beginning out of sync.
+        "-ss", str(face_seek), "-i", assets.face_video,
         # -framerate 30 on every looped PNG: image2/png_pipe defaults to 25fps
         # when unspecified, so these were being fed into alphamerge/overlay
         # alongside 30fps video -- that mismatch produced a reproducible
@@ -1460,7 +1513,7 @@ def compose_review_video(
         "-framerate", "30", "-loop", "1", "-i", str(layout["subtitle_bg"]),
         "-framerate", "30", "-loop", "1", "-i", str(layout["marker_line"]),
         "-framerate", "30", "-loop", "1", "-i", str(layout["marker_dot"]),
-        "-ss", str(review_start_sec), "-i", assets.narration_audio,
+        "-ss", str(audio_seek), "-i", assets.narration_audio,
         "-filter_complex", ";".join(filter_parts),
         "-map", video_label,
         "-map", "[audio]",

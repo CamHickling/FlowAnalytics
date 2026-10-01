@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "faceanalysis"
+version = "0.1.0"
+description = "Batch facial analysis (action units, head pose, gaze) of videos with OpenFace 2.2"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "pyyaml",
+    "tqdm",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+faceanalysis = "faceanalysis.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
