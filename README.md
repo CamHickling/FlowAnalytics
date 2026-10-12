@@ -164,7 +164,7 @@ Scripts in [`analysis/`](analysis) support the study itself:
 | `heart_rate_analysis.py` | Full-session HR analysis: resting vs. warm-up baselines, performance ROI |
 | `narration_make_units.py` | Segment narration into thought-units for coding |
 | `narration_freeze.py` / `narration_promote.py` | Freeze hand-edited segmentation and build coder templates |
-| `narration_llm_label.py` | Apply the coding rubric with Claude as an additional coder (needs `ANTHROPIC_API_KEY`) |
+| `narration_llm_label.py` | Apply the coding rubric with an LLM as an additional coder (needs `ANTHROPIC_API_KEY`) |
 | `narration_kappa.py` | Cohen's, weighted, and Fleiss' kappa plus PABAK across coders |
 | `count_playback_events.py` | Summarize playback start/stop events per session |
 
