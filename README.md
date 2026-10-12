@@ -1,8 +1,17 @@
 <p align="center">
-  <img src="docs/assets/FlowAnalyticsLogo.png" alt="FlowAnalytics logo" width="320">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/brand/readme-banner-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="docs/assets/brand/readme-banner-light.png">
+    <img src="docs/assets/brand/readme-banner-light.png" alt="FlowAnalytics: sync, undistort, transcribe, compose multi-camera athlete performance review videos" width="100%">
+  </picture>
 </p>
 
-<h1 align="center">FlowAnalytics</h1>
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-1876BE?labelColor=071A33&logo=python&logoColor=white">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-1876BE?labelColor=071A33">
+  <img alt="Status" src="https://img.shields.io/badge/status-research%20prototype-8EC5F0?labelColor=071A33">
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache%202.0-1876BE?labelColor=071A33"></a>
+</p>
 
 <p align="center">
   Synchronize, undistort, transcribe, and compose multi-camera athlete performance
@@ -11,10 +20,11 @@
 </p>
 
 <p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-blue">
-  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey">
-  <img alt="Status" src="https://img.shields.io/badge/status-research%20prototype-orange">
-  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache%202.0-blue"></a>
+  <a href="#quick-start"><b>Quick start</b></a> ·
+  <a href="#usage"><b>Usage</b></a> ·
+  <a href="#dataset-layout"><b>Dataset layout</b></a> ·
+  <a href="docs/MVP_SPEC.md"><b>Specification</b></a> ·
+  <a href="CONTRIBUTING.md"><b>Contributing</b></a>
 </p>
 
 ---
@@ -200,7 +210,7 @@ FlowAnalytics/
 ├── tests/          Unit tests
 ├── calibration/    Camera calibration JSON (archive/ and test/ hold older or trial solves)
 ├── envs/           Conda environments and optional requirement sets
-└── docs/           Specification, calibration notes, project status, task plan
+└── docs/           Specification, calibration notes, project status, task plan, brand assets
 ```
 
 ## Project status
@@ -231,3 +241,11 @@ opening a pull request.
 
 Licensed under the [Apache License, Version 2.0](LICENSE). See [NOTICE](NOTICE)
 for attribution.
+
+---
+
+<p align="center">
+  <img src="docs/assets/brand/flowanalytics-mark-512.png" alt="" width="56">
+  <br>
+  <sub>FlowAnalytics · Apache 2.0 · Built for the poomsae flow study</sub>
+</p>
