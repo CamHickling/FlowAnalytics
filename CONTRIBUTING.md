@@ -52,3 +52,8 @@ The dataset contains recordings and physiological data from study participants.
 
 When you open an issue, include the command you ran, the full error output,
 your OS and Python version, and which trial (by ID only) triggered it.
+
+## License
+
+By contributing, you agree that your contributions will be licensed under the
+[Apache License, Version 2.0](LICENSE).

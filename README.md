@@ -14,6 +14,7 @@
   <img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-blue">
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey">
   <img alt="Status" src="https://img.shields.io/badge/status-research%20prototype-orange">
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache%202.0-blue"></a>
 </p>
 
 ---
@@ -227,5 +228,5 @@ opening a pull request.
 
 ## License
 
-No license has been chosen yet. Until one is added, all rights are reserved by
-the authors.
+Licensed under the [Apache License, Version 2.0](LICENSE). See [NOTICE](NOTICE)
+for attribution.
