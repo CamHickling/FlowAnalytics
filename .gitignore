@@ -28,3 +28,8 @@ ai_code_context.md
 *.tmp
 .DS_Store
 Thumbs.db
+
+# Participant data: keep outside the repo (set FLOW_ANALYTICS_DATA_ROOT)
+Iris_Recorded_Taekwondo_Data/
+flow transcripts/
+reports/

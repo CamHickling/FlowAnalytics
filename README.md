@@ -144,9 +144,9 @@ python scripts\process_videos_whisperx.py "$trial\review" --audio-only `
 
 # Merge cleaned wording onto the timed segments
 python scripts\compare_narration_transcripts.py `
-    --clean  'flow transcripts\P01_audio_narration.txt' `
-    --timed  'flow transcripts\P01_audio_narration.srt' `
-    --output-dir 'flow transcripts\synthesis\P01'
+    --clean  "$trial\review\P01_audio_narration.txt" `
+    --timed  "$trial\MVP\generated\whisperx\P01_audio_narration.srt" `
+    --output-dir "$trial\MVP\generated\synthesis"
 ```
 
 Unmatched lines are marked `needs_review` rather than given guessed timings, and
@@ -168,8 +168,7 @@ Scripts in [`analysis/`](analysis) support the study itself:
 | `count_playback_events.py` | Summarize playback start/stop events per session |
 
 They read from `FLOW_ANALYTICS_DATA_ROOT`, falling back to
-`./Iris_Recorded_Taekwondo_Data`. The coding rubric is in
-[docs/narration-coding-rubric.docx](docs/narration-coding-rubric.docx).
+`./Iris_Recorded_Taekwondo_Data`.
 
 ## Dataset layout
 
@@ -185,8 +184,9 @@ Each trial folder follows this structure:
     └── MVP/                    everything this toolkit generates
 ```
 
-Video, audio, CSV, and archive files are excluded by `.gitignore`. Keep large
-media on a data drive and point `FLOW_ANALYTICS_DATA_ROOT` at it.
+Participant data is **not** distributed with this repository. Keep the dataset
+outside the repo and point `FLOW_ANALYTICS_DATA_ROOT` at it; the data folder
+names are also listed in `.gitignore` as a safeguard.
 
 ## Project structure
 
@@ -199,9 +199,7 @@ FlowAnalytics/
 ├── tests/          Unit tests
 ├── calibration/    Camera calibration JSON (archive/ and test/ hold older or trial solves)
 ├── envs/           Conda environments and optional requirement sets
-├── docs/           Specification, calibration notes, project status, task plan, rubric
-├── reports/        Generated sync, transcript, and batch-render reports
-└── Iris_Recorded_Taekwondo_Data/   Per-trial metadata (media is git-ignored)
+└── docs/           Specification, calibration notes, project status, task plan
 ```
 
 ## Project status
