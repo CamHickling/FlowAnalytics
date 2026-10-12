@@ -221,12 +221,15 @@ python -m unittest discover -s tests
 Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before
 opening a pull request.
 
-## Authors
+## Author
 
-- **Cam Hickling**
-- **Angela Czarina Mejia**: heart-rate analysis and narration coding
+**Cam Hickling**
 
 ## License
 
 Licensed under the [Apache License, Version 2.0](LICENSE). See [NOTICE](NOTICE)
 for attribution.
+
+## Acknowledgements
+
+Thanks to Angela Czarina Mejia for support with the flow study.
