@@ -1,227 +1,233 @@
-# FlowAnalytics
+<p align="center">
+  <img src="docs/assets/FlowAnalyticsLogo.png" alt="FlowAnalytics logo" width="320">
+</p>
 
-![FlowAnalytics logo](FlowAnalyticsLogo.png)
+<h1 align="center">FlowAnalytics</h1>
 
-Tools for synchronizing and reviewing dual-camera athlete performance recordings.
-The working project and dataset are located on `D:` to keep large video files off
-the system drive.
+<p align="center">
+  Synchronize, undistort, transcribe, and compose multi-camera athlete performance
+  recordings into a single pause-aware review video with narration, subtitles,
+  and live heart-rate.
+</p>
 
-## Current Status
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-blue">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey">
+  <img alt="Status" src="https://img.shields.io/badge/status-research%20prototype-orange">
+</p>
 
-Implemented and testable:
+---
 
-- Constellation-style audio landmark synchronization in `scripts/cfsync.py`.
-- Side-by-side GoPro synchronization tools in `scripts/batch_sync.py` and
-   `scripts/visual_sync.py`.
-- Standard OpenCV calibration in `scripts/osr_instr_calibrate.py`.
-- Per-camera video undistortion in `scripts/undistort.py`.
-- Staged MVP inspection, timing, pause mapping, chart generation, preparation,
-   and short preview rendering in `scripts/mvp.py`.
-- WhisperX launcher scripts for transcription workflows.
+## Overview
 
-The full-length pause-aware MVP composition is still under development. The
-`render-preview` command is for short validation renders; do not treat it as the
-finished batch compositor yet.
+FlowAnalytics is the processing toolkit behind a flow-state study of taekwondo
+poomsae performance. Each trial is recorded by several cameras (front GoPro,
+side GoPro, overhead, face cam) alongside a heart-rate monitor, and the athlete
+later narrates a review of their own performance.
 
-## Repository Layout
-
-```text
-FlowAnalytics/
-├── scripts/                         Python processing tools
-├── tests/                           Test and synchronization utilities
-├── Iris_Recorded_Taekwondo_Data/    Trial data on D:
-├── MVP_SPEC.md                      MVP composition specification
-├── FlowAnalyticsLogo.png            Repository logo
-├── requirements.txt                 Core Python dependencies
-├── run_whisperx_batch.ps1           PowerShell WhisperX launcher
-└── run_whisperx_capture.bat        Windows batch WhisperX launcher
-```
-
-Each trial normally contains `gopro_footage`, `review`, `heart_rate`, and a
-`*_sync_manifest.json`. MVP generated files are written under the trial's
-`MVP/` directory.
-
-## Setup
-
-Open the D: checkout and use an environment with the dependencies in
-`requirements.txt`:
-
-```powershell
-cd D:\FlowAnalytics
-python -m pip install -r requirements.txt
-```
-
-The repository also contains Conda environment definitions for WhisperX:
-`environment-whisperx-gpu.yml` and `environment-whisperx-gpu-min.yml`.
-
-## Staged MVP Workflow
-
-Run each stage separately against one trial before processing a batch:
-
-```powershell
-cd D:\FlowAnalytics
-$trial = 'D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data\P01_20260223_112737'
-$calibration = 'D:\FlowAnalytics\calibration'
-
-# Discover inputs and report missing prerequisites.
-python scripts\mvp.py inspect --trial $trial --calibration-dir $calibration
-
-# Validate manifest timing and review pause/resume pairing.
-python scripts\mvp.py timing --trial $trial
-python scripts\mvp.py pause-map --trial $trial
-
-# Generate a heart-rate JSON data file and PNG preview.
-python scripts\mvp.py chart --trial $trial --at-sec 60
-
-# Show the undistortion plan without processing video.
-python scripts\mvp.py prepare --trial $trial --calibration-dir $calibration --dry-run
-
-# Undistort front and side GoPro videos into trial\MVP\generated.
-python scripts\mvp.py prepare --trial $trial --calibration-dir $calibration
-
-# Render a short composition preview.
-python scripts\mvp.py render-preview --trial $trial --duration 15
-```
-
-Add cleaned timestamped subtitles explicitly when available:
-
-```powershell
-python scripts\mvp.py render-preview --trial $trial --duration 15 `
-   --subtitles "$trial\review\narration.srt"
-```
-
-The preview supports `--front-start-sec`, `--side-start-sec`, and
-`--review-start-sec` for testing alignment. Calibration JSON files must exist in
-the directory supplied to `--calibration-dir` as `front_calibration.json` and
-`side_calibration.json`.
-
-The first render target is a **15-second clip**. Review that clip before starting
-the full-duration render. Corrected GoPro videos and generated timing, chart, and
-subtitle intermediates are intentionally retained under
-`$trial\MVP\generated`.
-
-### Subtitle timing workflow
-
-Review folders contain human-cleaned wording such as
-`<trial_id>_audio_narration.txt` and the matching narration WAV. The text file is
-the wording authority. Because its timestamps were removed, run WhisperX again on
-the WAV to recover timing, then merge the cleaned text onto the WhisperX timing
-segments. WhisperX wording must not replace the cleaned transcript.
-
-The processor is located at:
+The toolkit turns those raw recordings into one composed **review video** per trial:
 
 ```text
-Iris_Recorded_Taekwondo_Data\scripts\process_videos_whisperx.py
++-----------------------------+------------------------------+
+| Front GoPro (undistorted)   | Side GoPro (undistorted)     |
+|                             |              +-------------+ |
+|                             |              | Face camera | |
+|                             |              +-------------+ |
++-----------------------------+------------------------------+
+| Subtitles from the athlete's cleaned narration             |
++------------------------------------------------------------+
+| Heart-rate graph with moving current-value marker          |
++------------------------------------------------------------+
 ```
 
-Run it against one review folder first, using the audio-only mode:
+When the athlete pauses playback to talk, the performance footage freezes while
+narration, the face cam, subtitles, and heart-rate keep running. See the
+[MVP specification](docs/MVP_SPEC.md) for the full design.
 
-```powershell
-$review = "$trial\review"
-$whisperOut = "$trial\MVP\generated\whisperx"
-$whisperAudio = "$trial\MVP\generated\whisperx_audio"
-New-Item -ItemType Directory -Force $whisperOut, $whisperAudio | Out-Null
+### Features
 
-python D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data\scripts\process_videos_whisperx.py `
-   $review `
-   --audio-only `
-   --output-dir $whisperOut `
-   --audio-dir $whisperAudio `
-   --model large-v3 `
-   --device cuda `
-   --language en `
-   --no-diarize `
-   --overwrite
+| Stage | What it does | Tool |
+| --- | --- | --- |
+| **Sync** | Audio-landmark ("constellation") and cross-correlation sync between cameras, plus interactive manual sync | `scripts/cfsync.py`, `scripts/batch_sync.py`, `scripts/sync_review.py` |
+| **Calibrate** | Robust OpenCV intrinsic calibration from checkerboard passes across the whole dataset | `scripts/osr_instr_calibrate.py` |
+| **Undistort** | Per-camera lens correction of GoPro footage | `scripts/undistort.py` |
+| **Transcribe** | Batch WhisperX transcription with resume support | `scripts/process_videos_whisperx.py` |
+| **Align subtitles** | Merge human-cleaned narration onto WhisperX timing, flagging mismatches | `scripts/compare_narration_transcripts.py` |
+| **Compose** | Staged pipeline: inspect → timing → pause map → chart → prepare → render | `scripts/mvp.py` |
+| **Analyze** | Heart-rate analysis, narration segmentation, LLM-assisted coding, inter-rater reliability | `analysis/` |
+
+## Quick start
+
+```bash
+git clone https://github.com/CamHickling/FlowAnalytics.git
+cd FlowAnalytics
+python -m venv .venv
+.venv\Scripts\activate            # Linux/macOS: source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
-This produces WhisperX timing artifacts without overwriting the human-cleaned
-`<trial_id>_audio_narration.txt`. The next merge step will use the generated
-WhisperX `.srt`/`.json` timing and replace its wording with the cleaned text.
+FFmpeg is bundled through `imageio-ffmpeg`, so no separate install is needed for
+the core pipeline. Optional extras:
 
-The merge step must report cleaned lines that do not match WhisperX confidently
-instead of assigning arbitrary durations. Pass the resulting `.srt` or `.vtt`
-file to `render-preview` with `--subtitles`.
-
-To compare one narration pairing and create a non-destructive synthesis version:
-
-```powershell
-python scripts\compare_narration_transcripts.py `
-   --clean 'D:\FlowAnalytics\flow transcripts\P01_audio_narration.txt' `
-   --timed 'D:\FlowAnalytics\flow transcripts\P01_audio_narration.srt' `
-   --output-dir 'D:\FlowAnalytics\flow transcripts\synthesis\P01'
+```bash
+pip install -r envs/requirements-analysis.txt          # analysis/ scripts
+conda env create -f envs/environment-whisperx-gpu.yml  # WhisperX transcription (CUDA)
 ```
 
-The script writes a synthesis JSON report and synthesis SRT. It preserves the
-cleaned TXT wording when timing segments match and marks unmatched segments as
-`needs_review`; it never overwrites the original TXT, SRT, or JSON files.
-
-## Calibration and Undistortion
-
-Generate calibration matrices from checkerboard footage:
-
-```powershell
-cd D:\FlowAnalytics
-$calibration = 'D:\FlowAnalytics\calibration'
-$dataRoot = 'D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data'
-New-Item -ItemType Directory -Force $calibration | Out-Null
-Push-Location $calibration
-python D:\FlowAnalytics\scripts\osr_instr_calibrate.py --intrinsics $dataRoot
-Pop-Location
-```
-
-This creates the standard OpenCV calibration files used by `undistort.py`.
-Undistortion processes front and side independently before the MVP composition,
-and corrected videos are retained under the trial's `MVP\generated` folder.
-
-## Dataset Location
-
-Use this environment variable for scripts that support a configurable data root:
+Point the tools at your dataset:
 
 ```powershell
 $env:FLOW_ANALYTICS_DATA_ROOT = 'D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data'
 ```
 
-The large dataset and generated videos should remain on `D:`. Video, audio, CSV,
-and archive formats are excluded from Git by `.gitignore`; Git tracks the scripts,
-configuration, documentation, and metadata needed to reproduce the workflow.
+## Usage
 
-## WhisperX Launchers
-
-The PowerShell launcher accepts `-DataRoot`, `-Model`, `-Device`, `-Language`,
-`-Resume`, and `-NoDiarize`. It currently references a local Anaconda executable,
-so update `$pythonExe` in `run_whisperx_batch.ps1` if that environment is installed
-elsewhere.
+The examples below use PowerShell; the scripts themselves are cross-platform.
 
 ```powershell
-.\run_whisperx_batch.ps1 `
-   -DataRoot D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data `
-   -Device cpu `
-   -Language en `
-   -Resume
+$trial       = "$env:FLOW_ANALYTICS_DATA_ROOT\P01_20260223_112737"
+$calibration = '.\calibration'
 ```
 
-The batch launcher uses the `capture` Conda environment and defaults to CUDA.
-Use it only when that environment and GPU runtime are available.
-
-## Storage Cleanup
-
-Package caches can be reviewed and cleared with:
+### 1. Calibrate the cameras (once per camera set)
 
 ```powershell
-conda clean -a
-pip cache purge
+Push-Location $calibration
+python ..\scripts\osr_instr_calibrate.py --intrinsics $env:FLOW_ANALYTICS_DATA_ROOT
+Pop-Location
 ```
 
-Do not remove the C: dataset until the D: copy has been verified. The current
-working checkout is `D:\FlowAnalytics`.
+Writes `front_calibration.json` and `side_calibration.json`. See
+[docs/calibration.md](docs/calibration.md) for how the solver rejects blurry
+frames and prunes outliers.
 
-## Related Documentation
+### 2. Run the staged MVP pipeline on one trial
 
-- [MVP specification](MVP_SPEC.md)
-- [Technical calibration notes](scripts/markdown_gen.py)
+Validate each stage on a single trial before running a batch:
+
+```powershell
+python scripts\mvp.py inspect   --trial $trial --calibration-dir $calibration   # find inputs, report gaps
+python scripts\mvp.py timing    --trial $trial                                  # validate manifest timing
+python scripts\mvp.py pause-map --trial $trial                                  # map review pauses
+python scripts\mvp.py chart     --trial $trial --at-sec 60                      # heart-rate chart + preview
+python scripts\mvp.py prepare   --trial $trial --calibration-dir $calibration --dry-run
+python scripts\mvp.py prepare   --trial $trial --calibration-dir $calibration   # undistort front + side
+python scripts\mvp.py render-preview --trial $trial --duration 15 `
+    --subtitles "$trial\review\narration.srt"                                    # 15 s check clip
+```
+
+When the preview looks right, render the full video, or every trial at once:
+
+```powershell
+python scripts\mvp.py render --trial $trial
+python scripts\mvp.py batch-render --data-root $env:FLOW_ANALYTICS_DATA_ROOT --skip-existing
+```
+
+Camera offsets can be suggested automatically (`suggest-offsets`), checked
+visually (`verify-offsets`), or recorded from a manually matched moment
+(`record-match`, or interactively with `scripts\sync_review.py`). Run
+`python scripts\mvp.py <command> --help` for all options.
+
+All intermediates (undistorted video, timing, chart data, subtitle cues) are
+kept under `<trial>\MVP\generated\`.
+
+### 3. Build timed subtitles from cleaned narration
+
+The human-cleaned `<trial>_audio_narration.txt` is the **source of truth for
+wording**; WhisperX is used only to recover timing.
+
+```powershell
+# Recover timing with WhisperX
+python scripts\process_videos_whisperx.py "$trial\review" --audio-only `
+    --output-dir "$trial\MVP\generated\whisperx" --model large-v3 `
+    --device cuda --language en --no-diarize
+
+# Merge cleaned wording onto the timed segments
+python scripts\compare_narration_transcripts.py `
+    --clean  'flow transcripts\P01_audio_narration.txt' `
+    --timed  'flow transcripts\P01_audio_narration.srt' `
+    --output-dir 'flow transcripts\synthesis\P01'
+```
+
+Unmatched lines are marked `needs_review` rather than given guessed timings, and
+original files are never overwritten. For whole-dataset transcription, use
+`tools\run_whisperx_batch.ps1` (pass `-PythonExe` or set
+`FLOW_ANALYTICS_PYTHON`) or `tools\run_whisperx_capture.bat`.
+
+### 4. Research analysis
+
+Scripts in [`analysis/`](analysis) support the study itself:
+
+| Script | Purpose |
+| --- | --- |
+| `heart_rate_analysis.py` | Full-session HR analysis: resting vs. warm-up baselines, performance ROI |
+| `narration_make_units.py` | Segment narration into thought-units for coding |
+| `narration_freeze.py` / `narration_promote.py` | Freeze hand-edited segmentation and build coder templates |
+| `narration_llm_label.py` | Apply the coding rubric with Claude as an additional coder (needs `ANTHROPIC_API_KEY`) |
+| `narration_kappa.py` | Cohen's, weighted, and Fleiss' kappa plus PABAK across coders |
+| `count_playback_events.py` | Summarize playback start/stop events per session |
+
+They read from `FLOW_ANALYTICS_DATA_ROOT`, falling back to
+`./Iris_Recorded_Taekwondo_Data`. The coding rubric is in
+[docs/narration-coding-rubric.docx](docs/narration-coding-rubric.docx).
+
+## Dataset layout
+
+Each trial folder follows this structure:
+
+```
+<data root>/
+└── P01_20260223_112737/
+    ├── gopro_footage/          front + side GoPro recordings, sync info
+    ├── review/                 face cam, narration audio + cleaned transcript, review timestamps
+    ├── heart_rate/             HR session CSVs and plots
+    ├── P01_sync_manifest.json  event timeline for the session
+    └── MVP/                    everything this toolkit generates
+```
+
+Video, audio, CSV, and archive files are excluded by `.gitignore`. Keep large
+media on a data drive and point `FLOW_ANALYTICS_DATA_ROOT` at it.
+
+## Project structure
+
+```
+FlowAnalytics/
+├── scripts/        Core pipeline: sync, calibration, undistortion, transcription, MVP composer
+├── analysis/       Research analysis: heart rate, narration coding, inter-rater reliability
+├── tools/          Launchers and utilities (WhisperX batch runners, session lister, codepack)
+├── experiments/    Early sync prototypes kept for reference
+├── tests/          Unit tests
+├── calibration/    Camera calibration JSON (archive/ and test/ hold older or trial solves)
+├── envs/           Conda environments and optional requirement sets
+├── docs/           Specification, calibration notes, project status, task plan, rubric
+├── reports/        Generated sync, transcript, and batch-render reports
+└── Iris_Recorded_Taekwondo_Data/   Per-trial metadata (media is git-ignored)
+```
+
+## Project status
+
+FlowAnalytics is a **research prototype** in active development. The staged
+pipeline is implemented end to end; validation is proceeding one trial at a time
+before batch rendering. See [docs/project-status.md](docs/project-status.md) and
+[docs/tasks.md](docs/tasks.md) for the current state and next steps.
+
+## Testing
+
+```bash
+python -m unittest discover -s tests
+```
 
 ## Contributing
 
-Keep changes focused, validate staged commands against one trial, and avoid
-committing large media files. Use pull requests for changes intended for the
-shared repository.
+Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before
+opening a pull request.
+
+## Authors
+
+- **Cam Hickling**
+- **Angela Czarina Mejia**: heart-rate analysis and narration coding
+
+## License
+
+No license has been chosen yet. Until one is added, all rights are reserved by
+the authors.

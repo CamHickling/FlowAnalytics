@@ -1,0 +1,6 @@
+# Dependencies for the research analysis scripts in analysis/
+numpy
+pandas
+matplotlib
+# Only needed for analysis/narration_llm_label.py
+anthropic

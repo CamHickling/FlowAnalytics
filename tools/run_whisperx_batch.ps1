@@ -8,19 +8,19 @@ param(
     [string]$Language = "en",
     [string]$HfToken = $env:HF_TOKEN,
     [switch]$Resume,
-    [switch]$NoDiarize
+    [switch]$NoDiarize,
+    [string]$PythonExe = $(if ($env:FLOW_ANALYTICS_PYTHON) { $env:FLOW_ANALYTICS_PYTHON } else { "C:/Users/BarlabPRIME/anaconda3/envs/flowhr/python.exe" })
 )
 
 $ErrorActionPreference = "Stop"
-$repoRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
+$repoRoot = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
 Set-Location $repoRoot
 
 if (-not $InputDir) { $InputDir = $DataRoot }
 if (-not $OutputDir) { $OutputDir = Join-Path $DataRoot "transcripts" }
 if (-not $AudioDir) { $AudioDir = Join-Path $DataRoot "audio" }
 
-$pythonExe = "C:/Users/BarlabPRIME/anaconda3/envs/flowhr/python.exe"
-$scriptPath = Join-Path $repoRoot "Iris_Recorded_Taekwondo_Data/scripts/process_videos_whisperx.py"
+$scriptPath = Join-Path $repoRoot "scripts/process_videos_whisperx.py"
 
 $arguments = @(
     $scriptPath,
@@ -38,4 +38,4 @@ if ($NoDiarize) { $arguments += "--no-diarize" }
 if ($HfToken) { $arguments += "--hf-token"; $arguments += $HfToken }
 
 Write-Host "Running WhisperX batch transcription..."
-& $pythonExe @arguments
+& $PythonExe @arguments

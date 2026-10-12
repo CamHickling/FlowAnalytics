@@ -42,9 +42,11 @@ def read_csv_smart(path, **kw):
 
 
 def _default_root():
+    if os.environ.get('FLOW_ANALYTICS_DATA_ROOT'):
+        return os.environ['FLOW_ANALYTICS_DATA_ROOT']
     try:
         here = os.path.dirname(os.path.abspath(__file__))
-        return os.path.dirname(here) if os.path.basename(here).lower() == 'scripts' else here
+        return os.path.join(os.path.dirname(here), 'Iris_Recorded_Taekwondo_Data')
     except NameError:
         return os.getcwd()
 

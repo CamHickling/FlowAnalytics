@@ -15,7 +15,7 @@ def get_session_names(base_dir: Path) -> list[str]:
 
 
 if __name__ == "__main__":
-    root = Path(__file__).resolve().parent
+    root = Path(__file__).resolve().parent.parent
     sessions_dir = root / "Iris_Recorded_Taekwondo_Data"
 
     try:

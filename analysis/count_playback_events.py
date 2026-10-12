@@ -80,12 +80,13 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description='Count playback start and stop events in each session sync manifest.'
     )
-    default_root = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
+    default_root = os.environ.get('FLOW_ANALYTICS_DATA_ROOT') or os.path.abspath(
+        os.path.join(os.path.dirname(__file__), os.pardir, 'Iris_Recorded_Taekwondo_Data'))
     parser.add_argument(
         'root',
         nargs='?',
         default=default_root,
-        help='Root directory containing session folders (default: parent of scripts folder).'
+        help='Root directory containing session folders (default: $FLOW_ANALYTICS_DATA_ROOT or ./Iris_Recorded_Taekwondo_Data).'
     )
     args = parser.parse_args()
 

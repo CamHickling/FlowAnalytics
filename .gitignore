@@ -13,3 +13,18 @@
 **/*.xlsx
 **/*.zip
 
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Generated / editor artifacts
+ai_code_context.md
+~$*
+~WRL*.tmp
+*.tmp
+.DS_Store
+Thumbs.db

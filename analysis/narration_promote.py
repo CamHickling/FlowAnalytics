@@ -19,9 +19,11 @@ SESSION_FACETS = ['facet_D1_action_awareness', 'facet_D2_concentration',
                   'facet_D5_autotelic', 'facet_D6_time_transformation']
 
 def _default_root():
+    if os.environ.get('FLOW_ANALYTICS_DATA_ROOT'):
+        return os.environ['FLOW_ANALYTICS_DATA_ROOT']
     try:
         here = os.path.dirname(os.path.abspath(__file__))
-        return os.path.dirname(here) if os.path.basename(here).lower() == 'scripts' else here
+        return os.path.join(os.path.dirname(here), 'Iris_Recorded_Taekwondo_Data')
     except NameError:
         return os.getcwd()
 

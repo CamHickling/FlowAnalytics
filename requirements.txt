@@ -3,3 +3,5 @@ scipy
 imageio-ffmpeg
 librosa
 opencv-python
+pillow
+matplotlib

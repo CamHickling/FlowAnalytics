@@ -8,7 +8,7 @@ rem Keep large source and generated files on D: by default. Override DATA_ROOT i
 if "%DATA_ROOT%"=="" set "DATA_ROOT=D:\FlowAnalytics\Iris_Recorded_Taekwondo_Data"
 set "INPUT_DIR=%DATA_ROOT%"
 set "OUTPUT_DIR=%DATA_ROOT%\test_output"
-set "SCRIPT=%~dp0\Iris_Recorded_Taekwondo_Data\scripts\process_videos_whisperx.py"
+set "SCRIPT=%~dp0..\scripts\process_videos_whisperx.py"
 
 echo Running WhisperX audio-only transcription in capture env...
 if exist "%CONDA_ROOT%\condabin\conda.bat" (

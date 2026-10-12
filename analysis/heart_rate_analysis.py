@@ -821,17 +821,19 @@ def _diagnose_empty_sweep(root_directory, target_pattern, max_show=15):
 
 
 def _default_root():
-    """Data root = the folder ABOVE this script (works when the script sits in
-    <data root>/scripts/). Falls back to the current working directory."""
+    """Data root = $FLOW_ANALYTICS_DATA_ROOT, else <repo>/Iris_Recorded_Taekwondo_Data.
+    Falls back to the current working directory."""
+    if os.environ.get('FLOW_ANALYTICS_DATA_ROOT'):
+        return os.environ['FLOW_ANALYTICS_DATA_ROOT']
     try:
         here = os.path.dirname(os.path.abspath(__file__))
-        return os.path.dirname(here) if os.path.basename(here).lower() == 'scripts' else here
+        return os.path.join(os.path.dirname(here), 'Iris_Recorded_Taekwondo_Data')
     except NameError:
         return os.getcwd()
 
 
 if __name__ == "__main__":
-    # Leave TARGET_ROOT_DIR = None to auto-detect (script lives in <data root>/scripts/),
+    # Leave TARGET_ROOT_DIR = None to auto-detect (see _default_root),
     # or hard-code a path, e.g. r"C:\Users\BarlabPRIME\Desktop\FlowAnalytics\Iris_Recorded_Taekwondo_Data"
     TARGET_ROOT_DIR = None
     # glob pattern: matches 'hr_full_session.csv', 'P05_hr_full_session.csv',
