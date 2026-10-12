@@ -221,15 +221,13 @@ python -m unittest discover -s tests
 Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before
 opening a pull request.
 
-## Author
+## Authors
 
-**Cam Hickling**
+- **Cam Hickling**
+- **Angela Czarina Mejia**: co-author of `analysis/heart_rate_analysis.py` and
+  `analysis/narration_make_units.py`
 
 ## License
 
 Licensed under the [Apache License, Version 2.0](LICENSE). See [NOTICE](NOTICE)
 for attribution.
-
-## Acknowledgements
-
-Thanks to Angela Czarina Mejia for support with the flow study.

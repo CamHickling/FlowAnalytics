@@ -1,5 +1,9 @@
 FlowAnalytics
 Copyright 2026 Cam Hickling
 
+Portions copyright 2026 Angela Czarina Mejia and Cam Hickling:
+  analysis/heart_rate_analysis.py
+  analysis/narration_make_units.py
+
 This product is licensed under the Apache License, Version 2.0.
 See the LICENSE file for details.

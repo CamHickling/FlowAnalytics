@@ -1,9 +1,11 @@
 """
 Segment narration transcripts into canonical thought-units (rubric section 1).
 
-Author: AC Mejia
+Authors: Angela Czarina Mejia and Cam Hickling
 Version: 1.1
 Date: 21-Aug-2026
+Copyright 2026 Angela Czarina Mejia and Cam Hickling
+SPDX-License-Identifier: Apache-2.0
 
 This MUST run before both human coding and LLM labeling, because everyone has to code
 the SAME units or their unit_ids won't align and kappa can't be computed. Segmentation is

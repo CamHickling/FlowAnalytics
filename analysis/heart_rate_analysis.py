@@ -4,6 +4,8 @@ Full-session heart-rate analysis for the poomsae flow study.
 Version: 1.3
 Date: 16-July-2026
 Authors: Angela Czarina Mejia and Cam Hickling
+Copyright 2026 Angela Czarina Mejia and Cam Hickling
+SPDX-License-Identifier: Apache-2.0
 
 WHAT CHANGED:
 ----------------------------------------
