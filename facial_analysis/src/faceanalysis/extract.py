@@ -69,7 +69,8 @@ def run_openface(cfg: Config, video: Video) -> tuple[str, float]:
         log.write(" ".join(cmd) + "\n\n")
         log.flush()
         # OpenFace looks for its model files relative to the working directory
-        result = subprocess.run(cmd, cwd=cfg.openface_exe.parent, stdout=log, stderr=subprocess.STDOUT)
+        result = subprocess.run(cmd, cwd=cfg.openface_exe.parent, stdout=log, stderr=subprocess.STDOUT,
+                                stdin=subprocess.DEVNULL)
     elapsed = time.time() - start
 
     csv_path = cfg.openface_dir / f"{video.video_id}.csv"
