@@ -99,8 +99,12 @@ def find_subtitles(trial: Path, assets: mvp.TrialAssets) -> Path | None:
         if candidate.lower().endswith(".srt") and "scoring" not in Path(candidate).name.lower():
             return Path(candidate)
     pid = trial.name.split("_")[0]
-    synthesis = TRANSCRIPTS_DIR / "synthesis" / pid / f"{pid}_audio_narration_synthesis.srt"
-    return synthesis if synthesis.is_file() else None
+    # Usually <pid>_audio_narration_synthesis.srt; P06's recorder named it audio_commentary
+    for name in ("narration", "commentary"):
+        synthesis = TRANSCRIPTS_DIR / "synthesis" / pid / f"{pid}_audio_{name}_synthesis.srt"
+        if synthesis.is_file():
+            return synthesis
+    return None
 
 
 def load_trial_media(trial: Path) -> TrialMedia:

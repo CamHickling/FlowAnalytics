@@ -598,8 +598,11 @@ def discover_trial(trial_dir: Path, calibration_dir: Path | None = None) -> Tria
     side = find_gopro_video(gopro_files, "side")
     manifest = first_matching(all_files, ("sync_manifest",))
     pause_file = first_matching(all_files, ("review_timestamps",))
+    # Reverse order so a split recording (P26: _1of2, _2of2) uses its last
+    # part -- the earlier part is commentary on an abandoned take, and only
+    # the last matches the logged review session and face video.
     narration_audio = first_matching(
-        sorted(path for path in all_files if path.suffix.lower() in AUDIO_EXTENSIONS),
+        sorted((path for path in all_files if path.suffix.lower() in AUDIO_EXTENSIONS), reverse=True),
         ("audio_narration", "audio_commentary", "narration"),
     )
     face_video = first_matching(
