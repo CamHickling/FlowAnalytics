@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Narration-view and performance-view videos for each trial.
 
-narration view    The whole review session. Front, side and overhead cameras
-                  play as the participant watched them and freeze while they
-                  paused to talk; the narrating face, narration audio (over
-                  quiet performance sound), subtitles and review-phase heart
-                  rate run continuously.  -> MVP/narration_view.mp4
+narration view    The review from when playback reaches the performance until
+                  it reaches the end (plus up to END_PAUSE_MAX_SEC of talk if
+                  paused there). Front, side and overhead cameras play as the
+                  participant watched them and freeze while they paused to
+                  talk; the narrating face, narration audio (over quiet
+                  performance sound), subtitles and review-phase heart rate
+                  run continuously.  -> MVP/narration_view.mp4
 
 performance view  The performance phase in real time. Front, side and overhead
                   cameras, the face from when the participant watched each
@@ -56,6 +58,9 @@ HR_GAP_SEC = 3.0                       # readings further apart than this are a 
 PLOT_LEFT, PLOT_RIGHT, PLOT_BOTTOM, PLOT_TOP = 0.075, 0.975, 0.13, 0.86
 
 PERFORMANCE_AUDIO_VOLUME = 0.125       # under the narration, as in review.mp4
+# Talk while paused on the performance's last moments is kept, up to this long
+END_PAUSE_MAX_SEC = 60.0
+END_PAUSE_TOLERANCE_SEC = 1.5          # "last moments": within this of the performance's end
 BOLD_FONT_PATH = "C:/Windows/Fonts/arialbd.ttf"
 TRANSCRIPTS_DIR = Path(os.environ.get(
     "FLOW_ANALYTICS_TRANSCRIPTS", Path(__file__).resolve().parents[1] / "flow transcripts"
@@ -398,6 +403,44 @@ def _single_play_timeline(source_start: float, duration: float) -> dict:
     }]}
 
 
+def review_time_reaching(segments: list[dict], position: float, review_duration: float) -> float:
+    """First review time at which playback has reached overhead `position`
+    (review_duration if it never did)."""
+    for seg in segments:
+        a, b = seg["source_start_sec"], seg["source_end_sec"]
+        if max(a, b) < position:
+            continue
+        if seg["type"] == "hold" or a >= position or b <= a:
+            return seg["review_start_sec"]
+        return seg["review_start_sec"] + (position - a) / (b - a) * (seg["review_end_sec"] - seg["review_start_sec"])
+    return review_duration
+
+
+def narration_window(media: TrialMedia, timing: dict, timeline: dict) -> tuple[float, float]:
+    """(start, end) in review time of the narration view: from when playback
+    reaches the performance until it reaches the performance's end. Talking
+    pauses in between are kept; a pause on the performance's last moments is
+    kept for at most END_PAUSE_MAX_SEC."""
+    segments, review_duration = timeline["segments"], timeline["review_duration_sec"]
+    perf_start, perf_duration = performance_window(media, timing)
+    perf_end = perf_start + perf_duration
+    start = review_time_reaching(segments, perf_start, review_duration)
+    end = review_time_reaching(segments, perf_end, review_duration)
+    end_pause = next(
+        (s for s in segments
+         if s["type"] == "hold" and s["source_start_sec"] >= perf_end - END_PAUSE_TOLERANCE_SEC
+         and s["review_end_sec"] > start),
+        None,
+    )
+    if end_pause and end_pause["review_start_sec"] <= end + 0.5:
+        end = end_pause["review_start_sec"] + min(
+            end_pause["review_end_sec"] - end_pause["review_start_sec"], END_PAUSE_MAX_SEC)
+    end = min(end, review_duration)
+    if end - start < 1.0:
+        raise RuntimeError("the review never played the performance")
+    return start, end
+
+
 def render_narration_view(trial: Path) -> Path:
     media = load_trial_media(trial)
     assets = media.assets
@@ -405,17 +448,23 @@ def render_narration_view(trial: Path) -> Path:
         raise RuntimeError("narration audio is required")
     timing = mvp.build_timing_report(assets)
     timeline = mvp.build_pause_timeline(assets)
-    duration = timeline["review_duration_sec"]
+    t_start, t_end = narration_window(media, timing, timeline)
+    duration = t_end - t_start
+    if t_start > 0.5 or t_end < timeline["review_duration_sec"] - 0.5:
+        print(f"  Narration view covers review {t_start:.1f}-{t_end:.1f}s of {timeline['review_duration_sec']:.1f}s")
 
     clips = {}
     for name, source, offset in (("front", media.front, media.front_offset),
                                  ("side", media.side, media.side_offset),
                                  ("overhead", media.overhead, 0.0)):
         clips[name] = mvp.build_pause_aware_video(
-            media.ffmpeg, source, offset, timeline, 0.0, duration, media.work_dir / f"narration_{name}.mp4")
+            media.ffmpeg, source, offset, timeline, t_start, t_end, media.work_dir / f"narration_{name}.mp4")
 
-    readings = read_hr(assets, timing["review_wall_start"], timing["review_wall_start"] + duration)
-    pauses = [(s["review_start_sec"], s["review_end_sec"]) for s in timeline["segments"] if s["type"] == "hold"]
+    wall_start = timing["review_wall_start"] + t_start
+    readings = read_hr(assets, wall_start, wall_start + duration)
+    pauses = [(max(s["review_start_sec"], t_start) - t_start, min(s["review_end_sec"], t_end) - t_start)
+              for s in timeline["segments"]
+              if s["type"] == "hold" and s["review_end_sec"] > t_start and s["review_start_sec"] < t_end]
     chart = render_hr_chart(readings, duration, "Heart rate during narration",
                             media.work_dir / "narration_chart.png", pauses)
     markers = build_hr_marker_track(readings, duration, media.work_dir / "narration_markers")
@@ -427,9 +476,9 @@ def render_narration_view(trial: Path) -> Path:
     output = media.trial / "MVP" / "narration_view.mp4"
     compose_view(
         media, output, duration, clips["front"], clips["side"], clips["overhead"],
-        face=Path(assets.face_video), face_seek=face_offset, face_caption="Face (narrating)",
+        face=Path(assets.face_video), face_seek=face_offset + t_start, face_caption="Face (narrating)",
         chart=chart, markers=markers, narration_audio=assets.narration_audio,
-        audio_seek=audio_offset, subtitles=subtitles,
+        audio_seek=audio_offset + t_start, subtitles=subtitles,
     )
     return output
 

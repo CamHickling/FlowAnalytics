@@ -1122,9 +1122,9 @@ def build_pause_aware_video(
             pos = seg["source_start_sec"] + offset
             label = seg.get("label")
             if pos < 0:
-                pos, label = 0.0, "camera not recording yet"
+                pos, label = 0.0, label or "camera not recording yet"
             elif pos > last_frame_pos:
-                pos, label = last_frame_pos, "camera stopped"
+                pos, label = last_frame_pos, label or "camera stopped"
             pieces.append(("freeze", clip_review_start, clip_review_end, pos, pos, label))
             continue
         # play: review time maps linearly onto source time over the segment
