@@ -1025,16 +1025,35 @@ def _extract_frame_fullres(ffmpeg: str, video_path: str, position_sec: float, ou
     return result.returncode == 0 and out_path.is_file()
 
 
-def _probe_audio_params(source: Path) -> tuple[int, str]:
-    """(sample_rate, channel_layout) of source's first audio stream, falling
-    back to 48kHz stereo (GoPro's usual format) if ffprobe/the stream isn't
-    available -- used so freeze-segment silence exactly matches play-segment
-    audio, letting the final concat use `-c copy` without a parameter clash."""
+def _resolve_ffprobe() -> str | None:
     ffprobe = shutil.which("ffprobe")
     if not ffprobe:
         ffmpeg_path = _resolve_ffmpeg()
         candidate = Path(ffmpeg_path).with_name("ffprobe.exe") if ffmpeg_path else None
         ffprobe = str(candidate) if candidate and candidate.is_file() else None
+    return ffprobe
+
+
+def _has_audio_stream(source: Path) -> bool:
+    """Whether source has an audio stream. Assumes yes (the GoPro case) when
+    ffprobe isn't available."""
+    ffprobe = _resolve_ffprobe()
+    if not ffprobe:
+        return True
+    result = run_media_tool(
+        [ffprobe, "-v", "error", "-select_streams", "a", "-show_entries", "stream=index",
+         "-of", "csv=p=0", str(source)],
+        timeout=120,
+    )
+    return bool(result.stdout.strip())
+
+
+def _probe_audio_params(source: Path) -> tuple[int, str]:
+    """(sample_rate, channel_layout) of source's first audio stream, falling
+    back to 48kHz stereo (GoPro's usual format) if ffprobe/the stream isn't
+    available -- used so freeze-segment silence exactly matches play-segment
+    audio, letting the final concat use `-c copy` without a parameter clash."""
+    ffprobe = _resolve_ffprobe()
     if not ffprobe:
         return 48000, "stereo"
     result = run_media_tool(
@@ -1071,8 +1090,12 @@ def build_pause_aware_video(
     since review-time spans (from wall-clock pause events) and source-time
     spans (from a human-entered video_position_sec) can drift by a frame
     or two even though both nominally advance 1:1.
+
+    A 'hold' segment may carry a "label" to caption its frozen frame.
     """
     segments = pause_timeline["segments"]
+    # The overhead and face cams record no audio; their clips stay silent
+    has_audio = _has_audio_stream(source)
     audio_sample_rate, audio_channel_layout = _probe_audio_params(source)
     work_dir = output.parent / f"_clips_{output.stem}"
     if work_dir.is_dir():
@@ -1094,7 +1117,7 @@ def build_pause_aware_video(
             continue
         if seg["type"] == "hold":
             pos = seg["source_start_sec"] + offset
-            label = None
+            label = seg.get("label")
             if pos < 0:
                 pos, label = 0.0, "camera not recording yet"
             elif pos > last_frame_pos:
@@ -1139,15 +1162,20 @@ def build_pause_aware_video(
                     f"drawtext=fontfile='{font_path_escaped}':text='{label}':fontcolor=white:fontsize=48:"
                     "box=1:boxcolor=black@0.6:boxborderw=18:x=(w-text_w)/2:y=h-text_h-60"
                 )
+            silence = (
+                ["-f", "lavfi", "-i", f"anullsrc=channel_layout={audio_channel_layout}:sample_rate={audio_sample_rate}"]
+                if has_audio else []
+            )
+            audio_out = ["-c:a", "aac", "-ar", str(audio_sample_rate)] if has_audio else ["-an"]
             command = [
                 ffmpeg, "-y", "-v", "error",
                 "-loop", "1", "-i", str(frame_path),
-                "-f", "lavfi", "-i", f"anullsrc=channel_layout={audio_channel_layout}:sample_rate={audio_sample_rate}",
+                *silence,
                 "-t", f"{target_duration:.3f}",
                 "-vf", ",".join(filters),
                 "-r", str(fps),
                 "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
-                "-c:a", "aac", "-ar", str(audio_sample_rate),
+                *audio_out,
                 str(clip_path),
             ]
         else:
@@ -1157,14 +1185,17 @@ def build_pause_aware_video(
             # setpts retimes the source span to the review span: the review
             # player runs ~3% slow, so this is what the participant saw.
             # atempo mirrors it so audio/video land on the same duration.
+            audio_out = (
+                ["-af", f"atempo={speed:.6f}", "-c:a", "aac", "-ar", str(audio_sample_rate)]
+                if has_audio else ["-an"]
+            )
             command = [
                 ffmpeg, "-y", "-v", "error",
                 "-ss", f"{video_start:.3f}", "-t", f"{actual_span:.3f}", "-i", str(source),
                 "-vf", f"setpts=PTS/{speed:.6f},fps={fps}",
-                "-af", f"atempo={speed:.6f}",
                 "-t", f"{target_duration:.3f}",
                 "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
-                "-c:a", "aac", "-ar", str(audio_sample_rate),
+                *audio_out,
                 str(clip_path),
             ]
 
