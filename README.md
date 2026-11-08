@@ -20,6 +20,7 @@
 </p>
 
 <p align="center">
+  <a href="#why-it-exists"><b>Why it exists</b></a> ·
   <a href="#quick-start"><b>Quick start</b></a> ·
   <a href="#usage"><b>Usage</b></a> ·
   <a href="#dataset-layout"><b>Dataset layout</b></a> ·
@@ -66,6 +67,23 @@ narration, the face cam, subtitles, and heart-rate keep running. See the
 | **Align subtitles** | Merge human-cleaned narration onto WhisperX timing, flagging mismatches | `scripts/compare_narration_transcripts.py` |
 | **Compose** | Staged pipeline: inspect → timing → pause map → chart → prepare → render | `scripts/mvp.py` |
 | **Analyze** | Heart-rate analysis, narration segmentation, LLM-assisted coding, inter-rater reliability | `analysis/` |
+
+## Why it exists
+
+**The problem.** Each of the study's 60+ trials, recorded with
+[Iris](https://github.com/CamHickling/Iris), produced several camera angles, heart rate and a
+narrated review. Turning those into something researchers could code meant aligning every
+recording by hand.
+
+| Decision | Why |
+| --- | --- |
+| People's cleaned transcript decides the wording; WhisperX, run locally, supplies only the timing | Researchers trust their own transcripts, the model is used only where it's reliable, and no audio leaves the lab |
+| Where the model's transcript matched the people's, it was accepted; where it didn't, a person reviewed it. Originals are never overwritten | A wrong subtitle in research data is worse than a missing one. Of 51 narrations, 48 matched and 3 went to review |
+| Every step is checked on one trial before running the batch | Mistakes are caught once, not 60 times |
+| An LLM can code the narration as an extra coder, with its agreement with human coders measured (kappa) before its labels are trusted | AI that adds speed is only used where it's shown to agree with people |
+
+**Impact.** More than 90 hours of manual alignment cut. Every trial gets one review video, with
+both camera angles, the face camera, subtitles and live heart rate.
 
 ## Quick start
 
