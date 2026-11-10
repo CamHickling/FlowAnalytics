@@ -1,5 +1,8 @@
 # FlowAnalytics Current Context
 
+> **Update, 2026-11-09:** every trial in the study now has its review video. The steps below
+> record how the pipeline was validated (October 2026) and are kept for reference.
+
 ## Current state
 
 We are in the validation phase of the MVP video pipeline, not the full production batch phase.

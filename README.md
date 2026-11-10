@@ -13,22 +13,39 @@
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache%202.0-1876BE?labelColor=071A33"></a>
 </p>
 
+<p align="center"><b>Turn each trial's cameras, narration and heart rate into one synced, subtitled review video.</b></p>
+
 <p align="center">
-  Synchronize, undistort, transcribe, and compose multi-camera athlete performance
-  recordings into a single pause-aware review video with narration, subtitles,
-  and live heart-rate.
+  <img src="docs/assets/flowanalytics-demo.gif" alt="How FlowAnalytics works: sync the cameras, correct the lenses, time the narration, then compose one review video with both camera angles, the face camera, subtitles and live heart rate" width="100%">
 </p>
 
 <p align="center">
   <a href="#why-it-exists"><b>Why it exists</b></a> ·
+  <a href="#status"><b>Status</b></a> ·
   <a href="#quick-start"><b>Quick start</b></a> ·
   <a href="#usage"><b>Usage</b></a> ·
   <a href="#dataset-layout"><b>Dataset layout</b></a> ·
   <a href="docs/MVP_SPEC.md"><b>Specification</b></a> ·
-  <a href="CONTRIBUTING.md"><b>Contributing</b></a>
+  <a href="#credits"><b>Credits</b></a>
 </p>
 
 ---
+
+**Who it's for.** Researchers who record athletes with several cameras, heart rate and a narrated
+self-review, and need it all lined up before they can code it. FlowAnalytics does the aligning, so
+the team reviews one video per trial instead of lining up files by hand. It was built for the
+UBC Brain, Attention and Reality Lab's Taekwondo flow study, whose sessions are recorded with
+[Iris](https://github.com/CamHickling/Iris).
+
+**What you get**
+
+- **No hand alignment.** Cameras are synced from their audio, with an interactive check when you want one.
+- **One review video per trial.** Both GoPro angles (lens-corrected), the face camera, subtitles and live heart rate.
+- **Subtitles you can trust.** Your team's cleaned transcript sets the wording; WhisperX, run locally, only supplies the timing.
+- **Pauses handled.** When the athlete pauses to talk, the performance freezes while narration, face camera and heart rate keep running.
+- **Checked before it scales.** Every step runs on one trial before the batch.
+
+**Track record:** a review video for every one of the study's 60+ trials, and more than 90 hours of manual alignment cut. 48 of 51 narrations matched automatically; 3 went to a person.
 
 ## Overview
 
@@ -102,6 +119,9 @@ the core pipeline. Optional extras:
 pip install -r envs/requirements-analysis.txt          # analysis/ scripts
 conda env create -f envs/environment-whisperx-gpu.yml  # WhisperX transcription (CUDA)
 ```
+
+**Check that it worked:** `python scripts/mvp.py --help` lists the pipeline's stages
+(`inspect`, `timing`, `pause-map`, `chart`, … `render`).
 
 Point the tools at your dataset:
 
@@ -231,12 +251,19 @@ FlowAnalytics/
 └── docs/           Specification, calibration notes, project status, task plan, brand assets
 ```
 
-## Project status
+## Status
 
-FlowAnalytics is a **research prototype** in active development. The staged
-pipeline is implemented end to end; validation is proceeding one trial at a time
-before batch rendering. See [docs/project-status.md](docs/project-status.md) and
-[docs/tasks.md](docs/tasks.md) for the current state and next steps.
+FlowAnalytics is a **research prototype**. Each part is marked ✅ working, 🟡 in progress or ⏳ planned.
+
+| Part | Status |
+| --- | --- |
+| Camera sync (audio landmarks, cross-correlation, manual review) | ✅ Working |
+| Narration transcription (WhisperX) and subtitle alignment | ✅ Working: 51 narrations compared, 48 matched, 3 reviewed by a person |
+| GoPro lens calibration and undistortion | ✅ Working |
+| Composed review video (`scripts/mvp.py`) | ✅ Working: every trial in the study has its review video |
+| Analysis: heart rate, narration segmentation, LLM-assisted coding with inter-rater reliability | 🟡 Research scripts |
+
+See [docs/project-status.md](docs/project-status.md) and [docs/tasks.md](docs/tasks.md) for details.
 
 ## Testing
 
@@ -244,16 +271,31 @@ before batch rendering. See [docs/project-status.md](docs/project-status.md) and
 python -m unittest discover -s tests
 ```
 
+
 ## Contributing
 
 Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before
 opening a pull request.
 
-## Authors
+## Credits
 
-- **Cam Hickling**
-- **Angela Czarina Mejia**: co-author of `analysis/heart_rate_analysis.py` and
-  `analysis/narration_make_units.py`
+- **Cam Hickling**: author.
+- **Angela Mejia**: co-author of `analysis/heart_rate_analysis.py` and
+  `analysis/narration_make_units.py`.
+- Built in collaboration with Alan Kingstone, Angela Mejia, Baruch Eitam and the research
+  assistants of the UBC Brain, Attention and Reality (BAR) Lab.
+
+## Ethics and data
+
+No participant data, faces, voices or names are in this repository, its images or its GIF.
+Recordings stay on the lab's own storage (point `FLOW_ANALYTICS_DATA_ROOT` at them), and
+transcription runs locally, so no audio leaves the lab. Getting consent and storing data as your
+ethics approval requires is the researcher's responsibility.
+
+## Citation
+
+If you use FlowAnalytics in published research, please cite it. Citation metadata is in
+[CITATION.cff](CITATION.cff), and GitHub shows a "Cite this repository" button for it.
 
 ## License
 

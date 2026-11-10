@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use FlowAnalytics in your research, please cite it as below."
+title: "FlowAnalytics: synced, subtitled multi-camera review videos for movement research"
+authors:
+  - family-names: Hickling
+    given-names: Cam
+license: Apache-2.0
+repository-code: "https://github.com/CamHickling/FlowAnalytics"
