@@ -45,7 +45,7 @@ UBC Brain, Attention and Reality Lab's Taekwondo flow study, whose sessions are 
 - **Pauses handled.** When the athlete pauses to talk, the performance freezes while narration, face camera and heart rate keep running.
 - **Checked before it scales.** Every step runs on one trial before the batch.
 
-**Track record:** a review video for every one of the study's 60+ trials, and more than 90 hours of manual alignment cut. 48 of 51 narrations matched automatically; 3 went to a person.
+**Track record:** a review video for every one of the study's 60+ trials, and more than 120 hours of manual alignment cut. 48 of 51 narrations matched automatically; 3 went to a person.
 
 ## Overview
 
@@ -99,7 +99,7 @@ recording by hand.
 | Every step is checked on one trial before running the batch | Mistakes are caught once, not 60 times |
 | An LLM can code the narration as an extra coder, with its agreement with human coders measured (kappa) before its labels are trusted | AI that adds speed is only used where it's shown to agree with people |
 
-**Impact.** More than 90 hours of manual alignment cut. Every trial gets one review video, with
+**Impact.** More than 120 hours of manual alignment cut. Every trial gets one review video, with
 both camera angles, the face camera, subtitles and live heart rate.
 
 ## Quick start
