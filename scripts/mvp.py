@@ -9,6 +9,7 @@ import datetime
 import json
 import re
 import shutil
+import statistics
 import subprocess
 import sys
 from dataclasses import asdict, dataclass
@@ -311,9 +312,9 @@ def get_video_creation_time(path: str) -> float | None:
     if not ffprobe:
         return None
     try:
-        result = subprocess.run(
+        result = run_media_tool(
             [ffprobe, "-v", "error", "-show_entries", "format_tags=creation_time", "-of", "json", str(path)],
-            capture_output=True, text=True,
+            timeout=120,
         )
         data = json.loads(result.stdout or "{}")
         raw = data.get("format", {}).get("tags", {}).get("creation_time")
@@ -388,6 +389,24 @@ def suggest_offsets_command(args: argparse.Namespace) -> int:
     return 0
 
 
+
+def run_media_tool(command: list[str], timeout: float | None = None) -> subprocess.CompletedProcess:
+    """Run ffmpeg/ffprobe so it can't stall an unattended batch.
+
+    ffmpeg watches stdin for keypresses; launched in the background without a
+    console it can block on that indefinitely (a batch render sat on one trial
+    for 10 hours with no CPU use). -nostdin plus an empty stdin stops that, and
+    the timeout turns any other hang into a failure the batch can log and skip.
+    """
+    command = [str(c) for c in command]
+    if Path(command[0]).stem.lower() == "ffmpeg" and "-nostdin" not in command:
+        command.insert(1, "-nostdin")
+    try:
+        return subprocess.run(command, capture_output=True, text=True,
+                              stdin=subprocess.DEVNULL, timeout=timeout)
+    except subprocess.TimeoutExpired:
+        return subprocess.CompletedProcess(command, 1, "", f"timed out after {timeout:.0f}s: {' '.join(command[:4])} ...")
+
 def _resolve_ffmpeg() -> str | None:
     ffmpeg = shutil.which("ffmpeg")
     if ffmpeg:
@@ -406,7 +425,7 @@ def _extract_thumbnail(ffmpeg: str, video_path: str, position_sec: float, out_pa
         "-frames:v", "1", "-update", "1", "-vf", f"scale={width}:-1",
         str(out_path),
     ]
-    result = subprocess.run(command, capture_output=True, text=True)
+    result = run_media_tool(command, timeout=120)
     return result.returncode == 0 and out_path.is_file()
 
 
@@ -579,8 +598,11 @@ def discover_trial(trial_dir: Path, calibration_dir: Path | None = None) -> Tria
     side = find_gopro_video(gopro_files, "side")
     manifest = first_matching(all_files, ("sync_manifest",))
     pause_file = first_matching(all_files, ("review_timestamps",))
+    # Reverse order so a split recording (P26: _1of2, _2of2) uses its last
+    # part -- the earlier part is commentary on an abandoned take, and only
+    # the last matches the logged review session and face video.
     narration_audio = first_matching(
-        sorted(path for path in all_files if path.suffix.lower() in AUDIO_EXTENSIONS),
+        sorted((path for path in all_files if path.suffix.lower() in AUDIO_EXTENSIONS), reverse=True),
         ("audio_narration", "audio_commentary", "narration"),
     )
     face_video = first_matching(
@@ -702,6 +724,56 @@ def media_info(path: str | None) -> dict[str, Any] | None:
         return {"path": path, "opened": None, "error": "opencv-python is unavailable"}
 
 
+def review_phase_event_time(manifest: Any, event_name: str) -> float | None:
+    """Wall time of the first `event_name` logged during the review phase."""
+    events = manifest.get("events", []) if isinstance(manifest, dict) else []
+    return next(
+        (
+            event.get("wall_time")
+            for event in events
+            if event.get("event") == event_name and event.get("phase") == "review"
+        ),
+        None,
+    )
+
+
+def review_media_offsets(assets: TrialAssets) -> tuple[float, float]:
+    """(face, audio) seconds into the face video / narration audio where
+    review time t=0 (first press of play) falls. Falls back to 0.0, the old
+    behaviour, when the manifest or pause log can't place it."""
+    timing = build_timing_report(assets)
+    if timing.get("review_start_source") != "first_play_press":
+        print("WARNING: no play/pause log for this review; the face and narration "
+              "can't be aligned to playback and start at the recorder start", file=sys.stderr)
+    offsets = []
+    for key, label in (("review_face_offset_sec", "face video"), ("review_audio_offset_sec", "narration audio")):
+        value = timing.get(key)
+        if value is None:
+            print(f"WARNING: could not place {label} on the review timeline; using offset 0.0", file=sys.stderr)
+            value = 0.0
+        offsets.append(value)
+    return offsets[0], offsets[1]
+
+
+# The review player advances the overhead video at about 97% of real time
+# (e.g. 443.8 s of performance takes 457.5 s to play). Measured per trial from
+# its logged resume->pause segments; this is the median across the dataset,
+# used for trials that never paused.
+DEFAULT_PLAYBACK_RATE = 0.970
+
+
+def measured_playback_rate(pause_events: list[dict[str, Any]]) -> float:
+    """Video seconds advanced per wall-clock second while playing."""
+    presses = [e for e in pause_events if e.get("type") in {"resume", "pause"}]
+    rates = []
+    for start, stop in zip(presses, presses[1:]):
+        wall = stop.get("wall_time", 0) - start.get("wall_time", 0)
+        if start.get("type") == "resume" and stop.get("type") == "pause" and wall > 2:
+            rates.append((stop["video_position_sec"] - start["video_position_sec"]) / wall)
+    rates = [r for r in rates if 0.8 < r < 1.2]
+    return statistics.median(rates) if rates else DEFAULT_PLAYBACK_RATE
+
+
 def build_timing_report(assets: TrialAssets) -> dict[str, Any]:
     timing = summarize_timing(assets)
     manifest_events = timing["manifest_events"]
@@ -734,15 +806,37 @@ def build_timing_report(assets: TrialAssets) -> dict[str, Any]:
         ),
         None,
     )
-    review_end = (
-        review_start + review_duration + pause_duration
-        if review_start is not None and review_duration is not None
-        else review_stop_event
-    )
-    performance_start = (manifest_events.get("overhead_recorder_start") or [None])[0]
+    playback_rate = measured_playback_rate(pause_events)
+    review_end = review_stop_event
+    if review_start is not None and review_duration is not None:
+        # After the last press, playback runs at the player's own speed until
+        # the performance ends -- or until the logged stop, if that came first.
+        presses = [e for e in pause_events if e.get("type") in {"resume", "pause"}]
+        last = presses[-1] if presses else None
+        if last is not None and last.get("type") == "resume":
+            natural_end = last["wall_time"] + (review_duration - last["video_position_sec"]) / playback_rate
+        elif last is not None:  # ended on a pause: the hold lasts until playback stopped
+            natural_end = review_stop_event or last["wall_time"]
+        else:
+            natural_end = review_start + review_duration / playback_rate
+        review_end = min(natural_end, review_stop_event) if review_stop_event else natural_end
+    # A re-recorded performance logs several overhead takes; the last one is what was played back
+    performance_start = (manifest_events.get("overhead_recorder_start") or [None])[-1]
     performance_end = (manifest_events.get("overhead_recorder_stop") or [None])[-1]
 
+    # The face cam and narration mic start recording when the review phase
+    # begins, before the participant presses play. Review time t=0 is that
+    # first press, so file time = review time + these offsets.
+    face_recorder_start = review_phase_event_time(review_player_events, "face_recorder_start")
+    audio_recorder_start = review_phase_event_time(review_player_events, "audio_recorder_start")
+    face_offset = review_start - face_recorder_start if review_start is not None and face_recorder_start is not None else None
+    audio_offset = review_start - audio_recorder_start if review_start is not None and audio_recorder_start is not None else None
+
     timing.update({
+        "playback_rate": playback_rate,
+        "review_start_source": "first_play_press" if playback_start is not None else "face_recorder_start_fallback",
+        "review_face_offset_sec": face_offset,
+        "review_audio_offset_sec": audio_offset,
         "review_wall_start": review_start,
         "review_wall_end": review_end,
         "review_wall_duration_sec": review_end - review_start if review_start and review_end else None,
@@ -812,14 +906,19 @@ def build_pause_timeline(assets: TrialAssets) -> dict[str, Any]:
             "source_end_sec": pause_position,
         })
         review_cursor = resume_time - review_start
-        source_cursor = pause_position
+        # Playback continues from wherever the player says it resumed
+        source_cursor = resume.get("video_position_sec", pause_position)
 
+    # Final segment: the player keeps its own (slightly slow) speed to the end
+    final_source_end = source_cursor + (review_end - review_start - review_cursor) * timing["playback_rate"]
+    if timing["review_playback_duration_sec"] is not None:
+        final_source_end = min(final_source_end, timing["review_playback_duration_sec"])
     segments.append({
         "type": "play",
         "review_start_sec": review_cursor,
         "review_end_sec": review_end - review_start,
         "source_start_sec": source_cursor,
-        "source_end_sec": source_cursor + (review_end - review_start - review_cursor),
+        "source_end_sec": final_source_end,
     })
     return {
         "review_duration_sec": review_end - review_start,
@@ -925,8 +1024,31 @@ def _extract_frame_fullres(ffmpeg: str, video_path: str, position_sec: float, ou
         "-frames:v", "1", "-update", "1",
         str(out_path),
     ]
-    result = subprocess.run(command, capture_output=True, text=True)
+    result = run_media_tool(command, timeout=120)
     return result.returncode == 0 and out_path.is_file()
+
+
+def _resolve_ffprobe() -> str | None:
+    ffprobe = shutil.which("ffprobe")
+    if not ffprobe:
+        ffmpeg_path = _resolve_ffmpeg()
+        candidate = Path(ffmpeg_path).with_name("ffprobe.exe") if ffmpeg_path else None
+        ffprobe = str(candidate) if candidate and candidate.is_file() else None
+    return ffprobe
+
+
+def _has_audio_stream(source: Path) -> bool:
+    """Whether source has an audio stream. Assumes yes (the GoPro case) when
+    ffprobe isn't available."""
+    ffprobe = _resolve_ffprobe()
+    if not ffprobe:
+        return True
+    result = run_media_tool(
+        [ffprobe, "-v", "error", "-select_streams", "a", "-show_entries", "stream=index",
+         "-of", "csv=p=0", str(source)],
+        timeout=120,
+    )
+    return bool(result.stdout.strip())
 
 
 def _probe_audio_params(source: Path) -> tuple[int, str]:
@@ -934,18 +1056,14 @@ def _probe_audio_params(source: Path) -> tuple[int, str]:
     back to 48kHz stereo (GoPro's usual format) if ffprobe/the stream isn't
     available -- used so freeze-segment silence exactly matches play-segment
     audio, letting the final concat use `-c copy` without a parameter clash."""
-    ffprobe = shutil.which("ffprobe")
-    if not ffprobe:
-        ffmpeg_path = _resolve_ffmpeg()
-        candidate = Path(ffmpeg_path).with_name("ffprobe.exe") if ffmpeg_path else None
-        ffprobe = str(candidate) if candidate and candidate.is_file() else None
+    ffprobe = _resolve_ffprobe()
     if not ffprobe:
         return 48000, "stereo"
-    result = subprocess.run(
+    result = run_media_tool(
         [ffprobe, "-v", "error", "-select_streams", "a:0",
          "-show_entries", "stream=sample_rate,channels",
          "-of", "csv=p=0", str(source)],
-        capture_output=True, text=True,
+        timeout=120,
     )
     try:
         rate_str, channels_str = result.stdout.strip().split(",")
@@ -975,73 +1093,118 @@ def build_pause_aware_video(
     since review-time spans (from wall-clock pause events) and source-time
     spans (from a human-entered video_position_sec) can drift by a frame
     or two even though both nominally advance 1:1.
+
+    A 'hold' segment may carry a "label" to caption its frozen frame.
     """
     segments = pause_timeline["segments"]
+    # The overhead and face cams record no audio; their clips stay silent
+    has_audio = _has_audio_stream(source)
     audio_sample_rate, audio_channel_layout = _probe_audio_params(source)
     work_dir = output.parent / f"_clips_{output.stem}"
     if work_dir.is_dir():
         shutil.rmtree(work_dir)
     work_dir.mkdir(parents=True, exist_ok=True)
 
-    clip_paths: list[Path] = []
-    clip_index = 0
+    # Seconds of footage this camera actually has. A GoPro is often stopped a
+    # little before the overhead (or started a little after), so parts of the
+    # review fall outside it; those show the nearest frame, frozen and labelled,
+    # instead of cutting the whole review short.
+    source_duration = (media_info(str(source)) or {}).get("duration_sec") or float("inf")
+    last_frame_pos = max(source_duration - 2.0 / fps, 0.0)
+
+    pieces = []  # (kind, review_start, review_end, video_start, video_end, label)
     for seg in segments:
         clip_review_start = max(seg["review_start_sec"], t_start)
         clip_review_end = min(seg["review_end_sec"], t_end)
         if clip_review_end <= clip_review_start:
             continue
-        target_duration = clip_review_end - clip_review_start
+        if seg["type"] == "hold":
+            pos = seg["source_start_sec"] + offset
+            label = seg.get("label")
+            if pos < 0:
+                pos, label = 0.0, label or "camera not recording yet"
+            elif pos > last_frame_pos:
+                pos, label = last_frame_pos, label or "camera stopped"
+            pieces.append(("freeze", clip_review_start, clip_review_end, pos, pos, label))
+            continue
+        # play: review time maps linearly onto source time over the segment
+        span = seg["review_end_sec"] - seg["review_start_sec"]
+        rate = (seg["source_end_sec"] - seg["source_start_sec"]) / span if span > 0 else 1.0
+        to_video = lambda r: seg["source_start_sec"] + (r - seg["review_start_sec"]) * rate + offset
+        to_review = lambda v: seg["review_start_sec"] + (v - offset - seg["source_start_sec"]) / rate if rate > 0 else clip_review_start
+        r_in = min(max(to_review(0.0), clip_review_start), clip_review_end)
+        r_out = min(max(to_review(last_frame_pos), clip_review_start), clip_review_end)
+        if r_in > clip_review_start:
+            pieces.append(("freeze", clip_review_start, r_in, 0.0, 0.0, "camera not recording yet"))
+        if r_out > r_in:
+            pieces.append(("play", r_in, r_out, to_video(r_in), to_video(r_out), None))
+        if clip_review_end > max(r_out, r_in):
+            pieces.append(("freeze", max(r_out, r_in), clip_review_end, last_frame_pos, last_frame_pos, "camera stopped"))
+
+    font_path_escaped = SUBTITLE_FONT_PATH.replace(":", "\\:")
+    clip_paths: list[Path] = []
+    clip_index = 0
+    for kind, review_start, review_end, video_start, video_end, label in pieces:
+        target_duration = review_end - review_start
+        if target_duration < 0.5 / fps:
+            continue
         clip_path = work_dir / f"clip_{clip_index:04d}.mp4"
 
-        if seg["type"] == "hold":
+        if kind == "freeze":
             # Silence during a freeze, not looped/duplicated audio -- the
-            # performance is paused, so there's no new ambient sound to show;
-            # sample rate/channels/codec match the source exactly so the
-            # final `-c copy` concat across mixed play/hold clips doesn't
-            # choke on mismatched audio stream parameters.
-            video_pos = seg["source_start_sec"] + offset
+            # performance is paused (or this camera has no footage), so
+            # there's no new ambient sound to show; sample rate/channels/codec
+            # match the source exactly so the final `-c copy` concat across
+            # mixed play/freeze clips doesn't choke on mismatched audio.
             frame_path = work_dir / f"clip_{clip_index:04d}_frame.png"
-            if not _extract_frame_fullres(ffmpeg, str(source), video_pos, frame_path):
-                raise RuntimeError(f"failed to extract hold frame at {video_pos:.2f}s from {source}")
+            if not _extract_frame_fullres(ffmpeg, str(source), video_start, frame_path):
+                raise RuntimeError(f"failed to extract hold frame at {video_start:.2f}s from {source}")
+            filters = [f"fps={fps}", "format=yuv420p"]
+            if label:
+                filters.append(
+                    f"drawtext=fontfile='{font_path_escaped}':text='{label}':fontcolor=white:fontsize=48:"
+                    "box=1:boxcolor=black@0.6:boxborderw=18:x=(w-text_w)/2:y=h-text_h-60"
+                )
+            silence = (
+                ["-f", "lavfi", "-i", f"anullsrc=channel_layout={audio_channel_layout}:sample_rate={audio_sample_rate}"]
+                if has_audio else []
+            )
+            audio_out = ["-c:a", "aac", "-ar", str(audio_sample_rate)] if has_audio else ["-an"]
             command = [
                 ffmpeg, "-y", "-v", "error",
                 "-loop", "1", "-i", str(frame_path),
-                "-f", "lavfi", "-i", f"anullsrc=channel_layout={audio_channel_layout}:sample_rate={audio_sample_rate}",
+                *silence,
                 "-t", f"{target_duration:.3f}",
+                "-vf", ",".join(filters),
                 "-r", str(fps),
-                "-pix_fmt", "yuv420p",
                 "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
-                "-c:a", "aac", "-ar", str(audio_sample_rate),
+                *audio_out,
                 str(clip_path),
             ]
         else:
-            seg_review_span = seg["review_end_sec"] - seg["review_start_sec"]
-            seg_source_span = seg["source_end_sec"] - seg["source_start_sec"]
-            frac_start = (clip_review_start - seg["review_start_sec"]) / seg_review_span if seg_review_span > 0 else 0.0
-            frac_end = (clip_review_end - seg["review_start_sec"]) / seg_review_span if seg_review_span > 0 else 1.0
-            video_start = seg["source_start_sec"] + frac_start * seg_source_span + offset
-            video_end = seg["source_start_sec"] + frac_end * seg_source_span + offset
             video_start = max(video_start, 0.0)
             actual_span = max(video_end - video_start, 1e-3)
             speed = actual_span / target_duration if target_duration > 0 else 1.0
-            # atempo mirrors the video's setpts correction so audio/video
-            # land on the identical target_duration -- speed corrections here
-            # are tiny (source and review time both nominally advance 1:1),
-            # well inside atempo's valid [0.5, 2.0] range.
+            # setpts retimes the source span to the review span: the review
+            # player runs ~3% slow, so this is what the participant saw.
+            # atempo mirrors it so audio/video land on the same duration.
+            audio_out = (
+                ["-af", f"atempo={speed:.6f}", "-c:a", "aac", "-ar", str(audio_sample_rate)]
+                if has_audio else ["-an"]
+            )
             command = [
                 ffmpeg, "-y", "-v", "error",
                 "-ss", f"{video_start:.3f}", "-t", f"{actual_span:.3f}", "-i", str(source),
                 "-vf", f"setpts=PTS/{speed:.6f},fps={fps}",
-                "-af", f"atempo={speed:.6f}",
                 "-t", f"{target_duration:.3f}",
                 "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
-                "-c:a", "aac", "-ar", str(audio_sample_rate),
+                *audio_out,
                 str(clip_path),
             ]
 
-        result = subprocess.run(command, capture_output=True, text=True)
+        result = run_media_tool(command, timeout=300 + 5 * target_duration)
         if result.returncode != 0:
-            raise RuntimeError(f"failed to build clip {clip_index} ({seg['type']}) for {output}: {result.stderr[-2000:]}")
+            raise RuntimeError(f"failed to build clip {clip_index} ({kind}) for {output}: {result.stderr[-2000:]}")
         clip_paths.append(clip_path)
         clip_index += 1
 
@@ -1060,7 +1223,7 @@ def build_pause_aware_video(
         "-c", "copy",
         str(output),
     ]
-    result = subprocess.run(command, capture_output=True, text=True)
+    result = run_media_tool(command, timeout=1800)
     if result.returncode != 0:
         raise RuntimeError(f"concat failed for {output}: {result.stderr[-4000:]}")
 
@@ -1344,6 +1507,14 @@ def compose_review_video(
     assets_dir = chart.parent
     layout = generate_layout_assets(assets_dir)
 
+    # Face and narration files start before the first press of play, so seek
+    # each by its own offset to show the reaction to what's on screen.
+    face_offset, audio_offset = review_media_offsets(assets)
+    face_seek = review_start_sec + face_offset
+    audio_seek = review_start_sec + audio_offset
+    print(f"Face video seek {face_seek:.3f}s (offset {face_offset:.3f}s), "
+          f"narration audio seek {audio_seek:.3f}s (offset {audio_offset:.3f}s)")
+
     front_x, front_y = LAYOUT_MARGIN, LAYOUT_MARGIN
     side_x, side_y = LAYOUT_MARGIN + LAYOUT_VIDEO_W + LAYOUT_GAP, LAYOUT_MARGIN
     sub_x = LAYOUT_MARGIN
@@ -1414,8 +1585,9 @@ def compose_review_video(
         current_label = marker_label
         cue_index = 0
         for cue in parse_srt(subtitles):
-            start = cue["start"] - review_start_sec
-            end = cue["end"] - review_start_sec
+            # Cue times come from the narration WAV, so they're in audio-file time
+            start = cue["start"] - audio_seek
+            end = cue["end"] - audio_seek
             if end <= 0 or start >= duration:
                 continue
             start = max(start, 0.0)
@@ -1444,7 +1616,9 @@ def compose_review_video(
         "-y",
         "-ss", str(front_start_sec), "-i", str(front),
         "-ss", str(side_start_sec), "-i", str(side),
-        "-stream_loop", "-1", "-ss", str(review_start_sec), "-i", assets.face_video,
+        # No -stream_loop: a face video that runs short should end visibly,
+        # not silently restart from the beginning out of sync.
+        "-ss", str(face_seek), "-i", assets.face_video,
         # -framerate 30 on every looped PNG: image2/png_pipe defaults to 25fps
         # when unspecified, so these were being fed into alphamerge/overlay
         # alongside 30fps video -- that mismatch produced a reproducible
@@ -1460,7 +1634,7 @@ def compose_review_video(
         "-framerate", "30", "-loop", "1", "-i", str(layout["subtitle_bg"]),
         "-framerate", "30", "-loop", "1", "-i", str(layout["marker_line"]),
         "-framerate", "30", "-loop", "1", "-i", str(layout["marker_dot"]),
-        "-ss", str(review_start_sec), "-i", assets.narration_audio,
+        "-ss", str(audio_seek), "-i", assets.narration_audio,
         "-filter_complex", ";".join(filter_parts),
         "-map", video_label,
         "-map", "[audio]",
@@ -1482,7 +1656,7 @@ def compose_review_video(
         str(output),
     ]
     print(f"Rendering: {output}")
-    result = subprocess.run(command, capture_output=True, text=True)
+    result = run_media_tool(command, timeout=900 + 5 * duration)
     if result.returncode != 0:
         print(result.stderr[-4000:], file=sys.stderr)
         return result.returncode
@@ -1640,8 +1814,16 @@ def render_one_trial(trial: Path) -> Path:
     if not front_duration or not side_duration:
         raise RuntimeError("could not read front/side undistorted video duration")
 
-    t_start, t_end = compute_review_window(pause_timeline, front_offset, side_offset, front_duration, side_duration)
+    # Always the whole review, so face and narration are never cut. Where a
+    # GoPro has no footage, build_pause_aware_video shows its nearest frame
+    # frozen with a "camera stopped" label. compute_review_window still says
+    # how much of the review has live footage from both cameras.
+    covered_start, covered_end = compute_review_window(pause_timeline, front_offset, side_offset, front_duration, side_duration)
+    t_start, t_end = 0.0, pause_timeline["review_duration_sec"]
     duration = t_end - t_start
+    if covered_end - covered_start < duration - 0.5:
+        print(f"  Note: both GoPros live for review {covered_start:.1f}-{covered_end:.1f}s of {duration:.1f}s; "
+              "the rest shows a frozen, labelled frame")
 
     ffmpeg = _resolve_ffmpeg_or_error()
     if not ffmpeg:
@@ -1763,12 +1945,14 @@ def render_command(args: argparse.Namespace) -> int:
         return 2
 
     try:
-        t_start, t_end = compute_review_window(pause_timeline, front_offset, side_offset, front_duration, side_duration)
+        covered_start, covered_end = compute_review_window(pause_timeline, front_offset, side_offset, front_duration, side_duration)
     except Exception as exc:
         print(f"ERROR: could not compute review window: {exc}", file=sys.stderr)
         return 2
+    # Same as render_one_trial: the whole review, with frozen labelled frames where a GoPro has no footage
+    t_start, t_end = 0.0, pause_timeline["review_duration_sec"]
     duration = t_end - t_start
-    print(f"Review window: [{t_start:.2f}, {t_end:.2f}] ({duration:.2f}s of {pause_timeline['review_duration_sec']:.2f}s total)")
+    print(f"Review window: [0.00, {t_end:.2f}]; both GoPros live for [{covered_start:.2f}, {covered_end:.2f}]")
 
     ffmpeg = _resolve_ffmpeg_or_error()
     if not ffmpeg:

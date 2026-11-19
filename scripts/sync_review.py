@@ -95,7 +95,7 @@ def main() -> int:
             part_starts.append(cumulative)
             duration = (mvp.media_info(str(part)) or {}).get("duration_sec") or 0.0
             tag = f" (part {_part_number(part)})" if len(overhead_parts) > 1 else ""
-            print(f"  overhead{tag}: {part.name} [cumulative start {cumulative:.1f}s, duration {duration:.1f}s]")
+            print(f"  overhead{tag}: {part.name} [separate take, duration {duration:.1f}s]")
             cumulative += duration
         print(f"  front: {front.name}")
 
@@ -121,10 +121,11 @@ def main() -> int:
                     ).strip()
                     if local_time.lower() == "q":
                         break
-                    overhead_time = (
-                        "" if not local_time
-                        else str(part_starts[part_index] + mvp._parse_timecode(local_time))
-                    )
+                    # Each part is a separate take, and the review player shows
+                    # one take from its own t=0 -- so the timestamp stays local to
+                    # that part. (Adding the earlier parts' lengths, as this used
+                    # to, put P03 and P26 off by 33.5 s and 69.5 s.)
+                    overhead_time = "" if not local_time else str(mvp._parse_timecode(local_time))
             else:
                 overhead_time = input("  Overhead timestamp (MM:SS, blank=skip, q=quit): ").strip()
                 if overhead_time.lower() == "q":

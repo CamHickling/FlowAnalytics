@@ -1,0 +1,36 @@
+# AU analysis of every trial's face videos, synced to the performance playback:
+#   python -m faceanalysis -c config_trials.yaml trials run
+# Narration = review/*_face_narration.mp4, scoring = scoring/*_face_scoring.mp4
+# (P06 kept the recorder's *_face_cam.mp4 names). Only the stretch from the first
+# press of play until the performance has played out is analysed.
+# Relative paths are resolved against the folder containing this file.
+
+openface:
+  exe: tools/OpenFace_2.2.0_win_x64/FeatureExtraction.exe
+  flags: ["-2Dfp", "-3Dfp", "-pdmparams", "-pose", "-aus", "-gaze"]
+  save_tracked_video: false
+
+input:
+  dirs:
+    - ../Iris_Recorded_Taekwondo_Data
+
+output:
+  dir: outputs/trials
+
+workers: 4
+
+analysis:
+  min_confidence: 0.8
+  plot_smoothing_s: 1.0
+
+trials:
+  # The conda `video` env has the only working ffmpeg on this machine
+  ffmpeg: C:/Users/BarlabPRIME/anaconda3/envs/video/Library/bin/ffmpeg.exe
+  ffprobe: C:/Users/BarlabPRIME/anaconda3/envs/video/Library/bin/ffprobe.exe
+  # Trimmed clips are deleted once OpenFace has processed them
+  keep_clips: false
+  events:
+    # An AU event = OpenFace marks the AU present (AUxx_c = 1) for at least this long...
+    min_duration_s: 0.2
+    # ...bridging dropouts up to this long (never across untracked frames)
+    max_gap_s: 0.1

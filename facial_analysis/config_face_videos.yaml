@@ -1,0 +1,40 @@
+# Action units for the close-up face videos recorded in each trial:
+#   <trial>/review/<id>_face_narration.mp4   (participant narrating their performance)
+#   <trial>/scoring/<id>_face_scoring.mp4    (participant scoring their performance)
+# Relative paths are resolved against the folder containing this file.
+
+openface:
+  exe: tools/OpenFace_2.2.0_win_x64/FeatureExtraction.exe
+  flags: ["-2Dfp", "-3Dfp", "-pdmparams", "-pose", "-aus", "-gaze"]
+  save_tracked_video: false
+
+input:
+  dirs:
+    - ../Iris_Recorded_Taekwondo_Data
+  patterns:
+    - "*/review/*_face_narration.mp4"
+    - "*/scoring/*_face_scoring.mp4"
+  # Keep everything: the P02B clips are only a few MB but are flagged short_video below.
+  min_size_mb: 0
+
+output:
+  dir: outputs/face_videos
+
+# 16-core machine; each OpenFace process uses several threads.
+workers: 4
+
+metadata:
+  # Matched against the path relative to the input dir, e.g.
+  # P02B_20260223_134013/review/P02B_face_narration.mp4. Named groups become summary columns.
+  pattern: '^(?P<participant>P\d+)(?P<session>B?)_[^/]*/(?:review|scoring)/[^/]*_face_(?P<condition>narration|scoring)\.mp4$'
+  defaults:
+    session: main  # an empty session group means the main (non-B) session
+  flags:
+    # Speech moves the mouth during narration, so AU10/12/14/15/17/20/23/25/26 there
+    # reflect talking as well as expression. All AUs are kept; this column marks the rows.
+    mouth_aus_speech_confounded: {condition: narration}
+
+analysis:
+  min_confidence: 0.8
+  plot_smoothing_s: 1.0
+  min_duration_s: 30

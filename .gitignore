@@ -33,3 +33,9 @@ Thumbs.db
 Iris_Recorded_Taekwondo_Data/
 flow transcripts/
 reports/
+
+# Standalone ffmpeg build (gyan.dev essentials)
+tools/ffmpeg/
+
+# Team report generator: hardcodes per-participant findings, keep local
+scripts/build_sync_hr_report.py
