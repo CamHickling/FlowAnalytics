@@ -19,7 +19,7 @@ import cv2
 import numpy as np
 
 DATA_ROOT = Path("D:/FlowAnalytics/Iris_Recorded_Taekwondo_Data")
-RATE = 10.0  # motion samples per second
+RATE = 30.0  # motion samples per second (overhead frame rate)
 
 
 def motion(path: str, start: float, duration: float) -> np.ndarray:
@@ -44,6 +44,8 @@ def motion(path: str, start: float, duration: float) -> np.ndarray:
     sig = np.array(out)
     if start < 0:  # pad the part before the file starts
         sig = np.concatenate([np.full(int(-start * RATE), np.nan), sig])
+    if len(sig) < n:  # and the part after it ends
+        sig = np.concatenate([sig, np.full(n - len(sig), np.nan)])
     return sig
 
 
@@ -52,14 +54,23 @@ def zscore(x: np.ndarray) -> np.ndarray:
     return (x - x.mean()) / (x.std() or 1.0)
 
 
-def best_lag(ref: np.ndarray, sig: np.ndarray) -> tuple[float, float, float]:
-    """Lag (s) of ref within sig, peak correlation, and the margin over the next-best peak."""
+def lag_scores(ref: np.ndarray, sig: np.ndarray) -> np.ndarray:
+    """Correlation of ref against sig at every whole-sample lag."""
     ref, sig = zscore(ref), zscore(sig)
-    scores = np.array([np.dot(ref, sig[k:k + len(ref)]) / len(ref) for k in range(len(sig) - len(ref) + 1)])
+    return np.array([np.dot(ref, sig[k:k + len(ref)]) / len(ref) for k in range(len(sig) - len(ref) + 1)])
+
+
+def best_lag(scores: np.ndarray) -> tuple[float, float, float]:
+    """Lag (s, sub-sample by parabolic fit), peak correlation, and the margin over the next-best peak."""
     k = int(np.argmax(scores))
+    frac = 0.0
+    if 0 < k < len(scores) - 1:
+        a, b, c = scores[k - 1], scores[k], scores[k + 1]
+        if a - 2 * b + c < 0:
+            frac = 0.5 * (a - c) / (a - 2 * b + c)
     others = scores.copy()
     others[max(0, k - int(2 * RATE)):k + int(2 * RATE)] = -np.inf  # exclude the peak's neighbourhood
-    return k / RATE, float(scores[k]), float(scores[k] - others.max())
+    return (k + frac) / RATE, float(scores[k]), float(scores[k] - others.max())
 
 
 def audit(trial: Path, search: float) -> dict:
@@ -74,10 +85,17 @@ def audit(trial: Path, search: float) -> dict:
 
     ref = motion(str(overhead), 0.0, played)
     row = {"trial": trial.name, "overhead_file": overhead.name, "performance_s": round(played, 1)}
+    # Front and side are locked to each other (audio sync), so both windows
+    # start the same distance before their saved offsets and share a lag axis.
+    scores = {}
     for cam in ("front", "side"):
         saved = offsets[f"{cam}_offset_sec"]
-        sig = motion(prepared[cam]["output"], saved - search, played + 2 * search)
-        lag, peak, margin = best_lag(ref, sig)
+        source = Path(prepared[cam]["output"])
+        if not source.is_file():  # trial folder renamed since the assets were prepared
+            source = trial / "MVP" / "generated" / source.name
+        sig = motion(str(source), saved - search, played + 2 * search)
+        scores[cam] = lag_scores(ref, sig)
+        lag, peak, margin = best_lag(scores[cam])
         measured = saved - search + lag
         row.update({
             f"{cam}_saved": round(saved, 2),
@@ -86,12 +104,20 @@ def audit(trial: Path, search: float) -> dict:
             f"{cam}_peak": round(peak, 3),
             f"{cam}_margin": round(margin, 3),
         })
+    n = min(len(scores["front"]), len(scores["side"]))
+    lag, peak, margin = best_lag((scores["front"][:n] + scores["side"][:n]) / 2)
+    row.update({
+        "joint_diff": round(lag - search, 3),
+        "joint_peak": round(peak, 3),
+        "joint_margin": round(margin, 3),
+        "front_side_disagree": round(row["front_diff"] - row["side_diff"], 2),
+    })
     return row
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--search", type=float, default=60.0, help="seconds either side of the saved offset")
+    parser.add_argument("--search", type=float, default=20.0, help="seconds either side of the saved offset")
     parser.add_argument("--workers", type=int, default=6)
     parser.add_argument("--only", nargs="+")
     args = parser.parse_args()
@@ -109,8 +135,8 @@ def main() -> None:
         writer.writeheader()
         writer.writerows(rows)
     for r in rows:
-        print(f"{r['trial'][:22]:22} front {r['front_diff']:+7.2f}s (peak {r['front_peak']:.2f}, margin {r['front_margin']:.2f})"
-              f"   side {r['side_diff']:+7.2f}s (peak {r['side_peak']:.2f}, margin {r['side_margin']:.2f})")
+        print(f"{r['trial'][:22]:22} joint {r['joint_diff']:+7.3f}s (peak {r['joint_peak']:.2f}, margin {r['joint_margin']:.2f})"
+              f"   front {r['front_diff']:+7.2f}s  side {r['side_diff']:+7.2f}s")
     print(f"Wrote {out}")
 
 

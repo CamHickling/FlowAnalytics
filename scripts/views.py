@@ -62,6 +62,11 @@ PERFORMANCE_AUDIO_VOLUME = 0.125       # under the narration, as in review.mp4
 END_PAUSE_MAX_SEC = 60.0
 END_PAUSE_TOLERANCE_SEC = 1.5          # "last moments": within this of the performance's end
 BOLD_FONT_PATH = "C:/Windows/Fonts/arialbd.ttf"
+# Render version: "" is the original set (MVP/sync_offsets.json -> *_view.mp4,
+# work files in generated/views). Any other value, e.g. "v2", reads
+# MVP/sync_offsets_<v>.json and writes *_view_<v>.mp4 and generated/views_<v>,
+# leaving earlier renders and their work files (pose inputs) untouched.
+RENDER_VERSION = ""
 TRANSCRIPTS_DIR = Path(os.environ.get(
     "FLOW_ANALYTICS_TRANSCRIPTS", Path(__file__).resolve().parents[1] / "flow transcripts"
 ))
@@ -112,6 +117,18 @@ def find_subtitles(trial: Path, assets: mvp.TrialAssets) -> Path | None:
     return None
 
 
+def versioned(name: str) -> str:
+    """`name` with the render version before its extension (unchanged for the original set)."""
+    if not RENDER_VERSION:
+        return name
+    stem, dot, ext = name.rpartition(".")
+    return f"{stem}_{RENDER_VERSION}{dot}{ext}" if dot else f"{name}_{RENDER_VERSION}"
+
+
+def view_output(trial: Path, view: str) -> Path:
+    return trial / "MVP" / versioned(OUTPUT_NAMES[view])
+
+
 def load_trial_media(trial: Path) -> TrialMedia:
     trial = trial.resolve()
     assets = mvp.discover_trial(trial)
@@ -119,15 +136,18 @@ def load_trial_media(trial: Path) -> TrialMedia:
         raise RuntimeError("face video is required")
     prepared = json.loads(mvp.ensure_prepared_assets(trial, assets, None).read_text(encoding="utf-8"))
     front, side = Path(prepared["front"]["output"]), Path(prepared["side"]["output"])
+    # A trial folder renamed since preparing (P04__ -> P04_) leaves stale paths
+    front, side = (p if p.is_file() else trial / "MVP" / "generated" / p.name for p in (front, side))
     if not front.is_file() or not side.is_file():
         raise RuntimeError("prepared front/side video is missing")
-    offsets = mvp.load_sync_offsets(trial)
+    offsets_path = trial / "MVP" / versioned(mvp.SYNC_OFFSETS_FILENAME)
+    offsets = json.loads(offsets_path.read_text(encoding="utf-8")) if offsets_path.is_file() else {}
     if not offsets:
-        raise RuntimeError(f"no sync offsets found ({mvp.sync_offsets_path(trial)})")
+        raise RuntimeError(f"no sync offsets found ({offsets_path})")
     ffmpeg = mvp._resolve_ffmpeg_or_error()
     if not ffmpeg:
         raise RuntimeError("FFmpeg is required for rendering")
-    work_dir = trial / "MVP" / "generated" / "views"
+    work_dir = trial / "MVP" / "generated" / versioned("views")
     work_dir.mkdir(parents=True, exist_ok=True)
     return TrialMedia(
         trial=trial, assets=assets, front=front, side=side, overhead=find_overhead(trial),
@@ -473,7 +493,7 @@ def render_narration_view(trial: Path) -> Path:
     subtitles = find_subtitles(media.trial, assets)
     if not subtitles:
         print("  Note: no timed subtitles for this trial; the subtitle bar stays empty")
-    output = media.trial / "MVP" / "narration_view.mp4"
+    output = view_output(media.trial, "narration")
     compose_view(
         media, output, duration, clips["front"], clips["side"], clips["overhead"],
         face=Path(assets.face_video), face_seek=face_offset + t_start, face_caption="Face (narrating)",
@@ -561,7 +581,7 @@ def render_performance_view(trial: Path) -> Path:
     chart = render_hr_chart(readings, duration, "Heart rate during performance", media.work_dir / "performance_chart.png")
     markers = build_hr_marker_track(readings, duration, media.work_dir / "performance_markers")
 
-    output = media.trial / "MVP" / "performance_view.mp4"
+    output = view_output(media.trial, "performance")
     compose_view(
         media, output, duration, clips["front"], clips["side"], clips["overhead"],
         face=face_clip, face_seek=0.0, face_caption="Face (while watching this moment in review)",
@@ -589,7 +609,7 @@ def batch_command(args: argparse.Namespace) -> int:
     if args.start:
         trials = [t for t in trials if t.name >= args.start]
     jobs = [(t, v) for t in trials for v in views
-            if not (args.skip_existing and (t / "MVP" / OUTPUT_NAMES[v]).is_file())]
+            if not (args.skip_existing and view_output(t, v).is_file())]
 
     print(f"Rendering {len(jobs)} view(s) across {len(trials)} trial(s).")
     results = {"ok": [], "failed": []}
@@ -605,7 +625,7 @@ def batch_command(args: argparse.Namespace) -> int:
     print(f"\nDone. {len(results['ok'])}/{len(jobs)} succeeded.")
     for failure in results["failed"]:
         print(f"  {failure['trial']} {failure['view']}: {failure['error'][:300]}")
-    report = args.data_root.parent / "logs" / "views_render_report.json"
+    report = args.data_root.parent / "logs" / versioned("views_render_report.json")
     report.parent.mkdir(parents=True, exist_ok=True)
     report.write_text(json.dumps(results, indent=2), encoding="utf-8")
     print(f"Report: {report}")
@@ -614,6 +634,8 @@ def batch_command(args: argparse.Namespace) -> int:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Render narration-view and performance-view videos")
+    parser.add_argument("--version", default="", help='render version, e.g. "v2": reads MVP/sync_offsets_v2.json, '
+                        'writes *_view_v2.mp4 and leaves existing renders untouched')
     subparsers = parser.add_subparsers(dest="command", required=True)
     for name in VIEWS:
         sub = subparsers.add_parser(name, help=f"render MVP/{OUTPUT_NAMES[name]} for one trial")
@@ -629,7 +651,9 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main() -> int:
+    global RENDER_VERSION
     args = build_parser().parse_args()
+    RENDER_VERSION = args.version
     try:
         return args.handler(args)
     except (OSError, ValueError, RuntimeError, json.JSONDecodeError) as exc:

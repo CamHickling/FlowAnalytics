@@ -6,7 +6,7 @@ matches the timeline it was built from, and its audio isn't silent. Also
 writes one contact sheet per trial (frames from both views) for a visual check.
 
 Usage:
-    python verify_views.py --data-root <dir> [--out <dir>] [--only P01 P26]
+    python verify_views.py --data-root <dir> [--out <dir>] [--only P01 P26] [--version v2]
 """
 
 from __future__ import annotations
@@ -106,14 +106,16 @@ def main() -> int:
     parser.add_argument("--data-root", type=Path, required=True)
     parser.add_argument("--out", type=Path, help="report + contact sheets folder (default: <data-root>/../logs/views_check)")
     parser.add_argument("--only", nargs="+", help="trial folder prefixes to check, e.g. P01 P26")
+    parser.add_argument("--version", default="", help="check a versioned render set, e.g. v2 (see views.py --version)")
     args = parser.parse_args()
+    views.RENDER_VERSION = args.version
 
     ffmpeg = mvp._resolve_ffmpeg_or_error()
     ffprobe = mvp._resolve_ffprobe()
     if not ffmpeg or not ffprobe:
         print("ERROR: ffmpeg and ffprobe are required", file=sys.stderr)
         return 2
-    out_dir = args.out or args.data_root.parent / "logs" / "views_check"
+    out_dir = args.out or args.data_root.parent / "logs" / views.versioned("views_check")
     out_dir.mkdir(parents=True, exist_ok=True)
 
     trials = sorted(p for p in args.data_root.iterdir() if p.is_dir() and p.name.startswith("P"))
@@ -124,8 +126,8 @@ def main() -> int:
     for trial in trials:
         expected = expected_durations(trial)
         found = {}
-        for view, name in views.OUTPUT_NAMES.items():
-            path = trial / "MVP" / name
+        for view in views.OUTPUT_NAMES:
+            path = views.view_output(trial, view)
             entry = {"trial": trial.name, "view": view, "issues": []}
             if not path.is_file():
                 entry["issues"].append("not rendered")
