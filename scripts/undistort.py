@@ -38,6 +38,27 @@ def load_calibration(calibration_path: Path) -> tuple[str, np.ndarray, np.ndarra
     return model, camera_matrix, dist_coeffs
 
 
+def rectified_camera_matrix(
+    model: str, camera_matrix: np.ndarray, dist_coeffs: np.ndarray, size: tuple[int, int], alpha: float
+) -> np.ndarray:
+    """Camera matrix of the undistorted output: the intrinsics of a video made by undistort_video()."""
+    if model == "fisheye":
+        new_matrix = cv2.fisheye.estimateNewCameraMatrixForUndistortRectify(
+            camera_matrix, dist_coeffs.reshape(4, 1), size, np.eye(3), balance=alpha
+        )
+        # estimateNewCameraMatrixForUndistortRectify can silently return a
+        # degenerate matrix (near-zero focal length) for calibrations with
+        # poorly-conditioned distortion coefficients, which maps the whole frame
+        # out of bounds and produces an all-black video. Fall back to the
+        # calibrated camera matrix itself, which is always well-scaled.
+        min_focal = min(new_matrix[0, 0], new_matrix[1, 1])
+        if not np.isfinite(min_focal) or min_focal < 1.0:
+            new_matrix = camera_matrix.copy()
+        return new_matrix
+    new_matrix, _ = cv2.getOptimalNewCameraMatrix(camera_matrix, dist_coeffs, size, alpha, size)
+    return new_matrix
+
+
 def get_ffmpeg() -> str:
     ffmpeg = shutil.which("ffmpeg")
     if ffmpeg:
@@ -130,26 +151,11 @@ def undistort_video(
     width, height, fps = probe_video(input_path)
 
     map1 = map2 = None
-    new_matrix = None
+    new_matrix = rectified_camera_matrix(model, camera_matrix, dist_coeffs, (width, height), alpha)
     if model == "fisheye":
         dist_coeffs = dist_coeffs.reshape(4, 1)
-        new_matrix = cv2.fisheye.estimateNewCameraMatrixForUndistortRectify(
-            camera_matrix, dist_coeffs, (width, height), np.eye(3), balance=alpha
-        )
-        # estimateNewCameraMatrixForUndistortRectify can silently return a
-        # degenerate matrix (near-zero focal length) for calibrations with
-        # poorly-conditioned distortion coefficients, which maps the whole frame
-        # out of bounds and produces an all-black video. Fall back to the
-        # calibrated camera matrix itself, which is always well-scaled.
-        min_focal = min(new_matrix[0, 0], new_matrix[1, 1])
-        if not np.isfinite(min_focal) or min_focal < 1.0:
-            new_matrix = camera_matrix.copy()
         map1, map2 = cv2.fisheye.initUndistortRectifyMap(
             camera_matrix, dist_coeffs, np.eye(3), new_matrix, (width, height), cv2.CV_16SC2
-        )
-    else:
-        new_matrix, _ = cv2.getOptimalNewCameraMatrix(
-            camera_matrix, dist_coeffs, (width, height), alpha, (width, height)
         )
     output_path.parent.mkdir(parents=True, exist_ok=True)
     fd, temporary_name = tempfile.mkstemp(suffix=".mp4", dir=output_path.parent)

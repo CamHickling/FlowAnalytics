@@ -151,6 +151,15 @@ Writes `front_calibration.json` and `side_calibration.json`. See
 [docs/calibration.md](docs/calibration.md) for how the solver rejects blurry
 frames and prunes outliers.
 
+To measure how far apart the two GoPros are, from checkerboard frames both cameras saw:
+
+```powershell
+python scripts\stereo_baseline.py --trial $trial
+```
+
+Writes `MVP\stereo_baseline.json` with the 3D baseline, the floor distance, and a
+room-geometry sanity check. See [docs/calibration.md](docs/calibration.md#stereo-baseline).
+
 ### 2. Run the staged MVP pipeline on one trial
 
 Validate each stage on a single trial before running a batch:
